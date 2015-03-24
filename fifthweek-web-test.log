@@ -1,2671 +1,84 @@
-Cloning into '/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web'...
+Cloning into '/Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web'...
 npm WARN package.json web@0.0.0 No repository field.
-npm http GET https://registry.npmjs.org/grunt
-npm http GET https://registry.npmjs.org/grunt-concurrent
-npm http GET https://registry.npmjs.org/grunt-autoprefixer
-npm http GET https://registry.npmjs.org/grunt-browserstack-tunnel/0.1.0
-npm http GET https://registry.npmjs.org/grunt-contrib-clean
-npm http GET https://registry.npmjs.org/grunt-contrib-concat
-npm http GET https://registry.npmjs.org/grunt-contrib-connect
-npm http GET https://registry.npmjs.org/grunt-contrib-copy
-npm http GET https://registry.npmjs.org/grunt-contrib-cssmin
-npm http GET https://registry.npmjs.org/grunt-contrib-htmlmin
-npm http GET https://registry.npmjs.org/grunt-contrib-imagemin
-npm http GET https://registry.npmjs.org/grunt-contrib-jshint
-npm http GET https://registry.npmjs.org/grunt-contrib-uglify
-npm http GET https://registry.npmjs.org/grunt-contrib-watch
-npm http GET https://registry.npmjs.org/grunt-ddescribe-iit/0.0.4
-npm http GET https://registry.npmjs.org/grunt-file-creator
-npm http GET https://registry.npmjs.org/grunt-filerev
-npm http GET https://registry.npmjs.org/grunt-google-cdn
-npm http GET https://registry.npmjs.org/grunt-karma
-npm http GET https://registry.npmjs.org/grunt-newer
-npm http GET https://registry.npmjs.org/grunt-ng-annotate
-npm http GET https://registry.npmjs.org/grunt-protractor-runner
-npm http GET https://registry.npmjs.org/grunt-sass
-npm http GET https://registry.npmjs.org/grunt-shell
-npm http GET https://registry.npmjs.org/grunt-svgmin
-npm http GET https://registry.npmjs.org/grunt-text-replace
-npm http GET https://registry.npmjs.org/grunt-usemin
-npm http GET https://registry.npmjs.org/grunt-wiredep
-npm http GET https://registry.npmjs.org/jasmine-core
-npm http GET https://registry.npmjs.org/jasmine-reporters
-npm http GET https://registry.npmjs.org/jshint-stylish
-npm http GET https://registry.npmjs.org/karma-chrome-launcher
-npm http GET https://registry.npmjs.org/karma-firefox-launcher
-npm http GET https://registry.npmjs.org/karma-jasmine
-npm http GET https://registry.npmjs.org/karma
-npm http GET https://registry.npmjs.org/karma-ng-html2js-preprocessor
-npm http GET https://registry.npmjs.org/lodash
-npm http GET https://registry.npmjs.org/karma-phantomjs-launcher
-npm http GET https://registry.npmjs.org/karma-safari-launcher
-npm http GET https://registry.npmjs.org/load-grunt-tasks
-npm http GET https://registry.npmjs.org/path
-npm http GET https://registry.npmjs.org/protractor
-npm http GET https://registry.npmjs.org/protractor-html-screenshot-reporter/0.0.19
-npm http GET https://registry.npmjs.org/time-grunt
-npm http 304 https://registry.npmjs.org/grunt-concurrent
-npm http 304 https://registry.npmjs.org/grunt-contrib-clean
-npm http 304 https://registry.npmjs.org/grunt
-npm http 304 https://registry.npmjs.org/grunt-autoprefixer
-npm http 304 https://registry.npmjs.org/grunt-contrib-concat
-npm http 304 https://registry.npmjs.org/grunt-contrib-connect
-npm http 304 https://registry.npmjs.org/grunt-contrib-copy
-npm http 304 https://registry.npmjs.org/grunt-contrib-cssmin
-npm http 304 https://registry.npmjs.org/grunt-browserstack-tunnel/0.1.0
-npm http 304 https://registry.npmjs.org/grunt-contrib-htmlmin
-npm http 304 https://registry.npmjs.org/grunt-contrib-imagemin
-npm http 304 https://registry.npmjs.org/grunt-contrib-uglify
-npm http 304 https://registry.npmjs.org/grunt-contrib-watch
-npm http 304 https://registry.npmjs.org/grunt-filerev
-npm http 304 https://registry.npmjs.org/grunt-google-cdn
-npm http 304 https://registry.npmjs.org/grunt-karma
-npm http 304 https://registry.npmjs.org/grunt-ng-annotate
-npm http 304 https://registry.npmjs.org/grunt-protractor-runner
-npm http 304 https://registry.npmjs.org/grunt-sass
-npm http 304 https://registry.npmjs.org/grunt-contrib-jshint
-npm http 304 https://registry.npmjs.org/grunt-shell
-npm http 304 https://registry.npmjs.org/grunt-ddescribe-iit/0.0.4
-npm http 304 https://registry.npmjs.org/grunt-usemin
-npm http 304 https://registry.npmjs.org/grunt-svgmin
-npm http 304 https://registry.npmjs.org/jasmine-core
-npm http 304 https://registry.npmjs.org/grunt-file-creator
-npm http 304 https://registry.npmjs.org/jshint-stylish
-npm http 304 https://registry.npmjs.org/karma-chrome-launcher
-npm http 304 https://registry.npmjs.org/grunt-newer
-npm http 304 https://registry.npmjs.org/karma-firefox-launcher
-npm http 304 https://registry.npmjs.org/karma-jasmine
-npm http 304 https://registry.npmjs.org/karma
-npm http 304 https://registry.npmjs.org/karma-ng-html2js-preprocessor
-npm http 304 https://registry.npmjs.org/lodash
-npm http 304 https://registry.npmjs.org/karma-phantomjs-launcher
-npm http 304 https://registry.npmjs.org/karma-safari-launcher
-npm http 304 https://registry.npmjs.org/load-grunt-tasks
-npm http 304 https://registry.npmjs.org/path
-npm http 200 https://registry.npmjs.org/grunt-text-replace
-npm http 304 https://registry.npmjs.org/grunt-wiredep
-npm http 304 https://registry.npmjs.org/time-grunt
-npm http 304 https://registry.npmjs.org/jasmine-reporters
-npm http 304 https://registry.npmjs.org/protractor-html-screenshot-reporter/0.0.19
-npm http 304 https://registry.npmjs.org/protractor
-npm WARN engine grunt-google-cdn@0.4.3: wanted: {"node":">=0.10.0","npm":">=1.4.3"} (current: {"node":"v0.10.25","npm":"1.3.10"})
-npm http GET https://registry.npmjs.org/phantomjs
-npm http GET https://registry.npmjs.org/findup-sync
-npm http GET https://registry.npmjs.org/each-async
-npm http GET https://registry.npmjs.org/multimatch
-npm http GET https://registry.npmjs.org/node-sass
-npm http GET https://registry.npmjs.org/object-assign
-npm http GET https://registry.npmjs.org/chalk
-npm http GET https://registry.npmjs.org/pretty-ms
-npm http GET https://registry.npmjs.org/text-table
-npm http GET https://registry.npmjs.org/hooker
-npm http GET https://registry.npmjs.org/pretty-bytes
-npm http GET https://registry.npmjs.org/chalk
-npm http GET https://registry.npmjs.org/each-async
-npm http GET https://registry.npmjs.org/bower
-npm http GET https://registry.npmjs.org/svgo
-npm http GET https://registry.npmjs.org/chalk
-npm http GET https://registry.npmjs.org/each-async
-npm http GET https://registry.npmjs.org/date-time
-npm http GET https://registry.npmjs.org/google-cdn
-npm http GET https://registry.npmjs.org/chalk
-npm http GET https://registry.npmjs.org/text-table
-npm http 304 https://registry.npmjs.org/phantomjs
-npm http 304 https://registry.npmjs.org/object-assign
-npm http 304 https://registry.npmjs.org/node-sass
-npm http 304 https://registry.npmjs.org/multimatch
-npm http 304 https://registry.npmjs.org/each-async
-npm http GET https://registry.npmjs.org/async
-npm http GET https://registry.npmjs.org/pad-stdio
-npm http GET https://registry.npmjs.org/html-minifier
-npm http 304 https://registry.npmjs.org/findup-sync
-npm http 304 https://registry.npmjs.org/chalk
-npm http GET https://registry.npmjs.org/pretty-bytes
-npm http GET https://registry.npmjs.org/async
-npm http GET https://registry.npmjs.org/gulp-rename
-npm http GET https://registry.npmjs.org/imagemin
-npm http 304 https://registry.npmjs.org/pretty-ms
-npm http 304 https://registry.npmjs.org/hooker
-npm http 304 https://registry.npmjs.org/text-table
-npm http 304 https://registry.npmjs.org/pretty-bytes
-npm http 304 https://registry.npmjs.org/chalk
-npm http 304 https://registry.npmjs.org/each-async
-npm http GET https://registry.npmjs.org/clean-css
-npm http GET https://registry.npmjs.org/maxmin
-npm http 304 https://registry.npmjs.org/bower
-npm http 304 https://registry.npmjs.org/svgo
-npm http GET https://registry.npmjs.org/ng-annotate
-npm http 304 https://registry.npmjs.org/chalk
-npm http 304 https://registry.npmjs.org/each-async
-npm http 304 https://registry.npmjs.org/date-time
-npm http GET https://registry.npmjs.org/autoprefixer-core
-npm http GET https://registry.npmjs.org/diff
-npm http 304 https://registry.npmjs.org/google-cdn
-npm http 304 https://registry.npmjs.org/chalk
-npm http 304 https://registry.npmjs.org/text-table
-npm http 304 https://registry.npmjs.org/async
-npm http 304 https://registry.npmjs.org/pad-stdio
-npm http 304 https://registry.npmjs.org/html-minifier
-npm http GET https://registry.npmjs.org/wiredep
-npm http 304 https://registry.npmjs.org/pretty-bytes
-npm http 304 https://registry.npmjs.org/async
-npm http 304 https://registry.npmjs.org/gulp-rename
-npm http 304 https://registry.npmjs.org/imagemin
-npm http 304 https://registry.npmjs.org/clean-css
-npm http 304 https://registry.npmjs.org/maxmin
-npm http 304 https://registry.npmjs.org/ng-annotate
-npm http 304 https://registry.npmjs.org/autoprefixer-core
-npm http 304 https://registry.npmjs.org/diff
-npm http 304 https://registry.npmjs.org/wiredep
-npm http GET https://registry.npmjs.org/jshint
-npm WARN engine imagemin@3.1.0: wanted: {"node":">=0.10.0","npm":">=2.1.5"} (current: {"node":"v0.10.25","npm":"1.3.10"})
-npm http 304 https://registry.npmjs.org/jshint
-npm http GET https://registry.npmjs.org/uglify-js
-npm http 304 https://registry.npmjs.org/uglify-js
-npm http GET https://registry.npmjs.org/browserstacktunnel-wrapper
-npm http 304 https://registry.npmjs.org/browserstacktunnel-wrapper
-npm http GET https://registry.npmjs.org/onetime
-npm http GET https://registry.npmjs.org/minimatch
-npm http GET https://registry.npmjs.org/set-immediate-shim
-npm http GET https://registry.npmjs.org/has-color
-npm http GET https://registry.npmjs.org/ansi-styles
-npm http GET https://registry.npmjs.org/strip-ansi
-npm http GET https://registry.npmjs.org/gaze
-npm http GET https://registry.npmjs.org/tiny-lr-fork/0.0.5
-npm http GET https://registry.npmjs.org/connect-livereload
-npm http 304 https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/set-immediate-shim
-npm http 304 https://registry.npmjs.org/onetime
-npm http GET https://registry.npmjs.org/connect
-npm http GET https://registry.npmjs.org/portscanner/0.2.2
-npm http GET https://registry.npmjs.org/lpad
-npm http GET https://registry.npmjs.org/open/0.0.4
-npm http 304 https://registry.npmjs.org/strip-ansi
-npm http 304 https://registry.npmjs.org/gaze
-npm http 304 https://registry.npmjs.org/tiny-lr-fork/0.0.5
-npm http 304 https://registry.npmjs.org/connect-livereload
-npm http 304 https://registry.npmjs.org/has-color
-npm http 304 https://registry.npmjs.org/ansi-styles
-npm http 304 https://registry.npmjs.org/connect
-npm http 304 https://registry.npmjs.org/portscanner/0.2.2
-npm http 304 https://registry.npmjs.org/lpad
-npm http GET https://registry.npmjs.org/gzip-size
-npm http GET https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/has-ansi
-npm http GET https://registry.npmjs.org/has-ansi
-npm http GET https://registry.npmjs.org/supports-color
-npm http GET https://registry.npmjs.org/supports-color
-npm http GET https://registry.npmjs.org/get-stdin
-npm http GET https://registry.npmjs.org/debug
-npm http GET https://registry.npmjs.org/cdnjs-cdn-data
-npm http GET https://registry.npmjs.org/google-cdn-data
-npm http GET https://registry.npmjs.org/regexp-quote/0.0.0
-npm http GET https://registry.npmjs.org/semver
-npm http 304 https://registry.npmjs.org/gzip-size
-npm http 304 https://registry.npmjs.org/has-ansi
-npm http 304 https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/through2
-npm http GET https://registry.npmjs.org/split
-npm http 304 https://registry.npmjs.org/has-ansi
-npm http 304 https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/supports-color
-npm http GET https://registry.npmjs.org/rimraf
-npm http 304 https://registry.npmjs.org/get-stdin
-npm http 304 https://registry.npmjs.org/cdnjs-cdn-data
-npm http 304 https://registry.npmjs.org/google-cdn-data
-npm http GET https://registry.npmjs.org/imagemin-gifsicle
-npm http GET https://registry.npmjs.org/vinyl-fs
-npm http GET https://registry.npmjs.org/imagemin-jpegtran
-npm http GET https://registry.npmjs.org/imagemin-optipng
-npm http GET https://registry.npmjs.org/imagemin-pngquant
-npm http GET https://registry.npmjs.org/imagemin-svgo
-npm http GET https://registry.npmjs.org/concat-stream
-npm http GET https://registry.npmjs.org/get-stdin
-npm http GET https://registry.npmjs.org/meow
-npm http GET https://registry.npmjs.org/through2
-npm http GET https://registry.npmjs.org/optional
-npm http GET https://registry.npmjs.org/stream-combiner
-npm http 304 https://registry.npmjs.org/regexp-quote/0.0.0
-npm http GET https://registry.npmjs.org/vinyl
-npm http 304 https://registry.npmjs.org/semver
-npm http 304 https://registry.npmjs.org/through2
-npm http 304 https://registry.npmjs.org/split
-npm http 304 https://registry.npmjs.org/rimraf
-npm http 304 https://registry.npmjs.org/debug
-npm http 304 https://registry.npmjs.org/imagemin-gifsicle
-npm http 304 https://registry.npmjs.org/vinyl-fs
-npm http 304 https://registry.npmjs.org/imagemin-jpegtran
-npm http 304 https://registry.npmjs.org/imagemin-optipng
-npm http 304 https://registry.npmjs.org/imagemin-pngquant
-npm http 304 https://registry.npmjs.org/imagemin-svgo
-npm http 304 https://registry.npmjs.org/concat-stream
-npm http 304 https://registry.npmjs.org/open/0.0.4
-npm http 200 https://registry.npmjs.org/get-stdin
-npm http 304 https://registry.npmjs.org/meow
-npm http 304 https://registry.npmjs.org/through2
-npm http 304 https://registry.npmjs.org/optional
-npm http 304 https://registry.npmjs.org/stream-combiner
-npm http 304 https://registry.npmjs.org/vinyl
-npm http 304 https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/glob
-npm http 304 https://registry.npmjs.org/glob
-npm http GET https://registry.npmjs.org/bower-config
-npm http GET https://registry.npmjs.org/minimist
-npm http GET https://registry.npmjs.org/kew/0.4.0
-npm http GET https://registry.npmjs.org/zlib-browserify
-npm http GET https://registry.npmjs.org/npmconf/2.1.1
-npm http GET https://registry.npmjs.org/propprop
-npm http GET https://registry.npmjs.org/progress/1.1.8
-npm http GET https://registry.npmjs.org/request/2.42.0
-npm http GET https://registry.npmjs.org/adm-zip/0.4.4
-npm http GET https://registry.npmjs.org/fs-extra
-npm http GET https://registry.npmjs.org/which
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/request-progress/0.3.1
-npm http GET https://registry.npmjs.org/exec-buffer
-npm http GET https://registry.npmjs.org/is-png
-npm http GET https://registry.npmjs.org/optipng-bin
-npm http 304 https://registry.npmjs.org/bower-config
-npm http 304 https://registry.npmjs.org/npmconf/2.1.1
-npm http 304 https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/propprop
-npm http 304 https://registry.npmjs.org/progress/1.1.8
-npm http 304 https://registry.npmjs.org/request/2.42.0
-npm http 304 https://registry.npmjs.org/adm-zip/0.4.4
-npm http 304 https://registry.npmjs.org/which
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/is-svg
-npm http 304 https://registry.npmjs.org/request-progress/0.3.1
-npm http GET https://registry.npmjs.org/gifsicle
-npm http GET https://registry.npmjs.org/is-jpg
-npm http GET https://registry.npmjs.org/is-gif
-npm http GET https://registry.npmjs.org/jpegtran-bin
-npm http 304 https://registry.npmjs.org/exec-buffer
-npm http 304 https://registry.npmjs.org/kew/0.4.0
-npm http GET https://registry.npmjs.org/camelcase-keys
-npm http GET https://registry.npmjs.org/indent-string
-npm http 304 https://registry.npmjs.org/is-png
-npm http GET https://registry.npmjs.org/pngquant-bin
-npm http 304 https://registry.npmjs.org/optipng-bin
-npm http 304 https://registry.npmjs.org/fs-extra
-npm http 304 https://registry.npmjs.org/is-svg
-npm http 304 https://registry.npmjs.org/gifsicle
-npm http 304 https://registry.npmjs.org/is-jpg
-npm http 304 https://registry.npmjs.org/is-gif
-npm http 304 https://registry.npmjs.org/jpegtran-bin
-npm http 304 https://registry.npmjs.org/camelcase-keys
-npm http 304 https://registry.npmjs.org/indent-string
-npm http 304 https://registry.npmjs.org/pngquant-bin
-npm http GET https://registry.npmjs.org/globule
-npm http GET https://registry.npmjs.org/nopt
-npm http GET https://registry.npmjs.org/js-yaml
-npm http GET https://registry.npmjs.org/underscore.string
-npm http GET https://registry.npmjs.org/exit
-npm http GET https://registry.npmjs.org/getobject
-npm http GET https://registry.npmjs.org/grunt-legacy-util
-npm http GET https://registry.npmjs.org/grunt-legacy-log
-npm http GET https://registry.npmjs.org/colors
-npm http GET https://registry.npmjs.org/coffee-script
-npm http GET https://registry.npmjs.org/dateformat/1.0.2-1.2.3
-npm http GET https://registry.npmjs.org/eventemitter2
-npm http GET https://registry.npmjs.org/iconv-lite
-npm http 304 https://registry.npmjs.org/zlib-browserify
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/exit
-npm http 304 https://registry.npmjs.org/getobject
-npm http GET https://registry.npmjs.org/async/0.1.15
-npm http 304 https://registry.npmjs.org/nopt
-npm http 304 https://registry.npmjs.org/js-yaml
-npm http 304 https://registry.npmjs.org/globule
-npm http 304 https://registry.npmjs.org/underscore.string
-npm http 304 https://registry.npmjs.org/colors
-npm http 304 https://registry.npmjs.org/coffee-script
-npm http 304 https://registry.npmjs.org/dateformat/1.0.2-1.2.3
-npm http 304 https://registry.npmjs.org/eventemitter2
-npm http 304 https://registry.npmjs.org/grunt-legacy-util
-npm http 304 https://registry.npmjs.org/iconv-lite
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/grunt-legacy-log
-npm http 304 https://registry.npmjs.org/async/0.1.15
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/xtend
-npm http GET https://registry.npmjs.org/through
-npm http GET https://registry.npmjs.org/duplexer
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/through
-npm http 304 https://registry.npmjs.org/duplexer
-npm http GET https://registry.npmjs.org/clone
-npm http GET https://registry.npmjs.org/clone-stats
-npm http 304 https://registry.npmjs.org/clone-stats
-npm http 304 https://registry.npmjs.org/clone
-npm http GET https://registry.npmjs.org/change-case
-npm http GET https://registry.npmjs.org/cli
-npm http GET https://registry.npmjs.org/relateurl
-npm http GET https://registry.npmjs.org/ms/0.6.2
-npm http 304 https://registry.npmjs.org/cli
-npm http 304 https://registry.npmjs.org/change-case
-npm http 304 https://registry.npmjs.org/ms/0.6.2
-npm http GET https://registry.npmjs.org/tempfile
-npm http GET https://registry.npmjs.org/camelcase
-npm http GET https://registry.npmjs.org/map-obj
-npm http GET https://registry.npmjs.org/inherits
-npm http GET https://registry.npmjs.org/typedarray
-npm http 304 https://registry.npmjs.org/tempfile
-npm http 304 https://registry.npmjs.org/camelcase
-npm http 304 https://registry.npmjs.org/map-obj
-npm http GET https://registry.npmjs.org/repeating
-npm http GET https://registry.npmjs.org/graceful-fs
-npm http GET https://registry.npmjs.org/defaults
-npm http GET https://registry.npmjs.org/glob-stream
-npm http GET https://registry.npmjs.org/glob-watcher
-npm http 304 https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/typedarray
-npm http GET https://registry.npmjs.org/mkdirp
-npm http GET https://registry.npmjs.org/strip-bom
-npm http 304 https://registry.npmjs.org/relateurl
-npm http 304 https://registry.npmjs.org/defaults
-npm http 304 https://registry.npmjs.org/glob-stream
-npm http 304 https://registry.npmjs.org/mkdirp
-npm http 304 https://registry.npmjs.org/strip-bom
-npm http 304 https://registry.npmjs.org/repeating
-npm http 304 https://registry.npmjs.org/glob-watcher
-npm http GET https://registry.npmjs.org/bin-build
-npm http GET https://registry.npmjs.org/ms/0.7.0
-npm http GET https://registry.npmjs.org/bin-wrapper
-npm http GET https://registry.npmjs.org/logalot
-npm http GET https://registry.npmjs.org/lru-cache
-npm http GET https://registry.npmjs.org/sigmund
-npm http GET https://registry.npmjs.org/bin-wrapper
-npm http 304 https://registry.npmjs.org/ms/0.7.0
-npm http 304 https://registry.npmjs.org/bin-build
-npm http 304 https://registry.npmjs.org/logalot
-npm http 304 https://registry.npmjs.org/bin-wrapper
-npm http 304 https://registry.npmjs.org/lru-cache
-npm http 304 https://registry.npmjs.org/sigmund
-npm http 304 https://registry.npmjs.org/bin-wrapper
-npm http GET https://registry.npmjs.org/imagemin-log
-npm http 304 https://registry.npmjs.org/graceful-fs
-npm http GET https://registry.npmjs.org/throttleit
-npm http 304 https://registry.npmjs.org/imagemin-log
-npm http 304 https://registry.npmjs.org/throttleit
-npm http GET https://registry.npmjs.org/qs
-npm http GET https://registry.npmjs.org/mout
-npm http GET https://registry.npmjs.org/optimist
-npm http GET https://registry.npmjs.org/osenv/0.0.3
-npm http GET https://registry.npmjs.org/faye-websocket
-npm http GET https://registry.npmjs.org/noptify
-npm http 304 https://registry.npmjs.org/osenv/0.0.3
-npm http 304 https://registry.npmjs.org/optimist
-npm http 304 https://registry.npmjs.org/mout
-npm http 304 https://registry.npmjs.org/qs
-npm http GET https://registry.npmjs.org/uuid
-npm http GET https://registry.npmjs.org/inflight
-npm http GET https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/noptify
-npm http GET https://registry.npmjs.org/async/0.2.10
-npm http GET https://registry.npmjs.org/rimraf/2.2.6
-npm http GET https://registry.npmjs.org/tape
-npm http GET https://registry.npmjs.org/abbrev
-npm http 304 https://registry.npmjs.org/inflight
-npm http 304 https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/tape
-npm http 304 https://registry.npmjs.org/async/0.2.10
-npm http 304 https://registry.npmjs.org/rimraf/2.2.6
-npm http 304 https://registry.npmjs.org/abbrev
-npm http 304 https://registry.npmjs.org/uuid
-npm http GET https://registry.npmjs.org/is-finite
-npm http GET https://registry.npmjs.org/figures
-npm http GET https://registry.npmjs.org/squeak
-npm http 304 https://registry.npmjs.org/faye-websocket
-npm http 304 https://registry.npmjs.org/is-finite
-npm http GET https://registry.npmjs.org/archive-type
-npm http GET https://registry.npmjs.org/decompress
-npm http GET https://registry.npmjs.org/download
-npm http GET https://registry.npmjs.org/exec-series
-npm http GET https://registry.npmjs.org/url-regex
-npm http GET https://registry.npmjs.org/commander
-npm http 304 https://registry.npmjs.org/figures
-npm http 304 https://registry.npmjs.org/squeak
-npm http GET https://registry.npmjs.org/npm-installed
-npm http GET https://registry.npmjs.org/is-path-global
-npm http GET https://registry.npmjs.org/os-filter-obj
-npm http GET https://registry.npmjs.org/lnfs
-npm http GET https://registry.npmjs.org/bin-check
-npm http GET https://registry.npmjs.org/bin-version-check
-npm http GET https://registry.npmjs.org/download
-npm http GET https://registry.npmjs.org/download-status
-npm http 304 https://registry.npmjs.org/exec-series
-npm http 304 https://registry.npmjs.org/url-regex
-npm http GET https://registry.npmjs.org/globby
-npm http 304 https://registry.npmjs.org/commander
-npm http 304 https://registry.npmjs.org/npm-installed
-npm http 304 https://registry.npmjs.org/archive-type
-npm http 304 https://registry.npmjs.org/download
-npm http 304 https://registry.npmjs.org/decompress
-npm http 304 https://registry.npmjs.org/is-path-global
-npm http 304 https://registry.npmjs.org/os-filter-obj
-npm http 304 https://registry.npmjs.org/lnfs
-npm http 304 https://registry.npmjs.org/bin-check
-npm http 304 https://registry.npmjs.org/bin-version-check
-npm http 304 https://registry.npmjs.org/download
-npm http 304 https://registry.npmjs.org/download-status
-npm http 304 https://registry.npmjs.org/globby
-npm http GET https://registry.npmjs.org/ordered-read-streams
-npm http GET https://registry.npmjs.org/glob2base
-npm http GET https://registry.npmjs.org/unique-stream
-npm http GET https://registry.npmjs.org/first-chunk-stream
-npm http GET https://registry.npmjs.org/underscore
-npm http GET https://registry.npmjs.org/is-utf8
-npm http GET https://registry.npmjs.org/jsonfile
-npm http GET https://registry.npmjs.org/swap-case
-npm http GET https://registry.npmjs.org/sentence-case
-npm http GET https://registry.npmjs.org/title-case
-npm http GET https://registry.npmjs.org/snake-case
-npm http GET https://registry.npmjs.org/upper-case
-npm http GET https://registry.npmjs.org/upper-case-first
-npm http GET https://registry.npmjs.org/camel-case
-npm http GET https://registry.npmjs.org/constant-case
-npm http GET https://registry.npmjs.org/dot-case
-npm http GET https://registry.npmjs.org/is-lower-case
-npm http GET https://registry.npmjs.org/is-upper-case
-npm http GET https://registry.npmjs.org/lower-case
-npm http GET https://registry.npmjs.org/param-case
-npm http GET https://registry.npmjs.org/pascal-case
-npm http GET https://registry.npmjs.org/path-case
-npm http 304 https://registry.npmjs.org/glob2base
-npm http 304 https://registry.npmjs.org/ordered-read-streams
-npm http 304 https://registry.npmjs.org/unique-stream
-npm http 304 https://registry.npmjs.org/first-chunk-stream
-npm http 304 https://registry.npmjs.org/underscore
-npm http 304 https://registry.npmjs.org/is-utf8
-npm http 304 https://registry.npmjs.org/jsonfile
-npm http 304 https://registry.npmjs.org/swap-case
-npm http 304 https://registry.npmjs.org/sentence-case
-npm http 304 https://registry.npmjs.org/title-case
-npm http 304 https://registry.npmjs.org/snake-case
-npm http 304 https://registry.npmjs.org/upper-case
-npm http 304 https://registry.npmjs.org/upper-case-first
-npm http 304 https://registry.npmjs.org/camel-case
-npm http 304 https://registry.npmjs.org/constant-case
-npm http 304 https://registry.npmjs.org/dot-case
-npm http 304 https://registry.npmjs.org/is-lower-case
-npm http 304 https://registry.npmjs.org/is-upper-case
-npm http 304 https://registry.npmjs.org/lower-case
-npm http 304 https://registry.npmjs.org/param-case
-npm http 304 https://registry.npmjs.org/pascal-case
-npm http 304 https://registry.npmjs.org/path-case
-npm http GET https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/string_decoder
-npm http GET https://registry.npmjs.org/wrappy
-npm http 304 https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/core-util-is
-npm http 304 https://registry.npmjs.org/isarray/0.0.1
-npm http 304 https://registry.npmjs.org/wrappy
-npm http GET https://registry.npmjs.org/lpad-align
-npm http GET https://registry.npmjs.org/is-path-inside
-npm http GET https://registry.npmjs.org/async-each-series
-npm http GET https://registry.npmjs.org/executable
-npm http GET https://registry.npmjs.org/npm-which
-npm http GET https://registry.npmjs.org/rc
-npm http GET https://registry.npmjs.org/lpad-align
-npm http GET https://registry.npmjs.org/progress
-npm http GET https://registry.npmjs.org/file-type
-npm http GET https://registry.npmjs.org/read-chunk
-npm http GET https://registry.npmjs.org/array-union
-npm http 304 https://registry.npmjs.org/lpad-align
-npm http 304 https://registry.npmjs.org/rc
-npm http 304 https://registry.npmjs.org/is-path-inside
-npm http 304 https://registry.npmjs.org/lpad-align
-npm http 304 https://registry.npmjs.org/async-each-series
-npm http 304 https://registry.npmjs.org/npm-which
-npm http 304 https://registry.npmjs.org/executable
-npm http GET https://registry.npmjs.org/bin-version
-npm http GET https://registry.npmjs.org/semver-truncate
-npm http 304 https://registry.npmjs.org/file-type
-npm http 304 https://registry.npmjs.org/read-chunk
-npm http 304 https://registry.npmjs.org/array-union
-npm http GET https://registry.npmjs.org/buffer-to-vinyl
-npm http GET https://registry.npmjs.org/decompress-tar
-npm http GET https://registry.npmjs.org/decompress-tarbz2
-npm http GET https://registry.npmjs.org/decompress-targz
-npm http GET https://registry.npmjs.org/decompress-unzip
-npm http GET https://registry.npmjs.org/stream-combiner2
-npm http GET https://registry.npmjs.org/vinyl-assign
-npm http 304 https://registry.npmjs.org/progress
-npm http 304 https://registry.npmjs.org/semver-truncate
-npm http GET https://registry.npmjs.org/ip-regex
-npm http 304 https://registry.npmjs.org/decompress-tarbz2
-npm http 304 https://registry.npmjs.org/decompress-targz
-npm http 304 https://registry.npmjs.org/decompress-unzip
-npm http GET https://registry.npmjs.org/decompress-tar
-npm http GET https://registry.npmjs.org/decompress-tarbz2
-npm http GET https://registry.npmjs.org/decompress-targz
-npm http GET https://registry.npmjs.org/decompress-unzip
-npm http GET https://registry.npmjs.org/request
-npm http GET https://registry.npmjs.org/find-index
-npm http 304 https://registry.npmjs.org/bin-version
-npm http 304 https://registry.npmjs.org/stream-combiner2
-npm http GET https://registry.npmjs.org/ware
-npm http 304 https://registry.npmjs.org/vinyl-assign
-npm http 304 https://registry.npmjs.org/ip-regex
-npm http 304 https://registry.npmjs.org/decompress-tar
-npm http 304 https://registry.npmjs.org/buffer-to-vinyl
-npm http 304 https://registry.npmjs.org/decompress-tar
-npm http 304 https://registry.npmjs.org/decompress-tarbz2
-npm http 304 https://registry.npmjs.org/decompress-targz
-npm http 304 https://registry.npmjs.org/decompress-unzip
-npm http 304 https://registry.npmjs.org/request
-npm http 304 https://registry.npmjs.org/find-index
-npm http 304 https://registry.npmjs.org/ware
-npm http GET https://registry.npmjs.org/exit/0.1.2
-npm http 304 https://registry.npmjs.org/exit/0.1.2
-npm http GET https://registry.npmjs.org/config-chain
-npm http GET https://registry.npmjs.org/ini
-npm http GET https://registry.npmjs.org/osenv
-npm http GET https://registry.npmjs.org/uid-number/0.0.5
-npm http 304 https://registry.npmjs.org/ini
-npm http 304 https://registry.npmjs.org/config-chain
-npm http 304 https://registry.npmjs.org/uid-number/0.0.5
-npm http 304 https://registry.npmjs.org/osenv
-npm http GET https://registry.npmjs.org/brace-expansion
-npm http GET https://registry.npmjs.org/longest
-npm http GET https://registry.npmjs.org/path-is-inside
-npm http 304 https://registry.npmjs.org/brace-expansion
-npm http GET https://registry.npmjs.org/array-uniq
-npm http 304 https://registry.npmjs.org/longest
-npm http GET https://registry.npmjs.org/minimist/0.0.8
-npm http 304 https://registry.npmjs.org/path-is-inside
-npm http 304 https://registry.npmjs.org/array-uniq
-npm http GET https://registry.npmjs.org/find-versions
-npm http GET https://registry.npmjs.org/is-gzip
-npm http GET https://registry.npmjs.org/is-tar
-npm http GET https://registry.npmjs.org/is-bzip2
-npm http GET https://registry.npmjs.org/strip-dirs
-npm http GET https://registry.npmjs.org/seek-bzip
-npm http GET https://registry.npmjs.org/tar-stream
-npm http 304 https://registry.npmjs.org/minimist/0.0.8
-npm http GET https://registry.npmjs.org/is-zip
-npm http GET https://registry.npmjs.org/yauzl
-npm http 304 https://registry.npmjs.org/strip-dirs
-npm http 304 https://registry.npmjs.org/find-versions
-npm http 304 https://registry.npmjs.org/seek-bzip
-npm http 304 https://registry.npmjs.org/tar-stream
-npm http GET https://registry.npmjs.org/strip-dirs
-npm http GET https://registry.npmjs.org/tar-stream
-npm http 304 https://registry.npmjs.org/is-zip
-npm http 304 https://registry.npmjs.org/yauzl
-npm http 304 https://registry.npmjs.org/strip-dirs
-npm http 304 https://registry.npmjs.org/is-bzip2
-npm http 304 https://registry.npmjs.org/is-tar
-npm http 304 https://registry.npmjs.org/is-gzip
-npm http 304 https://registry.npmjs.org/tar-stream
-npm http GET https://registry.npmjs.org/npm-path
-npm http GET https://registry.npmjs.org/duplexer2
-npm http 304 https://registry.npmjs.org/npm-path
-npm http GET https://registry.npmjs.org/object-assign
-npm http 304 https://registry.npmjs.org/duplexer2
-npm http GET https://registry.npmjs.org/chalk
-npm http GET https://registry.npmjs.org/each-async
-npm http 304 https://registry.npmjs.org/object-assign
-npm http 304 https://registry.npmjs.org/chalk
-npm http 304 https://registry.npmjs.org/each-async
-npm http GET https://registry.npmjs.org/caniuse-db
-npm http GET https://registry.npmjs.org/postcss
-npm http GET https://registry.npmjs.org/browserslist
-npm http GET https://registry.npmjs.org/num2fraction
-npm http 304 https://registry.npmjs.org/browserslist
-npm http 304 https://registry.npmjs.org/postcss
-npm http 304 https://registry.npmjs.org/caniuse-db
-npm http 304 https://registry.npmjs.org/num2fraction
-npm http GET https://registry.npmjs.org/lpad
-npm http GET https://registry.npmjs.org/wrap-fn
-npm http GET https://registry.npmjs.org/deep-extend
-npm http GET https://registry.npmjs.org/strip-json-comments
-npm http GET https://registry.npmjs.org/semver
-npm http 304 https://registry.npmjs.org/lpad
-npm http 304 https://registry.npmjs.org/wrap-fn
-npm http 304 https://registry.npmjs.org/strip-json-comments
-npm http GET https://registry.npmjs.org/meow
-npm http 304 https://registry.npmjs.org/semver
-npm http 304 https://registry.npmjs.org/meow
-npm http 304 https://registry.npmjs.org/deep-extend
-npm http GET https://registry.npmjs.org/get-stdin
-npm http GET https://registry.npmjs.org/semver-regex
-npm http GET https://registry.npmjs.org/camelcase-keys
-npm http GET https://registry.npmjs.org/indent-string
-npm http GET https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/get-stdin
-npm http 304 https://registry.npmjs.org/semver-regex
-npm http GET https://registry.npmjs.org/ansi-styles
-npm http GET https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/has-ansi
-npm http GET https://registry.npmjs.org/strip-ansi
-npm http GET https://registry.npmjs.org/supports-color
-npm http GET https://registry.npmjs.org/is-absolute
-npm http GET https://registry.npmjs.org/is-natural-number
-npm http GET https://registry.npmjs.org/sum-up
-npm http 304 https://registry.npmjs.org/indent-string
-npm http 304 https://registry.npmjs.org/camelcase-keys
-npm http 304 https://registry.npmjs.org/has-ansi
-npm http 304 https://registry.npmjs.org/ansi-styles
-npm http 304 https://registry.npmjs.org/escape-string-regexp
-npm http 304 https://registry.npmjs.org/strip-ansi
-npm http 304 https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/is-absolute
-npm http 304 https://registry.npmjs.org/is-natural-number
-npm http GET https://registry.npmjs.org/is-absolute
-npm http GET https://registry.npmjs.org/which
-npm http GET https://registry.npmjs.org/is-integer
-npm http 304 https://registry.npmjs.org/sum-up
-npm http GET https://registry.npmjs.org/wordwrap
-npm http GET https://registry.npmjs.org/minimist
-npm http GET https://registry.npmjs.org/through2
-npm http GET https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/is-absolute
-npm http 304 https://registry.npmjs.org/which
-npm http 304 https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/through2
-npm http 304 https://registry.npmjs.org/is-integer
-npm http 304 https://registry.npmjs.org/minimatch
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/wordwrap
-npm http GET https://registry.npmjs.org/onetime
-npm http GET https://registry.npmjs.org/set-immediate-shim
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/caseless
-npm http GET https://registry.npmjs.org/forever-agent
-npm http GET https://registry.npmjs.org/json-stringify-safe
-npm http GET https://registry.npmjs.org/mime-types
-npm http GET https://registry.npmjs.org/node-uuid
-npm http GET https://registry.npmjs.org/tunnel-agent
-npm http GET https://registry.npmjs.org/tough-cookie
-npm http GET https://registry.npmjs.org/form-data
-npm http GET https://registry.npmjs.org/http-signature
-npm http GET https://registry.npmjs.org/oauth-sign
-npm http GET https://registry.npmjs.org/hawk/1.1.1
-npm http GET https://registry.npmjs.org/aws-sign2
-npm http GET https://registry.npmjs.org/stringstream
-npm http 304 https://registry.npmjs.org/onetime
-npm http 304 https://registry.npmjs.org/set-immediate-shim
-npm http 304 https://registry.npmjs.org/json-stringify-safe
-npm http 304 https://registry.npmjs.org/mime-types
-npm http 304 https://registry.npmjs.org/node-uuid
-npm http 304 https://registry.npmjs.org/tunnel-agent
-npm http 304 https://registry.npmjs.org/tough-cookie
-npm http 304 https://registry.npmjs.org/form-data
-npm http 304 https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/caseless
-npm http 304 https://registry.npmjs.org/http-signature
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http 304 https://registry.npmjs.org/hawk/1.1.1
-npm http 304 https://registry.npmjs.org/aws-sign2
-npm http 304 https://registry.npmjs.org/stringstream
-npm http GET https://registry.npmjs.org/glob
-npm http GET https://registry.npmjs.org/glob
-npm http GET https://registry.npmjs.org/rimraf
-npm http GET https://registry.npmjs.org/q
-npm http GET https://registry.npmjs.org/colors
-npm http GET https://registry.npmjs.org/lodash
-npm http GET https://registry.npmjs.org/di
-npm http GET https://registry.npmjs.org/mime
-npm http GET https://registry.npmjs.org/socket.io/0.9.16
-npm http GET https://registry.npmjs.org/chokidar
-npm http GET https://registry.npmjs.org/connect
-npm http GET https://registry.npmjs.org/source-map
-npm http GET https://registry.npmjs.org/http-proxy
-npm http GET https://registry.npmjs.org/log4js
-npm http GET https://registry.npmjs.org/useragent
-npm http 304 https://registry.npmjs.org/forever-agent
-npm http GET https://registry.npmjs.org/proto-list
-npm http GET https://registry.npmjs.org/end-of-stream
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/xtend
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/argparse
-npm http GET https://registry.npmjs.org/xtend
-npm http GET https://registry.npmjs.org/esprima
-npm http 304 https://registry.npmjs.org/glob
-npm http 304 https://registry.npmjs.org/colors
-npm http 304 https://registry.npmjs.org/glob
-npm http 304 https://registry.npmjs.org/rimraf
-npm http 304 https://registry.npmjs.org/q
-npm http 304 https://registry.npmjs.org/lodash
-npm http 304 https://registry.npmjs.org/mime
-npm http 304 https://registry.npmjs.org/chokidar
-npm http 304 https://registry.npmjs.org/di
-npm http 304 https://registry.npmjs.org/socket.io/0.9.16
-npm http 304 https://registry.npmjs.org/connect
-npm http 304 https://registry.npmjs.org/source-map
-npm http 304 https://registry.npmjs.org/http-proxy
-npm http 304 https://registry.npmjs.org/useragent
-npm http 304 https://registry.npmjs.org/log4js
-npm http 304 https://registry.npmjs.org/proto-list
-npm http 304 https://registry.npmjs.org/end-of-stream
-npm http GET https://registry.npmjs.org/co/3.1.0
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/argparse
-npm http 304 https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/esprima
-npm http 304 https://registry.npmjs.org/co/3.1.0
-npm http GET https://registry.npmjs.org/graceful-readlink
-npm http 304 https://registry.npmjs.org/graceful-readlink
-npm http GET https://registry.npmjs.org/jsonify
-npm http GET https://registry.npmjs.org/deep-equal
-npm http GET https://registry.npmjs.org/defined
-npm http 304 https://registry.npmjs.org/jsonify
-npm http 304 https://registry.npmjs.org/deep-equal
-npm http GET https://registry.npmjs.org/camelcase
-npm http GET https://registry.npmjs.org/map-obj
-npm http GET https://registry.npmjs.org/is-relative
-npm http 304 https://registry.npmjs.org/map-obj
-npm http GET https://registry.npmjs.org/commander
-npm http GET https://registry.npmjs.org/repeating
-npm http 304 https://registry.npmjs.org/defined
-npm http 304 https://registry.npmjs.org/camelcase
-npm http GET https://registry.npmjs.org/is-finite
-npm http 304 https://registry.npmjs.org/is-relative
-npm http 304 https://registry.npmjs.org/repeating
-npm http 304 https://registry.npmjs.org/commander
-npm http 304 https://registry.npmjs.org/is-finite
-npm http GET https://registry.npmjs.org/balanced-match
-npm http GET https://registry.npmjs.org/concat-map/0.0.1
-npm http GET https://registry.npmjs.org/is-nan
-npm http 304 https://registry.npmjs.org/balanced-match
-npm http GET https://registry.npmjs.org/graceful-fs
-npm http GET https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/is-nan
-npm http 304 https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/graceful-fs
-npm http 304 https://registry.npmjs.org/concat-map/0.0.1
-npm http GET https://registry.npmjs.org/download-status
-npm http GET https://registry.npmjs.org/async
-npm http GET https://registry.npmjs.org/yargs
-npm http GET https://registry.npmjs.org/uglify-to-browserify
-npm http GET https://registry.npmjs.org/source-map/0.1.34
-npm http 304 https://registry.npmjs.org/download-status
-npm http 304 https://registry.npmjs.org/uglify-to-browserify
-npm http 304 https://registry.npmjs.org/async
-npm http 304 https://registry.npmjs.org/yargs
-npm http 304 https://registry.npmjs.org/source-map/0.1.34
-npm http GET https://registry.npmjs.org/combined-stream
-npm http GET https://registry.npmjs.org/inflight
-npm http GET https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/inflight
-npm http 304 https://registry.npmjs.org/combined-stream
-npm http GET https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/once
-npm http GET https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/string_decoder
-npm http GET https://registry.npmjs.org/ip-regex
-npm http 304 https://registry.npmjs.org/isarray/0.0.1
-npm http 304 https://registry.npmjs.org/core-util-is
-npm http 304 https://registry.npmjs.org/ip-regex
-npm http 304 https://registry.npmjs.org/string_decoder
-npm http GET https://registry.npmjs.org/ware
-npm http GET https://registry.npmjs.org/decompress-tar
-npm http GET https://registry.npmjs.org/decompress-tarbz2
-npm http GET https://registry.npmjs.org/decompress-targz
-npm http GET https://registry.npmjs.org/decompress-unzip
-npm http GET https://registry.npmjs.org/rc
-npm http GET https://registry.npmjs.org/request
-npm http 304 https://registry.npmjs.org/decompress-tarbz2
-npm http 304 https://registry.npmjs.org/decompress-targz
-npm http 304 https://registry.npmjs.org/decompress-tar
-npm http 304 https://registry.npmjs.org/decompress-unzip
-npm http 304 https://registry.npmjs.org/ware
-npm http 304 https://registry.npmjs.org/request
-npm http 304 https://registry.npmjs.org/rc
-npm http GET https://registry.npmjs.org/is-gzip
-npm http GET https://registry.npmjs.org/strip-dirs
-npm http GET https://registry.npmjs.org/lpad-align
-npm http GET https://registry.npmjs.org/tar-stream
-npm http GET https://registry.npmjs.org/ini
-npm http GET https://registry.npmjs.org/progress
-npm http GET https://registry.npmjs.org/is-zip
-npm http GET https://registry.npmjs.org/yauzl
-npm http GET https://registry.npmjs.org/tar-stream
-npm http GET https://registry.npmjs.org/strip-dirs
-npm http GET https://registry.npmjs.org/is-tar
-npm http GET https://registry.npmjs.org/is-bzip2
-npm http GET https://registry.npmjs.org/seek-bzip
-npm http GET https://registry.npmjs.org/longest
-npm http 304 https://registry.npmjs.org/is-gzip
-npm http 304 https://registry.npmjs.org/tar-stream
-npm http 304 https://registry.npmjs.org/lpad-align
-npm http 304 https://registry.npmjs.org/strip-dirs
-npm http 304 https://registry.npmjs.org/ini
-npm http 304 https://registry.npmjs.org/progress
-npm http 304 https://registry.npmjs.org/is-zip
-npm http 304 https://registry.npmjs.org/yauzl
-npm http 304 https://registry.npmjs.org/tar-stream
-npm http 304 https://registry.npmjs.org/strip-dirs
-npm http 304 https://registry.npmjs.org/is-tar
-npm http 304 https://registry.npmjs.org/is-bzip2
-npm http 304 https://registry.npmjs.org/seek-bzip
-npm http 304 https://registry.npmjs.org/longest
-npm http GET https://registry.npmjs.org/anymatch
-npm http GET https://registry.npmjs.org/async-each
-npm http GET https://registry.npmjs.org/glob-parent
-npm http GET https://registry.npmjs.org/is-binary-path
-npm http GET https://registry.npmjs.org/readdirp
-npm http GET https://registry.npmjs.org/fsevents
-npm http GET https://registry.npmjs.org/assert-plus
-npm http GET https://registry.npmjs.org/asn1/0.1.11
-npm http GET https://registry.npmjs.org/ctype/0.5.3
-npm http 304 https://registry.npmjs.org/readdirp
-npm http 304 https://registry.npmjs.org/anymatch
-npm http 304 https://registry.npmjs.org/glob-parent
-npm http 304 https://registry.npmjs.org/async-each
-npm http 304 https://registry.npmjs.org/is-binary-path
-npm http 304 https://registry.npmjs.org/fsevents
-npm http 304 https://registry.npmjs.org/assert-plus
-npm http 304 https://registry.npmjs.org/asn1/0.1.11
-npm http GET https://registry.npmjs.org/wrappy
-npm http 304 https://registry.npmjs.org/ctype/0.5.3
-npm http 304 https://registry.npmjs.org/wrappy
-npm http GET https://registry.npmjs.org/delayed-stream/0.0.5
-npm WARN optional dep failed, continuing fsevents@0.3.5
-npm http GET https://registry.npmjs.org/each-async
-npm http 304 https://registry.npmjs.org/delayed-stream/0.0.5
-npm http GET https://registry.npmjs.org/chalk
-npm http 304 https://registry.npmjs.org/each-async
-npm http GET https://registry.npmjs.org/qs
-npm http GET https://registry.npmjs.org/hawk
-npm http GET https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/chalk
-npm http GET https://registry.npmjs.org/object-assign
-npm http 304 https://registry.npmjs.org/hawk
-npm http 304 https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/isstream
-npm http GET https://registry.npmjs.org/lru-cache
-npm http GET https://registry.npmjs.org/sigmund
-npm http GET https://registry.npmjs.org/wrap-fn
-npm http 304 https://registry.npmjs.org/object-assign
-npm http 304 https://registry.npmjs.org/lru-cache
-npm http 304 https://registry.npmjs.org/sigmund
-npm http GET https://registry.npmjs.org/lpad
-npm http 304 https://registry.npmjs.org/wrap-fn
-npm http 304 https://registry.npmjs.org/lpad
-npm http GET https://registry.npmjs.org/fd-slicer
-npm http GET https://registry.npmjs.org/pend
-npm http GET https://registry.npmjs.org/meow
-npm http GET https://registry.npmjs.org/ansi-styles
-npm http GET https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/has-ansi
-npm http GET https://registry.npmjs.org/strip-ansi
-npm http GET https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/pend
-npm http 304 https://registry.npmjs.org/fd-slicer
-npm http 304 https://registry.npmjs.org/has-ansi
-npm http 304 https://registry.npmjs.org/strip-ansi
-npm http 304 https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/ansi-styles
-npm http 304 https://registry.npmjs.org/meow
-npm http 304 https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/binary-extensions
-npm http GET https://registry.npmjs.org/minimist/0.0.8
-npm http GET https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/binary-extensions
-npm http GET https://registry.npmjs.org/brace-expansion
-npm http 304 https://registry.npmjs.org/minimist/0.0.8
-npm http GET https://registry.npmjs.org/is-absolute
-npm http GET https://registry.npmjs.org/is-integer
-npm http GET https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/brace-expansion
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/minimist
-npm http GET https://registry.npmjs.org/deep-extend
-npm http GET https://registry.npmjs.org/strip-json-comments
-npm http 304 https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/is-integer
-npm http 304 https://registry.npmjs.org/is-absolute
-npm http 304 https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/deep-extend
-npm http 304 https://registry.npmjs.org/strip-json-comments
-npm http GET https://registry.npmjs.org/onetime
-npm http GET https://registry.npmjs.org/set-immediate-shim
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/get-stdin
-npm http GET https://registry.npmjs.org/is-natural-number
-npm http GET https://registry.npmjs.org/sum-up
-npm http GET https://registry.npmjs.org/is-glob
-npm http 304 https://registry.npmjs.org/onetime
-npm http 304 https://registry.npmjs.org/set-immediate-shim
-npm http 304 https://registry.npmjs.org/sum-up
-npm http 304 https://registry.npmjs.org/is-glob
-npm http 304 https://registry.npmjs.org/is-natural-number
-npm http 304 https://registry.npmjs.org/get-stdin
-npm http 304 https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/co/3.1.0
-npm http 304 https://registry.npmjs.org/co/3.1.0
-npm http GET https://registry.npmjs.org/mime-db
-npm http GET https://registry.npmjs.org/wordwrap
-npm http GET https://registry.npmjs.org/camelcase-keys
-npm http GET https://registry.npmjs.org/indent-string
-npm http GET https://registry.npmjs.org/sax
-npm http GET https://registry.npmjs.org/coa
-npm http GET https://registry.npmjs.org/js-yaml
-npm http GET https://registry.npmjs.org/colors
-npm http GET https://registry.npmjs.org/whet.extend
-npm http 304 https://registry.npmjs.org/mime-db
-npm http 304 https://registry.npmjs.org/coa
-npm http 304 https://registry.npmjs.org/js-yaml
-npm http GET https://registry.npmjs.org/glob
-npm http 304 https://registry.npmjs.org/colors
-npm http 304 https://registry.npmjs.org/camelcase-keys
-npm http 304 https://registry.npmjs.org/indent-string
-npm http 304 https://registry.npmjs.org/glob
-npm http 304 https://registry.npmjs.org/sax
-npm http 304 https://registry.npmjs.org/wordwrap
-npm http 304 https://registry.npmjs.org/whet.extend
-npm http GET https://registry.npmjs.org/is-relative
-npm http 304 https://registry.npmjs.org/is-relative
-npm http GET https://registry.npmjs.org/jsonify
-npm http GET https://registry.npmjs.org/deep-equal
-npm http GET https://registry.npmjs.org/defined
-npm http GET https://registry.npmjs.org/is-finite
-npm http 304 https://registry.npmjs.org/deep-equal
-npm http 304 https://registry.npmjs.org/jsonify
-npm http 304 https://registry.npmjs.org/defined
-npm http 304 https://registry.npmjs.org/is-finite
-npm http GET https://registry.npmjs.org/esprima
-npm http GET https://registry.npmjs.org/optimist
-npm http GET https://registry.npmjs.org/acorn
-npm http GET https://registry.npmjs.org/alter
-npm http GET https://registry.npmjs.org/convert-source-map
-npm http GET https://registry.npmjs.org/source-map
-npm http GET https://registry.npmjs.org/ordered-ast-traverse
-npm http GET https://registry.npmjs.org/simple-fmt
-npm http GET https://registry.npmjs.org/simple-is
-npm http GET https://registry.npmjs.org/stable
-npm http GET https://registry.npmjs.org/stringmap
-npm http GET https://registry.npmjs.org/stringset
-npm http GET https://registry.npmjs.org/tryor
-npm http GET https://registry.npmjs.org/source-map
-npm http GET https://registry.npmjs.org/js-base64
-npm http 304 https://registry.npmjs.org/optimist
-npm http 304 https://registry.npmjs.org/esprima
-npm http 304 https://registry.npmjs.org/convert-source-map
-npm http 304 https://registry.npmjs.org/alter
-npm http 304 https://registry.npmjs.org/acorn
-npm http 304 https://registry.npmjs.org/source-map
-npm http 304 https://registry.npmjs.org/ordered-ast-traverse
-npm http 304 https://registry.npmjs.org/simple-fmt
-npm http 304 https://registry.npmjs.org/simple-is
-npm http 304 https://registry.npmjs.org/stable
-npm http 304 https://registry.npmjs.org/stringmap
-npm http 304 https://registry.npmjs.org/stringset
-npm http 304 https://registry.npmjs.org/tryor
-npm http GET https://registry.npmjs.org/end-of-stream
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/source-map
-npm http 304 https://registry.npmjs.org/js-base64
-npm http 304 https://registry.npmjs.org/end-of-stream
-npm http 304 https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/camelcase
-npm http GET https://registry.npmjs.org/map-obj
-npm http GET https://registry.npmjs.org/balanced-match
-npm http GET https://registry.npmjs.org/concat-map/0.0.1
-npm http 304 https://registry.npmjs.org/map-obj
-npm http 304 https://registry.npmjs.org/camelcase
-npm http 304 https://registry.npmjs.org/balanced-match
-npm http 304 https://registry.npmjs.org/concat-map/0.0.1
-npm http GET https://registry.npmjs.org/repeating
-npm http 304 https://registry.npmjs.org/repeating
-npm http GET https://registry.npmjs.org/is-nan
-npm http 304 https://registry.npmjs.org/is-nan
-npm http GET https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/once
-npm http GET https://registry.npmjs.org/ordered-esprima-props
-npm http 304 https://registry.npmjs.org/ordered-esprima-props
-npm http GET https://registry.npmjs.org/commander
-npm http 304 https://registry.npmjs.org/commander
-npm http GET https://registry.npmjs.org/inflight
-npm http GET https://registry.npmjs.org/inherits
-npm http GET https://registry.npmjs.org/underscore
-npm http GET https://registry.npmjs.org/underscore.string
-npm http 304 https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/inflight
-npm http 304 https://registry.npmjs.org/underscore
-npm http 304 https://registry.npmjs.org/underscore.string
-npm http GET https://registry.npmjs.org/compressible/1.0.0
-npm http GET https://registry.npmjs.org/batch/0.5.0
-npm http GET https://registry.npmjs.org/qs/0.6.6
-npm http GET https://registry.npmjs.org/cookie-signature/1.0.1
-npm http GET https://registry.npmjs.org/buffer-crc32/0.2.1
-npm http GET https://registry.npmjs.org/cookie/0.1.0
-npm http GET https://registry.npmjs.org/pause/0.0.1
-npm http GET https://registry.npmjs.org/send/0.1.4
-npm http GET https://registry.npmjs.org/debug
-npm http GET https://registry.npmjs.org/bytes/0.2.1
-npm http GET https://registry.npmjs.org/fresh/0.2.0
-npm http GET https://registry.npmjs.org/uid2/0.0.3
-npm http GET https://registry.npmjs.org/methods/0.1.0
-npm http GET https://registry.npmjs.org/raw-body/1.1.3
-npm http GET https://registry.npmjs.org/negotiator/0.3.0
-npm http GET https://registry.npmjs.org/multiparty/2.2.0
-npm http 304 https://registry.npmjs.org/compressible/1.0.0
-npm http 304 https://registry.npmjs.org/batch/0.5.0
-npm http 304 https://registry.npmjs.org/qs/0.6.6
-npm http 304 https://registry.npmjs.org/cookie/0.1.0
-npm http 304 https://registry.npmjs.org/cookie-signature/1.0.1
-npm http 304 https://registry.npmjs.org/buffer-crc32/0.2.1
-npm http GET https://registry.npmjs.org/ini
-npm http 304 https://registry.npmjs.org/pause/0.0.1
-npm http 304 https://registry.npmjs.org/send/0.1.4
-npm http 304 https://registry.npmjs.org/debug
-npm http 304 https://registry.npmjs.org/bytes/0.2.1
-npm http 304 https://registry.npmjs.org/fresh/0.2.0
-npm http 304 https://registry.npmjs.org/uid2/0.0.3
-npm http 304 https://registry.npmjs.org/methods/0.1.0
-npm http GET https://registry.npmjs.org/chalk
-npm http 304 https://registry.npmjs.org/raw-body/1.1.3
-npm http 304 https://registry.npmjs.org/negotiator/0.3.0
-npm http 304 https://registry.npmjs.org/multiparty/2.2.0
-npm http 304 https://registry.npmjs.org/chalk
-npm http GET https://registry.npmjs.org/wrappy
-npm http GET https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/string_decoder
-npm http GET https://registry.npmjs.org/socket.io-client/0.9.16
-npm http GET https://registry.npmjs.org/policyfile/0.0.4
-npm http GET https://registry.npmjs.org/base64id/0.1.0
-npm http GET https://registry.npmjs.org/redis/0.7.3
-npm http 304 https://registry.npmjs.org/ini
-npm http 304 https://registry.npmjs.org/wrappy
-npm http 304 https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/wrap-fn
-npm http 304 https://registry.npmjs.org/socket.io-client/0.9.16
-npm http 304 https://registry.npmjs.org/policyfile/0.0.4
-npm http 304 https://registry.npmjs.org/base64id/0.1.0
-npm http 304 https://registry.npmjs.org/isarray/0.0.1
-npm http 304 https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/redis/0.7.3
-npm http 304 https://registry.npmjs.org/wrap-fn
-npm http GET https://registry.npmjs.org/ansi-styles
-npm http GET https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/has-ansi
-npm http GET https://registry.npmjs.org/strip-ansi
-npm http GET https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/has-ansi
-npm http 304 https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/escape-string-regexp
-npm http 304 https://registry.npmjs.org/strip-ansi
-npm http 304 https://registry.npmjs.org/ansi-styles
-npm http GET https://registry.npmjs.org/lru-cache
-npm http GET https://registry.npmjs.org/sigmund
-npm http 304 https://registry.npmjs.org/sigmund
-npm http 304 https://registry.npmjs.org/lru-cache
-npm http GET https://registry.npmjs.org/punycode
-npm http GET https://registry.npmjs.org/is-absolute
-npm http GET https://registry.npmjs.org/is-integer
-npm http GET https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/punycode
-npm http 304 https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/is-absolute
-npm http GET https://registry.npmjs.org/fd-slicer
-npm http GET https://registry.npmjs.org/pend
-npm http 304 https://registry.npmjs.org/is-integer
-npm http 304 https://registry.npmjs.org/pend
-npm http 304 https://registry.npmjs.org/fd-slicer
-npm http GET https://registry.npmjs.org/co/3.1.0
-npm http GET https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/caseless
-npm http GET https://registry.npmjs.org/forever-agent
-npm http GET https://registry.npmjs.org/form-data
-npm http GET https://registry.npmjs.org/json-stringify-safe
-npm http GET https://registry.npmjs.org/mime-types
-npm http GET https://registry.npmjs.org/node-uuid
-npm http GET https://registry.npmjs.org/qs
-npm http GET https://registry.npmjs.org/tunnel-agent
-npm http GET https://registry.npmjs.org/tough-cookie
-npm http GET https://registry.npmjs.org/http-signature
-npm http GET https://registry.npmjs.org/oauth-sign
-npm http GET https://registry.npmjs.org/hawk
-npm http GET https://registry.npmjs.org/aws-sign2
-npm http GET https://registry.npmjs.org/stringstream
-npm http GET https://registry.npmjs.org/combined-stream
-npm http GET https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/co/3.1.0
-npm http 304 https://registry.npmjs.org/caseless
-npm http 304 https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/form-data
-npm http 304 https://registry.npmjs.org/forever-agent
-npm http 304 https://registry.npmjs.org/json-stringify-safe
-npm http 304 https://registry.npmjs.org/mime-types
-npm http 304 https://registry.npmjs.org/node-uuid
-npm http 304 https://registry.npmjs.org/qs
-npm http GET https://registry.npmjs.org/get-stdin
-npm http GET https://registry.npmjs.org/is-natural-number
-npm http GET https://registry.npmjs.org/sum-up
-npm http 304 https://registry.npmjs.org/tunnel-agent
-npm http 304 https://registry.npmjs.org/tough-cookie
-npm http 304 https://registry.npmjs.org/http-signature
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http 304 https://registry.npmjs.org/hawk
-npm http 304 https://registry.npmjs.org/aws-sign2
-npm http 304 https://registry.npmjs.org/stringstream
-npm http 304 https://registry.npmjs.org/combined-stream
-npm http 304 https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/is-natural-number
-npm http 304 https://registry.npmjs.org/sum-up
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/amdefine
-npm http GET https://registry.npmjs.org/minimatch
-npm http GET https://registry.npmjs.org/deep-extend
-npm http GET https://registry.npmjs.org/strip-json-comments
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/get-stdin
-npm http 304 https://registry.npmjs.org/deep-extend
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/strip-json-comments
-npm http 304 https://registry.npmjs.org/amdefine
-npm http GET https://registry.npmjs.org/is-relative
-npm http 304 https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/is-relative
-npm http GET https://registry.npmjs.org/mime
-npm http GET https://registry.npmjs.org/range-parser/0.0.4
-npm http 304 https://registry.npmjs.org/mime
-npm http 304 https://registry.npmjs.org/range-parser/0.0.4
-npm http GET https://registry.npmjs.org/end-of-stream
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/xtend
-npm http GET https://registry.npmjs.org/hoek
-npm http GET https://registry.npmjs.org/boom
-npm http GET https://registry.npmjs.org/cryptiles
-npm http GET https://registry.npmjs.org/sntp
-npm http GET https://registry.npmjs.org/minimist/0.0.8
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/end-of-stream
-npm http 304 https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/cryptiles
-npm http 304 https://registry.npmjs.org/sntp
-npm http 304 https://registry.npmjs.org/minimist/0.0.8
-npm http 304 https://registry.npmjs.org/hoek
-npm http 304 https://registry.npmjs.org/boom
-npm http GET https://registry.npmjs.org/is-finite
-npm http 304 https://registry.npmjs.org/is-finite
-npm http GET https://registry.npmjs.org/wordwrap
-npm http GET https://registry.npmjs.org/brace-expansion
-npm http 304 https://registry.npmjs.org/wordwrap
-npm http 304 https://registry.npmjs.org/brace-expansion
-npm http GET https://registry.npmjs.org/delayed-stream/0.0.5
-npm http GET https://registry.npmjs.org/mime-db
-npm http GET https://registry.npmjs.org/basic-auth-connect/1.0.0
-npm http GET https://registry.npmjs.org/body-parser
-npm http GET https://registry.npmjs.org/bytes/1.0.0
-npm http GET https://registry.npmjs.org/cookie-parser
-npm http GET https://registry.npmjs.org/cookie-signature/1.0.5
-npm http GET https://registry.npmjs.org/compression
-npm http GET https://registry.npmjs.org/cookie/0.1.2
-npm http GET https://registry.npmjs.org/connect-timeout
-npm http GET https://registry.npmjs.org/depd/0.4.5
-npm http GET https://registry.npmjs.org/errorhandler
-npm http GET https://registry.npmjs.org/csurf
-npm http GET https://registry.npmjs.org/express-session
-npm http GET https://registry.npmjs.org/finalhandler/0.2.0
-npm http GET https://registry.npmjs.org/fresh/0.2.4
-npm http GET https://registry.npmjs.org/media-typer/0.3.0
-npm http GET https://registry.npmjs.org/multiparty/3.3.2
-npm http GET https://registry.npmjs.org/on-headers
-npm http GET https://registry.npmjs.org/parseurl
-npm http GET https://registry.npmjs.org/qs/2.2.4
-npm http GET https://registry.npmjs.org/response-time
-npm http GET https://registry.npmjs.org/serve-favicon
-npm http GET https://registry.npmjs.org/serve-index
-npm http GET https://registry.npmjs.org/serve-static
-npm http GET https://registry.npmjs.org/type-is
-npm http GET https://registry.npmjs.org/vhost
-npm http GET https://registry.npmjs.org/method-override
-npm http GET https://registry.npmjs.org/morgan
-npm http GET https://registry.npmjs.org/q
-npm http 304 https://registry.npmjs.org/delayed-stream/0.0.5
-npm http 304 https://registry.npmjs.org/cookie-parser
-npm http 304 https://registry.npmjs.org/mime-db
-npm http 304 https://registry.npmjs.org/cookie-signature/1.0.5
-npm http 304 https://registry.npmjs.org/compression
-npm http 304 https://registry.npmjs.org/body-parser
-npm http 304 https://registry.npmjs.org/basic-auth-connect/1.0.0
-npm http 304 https://registry.npmjs.org/bytes/1.0.0
-npm http 304 https://registry.npmjs.org/cookie/0.1.2
-npm http 304 https://registry.npmjs.org/connect-timeout
-npm http 304 https://registry.npmjs.org/depd/0.4.5
-npm http 304 https://registry.npmjs.org/errorhandler
-npm http 304 https://registry.npmjs.org/csurf
-npm http 304 https://registry.npmjs.org/express-session
-npm http 304 https://registry.npmjs.org/finalhandler/0.2.0
-npm http 304 https://registry.npmjs.org/fresh/0.2.4
-npm http 304 https://registry.npmjs.org/media-typer/0.3.0
-npm http 304 https://registry.npmjs.org/multiparty/3.3.2
-npm http 304 https://registry.npmjs.org/on-headers
-npm http 304 https://registry.npmjs.org/parseurl
-npm http 304 https://registry.npmjs.org/qs/2.2.4
-npm http 304 https://registry.npmjs.org/response-time
-npm http GET https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/serve-favicon
-npm http 304 https://registry.npmjs.org/serve-index
-npm http 304 https://registry.npmjs.org/serve-static
-npm http 304 https://registry.npmjs.org/type-is
-npm http 304 https://registry.npmjs.org/vhost
-npm http GET https://registry.npmjs.org/is-nan
-npm http 304 https://registry.npmjs.org/method-override
-npm http 304 https://registry.npmjs.org/morgan
-npm http 304 https://registry.npmjs.org/q
-npm http 304 https://registry.npmjs.org/once
-npm http GET https://registry.npmjs.org/balanced-match
-npm http GET https://registry.npmjs.org/concat-map/0.0.1
-npm http 304 https://registry.npmjs.org/concat-map/0.0.1
-npm http 304 https://registry.npmjs.org/balanced-match
-npm http 304 https://registry.npmjs.org/is-nan
-npm http GET https://registry.npmjs.org/inflight
-npm http GET https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/inflight
-npm http 304 https://registry.npmjs.org/inherits
-npm http GET https://registry.npmjs.org/assert-plus
-npm http GET https://registry.npmjs.org/asn1/0.1.11
-npm http GET https://registry.npmjs.org/ctype/0.5.3
-npm http 304 https://registry.npmjs.org/ctype/0.5.3
-npm http GET https://registry.npmjs.org/wrappy
-npm http GET https://registry.npmjs.org/async
-npm http GET https://registry.npmjs.org/source-map/0.1.34
-npm http GET https://registry.npmjs.org/yargs
-npm http GET https://registry.npmjs.org/uglify-to-browserify
-npm http 304 https://registry.npmjs.org/assert-plus
-npm http 304 https://registry.npmjs.org/asn1/0.1.11
-npm http 304 https://registry.npmjs.org/yargs
-npm http 304 https://registry.npmjs.org/uglify-to-browserify
-npm http 304 https://registry.npmjs.org/wrappy
-npm http 304 https://registry.npmjs.org/async
-npm http 304 https://registry.npmjs.org/source-map/0.1.34
-npm http GET https://registry.npmjs.org/chalk
-npm http GET https://registry.npmjs.org/ms/0.6.2
-npm http GET https://registry.npmjs.org/escape-html/1.0.1
-npm http 304 https://registry.npmjs.org/chalk
-npm http GET https://registry.npmjs.org/etag
-npm http 304 https://registry.npmjs.org/ms/0.6.2
-npm http GET https://registry.npmjs.org/accepts
-npm http GET https://registry.npmjs.org/compressible
-npm http GET https://registry.npmjs.org/vary
-npm http 304 https://registry.npmjs.org/etag
-npm http GET https://registry.npmjs.org/cookie-signature/1.0.6
-npm http GET https://registry.npmjs.org/csrf
-npm http GET https://registry.npmjs.org/methods/1.1.0
-npm http GET https://registry.npmjs.org/http-errors
-npm http 304 https://registry.npmjs.org/escape-html/1.0.1
-npm http GET https://registry.npmjs.org/utils-merge/1.0.0
-npm http GET https://registry.npmjs.org/send/0.9.3
-npm http 304 https://registry.npmjs.org/csrf
-npm http 304 https://registry.npmjs.org/methods/1.1.0
-npm http 304 https://registry.npmjs.org/http-errors
-npm http 304 https://registry.npmjs.org/utils-merge/1.0.0
-npm http 304 https://registry.npmjs.org/compressible
-npm http 304 https://registry.npmjs.org/vary
-npm http 304 https://registry.npmjs.org/send/0.9.3
-npm http 304 https://registry.npmjs.org/cookie-signature/1.0.6
-npm http 304 https://registry.npmjs.org/accepts
-npm http GET https://registry.npmjs.org/on-finished/2.1.0
-npm http GET https://registry.npmjs.org/basic-auth/1.0.0
-npm http GET https://registry.npmjs.org/argparse
-npm http GET https://registry.npmjs.org/esprima
-npm http GET https://registry.npmjs.org/ansi-styles
-npm http GET https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/has-ansi
-npm http GET https://registry.npmjs.org/strip-ansi
-npm http GET https://registry.npmjs.org/supports-color
-npm http GET https://registry.npmjs.org/accepts
-npm http GET https://registry.npmjs.org/commander
-npm http 304 https://registry.npmjs.org/on-finished/2.1.0
-npm http 304 https://registry.npmjs.org/basic-auth/1.0.0
-npm http 304 https://registry.npmjs.org/escape-string-regexp
-npm http 304 https://registry.npmjs.org/has-ansi
-npm http 304 https://registry.npmjs.org/esprima
-npm http 304 https://registry.npmjs.org/strip-ansi
-npm http 304 https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/ansi-styles
-npm http 304 https://registry.npmjs.org/argparse
-npm http 304 https://registry.npmjs.org/accepts
-npm http 304 https://registry.npmjs.org/commander
-npm http GET https://registry.npmjs.org/lru-cache
-npm http GET https://registry.npmjs.org/sigmund
-npm http 304 https://registry.npmjs.org/sigmund
-npm http 304 https://registry.npmjs.org/lru-cache
-npm http GET https://registry.npmjs.org/minimist
-npm http GET https://registry.npmjs.org/ini
-npm http 304 https://registry.npmjs.org/ini
-npm http 304 https://registry.npmjs.org/minimist
-npm http GET https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/core-util-is
-npm http 304 https://registry.npmjs.org/isarray/0.0.1
-npm http 304 https://registry.npmjs.org/string_decoder
-npm http GET https://registry.npmjs.org/is-absolute
-npm http GET https://registry.npmjs.org/is-absolute
-npm http GET https://registry.npmjs.org/is-integer
-npm http 304 https://registry.npmjs.org/is-absolute
-npm http 304 https://registry.npmjs.org/is-integer
-npm http 304 https://registry.npmjs.org/is-absolute
-npm http GET https://registry.npmjs.org/minimatch
-npm http GET https://registry.npmjs.org/iconv-lite/0.4.4
-npm http GET https://registry.npmjs.org/raw-body/1.3.0
-npm http 304 https://registry.npmjs.org/minimatch
-npm http GET https://registry.npmjs.org/crc/3.0.0
-npm http GET https://registry.npmjs.org/uid-safe/1.0.1
-npm http 304 https://registry.npmjs.org/raw-body/1.3.0
-npm http 304 https://registry.npmjs.org/iconv-lite/0.4.4
-npm http GET https://registry.npmjs.org/stream-counter
-npm http 304 https://registry.npmjs.org/uid-safe/1.0.1
-npm http 304 https://registry.npmjs.org/crc/3.0.0
-npm http 304 https://registry.npmjs.org/stream-counter
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/is-relative
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/base64-url/1.2.1
-npm http GET https://registry.npmjs.org/rndm
-npm http GET https://registry.npmjs.org/scmp/1.0.0
-npm http GET https://registry.npmjs.org/uid-safe
-npm http 304 https://registry.npmjs.org/is-relative
-npm http GET https://registry.npmjs.org/statuses
-npm http GET https://registry.npmjs.org/crc/3.2.1
-npm http GET https://registry.npmjs.org/fd-slicer
-npm http GET https://registry.npmjs.org/pend
-npm http GET https://registry.npmjs.org/get-stdin
-npm http GET https://registry.npmjs.org/is-natural-number
-npm http GET https://registry.npmjs.org/sum-up
-npm http GET https://registry.npmjs.org/mime-types
-npm http GET https://registry.npmjs.org/negotiator/0.4.9
-npm http 304 https://registry.npmjs.org/uid-safe
-npm http GET https://registry.npmjs.org/ee-first/1.0.5
-npm http 304 https://registry.npmjs.org/crc/3.2.1
-npm http 304 https://registry.npmjs.org/rndm
-npm http 304 https://registry.npmjs.org/fd-slicer
-npm http 304 https://registry.npmjs.org/pend
-npm http 304 https://registry.npmjs.org/statuses
-npm http 304 https://registry.npmjs.org/get-stdin
-npm http 304 https://registry.npmjs.org/is-natural-number
-npm http 304 https://registry.npmjs.org/sum-up
-npm http 304 https://registry.npmjs.org/mime-types
-npm http 304 https://registry.npmjs.org/base64-url/1.2.1
-npm http 304 https://registry.npmjs.org/negotiator/0.4.9
-npm http 304 https://registry.npmjs.org/ee-first/1.0.5
-npm http 304 https://registry.npmjs.org/scmp/1.0.0
-npm http GET https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/end-of-stream
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/end-of-stream
-npm http 304 https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/pkginfo
-npm http GET https://registry.npmjs.org/utile
-npm http GET https://registry.npmjs.org/destroy/1.0.3
-npm http GET https://registry.npmjs.org/range-parser
-npm http 304 https://registry.npmjs.org/pkginfo
-npm http GET https://registry.npmjs.org/is-finite
-npm http 304 https://registry.npmjs.org/utile
-npm http 304 https://registry.npmjs.org/range-parser
-npm http 304 https://registry.npmjs.org/destroy/1.0.3
-npm http GET https://registry.npmjs.org/brace-expansion
-npm http 304 https://registry.npmjs.org/brace-expansion
-npm http GET https://registry.npmjs.org/deep-extend
-npm http GET https://registry.npmjs.org/strip-json-comments
-npm http 304 https://registry.npmjs.org/is-finite
-npm http 304 https://registry.npmjs.org/deep-extend
-npm http 304 https://registry.npmjs.org/strip-json-comments
-npm http GET https://registry.npmjs.org/caseless
-npm http GET https://registry.npmjs.org/forever-agent
-npm http GET https://registry.npmjs.org/form-data
-npm http GET https://registry.npmjs.org/json-stringify-safe
-npm http GET https://registry.npmjs.org/node-uuid
-npm http GET https://registry.npmjs.org/qs
-npm http GET https://registry.npmjs.org/tunnel-agent
-npm http GET https://registry.npmjs.org/tough-cookie
-npm http GET https://registry.npmjs.org/http-signature
-npm http GET https://registry.npmjs.org/oauth-sign
-npm http GET https://registry.npmjs.org/hawk
-npm http GET https://registry.npmjs.org/aws-sign2
-npm http GET https://registry.npmjs.org/stringstream
-npm http GET https://registry.npmjs.org/combined-stream
-npm http GET https://registry.npmjs.org/isstream
-npm http GET https://registry.npmjs.org/mz
-npm http GET https://registry.npmjs.org/base64-url
-npm http 304 https://registry.npmjs.org/form-data
-npm http 304 https://registry.npmjs.org/caseless
-npm http 304 https://registry.npmjs.org/node-uuid
-npm http 304 https://registry.npmjs.org/json-stringify-safe
-npm http 304 https://registry.npmjs.org/forever-agent
-npm http 304 https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/tunnel-agent
-npm http 304 https://registry.npmjs.org/tough-cookie
-npm http GET https://registry.npmjs.org/hoek
-npm http GET https://registry.npmjs.org/boom
-npm http GET https://registry.npmjs.org/cryptiles
-npm http GET https://registry.npmjs.org/sntp
-npm http 304 https://registry.npmjs.org/http-signature
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http 304 https://registry.npmjs.org/hawk
-npm http 304 https://registry.npmjs.org/aws-sign2
-npm http 304 https://registry.npmjs.org/stringstream
-npm http 304 https://registry.npmjs.org/combined-stream
-npm http 304 https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/mz
-npm http 304 https://registry.npmjs.org/base64-url
-npm http 304 https://registry.npmjs.org/hoek
-npm http 304 https://registry.npmjs.org/boom
-npm http 304 https://registry.npmjs.org/cryptiles
-npm http 304 https://registry.npmjs.org/sntp
-npm http GET https://registry.npmjs.org/inflight
-npm http GET https://registry.npmjs.org/inherits
-npm http GET https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/inflight
-npm http 304 https://registry.npmjs.org/once
-npm http GET https://registry.npmjs.org/native-or-bluebird
-npm http GET https://registry.npmjs.org/mime-db
-npm http 304 https://registry.npmjs.org/native-or-bluebird
-npm http 304 https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/mime-db
-npm http GET https://registry.npmjs.org/amdefine
-npm http GET https://registry.npmjs.org/q
-npm http 304 https://registry.npmjs.org/amdefine
-npm http 304 https://registry.npmjs.org/q
-npm http GET https://registry.npmjs.org/balanced-match
-npm http GET https://registry.npmjs.org/concat-map/0.0.1
-npm http 304 https://registry.npmjs.org/balanced-match
-npm http 304 https://registry.npmjs.org/concat-map/0.0.1
-npm http GET https://registry.npmjs.org/delayed-stream/0.0.5
-npm http 304 https://registry.npmjs.org/delayed-stream/0.0.5
-npm http GET https://registry.npmjs.org/thenify
-npm http GET https://registry.npmjs.org/thenify-all
-npm http 304 https://registry.npmjs.org/thenify-all
-npm http 304 https://registry.npmjs.org/thenify
-npm http GET https://registry.npmjs.org/punycode
-npm http GET https://registry.npmjs.org/async
-npm http GET https://registry.npmjs.org/semver
-npm http 304 https://registry.npmjs.org/punycode
-npm http 304 https://registry.npmjs.org/async
-npm http 304 https://registry.npmjs.org/semver
-npm http GET https://registry.npmjs.org/wrappy
-npm http GET https://registry.npmjs.org/ansi-styles
-npm http GET https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/has-ansi
-npm http GET https://registry.npmjs.org/strip-ansi
-npm http GET https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/escape-string-regexp
-npm http 304 https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/strip-ansi
-npm http 304 https://registry.npmjs.org/ansi-styles
-npm http 304 https://registry.npmjs.org/has-ansi
-npm http 304 https://registry.npmjs.org/wrappy
-npm http GET https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/minimist
-npm http GET https://registry.npmjs.org/assert-plus
-npm http GET https://registry.npmjs.org/asn1/0.1.11
-npm http GET https://registry.npmjs.org/ctype/0.5.3
-npm http 304 https://registry.npmjs.org/assert-plus
-npm http 304 https://registry.npmjs.org/ctype/0.5.3
-npm http 304 https://registry.npmjs.org/asn1/0.1.11
-npm http GET https://registry.npmjs.org/get-stdin
-npm http GET https://registry.npmjs.org/is-absolute
-npm http 304 https://registry.npmjs.org/get-stdin
-npm http 304 https://registry.npmjs.org/is-absolute
-npm http GET https://registry.npmjs.org/deep-equal
-npm http GET https://registry.npmjs.org/mkdirp
-npm http GET https://registry.npmjs.org/i
-npm http GET https://registry.npmjs.org/ncp
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/ini
-npm http GET https://registry.npmjs.org/is-relative
-npm http 304 https://registry.npmjs.org/i
-npm http 304 https://registry.npmjs.org/mkdirp
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/ncp
-npm http 304 https://registry.npmjs.org/deep-equal
-npm http 304 https://registry.npmjs.org/ini
-npm http 304 https://registry.npmjs.org/is-relative
-npm http GET https://registry.npmjs.org/commander
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/commander
-npm http GET https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/end-of-stream
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/xtend
-npm http GET https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/end-of-stream
-npm http 304 https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/brace-expansion
-npm http GET https://registry.npmjs.org/is-natural-number
-npm http GET https://registry.npmjs.org/sum-up
-npm http 304 https://registry.npmjs.org/brace-expansion
-npm http GET https://registry.npmjs.org/is-root
-npm http GET https://registry.npmjs.org/insight/0.4.3
-npm http GET https://registry.npmjs.org/junk
-npm http GET https://registry.npmjs.org/lockfile
-npm http GET https://registry.npmjs.org/lru-cache
-npm http GET https://registry.npmjs.org/mkdirp/0.5.0
-npm http GET https://registry.npmjs.org/mout
-npm http GET https://registry.npmjs.org/nopt
-npm http GET https://registry.npmjs.org/opn
-npm http GET https://registry.npmjs.org/osenv/0.1.0
-npm http GET https://registry.npmjs.org/p-throttler/0.1.0
-npm http GET https://registry.npmjs.org/promptly/0.2.0
-npm http GET https://registry.npmjs.org/request
-npm http GET https://registry.npmjs.org/request-progress/0.3.0
-npm http GET https://registry.npmjs.org/retry/0.6.0
-npm http GET https://registry.npmjs.org/rimraf
-npm http GET https://registry.npmjs.org/shell-quote
-npm http GET https://registry.npmjs.org/stringify-object
-npm http GET https://registry.npmjs.org/tar-fs/0.5.2
-npm http GET https://registry.npmjs.org/tmp/0.0.23
-npm http GET https://registry.npmjs.org/update-notifier/0.2.0
-npm http GET https://registry.npmjs.org/which
-npm http GET https://registry.npmjs.org/abbrev
-npm http GET https://registry.npmjs.org/archy/0.0.2
-npm http GET https://registry.npmjs.org/bower-config
-npm http GET https://registry.npmjs.org/bower-endpoint-parser
-npm http GET https://registry.npmjs.org/bower-json
-npm http GET https://registry.npmjs.org/bower-logger
-npm http GET https://registry.npmjs.org/bower-registry-client
-npm http GET https://registry.npmjs.org/cardinal/0.4.0
-npm http GET https://registry.npmjs.org/chalk/0.5.0
-npm http GET https://registry.npmjs.org/chmodr/0.1.0
-npm http GET https://registry.npmjs.org/decompress-zip/0.0.8
-npm http GET https://registry.npmjs.org/fstream
-npm http GET https://registry.npmjs.org/fstream-ignore
-npm http GET https://registry.npmjs.org/glob
-npm http GET https://registry.npmjs.org/graceful-fs
-npm http GET https://registry.npmjs.org/handlebars
-npm http GET https://registry.npmjs.org/inquirer/0.7.1
-npm http 304 https://registry.npmjs.org/is-natural-number
-npm http 304 https://registry.npmjs.org/sum-up
-npm http 304 https://registry.npmjs.org/lockfile
-npm http 304 https://registry.npmjs.org/lru-cache
-npm http 304 https://registry.npmjs.org/junk
-npm http 304 https://registry.npmjs.org/insight/0.4.3
-npm http 304 https://registry.npmjs.org/is-root
-npm http 304 https://registry.npmjs.org/mkdirp/0.5.0
-npm http 304 https://registry.npmjs.org/mout
-npm http 304 https://registry.npmjs.org/nopt
-npm http 304 https://registry.npmjs.org/opn
-npm http 304 https://registry.npmjs.org/osenv/0.1.0
-npm http 304 https://registry.npmjs.org/p-throttler/0.1.0
-npm http 304 https://registry.npmjs.org/request
-npm http 304 https://registry.npmjs.org/promptly/0.2.0
-npm http 304 https://registry.npmjs.org/request-progress/0.3.0
-npm http 304 https://registry.npmjs.org/retry/0.6.0
-npm http 304 https://registry.npmjs.org/rimraf
-npm http GET https://registry.npmjs.org/fd-slicer
-npm http GET https://registry.npmjs.org/pend
-npm http 304 https://registry.npmjs.org/shell-quote
-npm http 304 https://registry.npmjs.org/stringify-object
-npm http 304 https://registry.npmjs.org/tar-fs/0.5.2
-npm http 304 https://registry.npmjs.org/tmp/0.0.23
-npm http GET https://registry.npmjs.org/argparse
-npm http GET https://registry.npmjs.org/esprima
-npm http 304 https://registry.npmjs.org/update-notifier/0.2.0
-npm http 304 https://registry.npmjs.org/which
-npm http 304 https://registry.npmjs.org/abbrev
-npm http 304 https://registry.npmjs.org/archy/0.0.2
-npm http GET https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/bower-config
-npm http 304 https://registry.npmjs.org/bower-endpoint-parser
-npm http 304 https://registry.npmjs.org/bower-json
-npm http 304 https://registry.npmjs.org/bower-logger
-npm http 304 https://registry.npmjs.org/bower-registry-client
-npm http 304 https://registry.npmjs.org/cardinal/0.4.0
-npm http 304 https://registry.npmjs.org/chalk/0.5.0
-npm http 304 https://registry.npmjs.org/chmodr/0.1.0
-npm http 304 https://registry.npmjs.org/decompress-zip/0.0.8
-npm http 304 https://registry.npmjs.org/fstream
-npm http 304 https://registry.npmjs.org/fstream-ignore
-npm http 304 https://registry.npmjs.org/glob
-npm http 304 https://registry.npmjs.org/graceful-fs
-npm http 304 https://registry.npmjs.org/handlebars
-npm http 304 https://registry.npmjs.org/inquirer/0.7.1
-npm http 304 https://registry.npmjs.org/fd-slicer
-npm http 304 https://registry.npmjs.org/pend
-npm http 304 https://registry.npmjs.org/argparse
-npm http GET https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/esprima
-npm http 304 https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/isarray/0.0.1
-npm http 304 https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/underscore
-npm http GET https://registry.npmjs.org/underscore.string
-npm http GET https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/underscore
-npm http 304 https://registry.npmjs.org/underscore.string
-npm http 304 https://registry.npmjs.org/once
-npm http GET https://registry.npmjs.org/amdefine
-npm http GET https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/amdefine
-npm http 304 https://registry.npmjs.org/inherits
-npm http GET https://registry.npmjs.org/caseless
-npm http GET https://registry.npmjs.org/forever-agent
-npm http GET https://registry.npmjs.org/form-data
-npm http GET https://registry.npmjs.org/json-stringify-safe
-npm http GET https://registry.npmjs.org/mime-types
-npm http GET https://registry.npmjs.org/node-uuid
-npm http GET https://registry.npmjs.org/qs
-npm http GET https://registry.npmjs.org/tunnel-agent
-npm http GET https://registry.npmjs.org/tough-cookie
-npm http GET https://registry.npmjs.org/http-signature
-npm http GET https://registry.npmjs.org/oauth-sign
-npm http GET https://registry.npmjs.org/hawk
-npm http GET https://registry.npmjs.org/aws-sign2
-npm http GET https://registry.npmjs.org/stringstream
-npm http GET https://registry.npmjs.org/combined-stream
-npm http GET https://registry.npmjs.org/isstream
-npm http GET https://registry.npmjs.org/configstore
-npm http GET https://registry.npmjs.org/latest-version
-npm http GET https://registry.npmjs.org/semver-diff
-npm http GET https://registry.npmjs.org/string-length
-npm http 304 https://registry.npmjs.org/form-data
-npm http 304 https://registry.npmjs.org/forever-agent
-npm http 304 https://registry.npmjs.org/json-stringify-safe
-npm http 304 https://registry.npmjs.org/caseless
-npm http 304 https://registry.npmjs.org/mime-types
-npm http 304 https://registry.npmjs.org/node-uuid
-npm http 304 https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/tunnel-agent
-npm http 304 https://registry.npmjs.org/tough-cookie
-npm http 304 https://registry.npmjs.org/http-signature
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http GET https://registry.npmjs.org/chalk
-npm http GET https://registry.npmjs.org/configstore
-npm http GET https://registry.npmjs.org/inquirer
-npm http GET https://registry.npmjs.org/lodash.debounce
-npm http GET https://registry.npmjs.org/object-assign
-npm http GET https://registry.npmjs.org/os-name
-npm http GET https://registry.npmjs.org/tough-cookie
-npm http 304 https://registry.npmjs.org/hawk
-npm http 304 https://registry.npmjs.org/aws-sign2
-npm http 304 https://registry.npmjs.org/stringstream
-npm http 304 https://registry.npmjs.org/combined-stream
-npm http 304 https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/configstore
-npm http 304 https://registry.npmjs.org/latest-version
-npm http 304 https://registry.npmjs.org/semver-diff
-npm http 304 https://registry.npmjs.org/string-length
-npm http 304 https://registry.npmjs.org/chalk
-npm http 304 https://registry.npmjs.org/configstore
-npm http 304 https://registry.npmjs.org/inquirer
-npm http 304 https://registry.npmjs.org/lodash.debounce
-npm http 304 https://registry.npmjs.org/object-assign
-npm http 304 https://registry.npmjs.org/os-name
-npm http 304 https://registry.npmjs.org/tough-cookie
-npm http GET https://registry.npmjs.org/wrappy
-npm http 304 https://registry.npmjs.org/wrappy
-npm http GET https://registry.npmjs.org/inflight
-npm http GET https://registry.npmjs.org/throttleit
-npm http 304 https://registry.npmjs.org/throttleit
-npm http 304 https://registry.npmjs.org/inflight
-npm http GET https://registry.npmjs.org/balanced-match
-npm http GET https://registry.npmjs.org/concat-map/0.0.1
-npm http GET https://registry.npmjs.org/read
-npm http 304 https://registry.npmjs.org/concat-map/0.0.1
-npm http 304 https://registry.npmjs.org/balanced-match
-npm http 304 https://registry.npmjs.org/read
-npm http GET https://registry.npmjs.org/pump
-npm http GET https://registry.npmjs.org/tar-stream
-npm http GET https://registry.npmjs.org/q
-npm http 304 https://registry.npmjs.org/pump
-npm http 304 https://registry.npmjs.org/tar-stream
-npm http 304 https://registry.npmjs.org/q
-npm http GET https://registry.npmjs.org/optimist
-npm http GET https://registry.npmjs.org/osenv/0.0.3
-npm http GET https://registry.npmjs.org/minimist/0.0.8
-npm http 304 https://registry.npmjs.org/osenv/0.0.3
-npm http 304 https://registry.npmjs.org/optimist
-npm http 304 https://registry.npmjs.org/minimist/0.0.8
-npm http GET https://registry.npmjs.org/jsonify
-npm http GET https://registry.npmjs.org/array-filter
-npm http GET https://registry.npmjs.org/array-reduce
-npm http GET https://registry.npmjs.org/array-map
-npm http GET https://registry.npmjs.org/minimist
-npm http GET https://registry.npmjs.org/strip-ansi
-npm http 304 https://registry.npmjs.org/array-reduce
-npm http 304 https://registry.npmjs.org/array-filter
-npm http 304 https://registry.npmjs.org/array-map
-npm http 304 https://registry.npmjs.org/strip-ansi
-npm http 304 https://registry.npmjs.org/jsonify
-npm http 304 https://registry.npmjs.org/minimist
-npm http GET https://registry.npmjs.org/js-yaml
-npm http GET https://registry.npmjs.org/user-home
-npm http GET https://registry.npmjs.org/uuid
-npm http GET https://registry.npmjs.org/xdg-basedir
-npm http GET https://registry.npmjs.org/package-json
-npm http GET https://registry.npmjs.org/delayed-stream/0.0.5
-npm http 304 https://registry.npmjs.org/js-yaml
-npm http 304 https://registry.npmjs.org/user-home
-npm http 304 https://registry.npmjs.org/uuid
-npm http 304 https://registry.npmjs.org/delayed-stream/0.0.5
-npm http 304 https://registry.npmjs.org/xdg-basedir
-npm http GET https://registry.npmjs.org/mime-db
-npm http 304 https://registry.npmjs.org/package-json
-npm http GET https://registry.npmjs.org/osx-release
-npm http GET https://registry.npmjs.org/win-release
-npm http GET https://registry.npmjs.org/ansi-styles
-npm http GET https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/has-ansi
-npm http GET https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/mime-db
-npm http 304 https://registry.npmjs.org/has-ansi
-npm http 304 https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/osx-release
-npm http 304 https://registry.npmjs.org/win-release
-npm http 304 https://registry.npmjs.org/ansi-styles
-npm http 304 https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/lodash.isfunction
-npm http GET https://registry.npmjs.org/lodash.isobject
-npm http GET https://registry.npmjs.org/lodash.now
-npm http GET https://registry.npmjs.org/deep-extend
-npm http GET https://registry.npmjs.org/intersect
-npm http 304 https://registry.npmjs.org/lodash.now
-npm http 304 https://registry.npmjs.org/lodash.isobject
-npm http GET https://registry.npmjs.org/mkpath
-npm http GET https://registry.npmjs.org/binary
-npm http GET https://registry.npmjs.org/touch/0.0.2
-npm http 304 https://registry.npmjs.org/lodash.isfunction
-npm http 304 https://registry.npmjs.org/touch/0.0.2
-npm http 304 https://registry.npmjs.org/intersect
-npm http 304 https://registry.npmjs.org/deep-extend
-npm http 304 https://registry.npmjs.org/mkpath
-npm http 304 https://registry.npmjs.org/binary
-npm http GET https://registry.npmjs.org/accepts
-npm http GET https://registry.npmjs.org/batch/0.5.1
-npm http GET https://registry.npmjs.org/is-absolute
-npm http 304 https://registry.npmjs.org/accepts
-npm http 304 https://registry.npmjs.org/batch/0.5.1
-npm http 304 https://registry.npmjs.org/is-absolute
-npm http GET https://registry.npmjs.org/end-of-stream
-npm http GET https://registry.npmjs.org/is-relative
-npm http 304 https://registry.npmjs.org/end-of-stream
-npm http 304 https://registry.npmjs.org/is-relative
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/got
-npm http GET https://registry.npmjs.org/registry-url
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/got
-npm http 304 https://registry.npmjs.org/registry-url
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/assert-plus
-npm http GET https://registry.npmjs.org/asn1/0.1.11
-npm http GET https://registry.npmjs.org/ctype/0.5.3
-npm http GET https://registry.npmjs.org/mute-stream
-npm http 304 https://registry.npmjs.org/ctype/0.5.3
-npm http 304 https://registry.npmjs.org/asn1/0.1.11
-npm http 304 https://registry.npmjs.org/assert-plus
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/get-stdin
-npm http GET https://registry.npmjs.org/is-natural-number
-npm http GET https://registry.npmjs.org/sum-up
-npm http 304 https://registry.npmjs.org/mute-stream
-npm http GET https://registry.npmjs.org/lodash._isnative
-npm http GET https://registry.npmjs.org/lodash._objecttypes
-npm http 304 https://registry.npmjs.org/sum-up
-npm http 304 https://registry.npmjs.org/get-stdin
-npm http GET https://registry.npmjs.org/cli-color
-npm http GET https://registry.npmjs.org/figures
-npm http GET https://registry.npmjs.org/lodash
-npm http GET https://registry.npmjs.org/mute-stream/0.0.4
-npm http GET https://registry.npmjs.org/readline2
-npm http GET https://registry.npmjs.org/rx
-npm http GET https://registry.npmjs.org/through
-npm http 304 https://registry.npmjs.org/lodash._isnative
-npm http 304 https://registry.npmjs.org/is-natural-number
-npm http 304 https://registry.npmjs.org/lodash
-npm http 304 https://registry.npmjs.org/lodash._objecttypes
-npm http 304 https://registry.npmjs.org/mute-stream/0.0.4
-npm http GET https://registry.npmjs.org/commander
-npm http 304 https://registry.npmjs.org/rx
-npm http 304 https://registry.npmjs.org/through
-npm http 304 https://registry.npmjs.org/figures
-npm http 304 https://registry.npmjs.org/cli-color
-npm http 304 https://registry.npmjs.org/commander
-npm http 304 https://registry.npmjs.org/readline2
-npm http GET https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/xtend
-npm http GET https://registry.npmjs.org/nopt
-npm http GET https://registry.npmjs.org/fd-slicer
-npm http GET https://registry.npmjs.org/pend
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/pend
-npm http 304 https://registry.npmjs.org/fd-slicer
-npm http GET https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/nopt
-npm http GET https://registry.npmjs.org/negotiator/0.4.9
-npm http 304 https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/isarray/0.0.1
-npm http 304 https://registry.npmjs.org/core-util-is
-npm http 304 https://registry.npmjs.org/negotiator/0.4.9
-npm http GET https://registry.npmjs.org/npmconf
-npm http 304 https://registry.npmjs.org/npmconf
-npm http GET https://registry.npmjs.org/punycode
-npm http 304 https://registry.npmjs.org/punycode
-npm http GET https://registry.npmjs.org/async
-npm http GET https://registry.npmjs.org/graceful-fs
-npm http GET https://registry.npmjs.org/lru-cache
-npm http GET https://registry.npmjs.org/request
-npm http GET https://registry.npmjs.org/request-replay
-npm http GET https://registry.npmjs.org/mkdirp
-npm http GET https://registry.npmjs.org/once
-npm http GET https://registry.npmjs.org/brace-expansion
-npm http 304 https://registry.npmjs.org/async
-npm http 304 https://registry.npmjs.org/graceful-fs
-npm http 304 https://registry.npmjs.org/lru-cache
-npm http 304 https://registry.npmjs.org/mkdirp
-npm http 304 https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/request
-npm http 304 https://registry.npmjs.org/brace-expansion
-npm http 304 https://registry.npmjs.org/request-replay
-npm http GET https://registry.npmjs.org/redeyed
-npm http 304 https://registry.npmjs.org/redeyed
-npm http GET https://registry.npmjs.org/wrappy
-npm http 304 https://registry.npmjs.org/wrappy
-npm http GET https://registry.npmjs.org/hoek
-npm http GET https://registry.npmjs.org/boom
-npm http GET https://registry.npmjs.org/cryptiles
-npm http GET https://registry.npmjs.org/sntp
-npm http 304 https://registry.npmjs.org/hoek
-npm http 304 https://registry.npmjs.org/sntp
-npm http 304 https://registry.npmjs.org/cryptiles
-npm http 304 https://registry.npmjs.org/boom
-npm http GET https://registry.npmjs.org/wordwrap
-npm http GET https://registry.npmjs.org/caseless
-npm http GET https://registry.npmjs.org/forever-agent
-npm http GET https://registry.npmjs.org/form-data
-npm http GET https://registry.npmjs.org/json-stringify-safe
-npm http GET https://registry.npmjs.org/mime-types
-npm http GET https://registry.npmjs.org/node-uuid
-npm http GET https://registry.npmjs.org/qs
-npm http GET https://registry.npmjs.org/tunnel-agent
-npm http GET https://registry.npmjs.org/tough-cookie
-npm http GET https://registry.npmjs.org/http-signature
-npm http GET https://registry.npmjs.org/oauth-sign
-npm http GET https://registry.npmjs.org/hawk
-npm http GET https://registry.npmjs.org/aws-sign2
-npm http GET https://registry.npmjs.org/stringstream
-npm http GET https://registry.npmjs.org/combined-stream
-npm http GET https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/wordwrap
-npm http 304 https://registry.npmjs.org/mime-types
-npm http 304 https://registry.npmjs.org/node-uuid
-npm http 304 https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/tunnel-agent
-npm http 304 https://registry.npmjs.org/caseless
-npm http GET https://registry.npmjs.org/caseless
-npm http GET https://registry.npmjs.org/qs
-npm http GET https://registry.npmjs.org/mime-types
-npm http 304 https://registry.npmjs.org/tough-cookie
-npm http 304 https://registry.npmjs.org/json-stringify-safe
-npm http 304 https://registry.npmjs.org/http-signature
-npm http GET https://registry.npmjs.org/form-data
-npm http GET https://registry.npmjs.org/oauth-sign
-npm http GET https://registry.npmjs.org/hawk/1.1.1
-npm http 304 https://registry.npmjs.org/form-data
-npm http 304 https://registry.npmjs.org/forever-agent
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http 304 https://registry.npmjs.org/hawk
-npm http 304 https://registry.npmjs.org/aws-sign2
-npm http 304 https://registry.npmjs.org/stringstream
-npm http 304 https://registry.npmjs.org/combined-stream
-npm http GET https://registry.npmjs.org/sprintf-js
-npm http 304 https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/caseless
-npm http 304 https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/form-data
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http 304 https://registry.npmjs.org/hawk/1.1.1
-npm http 304 https://registry.npmjs.org/sprintf-js
-npm http 200 https://registry.npmjs.org/mime-types
-npm http GET https://registry.npmjs.org/d
-npm http GET https://registry.npmjs.org/es5-ext
-npm http GET https://registry.npmjs.org/memoizee
-npm http GET https://registry.npmjs.org/timers-ext
-npm http GET https://registry.npmjs.org/delayed-stream/0.0.5
-npm http GET https://registry.npmjs.org/mime-db
-npm http 304 https://registry.npmjs.org/d
-npm http 304 https://registry.npmjs.org/es5-ext
-npm http 304 https://registry.npmjs.org/memoizee
-npm http 304 https://registry.npmjs.org/mime-db
-npm http 304 https://registry.npmjs.org/timers-ext
-npm http 304 https://registry.npmjs.org/delayed-stream/0.0.5
-npm http GET https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/inherits
-npm http GET https://registry.npmjs.org/chainsaw
-npm http GET https://registry.npmjs.org/buffers
-npm http GET https://registry.npmjs.org/mime
-npm http 304 https://registry.npmjs.org/buffers
-npm http 304 https://registry.npmjs.org/chainsaw
-npm http 304 https://registry.npmjs.org/mime
-npm http GET https://registry.npmjs.org/is-relative
-npm http 304 https://registry.npmjs.org/is-relative
-npm http GET https://registry.npmjs.org/balanced-match
-npm http GET https://registry.npmjs.org/concat-map/0.0.1
-npm http 304 https://registry.npmjs.org/balanced-match
-npm http 304 https://registry.npmjs.org/concat-map/0.0.1
-npm http GET https://registry.npmjs.org/assert-plus
-npm http GET https://registry.npmjs.org/asn1/0.1.11
-npm http GET https://registry.npmjs.org/ctype/0.5.3
-npm http 304 https://registry.npmjs.org/assert-plus
-npm http 304 https://registry.npmjs.org/asn1/0.1.11
-npm http 304 https://registry.npmjs.org/ctype/0.5.3
-npm http GET https://registry.npmjs.org/ini
-npm http GET https://registry.npmjs.org/config-chain
-npm http GET https://registry.npmjs.org/uid-number/0.0.5
-npm http 304 https://registry.npmjs.org/ini
-npm http 304 https://registry.npmjs.org/config-chain
-npm http 304 https://registry.npmjs.org/uid-number/0.0.5
-npm http GET https://registry.npmjs.org/esprima
-npm http 304 https://registry.npmjs.org/esprima
-npm http GET https://registry.npmjs.org/traverse
-npm http GET https://registry.npmjs.org/next-tick
-npm http 304 https://registry.npmjs.org/traverse
-npm http 304 https://registry.npmjs.org/next-tick
-npm http GET https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/core-util-is
-npm http 304 https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/end-of-stream
-npm http GET https://registry.npmjs.org/xtend
-npm http GET https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/end-of-stream
-npm http 304 https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/brace-expansion
-npm http 304 https://registry.npmjs.org/brace-expansion
-npm http GET https://registry.npmjs.org/proto-list
-npm http 304 https://registry.npmjs.org/proto-list
-npm http GET https://registry.npmjs.org/commander
-npm http 304 https://registry.npmjs.org/commander
-npm http GET https://registry.npmjs.org/async
-npm http 304 https://registry.npmjs.org/async
-npm http GET https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/once
-npm http GET https://registry.npmjs.org/punycode
-npm http 304 https://registry.npmjs.org/punycode
-npm http GET https://registry.npmjs.org/argparse
-npm http 304 https://registry.npmjs.org/argparse
-npm http GET https://registry.npmjs.org/wrappy
-npm http 304 https://registry.npmjs.org/wrappy
-npm http GET https://registry.npmjs.org/fd-slicer
-npm http GET https://registry.npmjs.org/pend
-npm http GET https://registry.npmjs.org/mkdirp
-npm http 304 https://registry.npmjs.org/pend
-npm http 304 https://registry.npmjs.org/fd-slicer
-npm http 304 https://registry.npmjs.org/mkdirp
-npm http GET https://registry.npmjs.org/child-daemon
-npm http 304 https://registry.npmjs.org/child-daemon
-npm http GET https://registry.npmjs.org/inherits
-npm http GET https://registry.npmjs.org/hoek
-npm http GET https://registry.npmjs.org/boom
-npm http GET https://registry.npmjs.org/cryptiles
-npm http GET https://registry.npmjs.org/sntp
-npm http GET https://registry.npmjs.org/inherits
-npm http GET https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/cryptiles
-npm http 304 https://registry.npmjs.org/sntp
-npm http 304 https://registry.npmjs.org/boom
-npm http 304 https://registry.npmjs.org/hoek
-npm http GET https://registry.npmjs.org/es6-weak-map
-npm http GET https://registry.npmjs.org/event-emitter
-npm http GET https://registry.npmjs.org/lru-queue
-npm http 304 https://registry.npmjs.org/lru-queue
-npm http 304 https://registry.npmjs.org/event-emitter
-npm http 304 https://registry.npmjs.org/es6-weak-map
-npm http GET https://registry.npmjs.org/cli
-npm http GET https://registry.npmjs.org/exit
-npm http GET https://registry.npmjs.org/console-browserify
-npm http GET https://registry.npmjs.org/htmlparser2
-npm http GET https://registry.npmjs.org/shelljs
-npm http GET https://registry.npmjs.org/strip-json-comments
-npm http GET https://registry.npmjs.org/underscore
-npm http 304 https://registry.npmjs.org/htmlparser2
-npm http 304 https://registry.npmjs.org/cli
-npm http 304 https://registry.npmjs.org/shelljs
-npm http 304 https://registry.npmjs.org/console-browserify
-npm http 304 https://registry.npmjs.org/strip-json-comments
-npm http 304 https://registry.npmjs.org/underscore
-npm http GET https://registry.npmjs.org/caseless
-npm http GET https://registry.npmjs.org/forever-agent
-npm http GET https://registry.npmjs.org/form-data
-npm http GET https://registry.npmjs.org/json-stringify-safe
-npm http GET https://registry.npmjs.org/mime-types
-npm http GET https://registry.npmjs.org/node-uuid
-npm http GET https://registry.npmjs.org/qs
-npm http GET https://registry.npmjs.org/tunnel-agent
-npm http GET https://registry.npmjs.org/tough-cookie
-npm http GET https://registry.npmjs.org/http-signature
-npm http GET https://registry.npmjs.org/oauth-sign
-npm http GET https://registry.npmjs.org/hawk
-npm http GET https://registry.npmjs.org/aws-sign2
-npm http GET https://registry.npmjs.org/stringstream
-npm http GET https://registry.npmjs.org/combined-stream
-npm http GET https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/exit
-npm http 304 https://registry.npmjs.org/forever-agent
-npm http 304 https://registry.npmjs.org/caseless
-npm http 304 https://registry.npmjs.org/node-uuid
-npm http 304 https://registry.npmjs.org/form-data
-npm http 304 https://registry.npmjs.org/json-stringify-safe
-npm http 304 https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/tunnel-agent
-npm http 304 https://registry.npmjs.org/mime-types
-npm http 304 https://registry.npmjs.org/tough-cookie
-npm http 304 https://registry.npmjs.org/http-signature
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http 304 https://registry.npmjs.org/hawk
-npm http 304 https://registry.npmjs.org/stringstream
-npm http 304 https://registry.npmjs.org/combined-stream
-npm http 304 https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/aws-sign2
-npm http GET https://registry.npmjs.org/pty.js
-npm http 304 https://registry.npmjs.org/pty.js
-npm http GET https://registry.npmjs.org/balanced-match
-npm http GET https://registry.npmjs.org/concat-map/0.0.1
-npm http 304 https://registry.npmjs.org/concat-map/0.0.1
-npm http 304 https://registry.npmjs.org/balanced-match
-npm http GET https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/string_decoder
-npm http GET https://registry.npmjs.org/delayed-stream/0.0.5
-npm http GET https://registry.npmjs.org/mime-db
-npm http 304 https://registry.npmjs.org/isarray/0.0.1
-npm http 304 https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/core-util-is
-npm http 304 https://registry.npmjs.org/delayed-stream/0.0.5
-npm http 304 https://registry.npmjs.org/mime-db
-npm http GET https://registry.npmjs.org/date-now
-npm http GET https://registry.npmjs.org/sigmund
-npm http 304 https://registry.npmjs.org/date-now
-npm http 304 https://registry.npmjs.org/sigmund
-npm http GET https://registry.npmjs.org/sprintf-js
-npm http 304 https://registry.npmjs.org/sprintf-js
-npm http GET https://registry.npmjs.org/es6-iterator
-npm http GET https://registry.npmjs.org/es6-symbol
-npm http 304 https://registry.npmjs.org/es6-iterator
-npm http 304 https://registry.npmjs.org/es6-symbol
-npm http GET https://registry.npmjs.org/assert-plus
-npm http GET https://registry.npmjs.org/asn1/0.1.11
-npm http GET https://registry.npmjs.org/ctype/0.5.3
-npm http 304 https://registry.npmjs.org/ctype/0.5.3
-npm http 304 https://registry.npmjs.org/asn1/0.1.11
-npm http 304 https://registry.npmjs.org/assert-plus
-npm http GET https://registry.npmjs.org/glob
-npm http GET https://registry.npmjs.org/extend
-npm http GET https://registry.npmjs.org/nan/1.7.0
-npm http 304 https://registry.npmjs.org/glob
-npm http 304 https://registry.npmjs.org/extend
-npm http 304 https://registry.npmjs.org/nan/1.7.0
+npm WARN engine imagemin@3.1.0: wanted: {"node":">=0.10.0","npm":">=2.1.5"} (current: {"node":"0.10.36","npm":"1.4.28"})
+npm WARN excluding symbolic link build/defs-config.json -> ../defs-config.json
 
-> phantomjs@1.9.16 install /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
-> node install.js
-
-Download already available at /home/ubuntu/tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2
-Extracting tar contents (via spawned process)
-npm http GET https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/end-of-stream
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/end-of-stream
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/lru-cache
-npm http 304 https://registry.npmjs.org/lru-cache
-Removing /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
-Copying extracted folder /home/ubuntu/tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1427230600430/phantomjs-1.9.8-linux-x86_64 -> /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
-npm http GET https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/once
-npm http GET https://registry.npmjs.org/argparse
-npm http GET https://registry.npmjs.org/esprima
-Writing location.js file
-Done. Phantomjs binary available at /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/bin/phantomjs
-npm http 304 https://registry.npmjs.org/esprima
-npm http 304 https://registry.npmjs.org/argparse
-npm http GET https://registry.npmjs.org/fd-slicer
-npm http GET https://registry.npmjs.org/pend
-npm http 304 https://registry.npmjs.org/pend
-npm http 304 https://registry.npmjs.org/fd-slicer
-npm http GET https://registry.npmjs.org/wrappy
-npm http 304 https://registry.npmjs.org/wrappy
-npm http GET https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/inherits
-npm http GET https://registry.npmjs.org/optimist
-npm http GET https://registry.npmjs.org/adm-zip/0.4.4
-npm http GET https://registry.npmjs.org/lodash
-npm http GET https://registry.npmjs.org/q/1.0.0
-npm http GET https://registry.npmjs.org/source-map-support
-npm http GET https://registry.npmjs.org/html-entities
-npm http GET https://registry.npmjs.org/accessibility-developer-tools
-npm http GET https://registry.npmjs.org/request
-npm http GET https://registry.npmjs.org/selenium-webdriver/2.44.0
-npm http GET https://registry.npmjs.org/minijasminenode/1.1.1
-npm http GET https://registry.npmjs.org/jasminewd/1.1.0
-npm http GET https://registry.npmjs.org/jasminewd2/0.0.2
-npm http GET https://registry.npmjs.org/jasmine/2.1.1
-npm http GET https://registry.npmjs.org/saucelabs
-
-> pty.js@0.2.6 install /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-browserstack-tunnel/node_modules/browserstacktunnel-wrapper/node_modules/child-daemon/node_modules/pty.js
+> fsevents@0.3.5 install /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma/node_modules/chokidar/node_modules/fsevents
 > node-gyp rebuild
 
-npm http 304 https://registry.npmjs.org/source-map-support
-npm http 304 https://registry.npmjs.org/optimist
-npm http 304 https://registry.npmjs.org/q/1.0.0
-npm http 304 https://registry.npmjs.org/html-entities
-npm http 304 https://registry.npmjs.org/lodash
-npm http 304 https://registry.npmjs.org/accessibility-developer-tools
-npm http 304 https://registry.npmjs.org/adm-zip/0.4.4
-npm http 304 https://registry.npmjs.org/request
-npm http 304 https://registry.npmjs.org/minijasminenode/1.1.1
-npm http 304 https://registry.npmjs.org/selenium-webdriver/2.44.0
-npm http 304 https://registry.npmjs.org/jasminewd/1.1.0
-npm http 304 https://registry.npmjs.org/jasminewd2/0.0.2
-npm http 304 https://registry.npmjs.org/saucelabs
-npm http GET https://registry.npmjs.org/hoek
-npm http GET https://registry.npmjs.org/boom
-npm http GET https://registry.npmjs.org/cryptiles
-npm http GET https://registry.npmjs.org/sntp
-npm http 304 https://registry.npmjs.org/jasmine/2.1.1
-make: Entering directory `/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-browserstack-tunnel/node_modules/browserstacktunnel-wrapper/node_modules/child-daemon/node_modules/pty.js/build'
-  CXX(target) Release/obj.target/pty/src/unix/pty.o
-npm http 304 https://registry.npmjs.org/boom
-npm http 304 https://registry.npmjs.org/cryptiles
-npm http 304 https://registry.npmjs.org/hoek
-npm http 304 https://registry.npmjs.org/sntp
-npm http GET https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/minimatch
-../src/unix/pty.cc: In function ‘v8::Handle<v8::Value> PtyFork(const v8::Arguments&)’:
-../src/unix/pty.cc:185:34: warning: ignoring return value of ‘int chdir(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
-       if (strlen(cwd)) chdir(cwd);
-                                  ^
-  SOLINK_MODULE(target) Release/obj.target/pty.node
-  SOLINK_MODULE(target) Release/obj.target/pty.node: Finished
-  COPY Release/pty.node
-make: Leaving directory `/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-browserstack-tunnel/node_modules/browserstacktunnel-wrapper/node_modules/child-daemon/node_modules/pty.js/build'
-npm http GET https://registry.npmjs.org/es6-weak-map
-npm http GET https://registry.npmjs.org/event-emitter
-npm http GET https://registry.npmjs.org/lru-queue
-npm http GET https://registry.npmjs.org/next-tick
-npm http 304 https://registry.npmjs.org/lru-queue
-npm http 304 https://registry.npmjs.org/es6-weak-map
-npm http 304 https://registry.npmjs.org/next-tick
-npm http 304 https://registry.npmjs.org/event-emitter
-npm http GET https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/string_decoder
-npm http GET https://registry.npmjs.org/domelementtype
-npm http GET https://registry.npmjs.org/entities
-npm http 304 https://registry.npmjs.org/core-util-is
-npm http 304 https://registry.npmjs.org/string_decoder
-npm http GET https://registry.npmjs.org/domhandler
-npm http GET https://registry.npmjs.org/domutils
-npm http 304 https://registry.npmjs.org/isarray/0.0.1
-npm http 304 https://registry.npmjs.org/domelementtype
-npm http 304 https://registry.npmjs.org/entities
-npm http 304 https://registry.npmjs.org/domutils
-npm http 304 https://registry.npmjs.org/domhandler
-npm http GET https://registry.npmjs.org/punycode
-npm http 304 https://registry.npmjs.org/punycode
-npm http GET https://registry.npmjs.org/sigmund
-npm http 304 https://registry.npmjs.org/sigmund
-npm http GET https://registry.npmjs.org/es6-iterator
-npm http GET https://registry.npmjs.org/es6-symbol
-npm http 304 https://registry.npmjs.org/es6-symbol
-npm http 304 https://registry.npmjs.org/es6-iterator
-npm http GET https://registry.npmjs.org/jasmine-core
-npm http GET https://registry.npmjs.org/hawk
-npm http GET https://registry.npmjs.org/tunnel-agent
-npm http GET https://registry.npmjs.org/aws-sign2
-npm http GET https://registry.npmjs.org/http-signature
-npm http GET https://registry.npmjs.org/oauth-sign
-npm http GET https://registry.npmjs.org/qs
-npm http GET https://registry.npmjs.org/json-stringify-safe
-npm http GET https://registry.npmjs.org/mime
-npm http GET https://registry.npmjs.org/forever-agent
-npm http GET https://registry.npmjs.org/node-uuid
-npm http GET https://registry.npmjs.org/tough-cookie
-npm http GET https://registry.npmjs.org/form-data
-npm http 304 https://registry.npmjs.org/jasmine-core
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http 304 https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/hawk
-npm http 304 https://registry.npmjs.org/http-signature
-npm http 304 https://registry.npmjs.org/aws-sign2
-npm http 304 https://registry.npmjs.org/json-stringify-safe
-npm http 304 https://registry.npmjs.org/tunnel-agent
-npm http 304 https://registry.npmjs.org/mime
-npm http 304 https://registry.npmjs.org/forever-agent
-npm http 304 https://registry.npmjs.org/node-uuid
-npm http 304 https://registry.npmjs.org/tough-cookie
-npm http 304 https://registry.npmjs.org/form-data
-npm http GET https://registry.npmjs.org/wordwrap
-npm http GET https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/wordwrap
-npm http GET https://registry.npmjs.org/sprintf-js
-npm http GET https://registry.npmjs.org/dom-serializer
-npm http 304 https://registry.npmjs.org/sprintf-js
-npm http 304 https://registry.npmjs.org/dom-serializer
-npm http GET https://registry.npmjs.org/combined-stream
-npm http GET https://registry.npmjs.org/async
-npm http 304 https://registry.npmjs.org/combined-stream
-npm http 304 https://registry.npmjs.org/async
-npm http GET https://registry.npmjs.org/source-map/0.1.32
-npm http 304 https://registry.npmjs.org/source-map/0.1.32
-npm http GET https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/end-of-stream
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/end-of-stream
-npm http 304 https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/assert-plus
-npm http GET https://registry.npmjs.org/asn1/0.1.11
-npm http GET https://registry.npmjs.org/ctype/0.5.3
-npm http 304 https://registry.npmjs.org/assert-plus
-npm http 304 https://registry.npmjs.org/asn1/0.1.11
-npm http 304 https://registry.npmjs.org/ctype/0.5.3
-npm http GET https://registry.npmjs.org/delayed-stream/0.0.5
-npm http 304 https://registry.npmjs.org/delayed-stream/0.0.5
-npm http GET https://registry.npmjs.org/lru-cache
-npm http 304 https://registry.npmjs.org/lru-cache
-npm http GET https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/once
-npm http GET https://registry.npmjs.org/fd-slicer
-npm http GET https://registry.npmjs.org/pend
-npm http 304 https://registry.npmjs.org/fd-slicer
-npm http 304 https://registry.npmjs.org/pend
-npm http GET https://registry.npmjs.org/wrappy
-npm http 304 https://registry.npmjs.org/wrappy
-npm http GET https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/inherits
-npm http GET https://registry.npmjs.org/hoek
-npm http GET https://registry.npmjs.org/boom
-npm http GET https://registry.npmjs.org/cryptiles
-npm http GET https://registry.npmjs.org/sntp
-npm http 304 https://registry.npmjs.org/boom
-npm http 304 https://registry.npmjs.org/sntp
-npm http 304 https://registry.npmjs.org/hoek
-npm http 304 https://registry.npmjs.org/cryptiles
-npm http GET https://registry.npmjs.org/amdefine
-npm http 304 https://registry.npmjs.org/amdefine
-npm http GET https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/core-util-is
-npm http 304 https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/active-x-obfuscator/0.0.1
-npm http GET https://registry.npmjs.org/xmlhttprequest/1.4.2
-npm http GET https://registry.npmjs.org/uglify-js/1.2.5
-npm http GET https://registry.npmjs.org/ws
-npm http 304 https://registry.npmjs.org/ws
-npm http 304 https://registry.npmjs.org/xmlhttprequest/1.4.2
-npm http 304 https://registry.npmjs.org/uglify-js/1.2.5
-npm http 304 https://registry.npmjs.org/active-x-obfuscator/0.0.1
-npm http GET https://registry.npmjs.org/punycode
-npm http 304 https://registry.npmjs.org/punycode
-npm http GET https://registry.npmjs.org/zeparser/0.0.5
-npm http 304 https://registry.npmjs.org/zeparser/0.0.5
-npm http GET https://registry.npmjs.org/nan
-npm http GET https://registry.npmjs.org/tinycolor
-npm http GET https://registry.npmjs.org/commander
-npm http GET https://registry.npmjs.org/options
-npm http 304 https://registry.npmjs.org/nan
-npm http 304 https://registry.npmjs.org/commander
-npm http 304 https://registry.npmjs.org/tinycolor
-npm http 304 https://registry.npmjs.org/options
-npm http GET https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/end-of-stream
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/end-of-stream
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/xtend
-npm http GET https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/once
+  SOLINK_MODULE(target) Release/.node
+  SOLINK_MODULE(target) Release/.node: Finished
+  CXX(target) Release/obj.target/fse/fsevents.o
+  SOLINK_MODULE(target) Release/fse.node
+  SOLINK_MODULE(target) Release/fse.node: Finished
 
-> ws@0.4.32 install /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws
+> phantomjs@1.9.16 install /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+> node install.js
+
+Download already available at /var/folders/kl/3vfcwnnj3g11ms8w9d7m77tr0000gn/T/phantomjs/phantomjs-1.9.8-macosx.zip
+Extracting zip contents
+Removing /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
+Copying extracted folder /var/folders/kl/3vfcwnnj3g11ms8w9d7m77tr0000gn/T/phantomjs/phantomjs-1.9.8-macosx.zip-extract-1427231657124/phantomjs-1.9.8-macosx -> /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
+Writing location.js file
+Done. Phantomjs binary available at /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/bin/phantomjs
+
+> pty.js@0.2.6 install /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-browserstack-tunnel/node_modules/browserstacktunnel-wrapper/node_modules/child-daemon/node_modules/pty.js
+> node-gyp rebuild
+
+  CXX(target) Release/obj.target/pty/src/unix/pty.o
+  SOLINK_MODULE(target) Release/pty.node
+  SOLINK_MODULE(target) Release/pty.node: Finished
+
+> ws@0.4.32 install /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws
 > (node-gyp rebuild 2> builderror.log) || (exit 0)
 
-npm http GET https://registry.npmjs.org/wrappy
-npm http 304 https://registry.npmjs.org/wrappy
-make: Entering directory `/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build'
   CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
-  SOLINK_MODULE(target) Release/obj.target/bufferutil.node
-  SOLINK_MODULE(target) Release/obj.target/bufferutil.node: Finished
-  COPY Release/bufferutil.node
+  SOLINK_MODULE(target) Release/bufferutil.node
+  SOLINK_MODULE(target) Release/bufferutil.node: Finished
   CXX(target) Release/obj.target/validation/src/validation.o
-npm http GET https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/inherits
-  SOLINK_MODULE(target) Release/obj.target/validation.node
-  SOLINK_MODULE(target) Release/obj.target/validation.node: Finished
-  COPY Release/validation.node
-make: Leaving directory `/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build'
-npm http GET https://registry.npmjs.org/optimist
-npm http GET https://registry.npmjs.org/uglify-js
-npm http 304 https://registry.npmjs.org/optimist
-npm http 304 https://registry.npmjs.org/uglify-js
-npm http GET https://registry.npmjs.org/cryptiles
-npm http GET https://registry.npmjs.org/sntp
-npm http GET https://registry.npmjs.org/hoek
-npm http GET https://registry.npmjs.org/boom
-npm http 304 https://registry.npmjs.org/cryptiles
-npm http 304 https://registry.npmjs.org/hoek
-npm http 304 https://registry.npmjs.org/sntp
-npm http 304 https://registry.npmjs.org/boom
-npm http GET https://registry.npmjs.org/wordwrap
-npm http 304 https://registry.npmjs.org/wordwrap
-npm http GET https://registry.npmjs.org/string_decoder
-npm http GET https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/isarray/0.0.1
-npm http 304 https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/isarray/0.0.1
-npm http 304 https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/stream-counter
-npm http 304 https://registry.npmjs.org/stream-counter
-npm http GET https://registry.npmjs.org/async
-npm http GET https://registry.npmjs.org/source-map
-npm http 304 https://registry.npmjs.org/async
-npm http 304 https://registry.npmjs.org/source-map
-npm http GET https://registry.npmjs.org/es6-iterator
-npm http GET https://registry.npmjs.org/es6-symbol
-npm http 304 https://registry.npmjs.org/es6-symbol
-npm http 304 https://registry.npmjs.org/es6-iterator
-npm http GET https://registry.npmjs.org/semver
-npm http GET https://registry.npmjs.org/amdefine
-npm http 304 https://registry.npmjs.org/semver
-npm http 304 https://registry.npmjs.org/amdefine
+  SOLINK_MODULE(target) Release/validation.node
+  SOLINK_MODULE(target) Release/validation.node: Finished
 
-> gifsicle@2.0.1 postinstall /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle
-> node lib/install.js
-
-npm http GET https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/inherits
-
-> pngquant-bin@2.0.3 postinstall /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin
-> node lib/install.js
-
-
-> optipng-bin@2.0.4 postinstall /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin
-> node lib/install.js
-
-
-> jpegtran-bin@2.0.2 postinstall /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin
+> gifsicle@2.0.1 postinstall /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle
 > node lib/install.js
 
   ✔ gifsicle pre-build test passed successfully
 
-  ✔ pngquant pre-build test passed successfully
-  ✔ optipng pre-build test passed successfully
-  ✔ jpegtran pre-build test passed successfully
-npm http GET https://registry.npmjs.org/tmp/0.0.24
-npm http GET https://registry.npmjs.org/xml2js/0.4.4
-npm http 304 https://registry.npmjs.org/tmp/0.0.24
-npm http 304 https://registry.npmjs.org/xml2js/0.4.4
-npm http GET https://registry.npmjs.org/sax
-npm http GET https://registry.npmjs.org/xmlbuilder
-npm http 304 https://registry.npmjs.org/sax
-npm http 304 https://registry.npmjs.org/xmlbuilder
-npm http GET https://registry.npmjs.org/lodash
-npm http 304 https://registry.npmjs.org/lodash
-npm http GET https://registry.npmjs.org/gaze
-npm http GET https://registry.npmjs.org/get-stdin
-npm http GET https://registry.npmjs.org/meow
-npm http GET https://registry.npmjs.org/mkdirp
-npm http GET https://registry.npmjs.org/nan
-npm http GET https://registry.npmjs.org/npmconf
-npm http GET https://registry.npmjs.org/request
-npm http GET https://registry.npmjs.org/chalk
-npm http GET https://registry.npmjs.org/cross-spawn
-npm http GET https://registry.npmjs.org/semver
-npm http GET https://registry.npmjs.org/shelljs
-npm http GET https://registry.npmjs.org/mocha
-npm http GET https://registry.npmjs.org/replace-ext/0.0.1
-npm http GET https://registry.npmjs.org/sass-graph
-npm http 304 https://registry.npmjs.org/gaze
-npm http 304 https://registry.npmjs.org/get-stdin
-npm http 304 https://registry.npmjs.org/nan
-npm http 304 https://registry.npmjs.org/meow
-npm http 304 https://registry.npmjs.org/mkdirp
-npm http 304 https://registry.npmjs.org/npmconf
-npm http 304 https://registry.npmjs.org/request
-npm http 304 https://registry.npmjs.org/chalk
-npm http 304 https://registry.npmjs.org/cross-spawn
-npm http 304 https://registry.npmjs.org/semver
-npm http 304 https://registry.npmjs.org/shelljs
-npm http 304 https://registry.npmjs.org/mocha
-npm http 304 https://registry.npmjs.org/replace-ext/0.0.1
-npm http 304 https://registry.npmjs.org/sass-graph
-npm http GET https://registry.npmjs.org/camelcase-keys
-npm http GET https://registry.npmjs.org/indent-string
-npm http GET https://registry.npmjs.org/minimist
-npm http GET https://registry.npmjs.org/escape-string-regexp
-npm http GET https://registry.npmjs.org/ansi-styles
-npm http GET https://registry.npmjs.org/has-ansi
-npm http GET https://registry.npmjs.org/strip-ansi
-npm http GET https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/indent-string
-npm http 304 https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/camelcase-keys
-npm http 304 https://registry.npmjs.org/has-ansi
-npm http 304 https://registry.npmjs.org/strip-ansi
-npm http 304 https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/escape-string-regexp
-npm http 304 https://registry.npmjs.org/ansi-styles
-npm http GET https://registry.npmjs.org/lru-cache
-npm http GET https://registry.npmjs.org/globule
-npm http 304 https://registry.npmjs.org/lru-cache
-npm http 304 https://registry.npmjs.org/globule
-npm http GET https://registry.npmjs.org/camelcase
-npm http GET https://registry.npmjs.org/map-obj
-npm http GET https://registry.npmjs.org/repeating
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/camelcase
-npm http 304 https://registry.npmjs.org/map-obj
-npm http 304 https://registry.npmjs.org/repeating
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http 304 https://registry.npmjs.org/ansi-regex
-npm http GET https://registry.npmjs.org/minimist/0.0.8
-npm http GET https://registry.npmjs.org/commander
-npm http GET https://registry.npmjs.org/glob
-npm http 304 https://registry.npmjs.org/minimist/0.0.8
-npm http 304 https://registry.npmjs.org/commander
-npm http 304 https://registry.npmjs.org/glob
-npm http GET https://registry.npmjs.org/is-finite
-npm http GET https://registry.npmjs.org/once
-npm http GET https://registry.npmjs.org/uid-number/0.0.5
-npm http GET https://registry.npmjs.org/osenv
-npm http 304 https://registry.npmjs.org/is-finite
-npm http GET https://registry.npmjs.org/config-chain
-npm http GET https://registry.npmjs.org/ini
-npm http GET https://registry.npmjs.org/nopt
-npm http 304 https://registry.npmjs.org/once
-npm http 304 https://registry.npmjs.org/uid-number/0.0.5
-npm http 304 https://registry.npmjs.org/osenv
-npm http 304 https://registry.npmjs.org/config-chain
-npm http 304 https://registry.npmjs.org/ini
-npm http 304 https://registry.npmjs.org/nopt
-npm http GET https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/minimatch
-npm http GET https://registry.npmjs.org/graceful-readlink
-npm http 304 https://registry.npmjs.org/graceful-readlink
-npm http GET https://registry.npmjs.org/bl
-npm http GET https://registry.npmjs.org/caseless
-npm http GET https://registry.npmjs.org/json-stringify-safe
-npm http GET https://registry.npmjs.org/forever-agent
-npm http GET https://registry.npmjs.org/mime-types
-npm http GET https://registry.npmjs.org/form-data
-npm http GET https://registry.npmjs.org/node-uuid
-npm http GET https://registry.npmjs.org/qs
-npm http GET https://registry.npmjs.org/tunnel-agent
-npm http GET https://registry.npmjs.org/tough-cookie
-npm http GET https://registry.npmjs.org/http-signature
-npm http GET https://registry.npmjs.org/oauth-sign
-npm http GET https://registry.npmjs.org/hawk
-npm http GET https://registry.npmjs.org/aws-sign2
-npm http GET https://registry.npmjs.org/stringstream
-npm http GET https://registry.npmjs.org/combined-stream
-npm http GET https://registry.npmjs.org/isstream
-npm http GET https://registry.npmjs.org/wrappy
-npm http 304 https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/json-stringify-safe
-npm http 304 https://registry.npmjs.org/mime-types
-npm http 304 https://registry.npmjs.org/caseless
-npm http 304 https://registry.npmjs.org/forever-agent
-npm http 304 https://registry.npmjs.org/form-data
-npm http 304 https://registry.npmjs.org/node-uuid
-npm http 304 https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/tunnel-agent
-npm http 304 https://registry.npmjs.org/tough-cookie
-npm http 304 https://registry.npmjs.org/http-signature
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http 304 https://registry.npmjs.org/hawk
-npm http 304 https://registry.npmjs.org/aws-sign2
-npm http 304 https://registry.npmjs.org/stringstream
-npm http 304 https://registry.npmjs.org/combined-stream
-npm http 304 https://registry.npmjs.org/isstream
-npm http GET https://registry.npmjs.org/inflight
-npm http 304 https://registry.npmjs.org/wrappy
-npm http 304 https://registry.npmjs.org/inflight
-npm http GET https://registry.npmjs.org/abbrev
-npm http GET https://registry.npmjs.org/proto-list
-npm http 304 https://registry.npmjs.org/proto-list
-npm http GET https://registry.npmjs.org/delayed-stream/0.0.5
-npm http GET https://registry.npmjs.org/mime-db
-npm http 304 https://registry.npmjs.org/abbrev
-npm http GET https://registry.npmjs.org/async
-npm http 304 https://registry.npmjs.org/delayed-stream/0.0.5
-npm http 304 https://registry.npmjs.org/mime-db
-npm http 304 https://registry.npmjs.org/async
-npm http GET https://registry.npmjs.org/sigmund
-npm http GET https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/asn1/0.1.11
-npm http GET https://registry.npmjs.org/assert-plus
-npm http 304 https://registry.npmjs.org/sigmund
-npm http GET https://registry.npmjs.org/ctype/0.5.3
-npm http 304 https://registry.npmjs.org/readable-stream
-npm http GET https://registry.npmjs.org/brace-expansion
-npm http 304 https://registry.npmjs.org/assert-plus
-npm http 304 https://registry.npmjs.org/asn1/0.1.11
-npm http 304 https://registry.npmjs.org/ctype/0.5.3
-npm http 304 https://registry.npmjs.org/brace-expansion
-npm http GET https://registry.npmjs.org/inherits
-npm http GET https://registry.npmjs.org/graceful-fs
-npm http 304 https://registry.npmjs.org/graceful-fs
-npm http 304 https://registry.npmjs.org/inherits
-npm http GET https://registry.npmjs.org/core-util-is
-npm http GET https://registry.npmjs.org/isarray/0.0.1
-npm http GET https://registry.npmjs.org/string_decoder
-npm http GET https://registry.npmjs.org/balanced-match
-npm http GET https://registry.npmjs.org/concat-map/0.0.1
-npm http 304 https://registry.npmjs.org/core-util-is
-npm http 304 https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/balanced-match
-npm http 304 https://registry.npmjs.org/concat-map/0.0.1
-npm http GET https://registry.npmjs.org/diff/1.0.8
-npm http GET https://registry.npmjs.org/escape-string-regexp/1.0.2
-npm http GET https://registry.npmjs.org/glob/3.2.3
-npm http GET https://registry.npmjs.org/jade/0.26.3
-npm http GET https://registry.npmjs.org/growl/1.8.1
-npm http GET https://registry.npmjs.org/commander/2.3.0
-npm http GET https://registry.npmjs.org/debug/2.0.0
-npm http 304 https://registry.npmjs.org/glob/3.2.3
-npm http 304 https://registry.npmjs.org/jade/0.26.3
-npm http 304 https://registry.npmjs.org/diff/1.0.8
-npm http 304 https://registry.npmjs.org/isarray/0.0.1
-npm http 304 https://registry.npmjs.org/debug/2.0.0
-npm http GET https://registry.npmjs.org/punycode
-npm http 304 https://registry.npmjs.org/punycode
-npm http 304 https://registry.npmjs.org/growl/1.8.1
-npm http GET https://registry.npmjs.org/hoek
-npm http GET https://registry.npmjs.org/boom
-npm http GET https://registry.npmjs.org/sntp
-npm http GET https://registry.npmjs.org/cryptiles
-npm http 304 https://registry.npmjs.org/sntp
-npm http 304 https://registry.npmjs.org/hoek
-npm http 304 https://registry.npmjs.org/boom
-npm http 304 https://registry.npmjs.org/cryptiles
-npm http 304 https://registry.npmjs.org/escape-string-regexp/1.0.2
-npm http 304 https://registry.npmjs.org/commander/2.3.0
-npm http GET https://registry.npmjs.org/ms/0.6.2
-npm http 304 https://registry.npmjs.org/ms/0.6.2
-npm http GET https://registry.npmjs.org/commander/0.6.1
-npm http GET https://registry.npmjs.org/mkdirp/0.3.0
-npm http 304 https://registry.npmjs.org/commander/0.6.1
-npm http 304 https://registry.npmjs.org/mkdirp/0.3.0
 
-> node-sass@2.0.1 install /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-sass/node_modules/node-sass
+> optipng-bin@2.0.4 postinstall /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin
+> node lib/install.js
+
+  ✔ optipng pre-build test passed successfully
+
+> jpegtran-bin@2.0.2 postinstall /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin
+> node lib/install.js
+
+  ✔ jpegtran pre-build test passed successfully
+
+> pngquant-bin@2.0.3 postinstall /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin
+> node lib/install.js
+
+  ✔ pngquant pre-build test passed successfully
+
+> node-sass@2.0.1 install /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-sass/node_modules/node-sass
 > node scripts/install.js
 
 
-> node-sass@2.0.1 postinstall /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-sass/node_modules/node-sass
+> node-sass@2.0.1 postinstall /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-sass/node_modules/node-sass
 > node scripts/build.js
 
-`linux-x64-node-0.10` exists; testing
+`darwin-x64-node-0.10` exists; testing
 Binary is fine; exiting
 
-> web@0.0.0 install /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web
+> web@0.0.0 install /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web
 > node node_modules/protractor/bin/webdriver-manager update
 
 Updating selenium standalone
 downloading https://selenium-release.storage.googleapis.com/2.45/selenium-server-standalone-2.45.0.jar...
 Updating chromedriver
-downloading https://chromedriver.storage.googleapis.com/2.14/chromedriver_linux64.zip...
-chromedriver_2.14.zip downloaded to /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/selenium/chromedriver_2.14.zip
-selenium-server-standalone-2.45.0.jar downloaded to /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/selenium/selenium-server-standalone-2.45.0.jar
+downloading https://chromedriver.storage.googleapis.com/2.14/chromedriver_mac32.zip...
+chromedriver_2.14.zip downloaded to /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/selenium/chromedriver_2.14.zip
+selenium-server-standalone-2.45.0.jar downloaded to /Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/selenium/selenium-server-standalone-2.45.0.jar
 karma-firefox-launcher@0.1.4 node_modules/karma-firefox-launcher
 
 karma-chrome-launcher@0.1.7 node_modules/karma-chrome-launcher
@@ -2686,86 +99,104 @@ grunt-file-creator@0.1.2 node_modules/grunt-file-creator
 
 grunt-text-replace@0.4.0 node_modules/grunt-text-replace
 
-grunt-contrib-concat@0.4.0 node_modules/grunt-contrib-concat
-└── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
-
-grunt-concurrent@0.5.0 node_modules/grunt-concurrent
-├── pad-stdio@0.1.1 (lpad@0.2.1)
-└── async@0.2.10
-
-grunt-contrib-clean@0.5.0 node_modules/grunt-contrib-clean
-└── rimraf@2.2.8
-
-time-grunt@0.3.2 node_modules/time-grunt
-├── date-time@0.1.1
-├── pretty-ms@0.1.0
-├── hooker@0.2.3
-├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
-└── text-table@0.2.0
-
-grunt-shell@1.1.2 node_modules/grunt-shell
-└── chalk@1.0.0 (ansi-styles@2.0.1, supports-color@1.3.1, strip-ansi@2.0.1, escape-string-regexp@1.0.3, has-ansi@1.0.3)
-
 jasmine-core@2.2.0 node_modules/jasmine-core
 
 grunt-filerev@0.2.1 node_modules/grunt-filerev
 ├── each-async@0.1.3
 └── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
 
+grunt-contrib-clean@0.5.0 node_modules/grunt-contrib-clean
+└── rimraf@2.2.8
+
+grunt-contrib-concat@0.4.0 node_modules/grunt-contrib-concat
+└── chalk@0.4.0 (has-color@0.1.7, strip-ansi@0.1.1, ansi-styles@1.0.0)
+
+grunt-concurrent@0.5.0 node_modules/grunt-concurrent
+├── async@0.2.10
+└── pad-stdio@0.1.1 (lpad@0.2.1)
+
 jshint-stylish@0.2.0 node_modules/jshint-stylish
 ├── text-table@0.2.0
-└── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
-
-grunt-protractor-runner@1.2.1 node_modules/grunt-protractor-runner
-├── split@0.3.3 (through@2.3.6)
-└── through2@0.5.1 (xtend@3.0.0, readable-stream@1.0.33)
+└── chalk@0.4.0 (ansi-styles@1.0.0, has-color@0.1.7, strip-ansi@0.1.1)
 
 protractor-html-screenshot-reporter@0.0.19 node_modules/protractor-html-screenshot-reporter
 ├── underscore@1.6.0
 └── mkdirp@0.3.5
 
+time-grunt@0.3.2 node_modules/time-grunt
+├── date-time@0.1.1
+├── pretty-ms@0.1.0
+├── text-table@0.2.0
+├── hooker@0.2.3
+└── chalk@0.4.0 (ansi-styles@1.0.0, has-color@0.1.7, strip-ansi@0.1.1)
+
 grunt-newer@0.7.0 node_modules/grunt-newer
 ├── rimraf@2.2.6
 └── async@0.2.10
 
-grunt-contrib-cssmin@0.9.0 node_modules/grunt-contrib-cssmin
-├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
-├── clean-css@2.1.8 (commander@2.1.0)
-└── maxmin@0.1.0 (pretty-bytes@0.1.2, gzip-size@0.1.1)
-
-grunt-contrib-uglify@0.4.1 node_modules/grunt-contrib-uglify
-├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
-├── maxmin@0.1.0 (pretty-bytes@0.1.2, gzip-size@0.1.1)
-└── uglify-js@2.4.17 (uglify-to-browserify@1.0.2, async@0.2.10, yargs@1.3.3, source-map@0.1.34)
+grunt-shell@1.1.2 node_modules/grunt-shell
+└── chalk@1.0.0 (escape-string-regexp@1.0.3, ansi-styles@2.0.1, supports-color@1.3.1, strip-ansi@2.0.1, has-ansi@1.0.3)
 
 grunt-karma@0.9.0 node_modules/grunt-karma
 └── lodash@2.4.1
 
-grunt-contrib-htmlmin@0.3.0 node_modules/grunt-contrib-htmlmin
-├── pretty-bytes@0.1.2
-├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
-└── html-minifier@0.6.9 (relateurl@0.2.6, change-case@2.1.6, clean-css@2.2.23, cli@0.6.5, uglify-js@2.4.17)
+grunt-protractor-runner@1.2.1 node_modules/grunt-protractor-runner
+├── split@0.3.3 (through@2.3.6)
+└── through2@0.5.1 (xtend@3.0.0, readable-stream@1.0.33)
+
+grunt-contrib-uglify@0.4.1 node_modules/grunt-contrib-uglify
+├── chalk@0.4.0 (strip-ansi@0.1.1, has-color@0.1.7, ansi-styles@1.0.0)
+├── maxmin@0.1.0 (pretty-bytes@0.1.2, gzip-size@0.1.1)
+└── uglify-js@2.4.17 (uglify-to-browserify@1.0.2, async@0.2.10, yargs@1.3.3, source-map@0.1.34)
+
+grunt-contrib-cssmin@0.9.0 node_modules/grunt-contrib-cssmin
+├── chalk@0.4.0 (strip-ansi@0.1.1, has-color@0.1.7, ansi-styles@1.0.0)
+├── clean-css@2.1.8 (commander@2.1.0)
+└── maxmin@0.1.0 (pretty-bytes@0.1.2, gzip-size@0.1.1)
 
 jasmine-reporters@1.0.1 node_modules/jasmine-reporters
 └── mkdirp@0.3.5
 
+grunt-contrib-htmlmin@0.3.0 node_modules/grunt-contrib-htmlmin
+├── pretty-bytes@0.1.2
+├── chalk@0.4.0 (strip-ansi@0.1.1, has-color@0.1.7, ansi-styles@1.0.0)
+└── html-minifier@0.6.9 (relateurl@0.2.6, change-case@2.1.6, clean-css@2.2.23, cli@0.6.5, uglify-js@2.4.17)
+
 lodash@3.5.0 node_modules/lodash
 
-karma-phantomjs-launcher@0.1.4 node_modules/karma-phantomjs-launcher
-└── phantomjs@1.9.16 (which@1.0.9, progress@1.1.8, kew@0.4.0, request-progress@0.3.1, adm-zip@0.4.4, npmconf@2.1.1, fs-extra@0.16.5, request@2.42.0)
-
 grunt-svgmin@0.4.0 node_modules/grunt-svgmin
-├── pretty-bytes@0.1.2
 ├── each-async@0.1.3
-├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
+├── pretty-bytes@0.1.2
+├── chalk@0.4.0 (has-color@0.1.7, strip-ansi@0.1.1, ansi-styles@1.0.0)
 └── svgo@0.4.5 (colors@0.6.2, whet.extend@0.9.9, coa@0.4.1, sax@0.6.1, js-yaml@2.1.3)
+
+karma-phantomjs-launcher@0.1.4 node_modules/karma-phantomjs-launcher
+└── phantomjs@1.9.16 (which@1.0.9, progress@1.1.8, kew@0.4.0, request-progress@0.3.1, adm-zip@0.4.4, npmconf@2.1.1, request@2.42.0, fs-extra@0.16.5)
+
+grunt-usemin@2.6.2 node_modules/grunt-usemin
+├── debug@2.1.3 (ms@0.7.0)
+├── chalk@0.5.1 (supports-color@0.2.0, ansi-styles@1.1.0, escape-string-regexp@1.0.3, has-ansi@0.1.0, strip-ansi@0.3.0)
+└── lodash@2.4.1
 
 grunt-browserstack-tunnel@0.1.0 node_modules/grunt-browserstack-tunnel
 └── browserstacktunnel-wrapper@1.0.1 (child-daemon@0.0.2)
 
 grunt-contrib-jshint@0.10.0 node_modules/grunt-contrib-jshint
 ├── hooker@0.2.3
-└── jshint@2.5.11 (strip-json-comments@1.0.2, underscore@1.6.0, console-browserify@1.1.0, exit@0.1.2, shelljs@0.3.0, minimatch@1.0.0, cli@0.6.5, htmlparser2@3.8.2)
+└── jshint@2.5.11 (strip-json-comments@1.0.2, underscore@1.6.0, exit@0.1.2, console-browserify@1.1.0, shelljs@0.3.0, minimatch@1.0.0, cli@0.6.5, htmlparser2@3.8.2)
+
+grunt-ng-annotate@0.4.0 node_modules/grunt-ng-annotate
+└── ng-annotate@0.10.3 (tryor@0.1.2, alter@0.2.0, simple-fmt@0.1.0, simple-is@0.2.0, stringset@0.2.1, stringmap@0.2.2, stable@0.1.5, convert-source-map@0.4.1, ordered-ast-traverse@0.1.1, optimist@0.6.1, source-map@0.1.43, esprima@1.2.5, acorn@0.9.0)
+
+grunt-wiredep@1.9.0 node_modules/grunt-wiredep
+└── wiredep@1.8.6 (propprop@0.3.0, minimist@1.1.1, chalk@0.5.1, through2@0.6.3, glob@4.5.3, bower-config@0.5.2, lodash@2.4.1)
+
+grunt-contrib-connect@0.7.1 node_modules/grunt-contrib-connect
+├── connect-livereload@0.3.2
+├── open@0.0.4
+├── async@0.2.10
+├── portscanner@0.2.2 (async@0.1.15)
+└── connect@2.13.1 (uid2@0.0.3, methods@0.1.0, debug@0.8.1, pause@0.0.1, cookie-signature@1.0.1, fresh@0.2.0, qs@0.6.6, bytes@0.2.1, raw-body@1.1.3, buffer-crc32@0.2.1, batch@0.5.0, cookie@0.1.0, compressible@1.0.0, negotiator@0.3.0, send@0.1.4, multiparty@2.2.0)
 
 grunt-contrib-watch@0.6.1 node_modules/grunt-contrib-watch
 ├── async@0.2.10
@@ -2773,38 +204,29 @@ grunt-contrib-watch@0.6.1 node_modules/grunt-contrib-watch
 ├── gaze@0.5.1 (globule@0.1.0)
 └── lodash@2.4.1
 
-grunt-ng-annotate@0.4.0 node_modules/grunt-ng-annotate
-└── ng-annotate@0.10.3 (tryor@0.1.2, alter@0.2.0, simple-fmt@0.1.0, simple-is@0.2.0, stringset@0.2.1, stringmap@0.2.2, stable@0.1.5, ordered-ast-traverse@0.1.1, convert-source-map@0.4.1, source-map@0.1.43, optimist@0.6.1, esprima@1.2.5, acorn@0.9.0)
-
-grunt-contrib-connect@0.7.1 node_modules/grunt-contrib-connect
-├── connect-livereload@0.3.2
-├── open@0.0.4
-├── async@0.2.10
-├── portscanner@0.2.2 (async@0.1.15)
-└── connect@2.13.1 (uid2@0.0.3, methods@0.1.0, cookie-signature@1.0.1, pause@0.0.1, debug@0.8.1, fresh@0.2.0, qs@0.6.6, bytes@0.2.1, buffer-crc32@0.2.1, raw-body@1.1.3, batch@0.5.0, cookie@0.1.0, compressible@1.0.0, negotiator@0.3.0, send@0.1.4, multiparty@2.2.0)
-
 grunt-autoprefixer@2.2.0 node_modules/grunt-autoprefixer
 ├── diff@1.2.2
-├── chalk@0.5.1 (ansi-styles@1.1.0, supports-color@0.2.0, escape-string-regexp@1.0.3, has-ansi@0.1.0, strip-ansi@0.3.0)
+├── chalk@0.5.1 (ansi-styles@1.1.0, escape-string-regexp@1.0.3, supports-color@0.2.0, has-ansi@0.1.0, strip-ansi@0.3.0)
 └── autoprefixer-core@5.1.7 (num2fraction@1.0.1, browserslist@0.2.0, postcss@4.0.6, caniuse-db@1.0.30000101)
 
-grunt-wiredep@1.9.0 node_modules/grunt-wiredep
-└── wiredep@1.8.6 (propprop@0.3.0, minimist@1.1.1, chalk@0.5.1, glob@4.5.3, through2@0.6.3, bower-config@0.5.2, lodash@2.4.1)
+load-grunt-tasks@0.4.0 node_modules/load-grunt-tasks
+├── multimatch@0.1.0 (minimatch@0.2.14, lodash@2.4.1)
+└── findup-sync@0.1.3 (glob@3.2.11, lodash@2.4.1)
 
 grunt@0.4.5 node_modules/grunt
+├── which@1.0.9
 ├── dateformat@1.0.2-1.2.3
 ├── eventemitter2@0.4.14
 ├── getobject@0.1.0
-├── rimraf@2.2.8
-├── which@1.0.9
 ├── colors@0.6.2
+├── rimraf@2.2.8
 ├── async@0.1.22
 ├── grunt-legacy-util@0.2.0
-├── nopt@1.0.10 (abbrev@1.0.5)
 ├── exit@0.1.2
+├── nopt@1.0.10 (abbrev@1.0.5)
 ├── hooker@0.2.3
-├── minimatch@0.2.14 (sigmund@1.0.0, lru-cache@2.5.0)
 ├── glob@3.1.21 (inherits@1.0.0, graceful-fs@1.2.3)
+├── minimatch@0.2.14 (sigmund@1.0.0, lru-cache@2.5.0)
 ├── lodash@0.9.2
 ├── coffee-script@1.3.3
 ├── underscore.string@2.2.1
@@ -2813,17 +235,10 @@ grunt@0.4.5 node_modules/grunt
 ├── grunt-legacy-log@0.1.1 (underscore.string@2.3.3, lodash@2.4.1)
 └── findup-sync@0.1.3 (glob@3.2.11, lodash@2.4.1)
 
-grunt-usemin@2.6.2 node_modules/grunt-usemin
-├── debug@2.1.3 (ms@0.7.0)
-├── chalk@0.5.1 (ansi-styles@1.1.0, supports-color@0.2.0, escape-string-regexp@1.0.3, has-ansi@0.1.0, strip-ansi@0.3.0)
-└── lodash@2.4.1
-
-grunt-contrib-imagemin@0.9.4 node_modules/grunt-contrib-imagemin
-├── pretty-bytes@1.0.3 (get-stdin@4.0.1)
-├── gulp-rename@1.2.0
-├── async@0.9.0
-├── chalk@1.0.0 (escape-string-regexp@1.0.3, ansi-styles@2.0.1, supports-color@1.3.1, strip-ansi@2.0.1, has-ansi@1.0.3)
-└── imagemin@3.1.0 (get-stdin@3.0.2, optional@0.1.3, vinyl@0.4.6, stream-combiner@0.2.1, meow@2.1.0, concat-stream@1.4.7, through2@0.6.3, vinyl-fs@0.3.13, imagemin-svgo@4.1.2, imagemin-gifsicle@4.1.0, imagemin-pngquant@4.0.0, imagemin-optipng@4.2.0, imagemin-jpegtran@4.1.0)
+grunt-google-cdn@0.4.3 node_modules/grunt-google-cdn
+├── chalk@0.5.1 (ansi-styles@1.1.0, escape-string-regexp@1.0.3, supports-color@0.2.0, has-ansi@0.1.0, strip-ansi@0.3.0)
+├── google-cdn@0.7.0 (regexp-quote@0.0.0, google-cdn-data@0.1.17, debug@1.0.4, async@0.9.0, semver@2.3.2, cdnjs-cdn-data@0.1.1)
+└── bower@1.3.12 (is-root@1.0.0, junk@1.0.1, stringify-object@1.0.1, which@1.0.9, abbrev@1.0.5, chmodr@0.1.0, osenv@0.1.0, archy@0.0.2, opn@1.0.1, rimraf@2.2.8, bower-logger@0.2.2, bower-endpoint-parser@0.2.2, graceful-fs@3.0.6, lockfile@1.0.0, nopt@3.0.1, retry@0.6.0, tmp@0.0.23, request-progress@0.3.0, lru-cache@2.5.0, q@1.0.1, shell-quote@1.4.3, chalk@0.5.0, semver@2.3.2, bower-json@0.4.0, promptly@0.2.0, p-throttler@0.1.0, mkdirp@0.5.0, fstream-ignore@1.0.2, bower-config@0.5.2, fstream@1.0.4, decompress-zip@0.0.8, glob@4.0.6, update-notifier@0.2.0, cardinal@0.4.0, request@2.42.0, tar-fs@0.5.2, handlebars@2.0.0, bower-registry-client@0.2.4, mout@0.9.1, inquirer@0.7.1, insight@0.4.3)
 
 karma@0.12.31 node_modules/karma
 ├── di@0.0.1
@@ -2833,25 +248,16 @@ karma@0.12.31 node_modules/karma
 ├── mime@1.2.11
 ├── q@0.9.7
 ├── minimatch@0.2.14 (sigmund@1.0.0, lru-cache@2.5.0)
-├── glob@3.2.11 (inherits@2.0.1, minimatch@0.3.0)
-├── source-map@0.1.43 (amdefine@0.1.0)
 ├── optimist@0.6.1 (wordwrap@0.0.2, minimist@0.0.10)
-├── chokidar@1.0.0-rc4 (async-each@0.1.6, is-binary-path@1.0.0, glob-parent@1.2.0, anymatch@1.1.0, readdirp@1.3.0)
+├── source-map@0.1.43 (amdefine@0.1.0)
+├── glob@3.2.11 (inherits@2.0.1, minimatch@0.3.0)
+├── chokidar@1.0.0-rc4 (async-each@0.1.6, is-binary-path@1.0.0, glob-parent@1.2.0, anymatch@1.1.0, readdirp@1.3.0, fsevents@0.3.5)
 ├── http-proxy@0.10.4 (pkginfo@0.3.0, utile@0.2.1)
-├── lodash@2.4.1
-├── connect@2.26.6 (cookie@0.1.2, fresh@0.2.4, pause@0.0.1, cookie-signature@1.0.5, response-time@2.0.1, vhost@3.0.0, basic-auth-connect@1.0.0, on-headers@1.0.0, bytes@1.0.0, media-typer@0.3.0, parseurl@1.3.0, depd@0.4.5, connect-timeout@1.3.0, finalhandler@0.2.0, cookie-parser@1.3.4, method-override@2.2.0, qs@2.2.4, debug@2.0.0, morgan@1.3.2, serve-favicon@2.1.7, express-session@1.8.2, serve-static@1.6.5, csurf@1.6.6, compression@1.1.2, body-parser@1.8.4, type-is@1.5.7, multiparty@3.3.2, errorhandler@1.2.4, serve-index@1.2.1)
-├── useragent@2.0.10 (lru-cache@2.2.4)
 ├── log4js@0.6.22 (semver@1.1.4, async@0.2.10, readable-stream@1.0.33)
+├── useragent@2.0.10 (lru-cache@2.2.4)
+├── connect@2.26.6 (fresh@0.2.4, cookie@0.1.2, pause@0.0.1, cookie-signature@1.0.5, response-time@2.0.1, vhost@3.0.0, on-headers@1.0.0, basic-auth-connect@1.0.0, media-typer@0.3.0, bytes@1.0.0, parseurl@1.3.0, depd@0.4.5, connect-timeout@1.3.0, cookie-parser@1.3.4, finalhandler@0.2.0, qs@2.2.4, debug@2.0.0, method-override@2.2.0, morgan@1.3.2, serve-favicon@2.1.7, csurf@1.6.6, express-session@1.8.2, serve-static@1.6.5, body-parser@1.8.4, errorhandler@1.2.4, multiparty@3.3.2, serve-index@1.2.1, type-is@1.5.7, compression@1.1.2)
+├── lodash@2.4.1
 └── socket.io@0.9.16 (base64id@0.1.0, policyfile@0.0.4, redis@0.7.3, socket.io-client@0.9.16)
-
-grunt-google-cdn@0.4.3 node_modules/grunt-google-cdn
-├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, strip-ansi@0.3.0, has-ansi@0.1.0)
-├── google-cdn@0.7.0 (regexp-quote@0.0.0, google-cdn-data@0.1.17, debug@1.0.4, async@0.9.0, semver@2.3.2, cdnjs-cdn-data@0.1.1)
-└── bower@1.3.12 (is-root@1.0.0, junk@1.0.1, stringify-object@1.0.1, which@1.0.9, abbrev@1.0.5, chmodr@0.1.0, osenv@0.1.0, archy@0.0.2, opn@1.0.1, rimraf@2.2.8, lru-cache@2.5.0, bower-logger@0.2.2, bower-endpoint-parser@0.2.2, graceful-fs@3.0.6, lockfile@1.0.0, nopt@3.0.1, retry@0.6.0, tmp@0.0.23, request-progress@0.3.0, q@1.0.1, shell-quote@1.4.3, semver@2.3.2, bower-json@0.4.0, p-throttler@0.1.0, promptly@0.2.0, mkdirp@0.5.0, chalk@0.5.0, bower-config@0.5.2, fstream@1.0.4, decompress-zip@0.0.8, fstream-ignore@1.0.2, glob@4.0.6, cardinal@0.4.0, mout@0.9.1, update-notifier@0.2.0, request@2.42.0, tar-fs@0.5.2, bower-registry-client@0.2.4, handlebars@2.0.0, inquirer@0.7.1, insight@0.4.3)
-
-load-grunt-tasks@0.4.0 node_modules/load-grunt-tasks
-├── multimatch@0.1.0 (minimatch@0.2.14, lodash@2.4.1)
-└── findup-sync@0.1.3 (glob@3.2.11, lodash@2.4.1)
 
 protractor@1.8.0 node_modules/protractor
 ├── jasminewd@1.1.0
@@ -2860,19 +266,281 @@ protractor@1.8.0 node_modules/protractor
 ├── html-entities@1.1.2
 ├── q@1.0.0
 ├── minijasminenode@1.1.1
-├── optimist@0.6.1 (wordwrap@0.0.2, minimist@0.0.10)
 ├── adm-zip@0.4.4
-├── glob@3.2.11 (inherits@2.0.1, minimatch@0.3.0)
+├── optimist@0.6.1 (wordwrap@0.0.2, minimist@0.0.10)
+├── glob@3.2.11 (minimatch@0.3.0, inherits@2.0.1)
 ├── source-map-support@0.2.10 (source-map@0.1.32)
 ├── accessibility-developer-tools@2.6.0
-├── request@2.36.0 (json-stringify-safe@5.0.0, aws-sign2@0.5.0, forever-agent@0.5.2, qs@0.6.6, oauth-sign@0.3.0, tunnel-agent@0.4.0, mime@1.2.11, node-uuid@1.4.3, form-data@0.1.4, http-signature@0.10.1, hawk@1.0.0, tough-cookie@0.12.1)
+├── request@2.36.0 (json-stringify-safe@5.0.0, forever-agent@0.5.2, aws-sign2@0.5.0, qs@0.6.6, oauth-sign@0.3.0, tunnel-agent@0.4.0, mime@1.2.11, node-uuid@1.4.3, form-data@0.1.4, http-signature@0.10.1, hawk@1.0.0, tough-cookie@0.12.1)
 ├── jasmine@2.1.1 (jasmine-core@2.1.3)
 ├── lodash@2.4.1
 └── selenium-webdriver@2.44.0 (tmp@0.0.24, xml2js@0.4.4)
 
+grunt-contrib-imagemin@0.9.4 node_modules/grunt-contrib-imagemin
+├── gulp-rename@1.2.0
+├── async@0.9.0
+├── pretty-bytes@1.0.3 (get-stdin@4.0.1)
+├── chalk@1.0.0 (ansi-styles@2.0.1, supports-color@1.3.1, escape-string-regexp@1.0.3, has-ansi@1.0.3, strip-ansi@2.0.1)
+└── imagemin@3.1.0 (get-stdin@3.0.2, optional@0.1.3, vinyl@0.4.6, stream-combiner@0.2.1, through2@0.6.3, meow@2.1.0, concat-stream@1.4.7, vinyl-fs@0.3.13, imagemin-svgo@4.1.2, imagemin-gifsicle@4.1.0, imagemin-optipng@4.2.0, imagemin-jpegtran@4.1.0, imagemin-pngquant@4.0.0)
+
 grunt-sass@0.18.1 node_modules/grunt-sass
 ├── object-assign@2.0.0
 ├── each-async@1.1.1 (set-immediate-shim@1.0.1, onetime@1.0.0)
-└── node-sass@2.0.1 (get-stdin@4.0.1, replace-ext@0.0.1, cross-spawn@0.2.6, nan@1.7.0, chalk@0.5.1, meow@3.1.0, semver@4.3.1, shelljs@0.3.0, mkdirp@0.5.0, npmconf@2.1.1, gaze@0.5.1, request@2.53.0, sass-graph@1.2.0, mocha@2.2.1)
-./test-branch: line 23: bower: command not found
-Cloning into '/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web-test-machine-logs'...
+└── node-sass@2.0.1 (get-stdin@4.0.1, replace-ext@0.0.1, nan@1.7.0, semver@4.3.1, shelljs@0.3.0, cross-spawn@0.2.6, mkdirp@0.5.0, npmconf@2.1.1, meow@3.1.0, chalk@0.5.1, gaze@0.5.1, mocha@2.2.1, request@2.53.0, sass-graph@1.2.0)
+bower angular#^1.3.0            cached git://github.com/angular/bower-angular.git#1.3.15
+bower angular#^1.3.0          validate 1.3.15 against git://github.com/angular/bower-angular.git#^1.3.0
+bower angular-animate#^1.3.0    cached git://github.com/angular/bower-angular-animate.git#1.3.15
+bower angular-animate#^1.3.0  validate 1.3.15 against git://github.com/angular/bower-angular-animate.git#^1.3.0
+bower angular-resource#^1.3.0   cached git://github.com/angular/bower-angular-resource.git#1.3.15
+bower angular-resource#^1.3.0 validate 1.3.15 against git://github.com/angular/bower-angular-resource.git#^1.3.0
+bower angular-route#^1.3.0      cached git://github.com/angular/bower-angular-route.git#1.3.15
+bower angular-route#^1.3.0    validate 1.3.15 against git://github.com/angular/bower-angular-route.git#^1.3.0
+bower angular-sanitize#^1.3.0   cached git://github.com/angular/bower-angular-sanitize.git#1.3.15
+bower angular-sanitize#^1.3.0 validate 1.3.15 against git://github.com/angular/bower-angular-sanitize.git#^1.3.0
+bower bootstrap-sass-official#~3.3.1           cached git://github.com/twbs/bootstrap-sass.git#3.3.3
+bower bootstrap-sass-official#~3.3.1         validate 3.3.3 against git://github.com/twbs/bootstrap-sass.git#~3.3.1
+bower angular-ui-router#~0.2.13                cached git://github.com/angular-ui/ui-router.git#0.2.13
+bower angular-ui-router#~0.2.13              validate 0.2.13 against git://github.com/angular-ui/ui-router.git#~0.2.13
+bower es5-shim#^4.0.0                          cached git://github.com/es-shims/es5-shim.git#4.0.6
+bower es5-shim#^4.0.0                        validate 4.0.6 against git://github.com/es-shims/es5-shim.git#^4.0.0
+bower jquery-ui#~1.11.3                        cached git://github.com/components/jqueryui.git#1.11.3
+bower jquery-ui#~1.11.3                      validate 1.11.3 against git://github.com/components/jqueryui.git#~1.11.3
+bower json3#^3.3.0                             cached git://github.com/bestiejs/json3.git#3.3.2
+bower json3#^3.3.0                           validate 3.3.2 against git://github.com/bestiejs/json3.git#^3.3.0
+bower angular-local-storage#~0.1.5             cached git://github.com/grevory/angular-local-storage.git#0.1.5
+bower angular-local-storage#~0.1.5           validate 0.1.5 against git://github.com/grevory/angular-local-storage.git#~0.1.5
+bower angular-strap#~2.1.4                     cached git://github.com/mgcrea/angular-strap.git#2.1.6
+bower angular-strap#~2.1.4                   validate 2.1.6 against git://github.com/mgcrea/angular-strap.git#~2.1.4
+bower angular-bootstrap#~0.12.0                cached git://github.com/angular-ui/bootstrap-bower.git#0.12.0
+bower angular-bootstrap#~0.12.0              validate 0.12.0 against git://github.com/angular-ui/bootstrap-bower.git#~0.12.0
+bower angulartics#~0.17.1                      cached git://github.com/luisfarzati/angulartics.git#0.17.2
+bower angulartics#~0.17.1                    validate 0.17.2 against git://github.com/luisfarzati/angulartics.git#~0.17.1
+bower angular-snap#~1.6.0                      cached git://github.com/jtrussell/angular-snap.js-bower.git#1.6.0
+bower angular-snap#~1.6.0                    validate 1.6.0 against git://github.com/jtrussell/angular-snap.js-bower.git#~1.6.0
+bower angular-elastic#~2.4.2                   cached git://github.com/monospaced/angular-elastic.git#2.4.2
+bower angular-elastic#~2.4.2                 validate 2.4.2 against git://github.com/monospaced/angular-elastic.git#~2.4.2
+bower ng-focus#~0.0.1                          cached git://github.com/tatsuyaoiw/ng-focus.git#0.0.1
+bower ng-focus#~0.0.1                        validate 0.0.1 against git://github.com/tatsuyaoiw/ng-focus.git#~0.0.1
+bower fontawesome#~4.2.0                       cached git://github.com/FortAwesome/Font-Awesome.git#4.2.0
+bower fontawesome#~4.2.0                     validate 4.2.0 against git://github.com/FortAwesome/Font-Awesome.git#~4.2.0
+bower froogaloop#~0.1.0                        cached git://github.com/austinpray/bower-vimeo-froogaloop.git#0.1.0
+bower froogaloop#~0.1.0                      validate 0.1.0 against git://github.com/austinpray/bower-vimeo-froogaloop.git#~0.1.0
+bower angular-ui-sortable#~0.13.3              cached git://github.com/angular-ui/ui-sortable.git#0.13.3
+bower angular-ui-sortable#~0.13.3            validate 0.13.3 against git://github.com/angular-ui/ui-sortable.git#~0.13.3
+bower bootstrap-sass-official#~3.3.1              new version for git://github.com/twbs/bootstrap-sass.git#~3.3.1
+bower bootstrap-sass-official#~3.3.1          resolve git://github.com/twbs/bootstrap-sass.git#~3.3.1
+bower bootstrap-sass-official#~3.3.1         download https://github.com/twbs/bootstrap-sass/archive/v3.3.4.tar.gz
+bower ng-videosharing-embed#~0.3.2             cached git://github.com/erost/ng-videosharing-embed.git#0.3.2
+bower ng-videosharing-embed#~0.3.2           validate 0.3.2 against git://github.com/erost/ng-videosharing-embed.git#~0.3.2
+bower marked#~0.3.3                            cached git://github.com/chjj/marked.git#0.3.3
+bower marked#~0.3.3                          validate 0.3.3 against git://github.com/chjj/marked.git#~0.3.3
+bower angular-mocks#~1.3.0                     cached git://github.com/angular/bower-angular-mocks.git#1.3.12
+bower angular-mocks#~1.3.0                   validate 1.3.12 against git://github.com/angular/bower-angular-mocks.git#~1.3.0
+bower moment#~2.9.0                            cached git://github.com/moment/moment.git#2.9.0
+bower moment#~2.9.0                          validate 2.9.0 against git://github.com/moment/moment.git#~2.9.0
+bower lodash#~3.4.0                            cached git://github.com/lodash/lodash.git#3.4.0
+bower lodash#~3.4.0                          validate 3.4.0 against git://github.com/lodash/lodash.git#~3.4.0
+bower es5-shim#^4.0.0                             new version for git://github.com/es-shims/es5-shim.git#^4.0.0
+bower es5-shim#^4.0.0                         resolve git://github.com/es-shims/es5-shim.git#^4.0.0
+bower es5-shim#^4.0.0                        download https://github.com/es-shims/es5-shim/archive/v4.1.0.tar.gz
+bower jquery-ui#~1.11.3                           new version for git://github.com/components/jqueryui.git#~1.11.3
+bower jquery-ui#~1.11.3                       resolve git://github.com/components/jqueryui.git#~1.11.3
+bower jquery-ui#~1.11.3                      download https://github.com/components/jqueryui/archive/1.11.4.tar.gz
+bower angular-scenario#~1.3.0                  cached git://github.com/angular/bower-angular-scenario.git#1.3.12
+bower angular-scenario#~1.3.0                validate 1.3.12 against git://github.com/angular/bower-angular-scenario.git#~1.3.0
+bower angular#~1.2                             cached git://github.com/angular/bower-angular.git#1.2.28
+bower angular#~1.2                           validate 1.2.28 against git://github.com/angular/bower-angular.git#~1.2
+bower angular-bootstrap#~0.12.0                   new version for git://github.com/angular-ui/bootstrap-bower.git#~0.12.0
+bower angular-bootstrap#~0.12.0               resolve git://github.com/angular-ui/bootstrap-bower.git#~0.12.0
+bower angular-bootstrap#~0.12.0              download https://github.com/angular-ui/bootstrap-bower/archive/0.12.1.tar.gz
+bower snapjs#~1.9                              cached git://github.com/jakiestfu/Snap.js.git#1.9.3
+bower snapjs#~1.9                            validate 1.9.3 against git://github.com/jakiestfu/Snap.js.git#~1.9
+bower es5-shim#^4.0.0                         extract archive.tar.gz
+bower SHA-1#*                                  cached git://github.com/linkgod/SHA-1.git#0.1.1
+bower SHA-1#*                                validate 0.1.1 against git://github.com/linkgod/SHA-1.git#*
+bower waypoints#~2.0.3                         cached git://github.com/imakewebthings/waypoints.git#2.0.5
+bower waypoints#~2.0.3                       validate 2.0.5 against git://github.com/imakewebthings/waypoints.git#~2.0.3
+bower bootstrap#^3.2.0                         cached git://github.com/twbs/bootstrap.git#3.3.2
+bower bootstrap#^3.2.0                       validate 3.3.2 against git://github.com/twbs/bootstrap.git#^3.2.0
+bower angular-motion#^0.3.3                    cached git://github.com/mgcrea/angular-motion.git#0.3.4
+bower angular-motion#^0.3.3                  validate 0.3.4 against git://github.com/mgcrea/angular-motion.git#^0.3.3
+bower es5-shim#^4.0.0                        resolved git://github.com/es-shims/es5-shim.git#4.1.0
+bower bootstrap-sass-official#~3.3.1          extract archive.tar.gz
+bower jquery-ui#>=1.9                          cached git://github.com/components/jqueryui.git#1.11.3
+bower jquery-ui#>=1.9                        validate 1.11.3 against git://github.com/components/jqueryui.git#>=1.9
+bower jquery-ui#>=1.9                             new version for git://github.com/components/jqueryui.git#>=1.9
+bower jquery-ui#>=1.9                         resolve git://github.com/components/jqueryui.git#>=1.9
+bower jquery-ui#>=1.9                        download https://github.com/components/jqueryui/archive/1.11.4.tar.gz
+bower bootstrap-sass-official#~3.3.1         mismatch Version declared in the json (3.3.3) is different than the resolved one (3.3.4)
+bower bootstrap-sass-official#~3.3.1         resolved git://github.com/twbs/bootstrap-sass.git#3.3.4
+bower angular-bootstrap#~0.12.0               extract archive.tar.gz
+bower angular-bootstrap#~0.12.0              resolved git://github.com/angular-ui/bootstrap-bower.git#0.12.1
+bower jquery#>= 1.9.0                          cached git://github.com/jquery/jquery.git#2.1.3
+bower jquery#>= 1.9.0                        validate 2.1.3 against git://github.com/jquery/jquery.git#>= 1.9.0
+bower jquery#>=1.8                             cached git://github.com/jquery/jquery.git#2.1.3
+bower jquery#>=1.8                           validate 2.1.3 against git://github.com/jquery/jquery.git#>=1.8
+bower angular-scenario#~1.3.0                     new version for git://github.com/angular/bower-angular-scenario.git#~1.3.0
+bower angular-scenario#~1.3.0                 resolve git://github.com/angular/bower-angular-scenario.git#~1.3.0
+bower angular-scenario#~1.3.0                download https://github.com/angular/bower-angular-scenario/archive/v1.3.15.tar.gz
+bower angular-mocks#~1.3.0                        new version for git://github.com/angular/bower-angular-mocks.git#~1.3.0
+bower angular-mocks#~1.3.0                    resolve git://github.com/angular/bower-angular-mocks.git#~1.3.0
+bower angular-mocks#~1.3.0                   download https://github.com/angular/bower-angular-mocks/archive/v1.3.15.tar.gz
+bower bootstrap#^3.2.0                            new version for git://github.com/twbs/bootstrap.git#^3.2.0
+bower bootstrap#^3.2.0                        resolve git://github.com/twbs/bootstrap.git#^3.2.0
+bower bootstrap#^3.2.0                       download https://github.com/twbs/bootstrap/archive/v3.3.4.tar.gz
+bower angular-mocks#~1.3.0                    extract archive.tar.gz
+bower angular-mocks#~1.3.0                   resolved git://github.com/angular/bower-angular-mocks.git#1.3.15
+bower angular-scenario#~1.3.0                 extract archive.tar.gz
+bower angular-scenario#~1.3.0                resolved git://github.com/angular/bower-angular-scenario.git#1.3.15
+bower jquery-ui#>=1.9                         extract archive.tar.gz
+bower jquery-ui#>=1.9                        resolved git://github.com/components/jqueryui.git#1.11.4
+bower jquery-ui#~1.11.3                       extract archive.tar.gz
+bower jquery-ui#~1.11.3                      resolved git://github.com/components/jqueryui.git#1.11.4
+bower bootstrap#^3.2.0                       progress received 2.0MB
+bower bootstrap#^3.2.0                       progress received 2.2MB
+bower bootstrap#^3.2.0                       progress received 2.4MB
+bower bootstrap#^3.2.0                       progress received 2.6MB
+bower bootstrap#^3.2.0                       progress received 2.9MB
+bower bootstrap#^3.2.0                        extract archive.tar.gz
+bower bootstrap#^3.2.0                       resolved git://github.com/twbs/bootstrap.git#3.3.4
+
+Please note that,
+    angular-bootstrap#0.12.1 depends on angular#>=1 <1.3.0 which resolved to angular#1.2.28
+    angular-snap#1.6.0 depends on angular#~1.2 which resolved to angular#1.2.28
+    angular-animate#1.3.15, angular-mocks#1.3.15, angular-resource#1.3.15, angular-route#1.3.15, angular-sanitize#1.3.15, angular-scenario#1.3.15 depends on angular#1.3.15 which resolved to angular#1.3.15
+    ng-videosharing-embed#0.3.2 depends on angular#>= 1.2.0 which resolved to angular#1.3.15
+    angulartics#0.17.2 depends on angular#>= 1.1.5 which resolved to angular#1.3.15
+    web depends on angular#^1.3.0 which resolved to angular#1.3.15
+    angular-elastic#2.4.2 depends on angular#>=1.0.6 which resolved to angular#1.3.15
+    angular-ui-sortable#0.13.3 depends on angular#>=1.2.x which resolved to angular#1.3.15
+    angular-motion#0.3.4 depends on angular#^1.2 which resolved to angular#1.3.15
+    angular-ui-router#0.2.13 depends on angular#>= 1.0.8 which resolved to angular#1.3.15
+    angular-strap#2.1.6 depends on angular#^1.2.21 which resolved to angular#1.3.15
+Resort to using angular#^1.3.0 which resolved to angular#1.3.15
+Code incompatibilities may occur.
+
+bower marked                         extra-resolution Unnecessary resolution: marked#~0.3.3
+bower angular-mocks                  extra-resolution Unnecessary resolution: angular-mocks#~1.3.0
+bower angular-resource#^1.3.0                 install angular-resource#1.3.15
+bower angular-animate#^1.3.0                  install angular-animate#1.3.15
+bower angular#1.3.15                          install angular#1.3.15
+bower angular-route#^1.3.0                    install angular-route#1.3.15
+bower angular-sanitize#^1.3.0                 install angular-sanitize#1.3.15
+bower json3#^3.3.0                            install json3#3.3.2
+bower angular-ui-router#~0.2.13               install angular-ui-router#0.2.13
+bower angular-local-storage#~0.1.5            install angular-local-storage#0.1.5
+bower angular-snap#~1.6.0                     install angular-snap#1.6.0
+bower angulartics#~0.17.1                     install angulartics#0.17.2
+bower angular-strap#~2.1.4                    install angular-strap#2.1.6
+bower angular-elastic#~2.4.2                  install angular-elastic#2.4.2
+bower es5-shim#^4.0.0                         install es5-shim#4.1.0
+bower ng-focus#~0.0.1                         install ng-focus#0.0.1
+bower froogaloop#~0.1.0                       install froogaloop#0.1.0
+bower angular-ui-sortable#~0.13.3             install angular-ui-sortable#0.13.3
+bower ng-videosharing-embed#~0.3.2            install ng-videosharing-embed#0.3.2
+bower bootstrap-sass-official#~3.3.1          install bootstrap-sass-official#3.3.4
+bower fontawesome#~4.2.0                      install fontawesome#4.2.0
+bower marked#~0.3.3                           install marked#0.3.3
+bower angular-bootstrap#~0.12.0               install angular-bootstrap#0.12.1
+bower lodash#~3.4.0                           install lodash#3.4.0
+bower snapjs#~1.9                             install snapjs#1.9.3
+bower moment#~2.9.0                           install moment#2.9.0
+bower SHA-1#*                                 install SHA-1#0.1.1
+bower waypoints#~2.0.3                        install waypoints#2.0.5
+bower angular-motion#^0.3.3                   install angular-motion#0.3.4
+bower jquery#>= 1.9.0                         install jquery#2.1.3
+bower angular-mocks#~1.3.0                    install angular-mocks#1.3.15
+bower angular-scenario#~1.3.0                 install angular-scenario#1.3.15
+bower jquery-ui#>=1.9                         install jquery-ui#1.11.4
+bower bootstrap#^3.2.0                        install bootstrap#3.3.4
+
+angular-resource#1.3.15 bower_components/angular-resource
+└── angular#1.3.15
+
+angular-animate#1.3.15 bower_components/angular-animate
+└── angular#1.3.15
+
+angular#1.3.15 bower_components/angular
+
+angular-route#1.3.15 bower_components/angular-route
+└── angular#1.3.15
+
+angular-sanitize#1.3.15 bower_components/angular-sanitize
+└── angular#1.3.15
+
+json3#3.3.2 bower_components/json3
+
+angular-ui-router#0.2.13 bower_components/angular-ui-router
+└── angular#1.3.15
+
+angular-local-storage#0.1.5 bower_components/angular-local-storage
+
+angular-snap#1.6.0 bower_components/angular-snap
+├── angular#1.3.15
+└── snapjs#1.9.3
+
+angulartics#0.17.2 bower_components/angulartics
+├── SHA-1#0.1.1
+├── angular#1.3.15
+└── waypoints#2.0.5
+
+angular-strap#2.1.6 bower_components/angular-strap
+├── angular#1.3.15
+├── angular-motion#0.3.4
+└── bootstrap#3.3.4
+
+angular-elastic#2.4.2 bower_components/angular-elastic
+└── angular#1.3.15
+
+es5-shim#4.1.0 bower_components/es5-shim
+
+ng-focus#0.0.1 bower_components/ng-focus
+
+froogaloop#0.1.0 bower_components/froogaloop
+
+angular-ui-sortable#0.13.3 bower_components/angular-ui-sortable
+├── angular#1.3.15
+└── jquery-ui#1.11.4
+
+ng-videosharing-embed#0.3.2 bower_components/ng-videosharing-embed
+└── angular#1.3.15
+
+bootstrap-sass-official#3.3.4 bower_components/bootstrap-sass-official
+└── jquery#2.1.3
+
+fontawesome#4.2.0 bower_components/fontawesome
+
+marked#0.3.3 bower_components/marked
+
+angular-bootstrap#0.12.1 bower_components/angular-bootstrap
+└── angular#1.3.15
+
+lodash#3.4.0 bower_components/lodash
+
+snapjs#1.9.3 bower_components/snapjs
+
+moment#2.9.0 bower_components/moment
+
+SHA-1#0.1.1 bower_components/SHA-1
+
+waypoints#2.0.5 bower_components/waypoints
+└── jquery#2.1.3
+
+angular-motion#0.3.4 bower_components/angular-motion
+├── angular#1.3.15
+└── angular-animate#1.3.15
+
+jquery#2.1.3 bower_components/jquery
+
+angular-mocks#1.3.15 bower_components/angular-mocks
+└── angular#1.3.15
+
+angular-scenario#1.3.15 bower_components/angular-scenario
+└── angular#1.3.15
+
+jquery-ui#1.11.4 bower_components/jquery-ui
+└── jquery#2.1.3
+
+bootstrap#3.3.4 bower_components/bootstrap
+└── jquery#2.1.3
+Cloning into '/Users/lawrencewagerfield/Documents/Projects/Fifthweek/Sources/fifthweek-web-tests-restyle/fifthweek-web-test-machine-logs'...
