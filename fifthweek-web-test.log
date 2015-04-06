@@ -1,7 +1,7 @@
 
 -- PRE TEST --
 
-Time: Sun Apr 5 00:23:03 UTC 2015
+Time: Mon Apr 6 00:23:02 UTC 2015
 Branch: restyle
 User: ubuntu
 PATH: /usr/bin:/bin:/home/ubuntu/npm/bin
@@ -16,7 +16,7 @@ npm WARN optional dep failed, continuing fsevents@0.3.5
 Download already available at /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2
 Extracting tar contents (via spawned process)
 Removing /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
-Copying extracted folder /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1428193440320/phantomjs-1.9.8-linux-x86_64 -> /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
+Copying extracted folder /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1428279840737/phantomjs-1.9.8-linux-x86_64 -> /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
 Writing location.js file
 Done. Phantomjs binary available at /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/bin/phantomjs
 
@@ -24,11 +24,6 @@ Done. Phantomjs binary available at /home/ubuntu/fifthweek-web-tests-restyle/fif
 > node lib/install.js
 
   ✔ optipng pre-build test passed successfully
-
-> pngquant-bin@2.0.3 postinstall /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin
-> node lib/install.js
-
-  ✔ pngquant pre-build test passed successfully
 
 > jpegtran-bin@2.0.2 postinstall /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin
 > node lib/install.js
@@ -40,6 +35,11 @@ Done. Phantomjs binary available at /home/ubuntu/fifthweek-web-tests-restyle/fif
 
   ✔ gifsicle pre-build test passed successfully
 
+
+> pngquant-bin@2.0.3 postinstall /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin
+> node lib/install.js
+
+  ✔ pngquant pre-build test passed successfully
 
 > pty.js@0.2.6 install /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/grunt-browserstack-tunnel/node_modules/browserstacktunnel-wrapper/node_modules/child-daemon/node_modules/pty.js
 > node-gyp rebuild
@@ -112,18 +112,18 @@ grunt-filerev@0.2.1 node_modules/grunt-filerev
 ├── each-async@0.1.3
 └── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
 
-grunt-contrib-concat@0.4.0 node_modules/grunt-contrib-concat
-└── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
-
 jshint-stylish@0.2.0 node_modules/jshint-stylish
 ├── text-table@0.2.0
+└── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
+
+grunt-contrib-concat@0.4.0 node_modules/grunt-contrib-concat
 └── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
 
 time-grunt@0.3.2 node_modules/time-grunt
 ├── date-time@0.1.1
 ├── pretty-ms@0.1.0
-├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
 ├── text-table@0.2.0
+├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
 └── hooker@0.2.3
 
 grunt-concurrent@0.5.0 node_modules/grunt-concurrent
@@ -169,22 +169,22 @@ grunt-contrib-uglify@0.4.1 node_modules/grunt-contrib-uglify
 ├── maxmin@0.1.0 (pretty-bytes@0.1.2, gzip-size@0.1.1)
 └── uglify-js@2.4.19 (uglify-to-browserify@1.0.2, async@0.2.10, yargs@3.5.4, source-map@0.1.34)
 
+load-grunt-tasks@0.4.0 node_modules/load-grunt-tasks
+├── multimatch@0.1.0 (minimatch@0.2.14, lodash@2.4.1)
+└── findup-sync@0.1.3 (glob@3.2.11, lodash@2.4.1)
+
 grunt-usemin@2.6.2 node_modules/grunt-usemin
 ├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, has-ansi@0.1.0, strip-ansi@0.3.0)
 ├── debug@2.1.3 (ms@0.7.0)
 └── lodash@2.4.1
 
-load-grunt-tasks@0.4.0 node_modules/load-grunt-tasks
-├── multimatch@0.1.0 (minimatch@0.2.14, lodash@2.4.1)
-└── findup-sync@0.1.3 (glob@3.2.11, lodash@2.4.1)
-
-karma-phantomjs-launcher@0.1.4 node_modules/karma-phantomjs-launcher
-└── phantomjs@1.9.16 (which@1.0.9, progress@1.1.8, kew@0.4.0, request-progress@0.3.1, adm-zip@0.4.4, npmconf@2.1.1, fs-extra@0.16.5, request@2.42.0)
-
 grunt-contrib-htmlmin@0.3.0 node_modules/grunt-contrib-htmlmin
 ├── pretty-bytes@0.1.2
 ├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
 └── html-minifier@0.6.9 (relateurl@0.2.6, change-case@2.1.6, clean-css@2.2.23, cli@0.6.6, uglify-js@2.4.19)
+
+karma-phantomjs-launcher@0.1.4 node_modules/karma-phantomjs-launcher
+└── phantomjs@1.9.16 (which@1.0.9, progress@1.1.8, kew@0.4.0, request-progress@0.3.1, adm-zip@0.4.4, npmconf@2.1.1, fs-extra@0.16.5, request@2.42.0)
 
 grunt@0.4.5 node_modules/grunt
 ├── which@1.0.9
@@ -230,26 +230,43 @@ grunt-contrib-jshint@0.10.0 node_modules/grunt-contrib-jshint
 └── jshint@2.5.11 (strip-json-comments@1.0.2, underscore@1.6.0, exit@0.1.2, console-browserify@1.1.0, minimatch@1.0.0, shelljs@0.3.0, cli@0.6.6, htmlparser2@3.8.2)
 
 grunt-ng-annotate@0.4.0 node_modules/grunt-ng-annotate
-└── ng-annotate@0.10.3 (tryor@0.1.2, alter@0.2.0, simple-fmt@0.1.0, simple-is@0.2.0, stringset@0.2.1, stringmap@0.2.2, stable@0.1.5, convert-source-map@0.4.1, ordered-ast-traverse@0.1.1, optimist@0.6.1, source-map@0.1.43, esprima@1.2.5, acorn@0.9.0)
+└── ng-annotate@0.10.3 (tryor@0.1.2, simple-fmt@0.1.0, alter@0.2.0, simple-is@0.2.0, stringset@0.2.1, stringmap@0.2.2, stable@0.1.5, ordered-ast-traverse@0.1.1, convert-source-map@0.4.1, optimist@0.6.1, source-map@0.1.43, esprima@1.2.5, acorn@0.9.0)
 
 grunt-contrib-connect@0.7.1 node_modules/grunt-contrib-connect
 ├── connect-livereload@0.3.2
 ├── open@0.0.4
 ├── async@0.2.10
 ├── portscanner@0.2.2 (async@0.1.15)
-└── connect@2.13.1 (uid2@0.0.3, methods@0.1.0, cookie-signature@1.0.1, pause@0.0.1, debug@0.8.1, fresh@0.2.0, qs@0.6.6, bytes@0.2.1, raw-body@1.1.3, buffer-crc32@0.2.1, batch@0.5.0, cookie@0.1.0, compressible@1.0.0, negotiator@0.3.0, send@0.1.4, multiparty@2.2.0)
+└── connect@2.13.1 (uid2@0.0.3, methods@0.1.0, debug@0.8.1, pause@0.0.1, cookie-signature@1.0.1, fresh@0.2.0, qs@0.6.6, bytes@0.2.1, raw-body@1.1.3, buffer-crc32@0.2.1, batch@0.5.0, cookie@0.1.0, compressible@1.0.0, negotiator@0.3.0, send@0.1.4, multiparty@2.2.0)
 
 grunt-autoprefixer@2.2.0 node_modules/grunt-autoprefixer
 ├── diff@1.2.2
-├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, has-ansi@0.1.0, strip-ansi@0.3.0)
-└── autoprefixer-core@5.1.8 (num2fraction@1.0.1, browserslist@0.2.0, postcss@4.0.6, caniuse-db@1.0.30000114)
+├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, strip-ansi@0.3.0, has-ansi@0.1.0)
+└── autoprefixer-core@5.1.8 (num2fraction@1.0.1, browserslist@0.2.0, postcss@4.0.6, caniuse-db@1.0.30000117)
 
 grunt-contrib-imagemin@0.9.4 node_modules/grunt-contrib-imagemin
 ├── gulp-rename@1.2.2
 ├── async@0.9.0
-├── chalk@1.0.0 (escape-string-regexp@1.0.3, ansi-styles@2.0.1, supports-color@1.3.1, strip-ansi@2.0.1, has-ansi@1.0.3)
+├── chalk@1.0.0 (escape-string-regexp@1.0.3, ansi-styles@2.0.1, supports-color@1.3.1, has-ansi@1.0.3, strip-ansi@2.0.1)
 ├── pretty-bytes@1.0.4 (get-stdin@4.0.1, meow@3.1.0)
-└── imagemin@3.1.0 (get-stdin@3.0.2, optional@0.1.3, vinyl@0.4.6, stream-combiner@0.2.1, meow@2.1.0, through2@0.6.3, concat-stream@1.4.8, vinyl-fs@0.3.13, imagemin-svgo@4.1.2, imagemin-optipng@4.2.0, imagemin-pngquant@4.0.0, imagemin-jpegtran@4.1.0, imagemin-gifsicle@4.1.0)
+└── imagemin@3.1.0 (get-stdin@3.0.2, optional@0.1.3, vinyl@0.4.6, stream-combiner@0.2.1, meow@2.1.0, through2@0.6.3, concat-stream@1.4.8, vinyl-fs@0.3.13, imagemin-svgo@4.1.2, imagemin-optipng@4.2.0, imagemin-jpegtran@4.1.0, imagemin-gifsicle@4.1.0, imagemin-pngquant@4.0.0)
+
+protractor@1.8.0 node_modules/protractor
+├── jasminewd@1.1.0
+├── jasminewd2@0.0.2
+├── saucelabs@0.1.1
+├── html-entities@1.1.2
+├── q@1.0.0
+├── minijasminenode@1.1.1
+├── optimist@0.6.1 (wordwrap@0.0.2, minimist@0.0.10)
+├── adm-zip@0.4.4
+├── glob@3.2.11 (inherits@2.0.1, minimatch@0.3.0)
+├── accessibility-developer-tools@2.6.0
+├── source-map-support@0.2.10 (source-map@0.1.32)
+├── request@2.36.0 (json-stringify-safe@5.0.0, forever-agent@0.5.2, aws-sign2@0.5.0, qs@0.6.6, oauth-sign@0.3.0, tunnel-agent@0.4.0, mime@1.2.11, node-uuid@1.4.3, http-signature@0.10.1, form-data@0.1.4, tough-cookie@0.12.1, hawk@1.0.0)
+├── lodash@2.4.1
+├── jasmine@2.1.1 (jasmine-core@2.1.3)
+└── selenium-webdriver@2.44.0 (tmp@0.0.24, xml2js@0.4.4)
 
 grunt-browserstack-tunnel@0.1.0 node_modules/grunt-browserstack-tunnel
 └── browserstacktunnel-wrapper@1.0.1 (child-daemon@0.0.2)
@@ -267,43 +284,26 @@ karma@0.12.31 node_modules/karma
 ├── source-map@0.1.43 (amdefine@0.1.0)
 ├── chokidar@0.12.6 (async-each@0.1.6, readdirp@1.3.0)
 ├── log4js@0.6.22 (semver@1.1.4, async@0.2.10, readable-stream@1.0.33)
-├── lodash@2.4.1
 ├── http-proxy@0.10.4 (pkginfo@0.3.0, utile@0.2.1)
-├── connect@2.26.6 (cookie@0.1.2, fresh@0.2.4, pause@0.0.1, cookie-signature@1.0.5, response-time@2.0.1, vhost@3.0.0, on-headers@1.0.0, basic-auth-connect@1.0.0, bytes@1.0.0, media-typer@0.3.0, parseurl@1.3.0, depd@0.4.5, connect-timeout@1.3.0, cookie-parser@1.3.4, finalhandler@0.2.0, method-override@2.2.0, qs@2.2.4, debug@2.0.0, morgan@1.3.2, serve-favicon@2.1.7, csurf@1.6.6, express-session@1.8.2, type-is@1.5.7, serve-static@1.6.5, multiparty@3.3.2, errorhandler@1.2.4, compression@1.1.2, body-parser@1.8.4, serve-index@1.2.1)
+├── lodash@2.4.1
+├── connect@2.26.6 (fresh@0.2.4, cookie@0.1.2, pause@0.0.1, cookie-signature@1.0.5, response-time@2.0.1, vhost@3.0.0, on-headers@1.0.0, basic-auth-connect@1.0.0, bytes@1.0.0, media-typer@0.3.0, parseurl@1.3.0, depd@0.4.5, connect-timeout@1.3.0, cookie-parser@1.3.4, finalhandler@0.2.0, method-override@2.2.0, qs@2.2.4, debug@2.0.0, morgan@1.3.2, serve-favicon@2.1.7, csurf@1.6.6, type-is@1.5.7, express-session@1.8.2, serve-static@1.6.5, multiparty@3.3.2, compression@1.1.2, errorhandler@1.2.4, body-parser@1.8.4, serve-index@1.2.1)
 ├── useragent@2.0.10 (lru-cache@2.2.4)
 └── socket.io@0.9.16 (base64id@0.1.0, policyfile@0.0.4, redis@0.7.3, socket.io-client@0.9.16)
-
-protractor@1.8.0 node_modules/protractor
-├── jasminewd@1.1.0
-├── jasminewd2@0.0.2
-├── saucelabs@0.1.1
-├── html-entities@1.1.2
-├── q@1.0.0
-├── minijasminenode@1.1.1
-├── optimist@0.6.1 (wordwrap@0.0.2, minimist@0.0.10)
-├── adm-zip@0.4.4
-├── glob@3.2.11 (inherits@2.0.1, minimatch@0.3.0)
-├── source-map-support@0.2.10 (source-map@0.1.32)
-├── accessibility-developer-tools@2.6.0
-├── request@2.36.0 (json-stringify-safe@5.0.0, forever-agent@0.5.2, aws-sign2@0.5.0, qs@0.6.6, oauth-sign@0.3.0, tunnel-agent@0.4.0, mime@1.2.11, node-uuid@1.4.3, form-data@0.1.4, http-signature@0.10.1, tough-cookie@0.12.1, hawk@1.0.0)
-├── lodash@2.4.1
-├── jasmine@2.1.1 (jasmine-core@2.1.3)
-└── selenium-webdriver@2.44.0 (tmp@0.0.24, xml2js@0.4.4)
 
 grunt-sass@0.18.1 node_modules/grunt-sass
 ├── object-assign@2.0.0
 ├── each-async@1.1.1 (set-immediate-shim@1.0.1, onetime@1.0.0)
-└── node-sass@2.1.1 (get-stdin@4.0.1, replace-ext@0.0.1, cross-spawn@0.2.8, chalk@0.5.1, nan@1.7.0, meow@3.1.0, mkdirp@0.5.0, semver@4.3.3, shelljs@0.3.0, npmconf@2.1.1, gaze@0.5.1, request@2.54.0, sass-graph@1.2.0, mocha@2.2.1, pangyp@2.1.0)
+└── node-sass@2.1.1 (get-stdin@4.0.1, replace-ext@0.0.1, cross-spawn@0.2.8, chalk@0.5.1, nan@1.7.0, mkdirp@0.5.0, semver@4.3.3, shelljs@0.3.0, meow@3.1.0, npmconf@2.1.1, gaze@0.5.1, request@2.55.0, sass-graph@1.2.0, mocha@2.2.1, pangyp@2.1.0)
 bower angular#^1.3.0            cached git://github.com/angular/bower-angular.git#1.3.15
 bower angular#^1.3.0          validate 1.3.15 against git://github.com/angular/bower-angular.git#^1.3.0
-bower es5-shim#^4.0.0           cached git://github.com/es-shims/es5-shim.git#4.1.0
-bower es5-shim#^4.0.0         validate 4.1.0 against git://github.com/es-shims/es5-shim.git#^4.0.0
 bower bootstrap-sass-official#~3.3.1           cached git://github.com/twbs/bootstrap-sass.git#3.3.4
 bower bootstrap-sass-official#~3.3.1         validate 3.3.4 against git://github.com/twbs/bootstrap-sass.git#~3.3.1
-bower angular-resource#^1.3.0                  cached git://github.com/angular/bower-angular-resource.git#1.3.15
-bower angular-resource#^1.3.0                validate 1.3.15 against git://github.com/angular/bower-angular-resource.git#^1.3.0
+bower json3#^3.3.0                             cached git://github.com/bestiejs/json3.git#3.3.2
+bower json3#^3.3.0                           validate 3.3.2 against git://github.com/bestiejs/json3.git#^3.3.0
 bower angular-route#^1.3.0                     cached git://github.com/angular/bower-angular-route.git#1.3.15
 bower angular-route#^1.3.0                   validate 1.3.15 against git://github.com/angular/bower-angular-route.git#^1.3.0
+bower angular-resource#^1.3.0                  cached git://github.com/angular/bower-angular-resource.git#1.3.15
+bower angular-resource#^1.3.0                validate 1.3.15 against git://github.com/angular/bower-angular-resource.git#^1.3.0
 bower angular-ui-router#~0.2.13                cached git://github.com/angular-ui/ui-router.git#0.2.13
 bower angular-ui-router#~0.2.13              validate 0.2.13 against git://github.com/angular-ui/ui-router.git#~0.2.13
 bower angular-sanitize#^1.3.0                  cached git://github.com/angular/bower-angular-sanitize.git#1.3.15
@@ -316,92 +316,96 @@ bower angular-snap#~1.6.0                      cached git://github.com/jtrussell
 bower angular-snap#~1.6.0                    validate 1.6.0 against git://github.com/jtrussell/angular-snap.js-bower.git#~1.6.0
 bower angulartics#~0.17.1                      cached git://github.com/luisfarzati/angulartics.git#0.17.2
 bower angulartics#~0.17.1                    validate 0.17.2 against git://github.com/luisfarzati/angulartics.git#~0.17.1
-bower froogaloop#~0.1.0                        cached git://github.com/austinpray/bower-vimeo-froogaloop.git#0.1.0
-bower froogaloop#~0.1.0                      validate 0.1.0 against git://github.com/austinpray/bower-vimeo-froogaloop.git#~0.1.0
 bower ng-focus#~0.0.1                          cached git://github.com/tatsuyaoiw/ng-focus.git#0.0.1
 bower ng-focus#~0.0.1                        validate 0.0.1 against git://github.com/tatsuyaoiw/ng-focus.git#~0.0.1
+bower froogaloop#~0.1.0                        cached git://github.com/austinpray/bower-vimeo-froogaloop.git#0.1.0
+bower froogaloop#~0.1.0                      validate 0.1.0 against git://github.com/austinpray/bower-vimeo-froogaloop.git#~0.1.0
+bower es5-shim#^4.0.0                          cached git://github.com/es-shims/es5-shim.git#4.1.0
+bower es5-shim#^4.0.0                        validate 4.1.0 against git://github.com/es-shims/es5-shim.git#^4.0.0
 bower fontawesome#~4.2.0                       cached git://github.com/FortAwesome/Font-Awesome.git#4.2.0
 bower fontawesome#~4.2.0                     validate 4.2.0 against git://github.com/FortAwesome/Font-Awesome.git#~4.2.0
+bower marked#~0.3.3                            cached git://github.com/chjj/marked.git#0.3.3
+bower marked#~0.3.3                          validate 0.3.3 against git://github.com/chjj/marked.git#~0.3.3
 bower angular-elastic#~2.4.2                   cached git://github.com/monospaced/angular-elastic.git#2.4.2
 bower angular-elastic#~2.4.2                 validate 2.4.2 against git://github.com/monospaced/angular-elastic.git#~2.4.2
 bower lodash#~3.4.0                            cached git://github.com/lodash/lodash.git#3.4.0
 bower lodash#~3.4.0                          validate 3.4.0 against git://github.com/lodash/lodash.git#~3.4.0
-bower json3#^3.3.0                             cached git://github.com/bestiejs/json3.git#3.3.2
-bower json3#^3.3.0                           validate 3.3.2 against git://github.com/bestiejs/json3.git#^3.3.0
-bower marked#~0.3.3                            cached git://github.com/chjj/marked.git#0.3.3
-bower marked#~0.3.3                          validate 0.3.3 against git://github.com/chjj/marked.git#~0.3.3
-bower moment#~2.9.0                            cached git://github.com/moment/moment.git#2.9.0
-bower moment#~2.9.0                          validate 2.9.0 against git://github.com/moment/moment.git#~2.9.0
 bower ng-videosharing-embed#~0.3.2             cached git://github.com/erost/ng-videosharing-embed.git#0.3.2
 bower ng-videosharing-embed#~0.3.2           validate 0.3.2 against git://github.com/erost/ng-videosharing-embed.git#~0.3.2
+bower moment#~2.9.0                            cached git://github.com/moment/moment.git#2.9.0
+bower moment#~2.9.0                          validate 2.9.0 against git://github.com/moment/moment.git#~2.9.0
 bower angular-mocks#~1.3.0                     cached git://github.com/angular/bower-angular-mocks.git#1.3.15
 bower angular-mocks#~1.3.0                   validate 1.3.15 against git://github.com/angular/bower-angular-mocks.git#~1.3.0
 bower angular-scenario#~1.3.0                  cached git://github.com/angular/bower-angular-scenario.git#1.3.15
 bower angular-scenario#~1.3.0                validate 1.3.15 against git://github.com/angular/bower-angular-scenario.git#~1.3.0
-bower angular#>=1 <1.3.0                       cached git://github.com/angular/bower-angular.git#1.2.28
-bower angular#>=1 <1.3.0                     validate 1.2.28 against git://github.com/angular/bower-angular.git#>=1 <1.3.0
+bower angular#~1.2                             cached git://github.com/angular/bower-angular.git#1.2.28
+bower angular#~1.2                           validate 1.2.28 against git://github.com/angular/bower-angular.git#~1.2
 bower jquery#>= 1.9.0                          cached git://github.com/jquery/jquery.git#2.1.3
 bower jquery#>= 1.9.0                        validate 2.1.3 against git://github.com/jquery/jquery.git#>= 1.9.0
-bower waypoints#~2.0.3                         cached git://github.com/imakewebthings/waypoints.git#2.0.5
-bower waypoints#~2.0.3                       validate 2.0.5 against git://github.com/imakewebthings/waypoints.git#~2.0.3
-bower SHA-1#*                                  cached git://github.com/linkgod/SHA-1.git#0.1.1
-bower SHA-1#*                                validate 0.1.1 against git://github.com/linkgod/SHA-1.git#*
 bower snapjs#~1.9                              cached git://github.com/jakiestfu/Snap.js.git#1.9.3
 bower snapjs#~1.9                            validate 1.9.3 against git://github.com/jakiestfu/Snap.js.git#~1.9
+bower SHA-1#*                                  cached git://github.com/linkgod/SHA-1.git#0.1.1
+bower SHA-1#*                                validate 0.1.1 against git://github.com/linkgod/SHA-1.git#*
+bower waypoints#~2.0.3                         cached git://github.com/imakewebthings/waypoints.git#2.0.5
+bower waypoints#~2.0.3                       validate 2.0.5 against git://github.com/imakewebthings/waypoints.git#~2.0.3
 
 Please note that,
-    angular-bootstrap#0.12.1 depends on angular#>=1 <1.3.0 which resolved to angular#1.2.28
     angular-snap#1.6.0 depends on angular#~1.2 which resolved to angular#1.2.28
+    angular-bootstrap#0.12.1 depends on angular#>=1 <1.3.0 which resolved to angular#1.2.28
     angular-mocks#1.3.15, angular-resource#1.3.15, angular-route#1.3.15, angular-sanitize#1.3.15, angular-scenario#1.3.15 depends on angular#1.3.15 which resolved to angular#1.3.15
     web depends on angular#^1.3.0 which resolved to angular#1.3.15
     angular-ui-router#0.2.13 depends on angular#>= 1.0.8 which resolved to angular#1.3.15
     angulartics#0.17.2 depends on angular#>= 1.1.5 which resolved to angular#1.3.15
-    angular-elastic#2.4.2 depends on angular#>=1.0.6 which resolved to angular#1.3.15
     ng-videosharing-embed#0.3.2 depends on angular#>= 1.2.0 which resolved to angular#1.3.15
+    angular-elastic#2.4.2 depends on angular#>=1.0.6 which resolved to angular#1.3.15
 Resort to using angular#^1.3.0 which resolved to angular#1.3.15
 Code incompatibilities may occur.
 
 bower marked                         extra-resolution Unnecessary resolution: marked#~0.3.3
 bower angular-mocks                  extra-resolution Unnecessary resolution: angular-mocks#~1.3.0
-bower es5-shim#^4.0.0                         install es5-shim#4.1.0
-bower angular#1.3.15                          install angular#1.3.15
-bower angular-resource#^1.3.0                 install angular-resource#1.3.15
-bower angular-route#^1.3.0                    install angular-route#1.3.15
+bower json3#^3.3.0                            install json3#3.3.2
 bower bootstrap-sass-official#~3.3.1          install bootstrap-sass-official#3.3.4
+bower angular#1.3.15                          install angular#1.3.15
+bower angular-route#^1.3.0                    install angular-route#1.3.15
+bower angular-resource#^1.3.0                 install angular-resource#1.3.15
+bower angular-snap#~1.6.0                     install angular-snap#1.6.0
 bower angular-bootstrap#~0.12.0               install angular-bootstrap#0.12.1
 bower angular-local-storage#~0.1.5            install angular-local-storage#0.1.5
 bower angular-sanitize#^1.3.0                 install angular-sanitize#1.3.15
 bower angular-ui-router#~0.2.13               install angular-ui-router#0.2.13
-bower ng-focus#~0.0.1                         install ng-focus#0.0.1
+bower es5-shim#^4.0.0                         install es5-shim#4.1.0
 bower froogaloop#~0.1.0                       install froogaloop#0.1.0
+bower ng-focus#~0.0.1                         install ng-focus#0.0.1
 bower angulartics#~0.17.1                     install angulartics#0.17.2
-bower angular-snap#~1.6.0                     install angular-snap#1.6.0
-bower fontawesome#~4.2.0                      install fontawesome#4.2.0
-bower angular-elastic#~2.4.2                  install angular-elastic#2.4.2
-bower moment#~2.9.0                           install moment#2.9.0
-bower marked#~0.3.3                           install marked#0.3.3
-bower json3#^3.3.0                            install json3#3.3.2
-bower lodash#~3.4.0                           install lodash#3.4.0
 bower ng-videosharing-embed#~0.3.2            install ng-videosharing-embed#0.3.2
+bower lodash#~3.4.0                           install lodash#3.4.0
+bower angular-elastic#~2.4.2                  install angular-elastic#2.4.2
+bower marked#~0.3.3                           install marked#0.3.3
+bower fontawesome#~4.2.0                      install fontawesome#4.2.0
 bower angular-mocks#~1.3.0                    install angular-mocks#1.3.15
+bower moment#~2.9.0                           install moment#2.9.0
+bower angular-scenario#~1.3.0                 install angular-scenario#1.3.15
+bower jquery#>= 1.9.0                         install jquery#2.1.3
 bower snapjs#~1.9                             install snapjs#1.9.3
 bower SHA-1#*                                 install SHA-1#0.1.1
-bower jquery#>= 1.9.0                         install jquery#2.1.3
 bower waypoints#~2.0.3                        install waypoints#2.0.5
-bower angular-scenario#~1.3.0                 install angular-scenario#1.3.15
 
-es5-shim#4.1.0 bower_components/es5-shim
+json3#3.3.2 bower_components/json3
+
+bootstrap-sass-official#3.3.4 bower_components/bootstrap-sass-official
+└── jquery#2.1.3
 
 angular#1.3.15 bower_components/angular
-
-angular-resource#1.3.15 bower_components/angular-resource
-└── angular#1.3.15
 
 angular-route#1.3.15 bower_components/angular-route
 └── angular#1.3.15
 
-bootstrap-sass-official#3.3.4 bower_components/bootstrap-sass-official
-└── jquery#2.1.3
+angular-resource#1.3.15 bower_components/angular-resource
+└── angular#1.3.15
+
+angular-snap#1.6.0 bower_components/angular-snap
+├── angular#1.3.15
+└── snapjs#1.9.3
 
 angular-bootstrap#0.12.1 bower_components/angular-bootstrap
 └── angular#1.3.15
@@ -414,49 +418,45 @@ angular-sanitize#1.3.15 bower_components/angular-sanitize
 angular-ui-router#0.2.13 bower_components/angular-ui-router
 └── angular#1.3.15
 
-ng-focus#0.0.1 bower_components/ng-focus
+es5-shim#4.1.0 bower_components/es5-shim
 
 froogaloop#0.1.0 bower_components/froogaloop
+
+ng-focus#0.0.1 bower_components/ng-focus
 
 angulartics#0.17.2 bower_components/angulartics
 ├── SHA-1#0.1.1
 ├── angular#1.3.15
 └── waypoints#2.0.5
 
-angular-snap#1.6.0 bower_components/angular-snap
-├── angular#1.3.15
-└── snapjs#1.9.3
+ng-videosharing-embed#0.3.2 bower_components/ng-videosharing-embed
+└── angular#1.3.15
 
-fontawesome#4.2.0 bower_components/fontawesome
+lodash#3.4.0 bower_components/lodash
 
 angular-elastic#2.4.2 bower_components/angular-elastic
 └── angular#1.3.15
 
-moment#2.9.0 bower_components/moment
-
 marked#0.3.3 bower_components/marked
 
-json3#3.3.2 bower_components/json3
-
-lodash#3.4.0 bower_components/lodash
-
-ng-videosharing-embed#0.3.2 bower_components/ng-videosharing-embed
-└── angular#1.3.15
+fontawesome#4.2.0 bower_components/fontawesome
 
 angular-mocks#1.3.15 bower_components/angular-mocks
 └── angular#1.3.15
+
+moment#2.9.0 bower_components/moment
+
+angular-scenario#1.3.15 bower_components/angular-scenario
+└── angular#1.3.15
+
+jquery#2.1.3 bower_components/jquery
 
 snapjs#1.9.3 bower_components/snapjs
 
 SHA-1#0.1.1 bower_components/SHA-1
 
-jquery#2.1.3 bower_components/jquery
-
 waypoints#2.0.5 bower_components/waypoints
 └── jquery#2.1.3
-
-angular-scenario#1.3.15 bower_components/angular-scenario
-└── angular#1.3.15
 [4mRunning "ptest:live:dist:browserstack" (ptest) task[24m
 
 [4mRunning "shell:getDeveloperName" (shell) task[24m
@@ -498,10 +498,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-05 00:24:50 UTC)
-    loading tasks       11ms  ▇▇▇▇▇▇▇▇▇▇▇ 26%
-    copy:plainCssToTmp  31ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 72%
-    Total 43ms
+    Execution Time (2015-04-06 00:24:52 UTC)
+    loading tasks       13ms  ▇▇▇▇▇▇▇▇▇▇ 22%
+    copy:plainCssToTmp  43ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 74%
+    Total 58ms
         
     [4mRunning "copy:viewsToTmp" (copy) task[24m
     Copied [36m81[39m files
@@ -509,20 +509,20 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-05 00:24:50 UTC)
-    loading tasks     11ms  ▇ 2%
-    copy:viewsToTmp  632ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
-    Total 643ms
+    Execution Time (2015-04-06 00:24:52 UTC)
+    loading tasks     12ms  ▇▇▇ 6%
+    copy:viewsToTmp  190ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+    Total 203ms
         
     [4mRunning "sass:dist" (sass) task[24m
     
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-05 00:24:54 UTC)
+    Execution Time (2015-04-06 00:24:57 UTC)
     loading tasks   10ms  ▇ 2%
-    sass:dist      581ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
-    Total 593ms
+    sass:dist      551ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
+    Total 563ms
         
     [4mRunning "imagemin:dist" (imagemin) task[24m
     Minified 10 images (saved 16.13 kB)
@@ -530,10 +530,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-05 00:24:55 UTC)
-    loading tasks  15ms  ▇ 1%
-    imagemin:dist    1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
-    Total 1.1s
+    Execution Time (2015-04-06 00:24:57 UTC)
+    loading tasks   11ms  ▇ 1%
+    imagemin:dist  981ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 99%
+    Total 993ms
         
     [4mRunning "svgmin:dist" (svgmin) task[24m
     Total saved: 0 B
@@ -541,10 +541,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-05 00:24:58 UTC)
-    loading tasks   6ms  ▇▇▇▇▇▇ 11%
-    svgmin:dist    48ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 89%
-    Total 54ms
+    Execution Time (2015-04-06 00:25:00 UTC)
+    loading tasks   6ms  ▇▇▇▇▇ 10%
+    svgmin:dist    52ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 90%
+    Total 58ms
     
 [4mRunning "concurrent:buildPhase2" (concurrent) task[24m
     
@@ -554,10 +554,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-05 00:25:04 UTC)
-    loading tasks                   11ms  ▇▇▇ 10%
-    copy:nonConcat...edFilesToDist  99ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 88%
-    Total 112ms
+    Execution Time (2015-04-06 00:25:06 UTC)
+    loading tasks                    11ms  ▇▇▇ 10%
+    copy:nonConcat...edFilesToDist  100ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 88%
+    Total 113ms
         
     [4mRunning "autoprefixer:dist" (autoprefixer) task[24m
     File .tmp/styles/main.css created.
@@ -565,10 +565,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-05 00:25:04 UTC)
-    loading tasks       14ms  ▇▇▇ 5%
-    autoprefixer:dist  278ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 95%
-    Total 292ms
+    Execution Time (2015-04-06 00:25:06 UTC)
+    loading tasks       12ms  ▇▇▇ 5%
+    autoprefixer:dist  235ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 95%
+    Total 248ms
     
 [4mRunning "filerev:nonScripts" (filerev) task[24m
 ✔ dist/images/avatar-default.jpg changed to avatar-default.d97caa7a.jpg
@@ -623,7 +623,7 @@ Minified .tmp/views/modules/creator-subscription/customize-landing-page-header-i
 Minified .tmp/views/modules/creator-subscription/customize-landing-page-loading-area.html 65 B → 62 B
 Minified .tmp/views/modules/creator-subscription/customize-landing-page-submission-area.html 946 B → 844 B
 Minified .tmp/views/modules/creator-subscription/customize-landing-page.html 682 B → 537 B
-Minified .tmp/views/modules/creator-timeline/creator-timeline.html 6.54 kB → 4.46 kB
+Minified .tmp/views/modules/creator-timeline/creator-timeline.html 6.62 kB → 4.54 kB
 Minified .tmp/views/modules/newsfeed/newsfeed.html 134 B → 129 B
 Minified .tmp/views/modules/notifications/notifications.html 119 B → 112 B
 Minified .tmp/views/modules/posts/full-size-image-modal.html 362 B → 307 B
@@ -679,15 +679,15 @@ File .tmp/concat/scripts/scripts.js created.
 [4mRunning "concurrent:buildPhase3" (concurrent) task[24m
     
     [4mRunning "cssmin:dist" (cssmin) task[24m
-    File dist/styles/main.css created: 258.67 kB → 191.31 kB
+    File dist/styles/main.css created: 258.79 kB → 191.43 kB
     
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-05 00:25:10 UTC)
-    loading tasks   14ms  ▇▇▇ 5%
-    cssmin:dist    280ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 95%
-    Total 295ms
+    Execution Time (2015-04-06 00:25:12 UTC)
+    loading tasks    9ms  ▇▇ 3%
+    cssmin:dist    273ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 96%
+    Total 283ms
         
     [4mRunning "ngAnnotate:dist" (ngAnnotate) task[24m
     [32m>> [39m2 files successfully generated.
@@ -695,18 +695,18 @@ File .tmp/concat/scripts/scripts.js created.
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-05 00:25:10 UTC)
+    Execution Time (2015-04-06 00:25:12 UTC)
     ngAnnotate:dist  1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 99%
     Total 1.5s
     
 [4mRunning "uglify:generated" (uglify) task[24m
 File dist/scripts/oldieshim.js created: 96.22 kB → 21.64 kB
 File dist/scripts/vendor.js created: 2.21 MB → 464.1 kB
-File dist/scripts/scripts.js created: 317.35 kB → 191.5 kB
+File dist/scripts/scripts.js created: 317.42 kB → 191.57 kB
 
 [4mRunning "filerev:scripts" (filerev) task[24m
 ✔ dist/scripts/oldieshim.js changed to oldieshim.675309ab.js
-✔ dist/scripts/scripts.js changed to scripts.53d80beb.js
+✔ dist/scripts/scripts.js changed to scripts.93977b00.js
 ✔ dist/scripts/vendor.js changed to vendor.02f1cd91.js
 
 [4mRunning "usemin:html" (usemin) task[24m
@@ -731,9 +731,9 @@ Started connect web server on http://localhost:9001
 
 [4mRunning "protractor:browserstack" (protractor) task[24m
 [launcher] Running 2 instances of WebDriver
-............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
 ------------------------------------
-[Chrome #2] PID: 16899
+[Chrome #2] PID: 22628
 [Chrome #2] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Chrome #2] Runner Started.
 [Chrome #2] account settings page : should run once before all ... 
@@ -1822,17 +1822,17 @@ Started connect web server on http://localhost:9001
 [Chrome #2] [32m.[0mafter resetting password: 2 of 2 passed.
 [Chrome #2] sign-in - reset password form: 10 of 10 passed.
 [Chrome #2] Runner Finished.
-[Chrome #2] 461 specs, 0 failures in 1209.921s.
+[Chrome #2] 461 specs, 0 failures in 1209.838s.
 [Chrome #2] 
 [Chrome #2] 
-[Chrome #2] Finished in 1209.922 seconds
+[Chrome #2] Finished in 1209.839 seconds
 [Chrome #2] [32m461 tests, 830 assertions, 0 failures
 [0m[Chrome #2] 
 
 [launcher] 2 instance(s) of WebDriver still running
-.....................................................................................................................................................................................................................................................................F.........................................................................................................................................................................................................................................................................................................
+..............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
 ------------------------------------
-[Firefox #3] PID: 18308
+[Firefox #3] PID: 24027
 [Firefox #3] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Firefox #3] Runner Started.
 [Firefox #3] account settings page : should run once before all ... 
@@ -2921,17 +2921,17 @@ Started connect web server on http://localhost:9001
 [Firefox #3] [32m.[0mafter resetting password: 2 of 2 passed.
 [Firefox #3] sign-in - reset password form: 10 of 10 passed.
 [Firefox #3] Runner Finished.
-[Firefox #3] 461 specs, 0 failures in 1330.729s.
+[Firefox #3] 461 specs, 0 failures in 1441.548s.
 [Firefox #3] 
 [Firefox #3] 
-[Firefox #3] Finished in 1330.74 seconds
+[Firefox #3] Finished in 1441.548 seconds
 [Firefox #3] [32m461 tests, 830 assertions, 0 failures
 [0m[Firefox #3] 
 
 [launcher] 2 instance(s) of WebDriver still running
-.........................................................................................................................................................................................................................................
+.............................................................................................................................................................................................................................................................................
 ------------------------------------
-[IE #1] PID: 16898
+[IE #1] PID: 22627
 [IE #1] Using the selenium server at http://hub.browserstack.com/wd/hub
 [IE #1] Runner Started.
 [IE #1] account settings page : should run once before all ... 
@@ -3024,10 +3024,10 @@ Started connect web server on http://localhost:9001
 [IE #1] [32m.[0mfor "priceTextBox" : should not allow a price of 0 ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mfor "priceTextBox" : should not allow non-monetary values ... 
-[IE #1] Failed.
-[IE #1] [31mF[0mfor "priceTextBox": 10 of 11 passed.
-[IE #1] when validating bad input: 18 of 19 passed.
-[IE #1] add channel form: 72 of 73 passed.
+[IE #1] Passed.
+[IE #1] [32m.[0mfor "priceTextBox": 11 of 11 passed.
+[IE #1] when validating bad input: 19 of 19 passed.
+[IE #1] add channel form: 73 of 73 passed.
 [IE #1] add channel page : should run once before all ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mbreadcrumb : should contain the correct text ... 
@@ -3503,10 +3503,10 @@ Started connect web server on http://localhost:9001
 [IE #1] Passed.
 [IE #1] [32m.[0msubmit button: 10 of 10 passed.
 [IE #1] when deleting release times : it should allow release times to be deleted when multiple exist ... 
-[IE #1] Failed.
-[IE #1] [31mF[0mwhen deleting release times : it should not allow release times to be deleted when only one exists ... 
-[IE #1] Failed.
-[IE #1] [31mF[0mwhen deleting release times: 1 of 3 passed.
+[IE #1] Passed.
+[IE #1] [32m.[0mwhen deleting release times : it should not allow release times to be deleted when only one exists ... 
+[IE #1] Passed.
+[IE #1] [32m.[0mwhen deleting release times: 3 of 3 passed.
 [IE #1] the modal for deleting a collection : should run once before all ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mthe modal for deleting a collection : should have the title "Delete Collection" ... 
@@ -3546,7 +3546,7 @@ Started connect web server on http://localhost:9001
 [IE #1] [32m.[0mthe modal for deleting a collection : should delete the collection ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mthe modal for deleting a collection: 30 of 30 passed.
-[IE #1] edit collection form: 104 of 106 passed.
+[IE #1] edit collection form: 106 of 106 passed.
 [IE #1] edit collection page : should run once before all ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mbreadcrumb : should contain the correct text ... 
@@ -3739,10 +3739,10 @@ Started connect web server on http://localhost:9001
 [IE #1] [32m.[0mfor "basePriceTextBox" : should not allow a price of 0 ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mfor "basePriceTextBox" : should not allow non-monetary values ... 
-[IE #1] Failed.
-[IE #1] [31mF[0mfor "basePriceTextBox": 10 of 11 passed.
-[IE #1] sad path: 20 of 21 passed.
-[IE #1] create subscription form: 31 of 32 passed.
+[IE #1] Passed.
+[IE #1] [32m.[0mfor "basePriceTextBox": 11 of 11 passed.
+[IE #1] sad path: 21 of 21 passed.
+[IE #1] create subscription form: 32 of 32 passed.
 [IE #1] create subscription page : should run once before all ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mheader : should contain title ... 
@@ -4020,77 +4020,17 @@ Started connect web server on http://localhost:9001
 [IE #1] [32m.[0mafter resetting password: 2 of 2 passed.
 [IE #1] sign-in - reset password form: 10 of 10 passed.
 [IE #1] Runner Finished.
-[IE #1] 461 specs, 4 failures in 3184.554s.
+[IE #1] 461 specs, 0 failures in 3521.808s.
 [IE #1] 
 [IE #1] 
-[IE #1] Failures:
-[IE #1] 
-[IE #1]   1) add channel form when validating bad input for "priceTextBox" should not allow non-monetary values
-[IE #1]    Message:
-[IE #1]      [31mExpected '23' to contain '123'.[0m
-[IE #1]    Stacktrace:
-[IE #1]      Error: Failed expectation
-[IE #1]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/test/e2e/pages/channel-price-input.page.js:59:43)
-[IE #1] 
-[IE #1]   2) edit collection form when deleting release times it should allow release times to be deleted when multiple exist
-[IE #1]    Message:
-[IE #1]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
-[IE #1] Command duration or timeout: 170 milliseconds
-[IE #1] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
-[IE #1] System info: host: '208-52-180-96', ip: '208.52.180.96', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_40'
-[IE #1] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-[IE #1] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:18426/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-[IE #1] Session ID: 50655d89-d0f2-4a2d-a8f1-860bb40c915d[0m
-[IE #1]    Stacktrace:
-[IE #1]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
-[IE #1] Command duration or timeout: 170 milliseconds
-[IE #1] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
-[IE #1] System info: host: '208-52-180-96', ip: '208.52.180.96', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_40'
-[IE #1] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-[IE #1] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:18426/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-[IE #1] Session ID: 50655d89-d0f2-4a2d-a8f1-860bb40c915d
-[IE #1] ==== async task ====
-[IE #1] WebDriver.executeScript()
-[IE #1]     at /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/test/e2e/common-workflows.js:54:17
-[IE #1] ==== async task ====
-[IE #1]     at Object.create.fastRefresh.value (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/test/e2e/common-workflows.js:50:29)
-[IE #1]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:230:23)
-[IE #1] ==== async task ====
-[IE #1] Asynchronous test function: afterEach()
-[IE #1] Error
-[IE #1]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:229:5)
-[IE #1]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:228:3)
-[IE #1]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
-[IE #1] 
-[IE #1]   3) edit collection form when deleting release times it should not allow release times to be deleted when only one exists
-[IE #1]    Message:
-[IE #1]      [31mNoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")[0m
-[IE #1]    Stacktrace:
-[IE #1]      NoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")
-[IE #1] ==== async task ====
-[IE #1] Asynchronous test function: it()
-[IE #1] Error
-[IE #1]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:247:37)
-[IE #1] Error
-[IE #1]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:246:5)
-[IE #1]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:228:3)
-[IE #1]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
-[IE #1] 
-[IE #1]   4) create subscription form sad path for "basePriceTextBox" should not allow non-monetary values
-[IE #1]    Message:
-[IE #1]      [31mExpected '2' to contain '123'.[0m
-[IE #1]    Stacktrace:
-[IE #1]      Error: Failed expectation
-[IE #1]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/test/e2e/pages/channel-price-input.page.js:59:43)
-[IE #1] 
-[IE #1] Finished in 3184.562 seconds
-[IE #1] [31m461 tests, 830 assertions, 4 failures
+[IE #1] Finished in 3521.809 seconds
+[IE #1] [32m461 tests, 830 assertions, 0 failures
 [0m[IE #1] 
 
 [launcher] 2 instance(s) of WebDriver still running
-...............................................................................................................................................................................................................................................................................................................................FF
+...........................................................F
 ------------------------------------
-[IE #4] PID: 19657
+[IE #4] PID: 25452
 [IE #4] Using the selenium server at http://hub.browserstack.com/wd/hub
 [IE #4] Runner Started.
 [IE #4] account settings page : should run once before all ... 
@@ -4538,105 +4478,8 @@ Started connect web server on http://localhost:9001
 [IE #4] [32m.[0madd collection form : should allow user to cancel when form is invalid ... 
 [IE #4] Passed.
 [IE #4] [32m.[0mon successful submission : should run once before all ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mon successful submission : should persist the changes ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mon successful submission : should persist the changes, between sessions ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mon successful submission: 8 of 8 passed.
-[IE #4] for "nameTextBox" : should allow collection names with 1 characters or more ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mfor "nameTextBox" : should allow collection names with punctuation ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mfor "nameTextBox" : should allow collection names with numbers ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mfor "nameTextBox" : should allow collection names with trailing and leading whitespace ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mfor "nameTextBox": 16 of 16 passed.
-[IE #4] when validating good input: 16 of 16 passed.
-[IE #4] for "nameTextBox" : requires collection name ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mfor "nameTextBox" : should not allow collection names with over than 50 characters ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mfor "nameTextBox": 4 of 4 passed.
-[IE #4] when validating bad input: 4 of 4 passed.
-[IE #4] add collection form: 32 of 32 passed.
-[IE #4] add collection page : should run once before all ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mbreadcrumb : should contain the correct text ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mbreadcrumb : should contain "Collections" link ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mbreadcrumb : should contain "Collections" link, that navigates to the root ancestor ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mbreadcrumb: 5 of 5 passed.
-[IE #4] header : should contain the correct number of links ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mheader : should contain "Collections" link ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mheader : should highlight the current page ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mheader: 3 of 3 passed.
-[IE #4] sidebar : should contain the correct number of links ... 
-[IE #4] Passed.
-[IE #4] [32m.[0msidebar : should contain "Home" link ... 
-[IE #4] Passed.
-[IE #4] [32m.[0msidebar : should contain "Landing Page" link ... 
-[IE #4] Passed.
-[IE #4] [32m.[0msidebar : should contain "Posts" link ... 
-[IE #4] Passed.
-[IE #4] [32m.[0msidebar : should contain "Collections" link ... 
-[IE #4] Passed.
-[IE #4] [32m.[0msidebar : should contain "Channels" link ... 
-[IE #4] Passed.
-[IE #4] [32m.[0msidebar : should contain "Account" link ... 
-[IE #4] Passed.
-[IE #4] [32m.[0msidebar : should contain "Help" link ... 
-[IE #4] Passed.
-[IE #4] [32m.[0msidebar : should highlight the current area ... 
-[IE #4] Passed.
-[IE #4] [32m.[0msidebar: 9 of 9 passed.
-[IE #4] add collection page: 17 of 17 passed.
-[IE #4] edit collection form : should run once before all ... 
-[IE #4] Passed.
-[IE #4] [32m.[0medit collection form : should initialise with the correct properties ... 
-[IE #4] Passed.
-[IE #4] [32m.[0medit collection form : should discard changes when user cancels ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mthe modal for discarding changes : should run once before all ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mthe modal for discarding changes : should not display if the form is not dirty ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mthe modal for discarding changes : should display if the form is dirty ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mthe modal for discarding changes : should have the title "Discard changes?" ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mclicking the cancel button : should cancel the operation ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mclicking the cancel button: 2 of 2 passed.
-[IE #4] clicking the X button : should cancel the operation ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mclicking the X button: 2 of 2 passed.
-[IE #4] the discard button : should be enabled ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mthe discard button: 1 of 1 passed.
-[IE #4] the modal for discarding changes : should not have discarded changes up to this point ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mthe modal for discarding changes : should discard changes when discard button is clicked ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mthe modal for discarding changes: 18 of 18 passed.
-[IE #4] edit collection form : should allow user to cancel when form is invalid ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mon successful submission : should run once before all ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mon successful submission : should persist the changes ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mon successful submission : should persist the changes, between sessions ... 
-[IE #4] Passed.
-[IE #4] [32m.[0mon successful submission: 18 of 18 passed.
-[IE #4] for "nameTextBox" : should allow collection names with 1 characters or more ... 
 [IE #4] Failed.
-[IE #4] [31mF[0mfor "nameTextBox" : should allow collection names with punctuation ... 
+[IE #4] [31mF[0mon successful submission : should persist the changes ... 
 [IE #4] 
 [IE #4] /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113
 [IE #4]   var template = new Error(this.message);
@@ -4666,9 +4509,9 @@ Started connect web server on http://localhost:9001
 
 [launcher] Runner process exited unexpectedly with error code: 1
 [launcher] 2 instance(s) of WebDriver still running
-
+...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
 ------------------------------------
-[Chrome #5] PID: 19846
+[Chrome #5] PID: 25653
 [Chrome #5] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Chrome #5] Runner Started.
 [Chrome #5] account settings page : should run once before all ... 
@@ -5233,40 +5076,541 @@ Started connect web server on http://localhost:9001
 [Chrome #5] [32m.[0msubmit button : should remain disabled after cancelling out of adding a release time ... 
 [Chrome #5] Passed.
 [Chrome #5] [32m.[0msubmit button : should become enabled after adding a release time ... 
-[Chrome #5] Failed.
-[Chrome #5] [31mF[0msubmit button : should become enabled after removing a release time ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msubmit button : should become enabled after removing a release time ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msubmit button : should become enabled after updating a release time ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msubmit button: 10 of 10 passed.
+[Chrome #5] when deleting release times : it should allow release times to be deleted when multiple exist ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen deleting release times : it should not allow release times to be deleted when only one exists ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen deleting release times: 3 of 3 passed.
+[Chrome #5] the modal for deleting a collection : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mthe modal for deleting a collection : should have the title "Delete Collection" ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mthe modal for deleting a collection : should contain the collection's name in the confirmation message ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mthe modal for deleting a collection : should contain an empty confirmation text box ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mclicking the cancel button : should cancel the operation when no input has been entered ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mclicking the cancel button : should cancel the operation after invalid input has been entered ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mclicking the cancel button : should cancel the operation after valid input has been entered ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mclicking the cancel button: 6 of 6 passed.
+[Chrome #5] clicking the X button : should cancel the operation when no input has been entered ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mclicking the X button : should cancel the operation after invalid input has been entered ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mclicking the X button : should cancel the operation after valid input has been entered ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mclicking the X button: 6 of 6 passed.
+[Chrome #5] should be disabled : should be disabled by default ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mshould be disabled : should be disabled after entering non-matching input ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mshould be disabled : should be disabled after entering a subset of the collection's name ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mshould be disabled : should be disabled after entering a superset of the collection's name ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mshould be disabled: 4 of 4 passed.
+[Chrome #5] the delete button : should become enabled after entering the collection's name ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mthe delete button: 5 of 5 passed.
+[Chrome #5] the modal for deleting a collection : should not have deleted the item up to this point ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mthe modal for deleting a collection : should delete the collection ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mthe modal for deleting a collection: 30 of 30 passed.
+[Chrome #5] edit collection form: 106 of 106 passed.
+[Chrome #5] edit collection page : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mbreadcrumb : should contain the correct text ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mbreadcrumb : should contain "Collections" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mbreadcrumb : should contain "Collections" link, that navigates to the root ancestor ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mbreadcrumb: 5 of 5 passed.
+[Chrome #5] header : should contain the correct number of links ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should contain "Collections" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should highlight the current page ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader: 3 of 3 passed.
+[Chrome #5] sidebar : should contain the correct number of links ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Home" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Landing Page" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Posts" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Collections" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Channels" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Account" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Help" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should highlight the current area ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar: 9 of 9 passed.
+[Chrome #5] edit collection page: 18 of 18 passed.
+[Chrome #5] collection list form : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcollection list form : should allow new collections to be created ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcollection list form : should contain no collections after registering ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcollection list form : should contain no collections after registering, after signing back in ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcollection list form: 3 of 3 passed.
+[Chrome #5] collection list page : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should contain the correct number of links ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should contain "Collections" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should highlight the current page ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader: 3 of 3 passed.
+[Chrome #5] sidebar : should contain the correct number of links ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Home" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Landing Page" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Posts" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Collections" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Channels" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Account" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Help" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should highlight the current area ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar: 9 of 9 passed.
+[Chrome #5] collection list page: 12 of 12 passed.
+[Chrome #5] when creator has one channel : should post a note to channel 0 ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen creator has one channel: 2 of 2 passed.
+[Chrome #5] when creator has two channels : should post a note to channel 1 ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen creator has two channels: 2 of 2 passed.
+[Chrome #5] when posting now: 4 of 4 passed.
+[Chrome #5] when creator has one channel : should schedule a note to channel0 ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen creator has one channel: 2 of 2 passed.
+[Chrome #5] when creator has two channels : should schedule a note to channel1 ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen creator has two channels: 2 of 2 passed.
+[Chrome #5] when posting later: 4 of 4 passed.
+[Chrome #5] workflows: 8 of 8 passed.
+[Chrome #5] when validating inputs : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen posting now : should allow symbols in the content ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen posting now : should allow numbers in the content ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen posting now: 2 of 2 passed.
+[Chrome #5] when posting to backlog : should allow midnight ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen posting to backlog : should allow single digits ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen posting to backlog : should allow one minute before midnight ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen posting to backlog : should allow dates in the future ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen posting to backlog : should allow dates in the past ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen posting to backlog : should allow the current date ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen posting to backlog: 6 of 6 passed.
+[Chrome #5] happy path: 8 of 8 passed.
+[Chrome #5] when testing date time picker : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker : requires hour ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker : does not allow hours less than zero ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker : does not allow hours greater than 23 ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker : does not allow hours with symbols ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker : does not allow hours with letters ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker : requires minute ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker : does not allow minutes less than zero ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker : does not allow minutes greater than 59 ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker : does not allow minutes with symbols ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker : does not allow minutes with letters ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker : requires a date ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker : should run once after all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing date time picker: 22 of 22 passed.
+[Chrome #5] when testing note : should not allow a note with more than 280 characters ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing note : should not allow an empty note ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing note : should not allow an empty note when posting later ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen testing note: 6 of 6 passed.
+[Chrome #5] sad path: 28 of 28 passed.
+[Chrome #5] when validating inputs: 36 of 36 passed.
+[Chrome #5] compose note form: 44 of 44 passed.
+[Chrome #5] happy path : should allow a new subscription to be created ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mhappy path : should not require base price to be entered ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "nameTextBox" : should allow subscription names with 1 characters or more ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "nameTextBox" : should allow subscription names with punctuation (1 of 2) ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "nameTextBox" : should allow subscription names with punctuation (2 of 2) ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "nameTextBox" : should allow subscription names with numbers ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "nameTextBox" : should allow subscription names with trailing and leading whitespace ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "nameTextBox": 5 of 5 passed.
+[Chrome #5] for "taglineTextBox" : should allow taglines with 5 characters or more ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "taglineTextBox" : should allow taglines with numbers ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "taglineTextBox" : should allow taglines with trailing and leading whitespace ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "taglineTextBox": 3 of 3 passed.
+[Chrome #5] for "basePriceTextBox" : should allow prices of 1 cent or more ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "basePriceTextBox": 1 of 1 passed.
+[Chrome #5] happy path: 11 of 11 passed.
+[Chrome #5] sad path : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "nameTextBox" : requires subscription name ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "nameTextBox" : should not allow subscription names with over than 25 characters ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "nameTextBox": 4 of 4 passed.
+[Chrome #5] for "taglineTextBox" : requires tagline ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "taglineTextBox" : should not allow taglines with fewer than 5 characters ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "taglineTextBox" : should not allow taglines with over than 55 characters ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "taglineTextBox": 6 of 6 passed.
+[Chrome #5] for "basePriceTextBox" : requires price ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "basePriceTextBox" : should not allow a price of 0 ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "basePriceTextBox" : should not allow non-monetary values ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mfor "basePriceTextBox": 11 of 11 passed.
+[Chrome #5] sad path: 21 of 21 passed.
+[Chrome #5] create subscription form: 32 of 32 passed.
+[Chrome #5] create subscription page : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should contain title ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader: 1 of 1 passed.
+[Chrome #5] sidebar : should contain 4 links ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Home" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain highlighted link for current page ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Settings" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Help" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar: 5 of 5 passed.
+[Chrome #5] create subscription page: 6 of 6 passed.
+[Chrome #5] creator-backlog page : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should contain the correct number of links ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should contain "Live Now" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should contain "Scheduled" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should highlight the current page ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader: 4 of 4 passed.
+[Chrome #5] sidebar : should contain the correct number of links ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Home" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Landing Page" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Posts" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Collections" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Channels" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Account" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Help" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should highlight the current area ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar: 9 of 9 passed.
+[Chrome #5] creator-backlog page: 13 of 13 passed.
+[Chrome #5] creator landing page : should not contain the standard sidebar or header ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcreator header : should display the subscription name ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcreator header : should display the tagline ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcreator header : should display the quick introduction ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcreator header: 3 of 3 passed.
+[Chrome #5] after creating a subscription: 3 of 3 passed.
+[Chrome #5] after signing back in : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcreator header : should display the subscription name ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcreator header : should display the tagline ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcreator header : should display the quick introduction ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcreator header: 3 of 3 passed.
+[Chrome #5] after signing back in: 3 of 3 passed.
+[Chrome #5] more info : should be hidden in absence of a full description and video ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mmore info : should display full description when provided ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mmore info : should display video when provided ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mmore info : should display full description and video when both are provided ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mmore info: 13 of 13 passed.
+[Chrome #5] channel list : should display the default channel ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mchannel list : should display other channels below the default channel ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mchannel list: 14 of 14 passed.
+[Chrome #5] total price : should equal the default channel price by default ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mtotal price : should always include the default channel price (it may not be deselected) ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mtotal price : should sum all selected channels as they are selected ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mtotal price : should sum all selected channels as they are deselected ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mtotal price: 12 of 12 passed.
+[Chrome #5] subscribing : should be possible via the "subscribe" button ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msubscribing : should be possible via the "subscribe now" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msubscribing: 2 of 2 passed.
+[Chrome #5] creator landing page: 49 of 49 passed.
+[Chrome #5] creator-timeline page : should not contain a sidebar or header ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcreator header : should display the subscription name ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcreator header : should display the tagline ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcreator header : should display the quick introduction ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mcreator header: 3 of 3 passed.
+[Chrome #5] creator-timeline page: 5 of 5 passed.
+[Chrome #5] customize landing page page : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should contain the correct number of links ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should contain "Preview" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should contain "Edit Page" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should highlight the current page ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader: 4 of 4 passed.
+[Chrome #5] sidebar : should contain the correct number of links ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Home" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Landing Page" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Posts" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Collections" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Channels" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Account" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Help" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should highlight the current area ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar: 9 of 9 passed.
+[Chrome #5] customize landing page page: 13 of 13 passed.
+[Chrome #5] homepage : should have a sign-in link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mhomepage : should have correct intro heading ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mhomepage : should have correct sub intro heading ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mhomepage : should link to the "creator journey" video ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mhomepage: 6 of 6 passed.
+[Chrome #5] when validating against good input : should allow a new user to register ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against good input : should allow numbers in username ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against good input : should allow underscores in username ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against good input : should allow leading and trailing spaces in username ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against good input : should allow lowercase and uppercase characters in username ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against good input : should allow password with 6 characters or more ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against good input: 6 of 6 passed.
+[Chrome #5] when validating against bad input : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input : requires email address ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input : requires username ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input : should not allow spaces in username ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input : should not allow forbidden characters in username ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input : should not allow usernames with fewer than 2 characters ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input : should not allow usernames with over than 20 characters ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input : requires password ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input : should not allow passwords with fewer than 6 characters ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input : should not allow passwords with more than 100 characters ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input: 18 of 18 passed.
+[Chrome #5] registration form: 24 of 24 passed.
+[Chrome #5] when a user is not registered : should display a success message when username is provided ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen a user is not registered : should display a success message when email is provided ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen a user is not registered: 4 of 4 passed.
+[Chrome #5] when a user is registered : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen a user is registered : should display a success message when username is provided ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen a user is registered : should display a success message when email is provided ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mthe "reset password" email : should be delivered when username is provided ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mthe "reset password" email : should be delivered when email is provided ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mthe "reset password" email : should remind user of username ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mthe "reset password" email : should link to "reset password" page ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mthe "reset password" email: 4 of 4 passed.
+[Chrome #5] when a user is registered: 8 of 8 passed.
+[Chrome #5] sign-in - forgot details form: 12 of 12 passed.
+[Chrome #5] sign-in - forgot details page : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should contain title ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader: 1 of 1 passed.
+[Chrome #5] sidebar : should contain 3 links ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain highlighted link for current page ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Register" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Help" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar: 4 of 4 passed.
+[Chrome #5] sign-in - forgot details page: 5 of 5 passed.
+[Chrome #5] when a user is not registered : should not allow the existing user to sign in ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen a user is not registered: 1 of 1 passed.
+[Chrome #5] when a user is registered : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen a user is registered : should allow the existing user to sign in ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen a user is registered : should be case insensitive for the username ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen a user is registered : should require a valid password ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen a user is registered : should require a valid username ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen a user is registered : should case sensitive for the password ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen a user is registered: 9 of 9 passed.
+[Chrome #5] sign-in form: 10 of 10 passed.
+[Chrome #5] sign-in page : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader : should contain title ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mheader: 1 of 1 passed.
+[Chrome #5] sidebar : should contain 3 links ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain highlighted link for current page ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Register" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar : should contain "Help" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0msidebar: 4 of 4 passed.
+[Chrome #5] body : should contain "forgot your details" link ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mbody: 1 of 1 passed.
+[Chrome #5] sign-in page: 6 of 6 passed.
+[Chrome #5] sign-in - reset password form : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against good input : should allow password with 6 characters or more ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against good input: 2 of 2 passed.
+[Chrome #5] when validating against bad input : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input : requires password ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input : should not allow passwords with fewer than 6 characters ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input : should not allow passwords with more than 100 characters ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mwhen validating against bad input: 6 of 6 passed.
+[Chrome #5] after resetting password : should run once before all ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mafter resetting password : should allow user to sign in with new password ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mafter resetting password : the link should become expired ... 
+[Chrome #5] Passed.
+[Chrome #5] [32m.[0mafter resetting password: 2 of 2 passed.
+[Chrome #5] sign-in - reset password form: 10 of 10 passed.
+[Chrome #5] Runner Finished.
+[Chrome #5] 461 specs, 0 failures in 2340.155s.
 [Chrome #5] 
-[Chrome #5] /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113
-[Chrome #5]   var template = new Error(this.message);
-[Chrome #5]                  ^
-[Chrome #5] UnknownError: Session not started or terminated
-[Chrome #5]     at new bot.Error (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
-[Chrome #5]     at Object.bot.response.checkResponse (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
-[Chrome #5]     at /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
-[Chrome #5]     at /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
-[Chrome #5]     at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
-[Chrome #5]     at notify (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
-[Chrome #5]     at notifyAll (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
-[Chrome #5]     at resolve (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
-[Chrome #5]     at [object Object].fulfill (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
-[Chrome #5]     at /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1520:10
-[Chrome #5] ==== async task ====
-[Chrome #5] WebDriver.takeScreenshot()
-[Chrome #5]     at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
-[Chrome #5]     at [object Object].webdriver.WebDriver.takeScreenshot (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:979:15)
-[Chrome #5]     at [object Object].to.(anonymous function) [as takeScreenshot] (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/lib/protractor.js:62:25)
-[Chrome #5]     at ScreenshotReporter.reportSpecResults (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor-html-screenshot-reporter/index.js:152:10)
-[Chrome #5]     at [object Object].jasmine.NestedResults.totalCount [as reportSpecResults] (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1901:39)
-[Chrome #5]     at [object Object].jasmine.Spec.finishCallback (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2470:21)
-[Chrome #5]     at [object Object].jasmine.Spec.finish (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2475:8)
-[Chrome #5]     at [object Object].onComplete (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2504:10)
-[Chrome #5]     at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2219:14)
+[Chrome #5] 
+[Chrome #5] Finished in 2340.156 seconds
+[Chrome #5] [32m461 tests, 830 assertions, 0 failures
+[0m[Chrome #5] 
 
-[launcher] Runner process exited unexpectedly with error code: 1
 [launcher] 2 instance(s) of WebDriver still running
-.
+...
 ------------------------------------
-[Safari #7] PID: 20441
+[Safari #7] PID: 27565
 [Safari #7] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Safari #7] Runner Started.
 [Safari #7] account settings page : should run once before all ... 
@@ -5299,9 +5643,9 @@ Started connect web server on http://localhost:9001
 
 [launcher] Runner process exited unexpectedly with error code: 1
 [launcher] 2 instance(s) of WebDriver still running
-.
+
 ------------------------------------
-[Chrome #8] PID: 20475
+[Chrome #8] PID: 27581
 [Chrome #8] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Chrome #8] ERROR - Unable to start a WebDriver session.
 [Chrome #8] 
@@ -5335,7 +5679,7 @@ Started connect web server on http://localhost:9001
 [launcher] 2 instance(s) of WebDriver still running
 
 ------------------------------------
-[Firefox #9] PID: 20481
+[Firefox #9] PID: 27587
 [Firefox #9] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Firefox #9] ERROR - Unable to start a WebDriver session.
 [Firefox #9] 
@@ -5367,9 +5711,9 @@ Started connect web server on http://localhost:9001
 
 [launcher] Runner process exited unexpectedly with error code: 1
 [launcher] 1 instance(s) of WebDriver still running
-................................................................................................................................................F
+....................................................................................................................................................................................................................
 ------------------------------------
-[Firefox #6] PID: 20435
+[Firefox #6] PID: 25769
 [Firefox #6] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Firefox #6] Runner Started.
 [Firefox #6] account settings page : should run once before all ... 
@@ -5739,56 +6083,751 @@ Started connect web server on http://localhost:9001
 [Firefox #6] [32m.[0mbreadcrumb : should contain "Channels" link ... 
 [Firefox #6] Passed.
 [Firefox #6] [32m.[0mbreadcrumb : should contain "Channels" link, that navigates to the root ancestor ... 
-[Firefox #6] Failed.
-[Firefox #6] [31mF[0mbreadcrumb: 4 of 6 passed.
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mbreadcrumb: 5 of 5 passed.
 [Firefox #6] header : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain "Channels" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should highlight the current page ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader: 3 of 3 passed.
+[Firefox #6] sidebar : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Home" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Landing Page" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Posts" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Collections" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Channels" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Account" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Help" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should highlight the current area ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar: 9 of 9 passed.
+[Firefox #6] edit channel page: 17 of 17 passed.
+[Firefox #6] channel list form : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mchannel list form : should allow new channels to be created ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mchannel list form : should contain the default channel after registering ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mchannel list form : should contain the default channel after registering, after signing back in ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mchannel list form : should allow default channel to be edited ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mchannel list form: 8 of 8 passed.
+[Firefox #6] channel list page : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain "Channels" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should highlight the current page ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader: 3 of 3 passed.
+[Firefox #6] sidebar : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Home" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Landing Page" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Posts" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Collections" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Channels" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Account" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Help" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should highlight the current area ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar: 9 of 9 passed.
+[Firefox #6] channel list page: 12 of 12 passed.
+[Firefox #6] add collection form : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0madd collection form : should initialise with an empty form ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0madd collection form : should discard changes when user cancels ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0madd collection form : should allow user to cancel when form is invalid ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mon successful submission : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mon successful submission : should persist the changes ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mon successful submission : should persist the changes, between sessions ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mon successful submission: 8 of 8 passed.
+[Firefox #6] for "nameTextBox" : should allow collection names with 1 characters or more ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should allow collection names with punctuation ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should allow collection names with numbers ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should allow collection names with trailing and leading whitespace ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox": 16 of 16 passed.
+[Firefox #6] when validating good input: 16 of 16 passed.
+[Firefox #6] for "nameTextBox" : requires collection name ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should not allow collection names with over than 50 characters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox": 4 of 4 passed.
+[Firefox #6] when validating bad input: 4 of 4 passed.
+[Firefox #6] add collection form: 32 of 32 passed.
+[Firefox #6] add collection page : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mbreadcrumb : should contain the correct text ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mbreadcrumb : should contain "Collections" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mbreadcrumb : should contain "Collections" link, that navigates to the root ancestor ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mbreadcrumb: 5 of 5 passed.
+[Firefox #6] header : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain "Collections" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should highlight the current page ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader: 3 of 3 passed.
+[Firefox #6] sidebar : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Home" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Landing Page" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Posts" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Collections" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Channels" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Account" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Help" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should highlight the current area ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar: 9 of 9 passed.
+[Firefox #6] add collection page: 17 of 17 passed.
+[Firefox #6] edit collection form : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0medit collection form : should initialise with the correct properties ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0medit collection form : should discard changes when user cancels ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe modal for discarding changes : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe modal for discarding changes : should not display if the form is not dirty ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe modal for discarding changes : should display if the form is dirty ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe modal for discarding changes : should have the title "Discard changes?" ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mclicking the cancel button : should cancel the operation ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mclicking the cancel button: 2 of 2 passed.
+[Firefox #6] clicking the X button : should cancel the operation ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mclicking the X button: 2 of 2 passed.
+[Firefox #6] the discard button : should be enabled ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe discard button: 1 of 1 passed.
+[Firefox #6] the modal for discarding changes : should not have discarded changes up to this point ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe modal for discarding changes : should discard changes when discard button is clicked ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe modal for discarding changes: 18 of 18 passed.
+[Firefox #6] edit collection form : should allow user to cancel when form is invalid ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mon successful submission : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mon successful submission : should persist the changes ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mon successful submission : should persist the changes, between sessions ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mon successful submission: 18 of 18 passed.
+[Firefox #6] for "nameTextBox" : should allow collection names with 1 characters or more ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should allow collection names with punctuation ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should allow collection names with numbers ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should allow collection names with trailing and leading whitespace ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox": 8 of 8 passed.
+[Firefox #6] when validating good input: 8 of 8 passed.
+[Firefox #6] for "nameTextBox" : requires collection name ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should not allow collection names with over than 50 characters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox": 6 of 6 passed.
+[Firefox #6] when validating bad input: 6 of 6 passed.
+[Firefox #6] submit button : should be disabled until changes are made ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msubmit button : should remain disabled after cancelling out of adding a release time ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msubmit button : should become enabled after adding a release time ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msubmit button : should become enabled after removing a release time ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msubmit button : should become enabled after updating a release time ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msubmit button: 10 of 10 passed.
+[Firefox #6] when deleting release times : it should allow release times to be deleted when multiple exist ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen deleting release times : it should not allow release times to be deleted when only one exists ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen deleting release times: 3 of 3 passed.
+[Firefox #6] the modal for deleting a collection : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe modal for deleting a collection : should have the title "Delete Collection" ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe modal for deleting a collection : should contain the collection's name in the confirmation message ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe modal for deleting a collection : should contain an empty confirmation text box ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mclicking the cancel button : should cancel the operation when no input has been entered ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mclicking the cancel button : should cancel the operation after invalid input has been entered ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mclicking the cancel button : should cancel the operation after valid input has been entered ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mclicking the cancel button: 6 of 6 passed.
+[Firefox #6] clicking the X button : should cancel the operation when no input has been entered ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mclicking the X button : should cancel the operation after invalid input has been entered ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mclicking the X button : should cancel the operation after valid input has been entered ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mclicking the X button: 6 of 6 passed.
+[Firefox #6] should be disabled : should be disabled by default ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mshould be disabled : should be disabled after entering non-matching input ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mshould be disabled : should be disabled after entering a subset of the collection's name ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mshould be disabled : should be disabled after entering a superset of the collection's name ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mshould be disabled: 4 of 4 passed.
+[Firefox #6] the delete button : should become enabled after entering the collection's name ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe delete button: 5 of 5 passed.
+[Firefox #6] the modal for deleting a collection : should not have deleted the item up to this point ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe modal for deleting a collection : should delete the collection ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe modal for deleting a collection: 30 of 30 passed.
+[Firefox #6] edit collection form: 106 of 106 passed.
+[Firefox #6] edit collection page : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mbreadcrumb : should contain the correct text ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mbreadcrumb : should contain "Collections" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mbreadcrumb : should contain "Collections" link, that navigates to the root ancestor ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mbreadcrumb: 5 of 5 passed.
+[Firefox #6] header : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain "Collections" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should highlight the current page ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader: 3 of 3 passed.
+[Firefox #6] sidebar : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Home" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Landing Page" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Posts" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Collections" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Channels" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Account" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Help" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should highlight the current area ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar: 9 of 9 passed.
+[Firefox #6] edit collection page: 18 of 18 passed.
+[Firefox #6] collection list form : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcollection list form : should allow new collections to be created ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcollection list form : should contain no collections after registering ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcollection list form : should contain no collections after registering, after signing back in ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcollection list form: 3 of 3 passed.
+[Firefox #6] collection list page : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain "Collections" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should highlight the current page ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader: 3 of 3 passed.
+[Firefox #6] sidebar : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Home" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Landing Page" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Posts" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Collections" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Channels" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Account" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Help" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should highlight the current area ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar: 9 of 9 passed.
+[Firefox #6] collection list page: 12 of 12 passed.
+[Firefox #6] when creator has one channel : should post a note to channel 0 ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen creator has one channel: 2 of 2 passed.
+[Firefox #6] when creator has two channels : should post a note to channel 1 ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen creator has two channels: 2 of 2 passed.
+[Firefox #6] when posting now: 4 of 4 passed.
+[Firefox #6] when creator has one channel : should schedule a note to channel0 ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen creator has one channel: 2 of 2 passed.
+[Firefox #6] when creator has two channels : should schedule a note to channel1 ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen creator has two channels: 2 of 2 passed.
+[Firefox #6] when posting later: 4 of 4 passed.
+[Firefox #6] workflows: 8 of 8 passed.
+[Firefox #6] when validating inputs : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen posting now : should allow symbols in the content ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen posting now : should allow numbers in the content ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen posting now: 2 of 2 passed.
+[Firefox #6] when posting to backlog : should allow midnight ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen posting to backlog : should allow single digits ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen posting to backlog : should allow one minute before midnight ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen posting to backlog : should allow dates in the future ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen posting to backlog : should allow dates in the past ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen posting to backlog : should allow the current date ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen posting to backlog: 6 of 6 passed.
+[Firefox #6] happy path: 8 of 8 passed.
+[Firefox #6] when testing date time picker : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker : requires hour ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker : does not allow hours less than zero ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker : does not allow hours greater than 23 ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker : does not allow hours with symbols ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker : does not allow hours with letters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker : requires minute ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker : does not allow minutes less than zero ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker : does not allow minutes greater than 59 ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker : does not allow minutes with symbols ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker : does not allow minutes with letters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker : requires a date ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker : should run once after all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing date time picker: 22 of 22 passed.
+[Firefox #6] when testing note : should not allow a note with more than 280 characters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing note : should not allow an empty note ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing note : should not allow an empty note when posting later ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen testing note: 6 of 6 passed.
+[Firefox #6] sad path: 28 of 28 passed.
+[Firefox #6] when validating inputs: 36 of 36 passed.
+[Firefox #6] compose note form: 44 of 44 passed.
+[Firefox #6] happy path : should allow a new subscription to be created ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mhappy path : should not require base price to be entered ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should allow subscription names with 1 characters or more ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should allow subscription names with punctuation (1 of 2) ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should allow subscription names with punctuation (2 of 2) ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should allow subscription names with numbers ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should allow subscription names with trailing and leading whitespace ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox": 5 of 5 passed.
+[Firefox #6] for "taglineTextBox" : should allow taglines with 5 characters or more ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "taglineTextBox" : should allow taglines with numbers ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "taglineTextBox" : should allow taglines with trailing and leading whitespace ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "taglineTextBox": 3 of 3 passed.
+[Firefox #6] for "basePriceTextBox" : should allow prices of 1 cent or more ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "basePriceTextBox": 1 of 1 passed.
+[Firefox #6] happy path: 11 of 11 passed.
+[Firefox #6] sad path : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : requires subscription name ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox" : should not allow subscription names with over than 25 characters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "nameTextBox": 4 of 4 passed.
+[Firefox #6] for "taglineTextBox" : requires tagline ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "taglineTextBox" : should not allow taglines with fewer than 5 characters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "taglineTextBox" : should not allow taglines with over than 55 characters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "taglineTextBox": 6 of 6 passed.
+[Firefox #6] for "basePriceTextBox" : requires price ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "basePriceTextBox" : should not allow a price of 0 ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "basePriceTextBox" : should not allow non-monetary values ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mfor "basePriceTextBox": 11 of 11 passed.
+[Firefox #6] sad path: 21 of 21 passed.
+[Firefox #6] create subscription form: 32 of 32 passed.
+[Firefox #6] create subscription page : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain title ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader: 1 of 1 passed.
+[Firefox #6] sidebar : should contain 4 links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Home" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain highlighted link for current page ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Settings" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Help" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar: 5 of 5 passed.
+[Firefox #6] create subscription page: 6 of 6 passed.
+[Firefox #6] creator-backlog page : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain "Live Now" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain "Scheduled" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should highlight the current page ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader: 4 of 4 passed.
+[Firefox #6] sidebar : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Home" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Landing Page" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Posts" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Collections" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Channels" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Account" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Help" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should highlight the current area ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar: 9 of 9 passed.
+[Firefox #6] creator-backlog page: 13 of 13 passed.
+[Firefox #6] creator landing page : should not contain the standard sidebar or header ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcreator header : should display the subscription name ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcreator header : should display the tagline ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcreator header : should display the quick introduction ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcreator header: 3 of 3 passed.
+[Firefox #6] after creating a subscription: 3 of 3 passed.
+[Firefox #6] after signing back in : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcreator header : should display the subscription name ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcreator header : should display the tagline ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcreator header : should display the quick introduction ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcreator header: 3 of 3 passed.
+[Firefox #6] after signing back in: 3 of 3 passed.
+[Firefox #6] more info : should be hidden in absence of a full description and video ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mmore info : should display full description when provided ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mmore info : should display video when provided ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mmore info : should display full description and video when both are provided ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mmore info: 13 of 13 passed.
+[Firefox #6] channel list : should display the default channel ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mchannel list : should display other channels below the default channel ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mchannel list: 14 of 14 passed.
+[Firefox #6] total price : should equal the default channel price by default ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mtotal price : should always include the default channel price (it may not be deselected) ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mtotal price : should sum all selected channels as they are selected ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mtotal price : should sum all selected channels as they are deselected ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mtotal price: 12 of 12 passed.
+[Firefox #6] subscribing : should be possible via the "subscribe" button ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msubscribing : should be possible via the "subscribe now" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msubscribing: 2 of 2 passed.
+[Firefox #6] creator landing page: 49 of 49 passed.
+[Firefox #6] creator-timeline page : should not contain a sidebar or header ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcreator header : should display the subscription name ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcreator header : should display the tagline ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcreator header : should display the quick introduction ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mcreator header: 3 of 3 passed.
+[Firefox #6] creator-timeline page: 5 of 5 passed.
+[Firefox #6] customize landing page page : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain "Preview" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain "Edit Page" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should highlight the current page ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader: 4 of 4 passed.
+[Firefox #6] sidebar : should contain the correct number of links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Home" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Landing Page" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Posts" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Collections" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Channels" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Account" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Help" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should highlight the current area ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar: 9 of 9 passed.
+[Firefox #6] customize landing page page: 13 of 13 passed.
+[Firefox #6] homepage : should have a sign-in link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mhomepage : should have correct intro heading ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mhomepage : should have correct sub intro heading ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mhomepage : should link to the "creator journey" video ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mhomepage: 6 of 6 passed.
+[Firefox #6] when validating against good input : should allow a new user to register ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against good input : should allow numbers in username ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against good input : should allow underscores in username ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against good input : should allow leading and trailing spaces in username ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against good input : should allow lowercase and uppercase characters in username ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against good input : should allow password with 6 characters or more ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against good input: 6 of 6 passed.
+[Firefox #6] when validating against bad input : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input : requires email address ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input : requires username ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input : should not allow spaces in username ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input : should not allow forbidden characters in username ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input : should not allow usernames with fewer than 2 characters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input : should not allow usernames with over than 20 characters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input : requires password ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input : should not allow passwords with fewer than 6 characters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input : should not allow passwords with more than 100 characters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input: 18 of 18 passed.
+[Firefox #6] registration form: 24 of 24 passed.
+[Firefox #6] when a user is not registered : should display a success message when username is provided ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen a user is not registered : should display a success message when email is provided ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen a user is not registered: 4 of 4 passed.
+[Firefox #6] when a user is registered : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen a user is registered : should display a success message when username is provided ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen a user is registered : should display a success message when email is provided ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe "reset password" email : should be delivered when username is provided ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe "reset password" email : should be delivered when email is provided ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe "reset password" email : should remind user of username ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe "reset password" email : should link to "reset password" page ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mthe "reset password" email: 4 of 4 passed.
+[Firefox #6] when a user is registered: 8 of 8 passed.
+[Firefox #6] sign-in - forgot details form: 12 of 12 passed.
+[Firefox #6] sign-in - forgot details page : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain title ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader: 1 of 1 passed.
+[Firefox #6] sidebar : should contain 3 links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain highlighted link for current page ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Register" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Help" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar: 4 of 4 passed.
+[Firefox #6] sign-in - forgot details page: 5 of 5 passed.
+[Firefox #6] when a user is not registered : should not allow the existing user to sign in ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen a user is not registered: 1 of 1 passed.
+[Firefox #6] when a user is registered : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen a user is registered : should allow the existing user to sign in ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen a user is registered : should be case insensitive for the username ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen a user is registered : should require a valid password ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen a user is registered : should require a valid username ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen a user is registered : should case sensitive for the password ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen a user is registered: 9 of 9 passed.
+[Firefox #6] sign-in form: 10 of 10 passed.
+[Firefox #6] sign-in page : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader : should contain title ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mheader: 1 of 1 passed.
+[Firefox #6] sidebar : should contain 3 links ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain highlighted link for current page ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Register" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar : should contain "Help" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0msidebar: 4 of 4 passed.
+[Firefox #6] body : should contain "forgot your details" link ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mbody: 1 of 1 passed.
+[Firefox #6] sign-in page: 6 of 6 passed.
+[Firefox #6] sign-in - reset password form : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against good input : should allow password with 6 characters or more ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against good input: 2 of 2 passed.
+[Firefox #6] when validating against bad input : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input : requires password ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input : should not allow passwords with fewer than 6 characters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input : should not allow passwords with more than 100 characters ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mwhen validating against bad input: 6 of 6 passed.
+[Firefox #6] after resetting password : should run once before all ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mafter resetting password : should allow user to sign in with new password ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mafter resetting password : the link should become expired ... 
+[Firefox #6] Passed.
+[Firefox #6] [32m.[0mafter resetting password: 2 of 2 passed.
+[Firefox #6] sign-in - reset password form: 10 of 10 passed.
+[Firefox #6] Runner Finished.
+[Firefox #6] 461 specs, 0 failures in 4061.422s.
 [Firefox #6] 
-[Firefox #6] /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113
-[Firefox #6]   var template = new Error(this.message);
-[Firefox #6]                  ^
-[Firefox #6] UnknownError: Session not started or terminated
-[Firefox #6]     at new bot.Error (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
-[Firefox #6]     at Object.bot.response.checkResponse (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
-[Firefox #6]     at /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
-[Firefox #6]     at /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
-[Firefox #6]     at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
-[Firefox #6]     at notify (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
-[Firefox #6]     at notifyAll (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
-[Firefox #6]     at resolve (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
-[Firefox #6]     at [object Object].fulfill (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
-[Firefox #6]     at /home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1520:10
-[Firefox #6] ==== async task ====
-[Firefox #6] WebDriver.takeScreenshot()
-[Firefox #6]     at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
-[Firefox #6]     at [object Object].webdriver.WebDriver.takeScreenshot (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:979:15)
-[Firefox #6]     at [object Object].to.(anonymous function) [as takeScreenshot] (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/lib/protractor.js:62:25)
-[Firefox #6]     at ScreenshotReporter.reportSpecResults (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor-html-screenshot-reporter/index.js:152:10)
-[Firefox #6]     at [object Object].jasmine.NestedResults.totalCount [as reportSpecResults] (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1901:39)
-[Firefox #6]     at [object Object].jasmine.Spec.finishCallback (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2470:21)
-[Firefox #6]     at [object Object].jasmine.Spec.finish (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2475:8)
-[Firefox #6]     at [object Object].onComplete (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2504:10)
-[Firefox #6]     at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-restyle/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2219:14)
+[Firefox #6] 
+[Firefox #6] Finished in 4061.423 seconds
+[Firefox #6] [32m461 tests, 830 assertions, 0 failures
+[0m[Firefox #6] 
 
-[launcher] Runner process exited unexpectedly with error code: 1
 [launcher] 0 instance(s) of WebDriver still running
 [launcher] Chrome #2 passed
 [launcher] Firefox #3 passed
-[launcher] IE #1 failed 4 test(s)
+[launcher] IE #1 passed
 [launcher] IE #4 failed with exit code: 1
-[launcher] Chrome #5 failed with exit code: 1
+[launcher] Chrome #5 passed
 [launcher] Safari #7 failed with exit code: 1
 [launcher] Chrome #8 failed with exit code: 1
 [launcher] Firefox #9 failed with exit code: 1
-[launcher] Firefox #6 failed with exit code: 1
-[launcher] overall: 4 failed spec(s) and 6 process(es) failed to complete
+[launcher] Firefox #6 passed
+[launcher] overall: 4 process(es) failed to complete
 [launcher] Process exited with error code 100
 [31m>> [39m
 [31mFatal error: protractor exited with code: 100[39m
 
 
-Execution Time (2015-04-05 00:24:44 UTC)
-protractor:browserstack  1h 25m 44.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 99%
-Total 1h 26m 20.3s
+Execution Time (2015-04-06 00:24:47 UTC)
+protractor:browserstack  2h 12m 58.9s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 100%
+Total 2h 13m 35.1s
 
 
 -- POST TEST --
