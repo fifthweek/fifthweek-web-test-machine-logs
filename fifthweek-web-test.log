@@ -1,7 +1,7 @@
 
 -- PRE TEST --
 
-Time: Tue Apr 14 00:00:03 UTC 2015
+Time: Wed Apr 15 00:00:03 UTC 2015
 Branch: master
 User: ubuntu
 PATH: /usr/bin:/bin:/home/ubuntu/npm/bin
@@ -16,7 +16,7 @@ npm WARN optional dep failed, continuing fsevents@0.3.5
 Download already available at /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2
 Extracting tar contents (via spawned process)
 Removing /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
-Copying extracted folder /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1428969674665/phantomjs-1.9.8-linux-x86_64 -> /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
+Copying extracted folder /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1429056071582/phantomjs-1.9.8-linux-x86_64 -> /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
 Writing location.js file
 Done. Phantomjs binary available at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/bin/phantomjs
 
@@ -48,15 +48,10 @@ make: Entering directory `/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/
   COPY Release/validation.node
 make: Leaving directory `/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build'
 
-> pngquant-bin@2.0.3 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin
+> optipng-bin@2.0.4 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin
 > node lib/install.js
 
-  ✔ pngquant pre-build test passed successfully
-
-> jpegtran-bin@2.0.2 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin
-> node lib/install.js
-
-  ✔ jpegtran pre-build test passed successfully
+  ✔ optipng pre-build test passed successfully
 
 > gifsicle@2.0.1 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle
 > node lib/install.js
@@ -64,10 +59,15 @@ make: Leaving directory `/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/n
   ✔ gifsicle pre-build test passed successfully
 
 
-> optipng-bin@2.0.4 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin
+> jpegtran-bin@2.0.2 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin
 > node lib/install.js
 
-  ✔ optipng pre-build test passed successfully
+  ✔ jpegtran pre-build test passed successfully
+
+> pngquant-bin@2.0.3 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin
+> node lib/install.js
+
+  ✔ pngquant pre-build test passed successfully
 
 > node-sass@2.1.1 install /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-sass/node_modules/node-sass
 > node scripts/install.js
@@ -118,8 +118,8 @@ grunt-contrib-concat@0.4.0 node_modules/grunt-contrib-concat
 └── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
 
 jshint-stylish@0.2.0 node_modules/jshint-stylish
-├── text-table@0.2.0
-└── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
+├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
+└── text-table@0.2.0
 
 time-grunt@0.3.2 node_modules/time-grunt
 ├── date-time@0.1.1
@@ -163,6 +163,11 @@ grunt-contrib-cssmin@0.9.0 node_modules/grunt-contrib-cssmin
 grunt-karma@0.9.0 node_modules/grunt-karma
 └── lodash@2.4.1
 
+grunt-contrib-uglify@0.4.1 node_modules/grunt-contrib-uglify
+├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
+├── maxmin@0.1.0 (pretty-bytes@0.1.2, gzip-size@0.1.1)
+└── uglify-js@2.4.20 (uglify-to-browserify@1.0.2, async@0.2.10, yargs@3.5.4, source-map@0.1.34)
+
 grunt-contrib-watch@0.6.1 node_modules/grunt-contrib-watch
 ├── async@0.2.10
 ├── tiny-lr-fork@0.0.5 (debug@0.7.4, faye-websocket@0.4.4, noptify@0.0.3, qs@0.5.6)
@@ -173,11 +178,6 @@ grunt-usemin@2.6.2 node_modules/grunt-usemin
 ├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, has-ansi@0.1.0, strip-ansi@0.3.0)
 ├── debug@2.1.3 (ms@0.7.0)
 └── lodash@2.4.1
-
-grunt-contrib-uglify@0.4.1 node_modules/grunt-contrib-uglify
-├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
-├── maxmin@0.1.0 (pretty-bytes@0.1.2, gzip-size@0.1.1)
-└── uglify-js@2.4.20 (uglify-to-browserify@1.0.2, async@0.2.10, yargs@3.5.4, source-map@0.1.34)
 
 load-grunt-tasks@0.4.0 node_modules/load-grunt-tasks
 ├── multimatch@0.1.0 (minimatch@0.2.14, lodash@2.4.1)
@@ -227,15 +227,15 @@ jasmine-reporters@1.0.1 node_modules/jasmine-reporters
 
 lodash@3.6.0 node_modules/lodash
 
-grunt-browserstack-tunnel@0.1.0 node_modules/grunt-browserstack-tunnel
-└── browserstacktunnel-wrapper@1.0.1 (child-daemon@0.0.2)
-
 grunt-wiredep@1.9.0 node_modules/grunt-wiredep
 └── wiredep@1.8.6 (propprop@0.3.0, minimist@1.1.1, chalk@0.5.1, through2@0.6.5, glob@4.5.3, lodash@2.4.1, bower-config@0.5.2)
 
+grunt-browserstack-tunnel@0.1.0 node_modules/grunt-browserstack-tunnel
+└── browserstacktunnel-wrapper@1.0.1 (child-daemon@0.0.2)
+
 grunt-contrib-jshint@0.10.0 node_modules/grunt-contrib-jshint
 ├── hooker@0.2.3
-└── jshint@2.5.11 (strip-json-comments@1.0.2, underscore@1.6.0, exit@0.1.2, console-browserify@1.1.0, minimatch@1.0.0, shelljs@0.3.0, cli@0.6.6, htmlparser2@3.8.2)
+└── jshint@2.5.11 (strip-json-comments@1.0.2, underscore@1.6.0, console-browserify@1.1.0, exit@0.1.2, minimatch@1.0.0, shelljs@0.3.0, cli@0.6.6, htmlparser2@3.8.2)
 
 grunt-ng-annotate@0.4.0 node_modules/grunt-ng-annotate
 └── ng-annotate@0.10.3 (tryor@0.1.2, simple-fmt@0.1.0, alter@0.2.0, simple-is@0.2.0, stringset@0.2.1, stringmap@0.2.2, stable@0.1.5, ordered-ast-traverse@0.1.1, convert-source-map@0.4.1, optimist@0.6.1, source-map@0.1.43, esprima@1.2.5, acorn@0.9.0)
@@ -245,17 +245,17 @@ grunt-contrib-connect@0.7.1 node_modules/grunt-contrib-connect
 ├── open@0.0.4
 ├── async@0.2.10
 ├── portscanner@0.2.2 (async@0.1.15)
-└── connect@2.13.1 (uid2@0.0.3, methods@0.1.0, debug@0.8.1, cookie-signature@1.0.1, pause@0.0.1, fresh@0.2.0, qs@0.6.6, bytes@0.2.1, raw-body@1.1.3, buffer-crc32@0.2.1, batch@0.5.0, cookie@0.1.0, compressible@1.0.0, negotiator@0.3.0, send@0.1.4, multiparty@2.2.0)
+└── connect@2.13.1 (uid2@0.0.3, methods@0.1.0, debug@0.8.1, cookie-signature@1.0.1, pause@0.0.1, fresh@0.2.0, qs@0.6.6, bytes@0.2.1, buffer-crc32@0.2.1, raw-body@1.1.3, batch@0.5.0, cookie@0.1.0, compressible@1.0.0, negotiator@0.3.0, send@0.1.4, multiparty@2.2.0)
 
 grunt-autoprefixer@2.2.0 node_modules/grunt-autoprefixer
 ├── diff@1.2.2
-├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, has-ansi@0.1.0, strip-ansi@0.3.0)
-└── autoprefixer-core@5.1.9 (num2fraction@1.0.1, browserslist@0.2.0, postcss@4.0.6, caniuse-db@1.0.30000127)
+├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, strip-ansi@0.3.0, has-ansi@0.1.0)
+└── autoprefixer-core@5.1.9 (num2fraction@1.0.1, browserslist@0.2.0, postcss@4.0.6, caniuse-db@1.0.30000128)
 
 grunt-google-cdn@0.4.3 node_modules/grunt-google-cdn
 ├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, strip-ansi@0.3.0, has-ansi@0.1.0)
 ├── google-cdn@0.7.0 (regexp-quote@0.0.0, google-cdn-data@0.1.17, async@0.9.0, debug@1.0.4, semver@2.3.2, cdnjs-cdn-data@0.1.1, bower@1.3.12)
-└── bower@1.4.1 (is-root@1.0.0, junk@1.0.1, stringify-object@1.0.1, user-home@1.1.1, which@1.0.9, abbrev@1.0.5, chmodr@0.1.0, rimraf@2.3.2, opn@1.0.1, archy@1.0.0, bower-logger@0.2.2, bower-endpoint-parser@0.2.2, graceful-fs@3.0.6, lockfile@1.0.0, lru-cache@2.5.2, nopt@3.0.1, retry@0.6.1, tmp@0.0.24, request-progress@0.3.1, q@1.2.0, chalk@1.0.0, shell-quote@1.4.3, bower-json@0.4.0, promptly@0.2.0, semver@2.3.2, p-throttler@0.1.1, fstream@1.0.4, mkdirp@0.5.0, glob@4.5.3, fstream-ignore@1.0.2, tar-fs@1.5.0, insight@0.5.3, update-notifier@0.3.2, decompress-zip@0.1.0, github@0.2.3, request@2.53.0, bower-registry-client@0.3.0, cardinal@0.4.4, configstore@0.3.2, mout@0.11.0, bower-config@0.6.1, handlebars@2.0.0, inquirer@0.8.0)
+└── bower@1.4.1 (is-root@1.0.0, junk@1.0.1, stringify-object@1.0.1, user-home@1.1.1, which@1.0.9, abbrev@1.0.5, chmodr@0.1.0, rimraf@2.3.2, opn@1.0.1, archy@1.0.0, bower-logger@0.2.2, bower-endpoint-parser@0.2.2, graceful-fs@3.0.6, lockfile@1.0.0, lru-cache@2.5.2, nopt@3.0.1, retry@0.6.1, tmp@0.0.24, request-progress@0.3.1, q@1.2.0, chalk@1.0.0, shell-quote@1.4.3, bower-json@0.4.0, promptly@0.2.0, semver@2.3.2, p-throttler@0.1.1, fstream@1.0.4, mkdirp@0.5.0, fstream-ignore@1.0.2, glob@4.5.3, tar-fs@1.5.0, insight@0.5.3, update-notifier@0.3.2, decompress-zip@0.1.0, github@0.2.3, request@2.53.0, bower-registry-client@0.3.0, cardinal@0.4.4, configstore@0.3.2, mout@0.11.0, bower-config@0.6.1, handlebars@2.0.0, inquirer@0.8.0)
 
 karma@0.12.31 node_modules/karma
 ├── di@0.0.1
@@ -268,12 +268,12 @@ karma@0.12.31 node_modules/karma
 ├── optimist@0.6.1 (wordwrap@0.0.2, minimist@0.0.10)
 ├── glob@3.2.11 (inherits@2.0.1, minimatch@0.3.0)
 ├── source-map@0.1.43 (amdefine@0.1.0)
+├── chokidar@1.0.1 (arrify@1.0.0, is-glob@1.1.3, glob-parent@1.2.0, async-each@0.1.6, is-binary-path@1.0.0, readdirp@1.3.0, anymatch@1.2.1)
 ├── log4js@0.6.22 (semver@1.1.4, async@0.2.10, readable-stream@1.0.33)
 ├── lodash@2.4.1
 ├── http-proxy@0.10.4 (pkginfo@0.3.0, utile@0.2.1)
-├── connect@2.26.6 (fresh@0.2.4, cookie@0.1.2, pause@0.0.1, cookie-signature@1.0.5, response-time@2.0.1, vhost@3.0.0, on-headers@1.0.0, basic-auth-connect@1.0.0, bytes@1.0.0, media-typer@0.3.0, parseurl@1.3.0, depd@0.4.5, connect-timeout@1.3.0, cookie-parser@1.3.4, finalhandler@0.2.0, qs@2.2.4, method-override@2.2.0, debug@2.0.0, morgan@1.3.2, serve-favicon@2.1.7, csurf@1.6.6, express-session@1.8.2, type-is@1.5.7, serve-static@1.6.5, multiparty@3.3.2, compression@1.1.2, errorhandler@1.2.4, body-parser@1.8.4, serve-index@1.2.1)
+├── connect@2.26.6 (cookie@0.1.2, fresh@0.2.4, pause@0.0.1, cookie-signature@1.0.5, response-time@2.0.1, vhost@3.0.0, on-headers@1.0.0, basic-auth-connect@1.0.0, bytes@1.0.0, media-typer@0.3.0, parseurl@1.3.0, depd@0.4.5, connect-timeout@1.3.0, cookie-parser@1.3.4, finalhandler@0.2.0, method-override@2.2.0, qs@2.2.4, debug@2.0.0, morgan@1.3.2, serve-favicon@2.1.7, csurf@1.6.6, express-session@1.8.2, type-is@1.5.7, serve-static@1.6.5, multiparty@3.3.2, compression@1.1.2, errorhandler@1.2.4, body-parser@1.8.4, serve-index@1.2.1)
 ├── useragent@2.0.10 (lru-cache@2.2.4)
-├── chokidar@1.0.1 (arrify@1.0.0, is-glob@1.1.3, glob-parent@1.2.0, async-each@0.1.6, is-binary-path@1.0.0, readdirp@1.3.0, anymatch@1.2.1)
 └── socket.io@0.9.16 (base64id@0.1.0, policyfile@0.0.4, redis@0.7.3, socket.io-client@0.9.16)
 
 protractor@1.8.0 node_modules/protractor
@@ -288,7 +288,7 @@ protractor@1.8.0 node_modules/protractor
 ├── glob@3.2.11 (inherits@2.0.1, minimatch@0.3.0)
 ├── source-map-support@0.2.10 (source-map@0.1.32)
 ├── accessibility-developer-tools@2.6.0
-├── request@2.36.0 (json-stringify-safe@5.0.0, aws-sign2@0.5.0, forever-agent@0.5.2, qs@0.6.6, oauth-sign@0.3.0, tunnel-agent@0.4.0, mime@1.2.11, node-uuid@1.4.3, form-data@0.1.4, http-signature@0.10.1, tough-cookie@0.12.1, hawk@1.0.0)
+├── request@2.36.0 (json-stringify-safe@5.0.0, forever-agent@0.5.2, aws-sign2@0.5.0, qs@0.6.6, oauth-sign@0.3.0, tunnel-agent@0.4.0, mime@1.2.11, node-uuid@1.4.3, form-data@0.1.4, http-signature@0.10.1, tough-cookie@0.12.1, hawk@1.0.0)
 ├── lodash@2.4.1
 ├── jasmine@2.1.1 (jasmine-core@2.1.3)
 └── selenium-webdriver@2.44.0 (tmp@0.0.24, xml2js@0.4.4)
@@ -296,14 +296,14 @@ protractor@1.8.0 node_modules/protractor
 grunt-contrib-imagemin@0.9.4 node_modules/grunt-contrib-imagemin
 ├── gulp-rename@1.2.2
 ├── async@0.9.0
-├── chalk@1.0.0 (escape-string-regexp@1.0.3, ansi-styles@2.0.1, supports-color@1.3.1, has-ansi@1.0.3, strip-ansi@2.0.1)
+├── chalk@1.0.0 (escape-string-regexp@1.0.3, ansi-styles@2.0.1, supports-color@1.3.1, strip-ansi@2.0.1, has-ansi@1.0.3)
 ├── pretty-bytes@1.0.4 (get-stdin@4.0.1, meow@3.1.0)
-└── imagemin@3.1.0 (get-stdin@3.0.2, optional@0.1.3, vinyl@0.4.6, stream-combiner@0.2.1, meow@2.1.0, through2@0.6.5, concat-stream@1.4.8, vinyl-fs@0.3.13, imagemin-svgo@4.1.2, imagemin-pngquant@4.0.0, imagemin-jpegtran@4.1.0, imagemin-gifsicle@4.1.0, imagemin-optipng@4.2.0)
+└── imagemin@3.1.0 (get-stdin@3.0.2, optional@0.1.3, stream-combiner@0.2.1, vinyl@0.4.6, meow@2.1.0, through2@0.6.5, concat-stream@1.4.8, vinyl-fs@0.3.13, imagemin-svgo@4.1.2, imagemin-optipng@4.2.0, imagemin-gifsicle@4.1.0, imagemin-jpegtran@4.1.0, imagemin-pngquant@4.0.0)
 
 grunt-sass@0.18.1 node_modules/grunt-sass
 ├── object-assign@2.0.0
 ├── each-async@1.1.1 (set-immediate-shim@1.0.1, onetime@1.0.0)
-└── node-sass@2.1.1 (get-stdin@4.0.1, replace-ext@0.0.1, chalk@0.5.1, cross-spawn@0.2.9, nan@1.7.0, meow@3.1.0, mkdirp@0.5.0, semver@4.3.3, shelljs@0.3.0, npmconf@2.1.1, gaze@0.5.1, request@2.55.0, mocha@2.2.4, sass-graph@1.3.0, pangyp@2.1.0)
+└── node-sass@2.1.1 (get-stdin@4.0.1, replace-ext@0.0.1, chalk@0.5.1, cross-spawn@0.2.9, nan@1.7.0, mkdirp@0.5.0, semver@4.3.3, shelljs@0.3.0, meow@3.1.0, npmconf@2.1.1, gaze@0.5.1, request@2.55.0, mocha@2.2.4, sass-graph@1.3.0, pangyp@2.1.0)
 bower angular-route#^1.3.0      cached git://github.com/angular/bower-angular-route.git#1.3.15
 bower angular-route#^1.3.0    validate 1.3.15 against git://github.com/angular/bower-angular-route.git#^1.3.0
 bower angular#^1.3.0            cached git://github.com/angular/bower-angular.git#1.3.15
@@ -314,40 +314,40 @@ bower angular-ui-router#~0.2.13 cached git://github.com/angular-ui/ui-router.git
 bower angular-ui-router#~0.2.13         validate 0.2.13 against git://github.com/angular-ui/ui-router.git#~0.2.13
 bower angular-sanitize#^1.3.0             cached git://github.com/angular/bower-angular-sanitize.git#1.3.15
 bower angular-sanitize#^1.3.0           validate 1.3.15 against git://github.com/angular/bower-angular-sanitize.git#^1.3.0
-bower angular-snap#~1.6.0                 cached git://github.com/jtrussell/angular-snap.js-bower.git#1.6.0
-bower angular-snap#~1.6.0               validate 1.6.0 against git://github.com/jtrussell/angular-snap.js-bower.git#~1.6.0
 bower angular-local-storage#~0.1.5        cached git://github.com/grevory/angular-local-storage.git#0.1.5
 bower angular-local-storage#~0.1.5      validate 0.1.5 against git://github.com/grevory/angular-local-storage.git#~0.1.5
+bower angular-snap#~1.6.0                 cached git://github.com/jtrussell/angular-snap.js-bower.git#1.6.0
+bower angular-snap#~1.6.0               validate 1.6.0 against git://github.com/jtrussell/angular-snap.js-bower.git#~1.6.0
+bower json3#^3.3.0                        cached git://github.com/bestiejs/json3.git#3.3.2
+bower json3#^3.3.0                      validate 3.3.2 against git://github.com/bestiejs/json3.git#^3.3.0
 bower angular-bootstrap#~0.12.0           cached git://github.com/angular-ui/bootstrap-bower.git#0.12.1
 bower angular-bootstrap#~0.12.0         validate 0.12.1 against git://github.com/angular-ui/bootstrap-bower.git#~0.12.0
 bower angulartics#~0.17.1                 cached git://github.com/luisfarzati/angulartics.git#0.17.2
 bower angulartics#~0.17.1               validate 0.17.2 against git://github.com/luisfarzati/angulartics.git#~0.17.1
 bower froogaloop#~0.1.0                   cached git://github.com/austinpray/bower-vimeo-froogaloop.git#0.1.0
 bower froogaloop#~0.1.0                 validate 0.1.0 against git://github.com/austinpray/bower-vimeo-froogaloop.git#~0.1.0
-bower json3#^3.3.0                        cached git://github.com/bestiejs/json3.git#3.3.2
-bower json3#^3.3.0                      validate 3.3.2 against git://github.com/bestiejs/json3.git#^3.3.0
-bower bootstrap-sass-official#~3.3.4      cached git://github.com/twbs/bootstrap-sass.git#3.3.4
-bower bootstrap-sass-official#~3.3.4    validate 3.3.4 against git://github.com/twbs/bootstrap-sass.git#~3.3.4
 bower es5-shim#^4.0.0                     cached git://github.com/es-shims/es5-shim.git#4.1.1
 bower es5-shim#^4.0.0                   validate 4.1.1 against git://github.com/es-shims/es5-shim.git#^4.0.0
+bower lodash#~3.4.0                       cached git://github.com/lodash/lodash.git#3.4.0
+bower lodash#~3.4.0                     validate 3.4.0 against git://github.com/lodash/lodash.git#~3.4.0
+bower fontawesome#~4.3.0                  cached git://github.com/FortAwesome/Font-Awesome.git#4.3.0
+bower fontawesome#~4.3.0                validate 4.3.0 against git://github.com/FortAwesome/Font-Awesome.git#~4.3.0
 bower ng-focus#~0.0.1                     cached git://github.com/tatsuyaoiw/ng-focus.git#0.0.1
 bower ng-focus#~0.0.1                   validate 0.0.1 against git://github.com/tatsuyaoiw/ng-focus.git#~0.0.1
 bower angular-elastic#~2.4.2              cached git://github.com/monospaced/angular-elastic.git#2.4.2
 bower angular-elastic#~2.4.2            validate 2.4.2 against git://github.com/monospaced/angular-elastic.git#~2.4.2
-bower lodash#~3.4.0                       cached git://github.com/lodash/lodash.git#3.4.0
-bower lodash#~3.4.0                     validate 3.4.0 against git://github.com/lodash/lodash.git#~3.4.0
-bower marked#~0.3.3                       cached git://github.com/chjj/marked.git#0.3.3
-bower marked#~0.3.3                     validate 0.3.3 against git://github.com/chjj/marked.git#~0.3.3
-bower fontawesome#~4.3.0                  cached git://github.com/FortAwesome/Font-Awesome.git#4.3.0
-bower fontawesome#~4.3.0                validate 4.3.0 against git://github.com/FortAwesome/Font-Awesome.git#~4.3.0
+bower bootstrap-sass-official#~3.3.4      cached git://github.com/twbs/bootstrap-sass.git#3.3.4
+bower bootstrap-sass-official#~3.3.4    validate 3.3.4 against git://github.com/twbs/bootstrap-sass.git#~3.3.4
 bower moment#~2.9.0                       cached git://github.com/moment/moment.git#2.9.0
 bower moment#~2.9.0                     validate 2.9.0 against git://github.com/moment/moment.git#~2.9.0
-bower jquery#~2.1.3                       cached git://github.com/jquery/jquery.git#2.1.3
-bower jquery#~2.1.3                     validate 2.1.3 against git://github.com/jquery/jquery.git#~2.1.3
+bower marked#~0.3.3                       cached git://github.com/chjj/marked.git#0.3.3
+bower marked#~0.3.3                     validate 0.3.3 against git://github.com/chjj/marked.git#~0.3.3
 bower ng-videosharing-embed#~0.3.2        cached git://github.com/erost/ng-videosharing-embed.git#0.3.2
 bower ng-videosharing-embed#~0.3.2      validate 0.3.2 against git://github.com/erost/ng-videosharing-embed.git#~0.3.2
 bower angular-mocks#~1.3.0                cached git://github.com/angular/bower-angular-mocks.git#1.3.15
 bower angular-mocks#~1.3.0              validate 1.3.15 against git://github.com/angular/bower-angular-mocks.git#~1.3.0
+bower jquery#~2.1.3                       cached git://github.com/jquery/jquery.git#2.1.3
+bower jquery#~2.1.3                     validate 2.1.3 against git://github.com/jquery/jquery.git#~2.1.3
 bower angular-scenario#~1.3.0             cached git://github.com/angular/bower-angular-scenario.git#1.3.15
 bower angular-scenario#~1.3.0           validate 1.3.15 against git://github.com/angular/bower-angular-scenario.git#~1.3.0
 bower angular#>= 1.0.8                    cached git://github.com/angular/bower-angular.git#1.3.15
@@ -356,10 +356,10 @@ bower angular#>=1 <1.3.0                  cached git://github.com/angular/bower-
 bower angular#>=1 <1.3.0                validate 1.2.28 against git://github.com/angular/bower-angular.git#>=1 <1.3.0
 bower jquery#>= 1.9.0                     cached git://github.com/jquery/jquery.git#2.1.3
 bower jquery#>= 1.9.0                   validate 2.1.3 against git://github.com/jquery/jquery.git#>= 1.9.0
-bower waypoints#~2.0.3                    cached git://github.com/imakewebthings/waypoints.git#2.0.5
-bower waypoints#~2.0.3                  validate 2.0.5 against git://github.com/imakewebthings/waypoints.git#~2.0.3
 bower snapjs#~1.9                         cached git://github.com/jakiestfu/Snap.js.git#1.9.3
 bower snapjs#~1.9                       validate 1.9.3 against git://github.com/jakiestfu/Snap.js.git#~1.9
+bower waypoints#~2.0.3                    cached git://github.com/imakewebthings/waypoints.git#2.0.5
+bower waypoints#~2.0.3                  validate 2.0.5 against git://github.com/imakewebthings/waypoints.git#~2.0.3
 bower SHA-1#*                             cached git://github.com/linkgod/SHA-1.git#0.1.1
 bower SHA-1#*                           validate 0.1.1 against git://github.com/linkgod/SHA-1.git#*
 
@@ -378,47 +378,45 @@ Code incompatibilities may occur.
 bower marked                    extra-resolution Unnecessary resolution: marked#~0.3.3
 bower angular-mocks             extra-resolution Unnecessary resolution: angular-mocks#~1.3.0
 bower angular-ui-router#~0.2.13          install angular-ui-router#0.2.13
-bower angular-sanitize#^1.3.0            install angular-sanitize#1.3.15
-bower angular#1.3.15                     install angular#1.3.15
-bower angular-route#^1.3.0               install angular-route#1.3.15
 bower angular-resource#^1.3.0            install angular-resource#1.3.15
-bower froogaloop#~0.1.0                  install froogaloop#0.1.0
+bower angular-sanitize#^1.3.0            install angular-sanitize#1.3.15
+bower angular-route#^1.3.0               install angular-route#1.3.15
+bower angular#1.3.15                     install angular#1.3.15
 bower angulartics#~0.17.1                install angulartics#0.17.2
 bower angular-bootstrap#~0.12.0          install angular-bootstrap#0.12.1
-bower angular-local-storage#~0.1.5       install angular-local-storage#0.1.5
-bower angular-snap#~1.6.0                install angular-snap#1.6.0
 bower json3#^3.3.0                       install json3#3.3.2
-bower angular-elastic#~2.4.2             install angular-elastic#2.4.2
+bower angular-snap#~1.6.0                install angular-snap#1.6.0
+bower angular-local-storage#~0.1.5       install angular-local-storage#0.1.5
+bower froogaloop#~0.1.0                  install froogaloop#0.1.0
 bower ng-focus#~0.0.1                    install ng-focus#0.0.1
+bower fontawesome#~4.3.0                 install fontawesome#4.3.0
+bower lodash#~3.4.0                      install lodash#3.4.0
 bower es5-shim#^4.0.0                    install es5-shim#4.1.1
 bower bootstrap-sass-official#~3.3.4     install bootstrap-sass-official#3.3.4
-bower fontawesome#~4.3.0                 install fontawesome#4.3.0
-bower marked#~0.3.3                      install marked#0.3.3
-bower lodash#~3.4.0                      install lodash#3.4.0
-bower moment#~2.9.0                      install moment#2.9.0
-bower jquery#~2.1.3                      install jquery#2.1.3
+bower angular-elastic#~2.4.2             install angular-elastic#2.4.2
 bower ng-videosharing-embed#~0.3.2       install ng-videosharing-embed#0.3.2
+bower moment#~2.9.0                      install moment#2.9.0
+bower marked#~0.3.3                      install marked#0.3.3
 bower angular-mocks#~1.3.0               install angular-mocks#1.3.15
-bower SHA-1#*                            install SHA-1#0.1.1
+bower angular-scenario#~1.3.0            install angular-scenario#1.3.15
+bower jquery#>= 1.9.0                    install jquery#2.1.3
 bower snapjs#~1.9                        install snapjs#1.9.3
 bower waypoints#~2.0.3                   install waypoints#2.0.5
-bower angular-scenario#~1.3.0            install angular-scenario#1.3.15
+bower SHA-1#*                            install SHA-1#0.1.1
 
 angular-ui-router#0.2.13 bower_components/angular-ui-router
-└── angular#1.3.15
-
-angular-sanitize#1.3.15 bower_components/angular-sanitize
-└── angular#1.3.15
-
-angular#1.3.15 bower_components/angular
-
-angular-route#1.3.15 bower_components/angular-route
 └── angular#1.3.15
 
 angular-resource#1.3.15 bower_components/angular-resource
 └── angular#1.3.15
 
-froogaloop#0.1.0 bower_components/froogaloop
+angular-sanitize#1.3.15 bower_components/angular-sanitize
+└── angular#1.3.15
+
+angular-route#1.3.15 bower_components/angular-route
+└── angular#1.3.15
+
+angular#1.3.15 bower_components/angular
 
 angulartics#0.17.2 bower_components/angulartics
 ├── SHA-1#0.1.1
@@ -428,49 +426,51 @@ angulartics#0.17.2 bower_components/angulartics
 angular-bootstrap#0.12.1 bower_components/angular-bootstrap
 └── angular#1.3.15
 
-angular-local-storage#0.1.5 bower_components/angular-local-storage
+json3#3.3.2 bower_components/json3
 
 angular-snap#1.6.0 bower_components/angular-snap
 ├── angular#1.3.15
 └── snapjs#1.9.3
 
-json3#3.3.2 bower_components/json3
+angular-local-storage#0.1.5 bower_components/angular-local-storage
 
-angular-elastic#2.4.2 bower_components/angular-elastic
-└── angular#1.3.15
+froogaloop#0.1.0 bower_components/froogaloop
 
 ng-focus#0.0.1 bower_components/ng-focus
+
+fontawesome#4.3.0 bower_components/fontawesome
+
+lodash#3.4.0 bower_components/lodash
 
 es5-shim#4.1.1 bower_components/es5-shim
 
 bootstrap-sass-official#3.3.4 bower_components/bootstrap-sass-official
 └── jquery#2.1.3
 
-fontawesome#4.3.0 bower_components/fontawesome
-
-marked#0.3.3 bower_components/marked
-
-lodash#3.4.0 bower_components/lodash
-
-moment#2.9.0 bower_components/moment
-
-jquery#2.1.3 bower_components/jquery
+angular-elastic#2.4.2 bower_components/angular-elastic
+└── angular#1.3.15
 
 ng-videosharing-embed#0.3.2 bower_components/ng-videosharing-embed
 └── angular#1.3.15
 
+moment#2.9.0 bower_components/moment
+
+marked#0.3.3 bower_components/marked
+
 angular-mocks#1.3.15 bower_components/angular-mocks
 └── angular#1.3.15
 
-SHA-1#0.1.1 bower_components/SHA-1
+angular-scenario#1.3.15 bower_components/angular-scenario
+└── angular#1.3.15
+
+jquery#2.1.3 bower_components/jquery
 
 snapjs#1.9.3 bower_components/snapjs
 
 waypoints#2.0.5 bower_components/waypoints
 └── jquery#2.1.3
 
-angular-scenario#1.3.15 bower_components/angular-scenario
-└── angular#1.3.15
+SHA-1#0.1.1 bower_components/SHA-1
 [4mRunning "ptest:live:dist:browserstack" (ptest) task[24m
 
 [4mRunning "shell:getDeveloperName" (shell) task[24m
@@ -512,10 +512,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-14 00:02:36 UTC)
-    loading tasks       19ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 36%
-    copy:plainCssToTmp  33ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 62%
-    Total 53ms
+    Execution Time (2015-04-15 00:02:31 UTC)
+    loading tasks       21ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 38%
+    copy:plainCssToTmp  34ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 61%
+    Total 56ms
         
     [4mRunning "copy:viewsToTmp" (copy) task[24m
     Copied [36m84[39m files
@@ -523,20 +523,20 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-14 00:02:36 UTC)
-    loading tasks     19ms  ▇▇▇▇▇ 9%
-    copy:viewsToTmp  193ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 91%
-    Total 213ms
+    Execution Time (2015-04-15 00:02:31 UTC)
+    loading tasks     21ms  ▇▇▇▇▇ 10%
+    copy:viewsToTmp  198ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 90%
+    Total 221ms
         
     [4mRunning "sass:dist" (sass) task[24m
     
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-14 00:02:43 UTC)
-    loading tasks   19ms  ▇▇ 3%
-    sass:dist      627ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 97%
-    Total 646ms
+    Execution Time (2015-04-15 00:02:38 UTC)
+    loading tasks   20ms  ▇▇ 3%
+    sass:dist      618ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 97%
+    Total 639ms
         
     [4mRunning "imagemin:dist" (imagemin) task[24m
     Minified 10 images (saved 15.97 kB)
@@ -544,8 +544,8 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-14 00:02:43 UTC)
-    loading tasks  19ms  ▇ 2%
+    Execution Time (2015-04-15 00:02:38 UTC)
+    loading tasks  20ms  ▇ 2%
     imagemin:dist    1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
     Total 1s
         
@@ -555,9 +555,9 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-14 00:02:47 UTC)
-    loading tasks  11ms  ▇▇▇▇▇▇▇▇ 16%
-    svgmin:dist    56ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 82%
+    Execution Time (2015-04-15 00:02:42 UTC)
+    loading tasks   9ms  ▇▇▇▇▇▇▇ 13%
+    svgmin:dist    58ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 85%
     Total 68ms
     
 [4mRunning "concurrent:buildPhase2" (concurrent) task[24m
@@ -568,10 +568,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-14 00:02:53 UTC)
-    loading tasks                    17ms  ▇▇▇ 8%
-    copy:nonConcat...edFilesToDist  188ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 91%
-    Total 207ms
+    Execution Time (2015-04-15 00:02:48 UTC)
+    loading tasks                    18ms  ▇▇▇ 9%
+    copy:nonConcat...edFilesToDist  182ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 91%
+    Total 201ms
         
     [4mRunning "autoprefixer:dist" (autoprefixer) task[24m
     File .tmp/static/styles/main.css created.
@@ -579,10 +579,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-14 00:02:53 UTC)
-    loading tasks       20ms  ▇▇▇ 6%
-    autoprefixer:dist  307ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
-    Total 328ms
+    Execution Time (2015-04-15 00:02:48 UTC)
+    loading tasks       19ms  ▇▇▇ 7%
+    autoprefixer:dist  270ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+    Total 290ms
     
 [4mRunning "cdnify:dist" (cdnify) task[24m
 Going through [36mdist/index.html[39m to update script refs
@@ -738,10 +738,10 @@ File .tmp/concat/static/scripts/scripts.js created.
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-14 00:03:04 UTC)
-    loading tasks   22ms  ▇▇▇▇▇ 9%
-    cssmin:dist    216ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 90%
-    Total 240ms
+    Execution Time (2015-04-15 00:02:58 UTC)
+    loading tasks   19ms  ▇▇▇▇ 8%
+    cssmin:dist    215ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 91%
+    Total 236ms
         
     [4mRunning "ngAnnotate:dist" (ngAnnotate) task[24m
     [32m>> [39m2 files successfully generated.
@@ -749,10 +749,10 @@ File .tmp/concat/static/scripts/scripts.js created.
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-14 00:03:04 UTC)
+    Execution Time (2015-04-15 00:02:58 UTC)
     loading tasks     21ms  ▇ 2%
-    ngAnnotate:dist  975ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
-    Total 996ms
+    ngAnnotate:dist  985ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
+    Total 1s
     
 [4mRunning "uglify:generated" (uglify) task[24m
 File dist/static/scripts/oldieshim.js created: 96.38 kB → 21.69 kB
@@ -787,9 +787,9 @@ Started connect web server on http://localhost:9001
 
 [4mRunning "protractor:browserstack" (protractor) task[24m
 [launcher] Running 2 instances of WebDriver
-.......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
 ------------------------------------
-[Firefox #2] PID: 32647
+[Firefox #2] PID: 8957
 [Firefox #2] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Firefox #2] Runner Started.
 [Firefox #2] account settings page : should run once before all ... 
@@ -1874,17 +1874,17 @@ Started connect web server on http://localhost:9001
 [Firefox #2] [32m.[0mafter resetting password: 2 of 2 passed.
 [Firefox #2] sign-in - reset password form: 10 of 10 passed.
 [Firefox #2] Runner Finished.
-[Firefox #2] 459 specs, 0 failures in 4846.243s.
+[Firefox #2] 459 specs, 0 failures in 3873.746s.
 [Firefox #2] 
 [Firefox #2] 
-[Firefox #2] Finished in 4846.242 seconds
+[Firefox #2] Finished in 3873.749 seconds
 [Firefox #2] [32m459 tests, 828 assertions, 0 failures
 [0m[Firefox #2] 
 
 [launcher] 2 instance(s) of WebDriver still running
-................................................................................................................................................................................................
+..............................................................................................................................................................................................................................................
 ------------------------------------
-[IE #1] PID: 32646
+[IE #1] PID: 8956
 [IE #1] Using the selenium server at http://hub.browserstack.com/wd/hub
 [IE #1] Runner Started.
 [IE #1] account settings page : should run once before all ... 
@@ -2192,9 +2192,9 @@ Started connect web server on http://localhost:9001
 [IE #1] [32m.[0mfor "priceTextBox" : should not allow a price of 0 ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mfor "priceTextBox" : should not allow non-monetary values ... 
-[IE #1] Passed.
-[IE #1] [32m.[0mfor "priceTextBox": 11 of 11 passed.
-[IE #1] when validating bad input: 19 of 19 passed.
+[IE #1] Failed.
+[IE #1] [31mF[0mfor "priceTextBox": 10 of 11 passed.
+[IE #1] when validating bad input: 18 of 19 passed.
 [IE #1] submit button : should be disabled until changes are made ... 
 [IE #1] Passed.
 [IE #1] [32m.[0msubmit button : should become enabled after changing "nameTextBox" ... 
@@ -2245,8 +2245,8 @@ Started connect web server on http://localhost:9001
 [IE #1] [32m.[0mthe modal for deleting a channel : should delete the channel ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mthe modal for deleting a channel: 40 of 40 passed.
-[IE #1] when editing a non-default channel: 163 of 163 passed.
-[IE #1] edit channel form: 265 of 266 passed.
+[IE #1] when editing a non-default channel: 162 of 163 passed.
+[IE #1] edit channel form: 264 of 266 passed.
 [IE #1] edit channel page : should run once before all ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mbreadcrumb : should contain the correct text ... 
@@ -2692,10 +2692,10 @@ Started connect web server on http://localhost:9001
 [IE #1] [32m.[0mfor "basePriceTextBox" : should not allow a price of 0 ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mfor "basePriceTextBox" : should not allow non-monetary values ... 
-[IE #1] Failed.
-[IE #1] [31mF[0mfor "basePriceTextBox": 10 of 11 passed.
-[IE #1] sad path: 20 of 21 passed.
-[IE #1] create blog form: 31 of 32 passed.
+[IE #1] Passed.
+[IE #1] [32m.[0mfor "basePriceTextBox": 11 of 11 passed.
+[IE #1] sad path: 21 of 21 passed.
+[IE #1] create blog form: 32 of 32 passed.
 [IE #1] create blog page : should run once before all ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mheader : should contain title ... 
@@ -2969,33 +2969,33 @@ Started connect web server on http://localhost:9001
 [IE #1] [32m.[0mafter resetting password: 2 of 2 passed.
 [IE #1] sign-in - reset password form: 10 of 10 passed.
 [IE #1] Runner Finished.
-[IE #1] 459 specs, 2 failures in 6104.25s.
+[IE #1] 459 specs, 2 failures in 5610.628s.
 [IE #1] 
 [IE #1] 
 [IE #1] Failures:
 [IE #1] 
 [IE #1]   1) edit channel form when editing a default channel when validating bad input for "priceTextBox" should not allow non-monetary values
 [IE #1]    Message:
-[IE #1]      [31mExpected '2' to contain '123'.[0m
+[IE #1]      [31mExpected '3' to contain '123'.[0m
 [IE #1]    Stacktrace:
 [IE #1]      Error: Failed expectation
 [IE #1]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/channel-price-input.page.js:59:43)
 [IE #1] 
-[IE #1]   2) create blog form sad path for "basePriceTextBox" should not allow non-monetary values
+[IE #1]   2) edit channel form when editing a non-default channel when validating bad input for "priceTextBox" should not allow non-monetary values
 [IE #1]    Message:
-[IE #1]      [31mExpected '23' to contain '123'.[0m
+[IE #1]      [31mExpected '13' to contain '1.2'.[0m
 [IE #1]    Stacktrace:
 [IE #1]      Error: Failed expectation
-[IE #1]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/channel-price-input.page.js:59:43)
+[IE #1]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/channel-price-input.page.js:65:43)
 [IE #1] 
-[IE #1] Finished in 6104.253 seconds
+[IE #1] Finished in 5610.633 seconds
 [IE #1] [31m459 tests, 828 assertions, 2 failures
 [0m[IE #1] 
 
 [launcher] 2 instance(s) of WebDriver still running
-................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+.....................................................................................................................................................................FFFFF.F...................FFFF....FF.FF.................FFFFFFF.FFFFFF.FF.F......................................................................................................................................................................................................................................................................................................................................................................................................................................
 ------------------------------------
-[IE #3] PID: 1851
+[IE #3] PID: 10534
 [IE #3] Using the selenium server at http://hub.browserstack.com/wd/hub
 [IE #3] Runner Started.
 [IE #3] account settings page : should run once before all ... 
@@ -3511,106 +3511,118 @@ Started connect web server on http://localhost:9001
 [IE #3] [32m.[0mthe modal for discarding changes : should run once before all ... 
 [IE #3] Passed.
 [IE #3] [32m.[0mthe modal for discarding changes : should not display if the form is not dirty ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mthe modal for discarding changes : should display if the form is dirty ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mthe modal for discarding changes : should have the title "Discard changes?" ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mclicking the cancel button : should cancel the operation ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mclicking the cancel button: 2 of 2 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mthe modal for discarding changes : should display if the form is dirty ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mthe modal for discarding changes : should have the title "Discard changes?" ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mclicking the cancel button : should cancel the operation ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mclicking the cancel button: 0 of 1 passed.
 [IE #3] clicking the X button : should cancel the operation ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mclicking the X button: 2 of 2 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mclicking the X button: 0 of 1 passed.
 [IE #3] the discard button : should be enabled ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mthe discard button: 1 of 1 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mthe discard button: 0 of 1 passed.
 [IE #3] the modal for discarding changes : should not have discarded changes up to this point ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mthe modal for discarding changes : should discard changes when discard button is clicked ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mthe modal for discarding changes: 18 of 18 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mthe modal for discarding changes : should discard changes when discard button is clicked ... 
+[IE #3] A Jasmine spec timed out. Resetting the WebDriver Control Flow.
+[IE #3] The last active task was: 
+[IE #3] Protractor.waitForAngular()
+[IE #3]     at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
+[IE #3]     at [object Object].Protractor.executeAsyncScript_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:251:26)
+[IE #3]     at [object Object].Protractor.waitForAngular (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:274:15)
+[IE #3]     at [object Object].getWebElements (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:136:19)
+[IE #3]     at [object Object].ElementArrayFinder.count (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:355:15)
+[IE #3]     at [object Object].ElementFinder.isPresent (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:903:40)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:252:15
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:650:12
+[IE #3]     at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+[IE #3] Failed.
+[IE #3] [31mF[0mthe modal for discarding changes: 1 of 9 passed.
 [IE #3] edit collection form : should allow user to cancel when form is invalid ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mon successful submission : should run once before all ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mon successful submission : should persist the changes ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mon successful submission : should persist the changes, between sessions ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mon successful submission: 18 of 18 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mon successful submission : should run once before all ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mon successful submission : should persist the changes ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mon successful submission : should persist the changes, between sessions ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mon successful submission: 1 of 4 passed.
 [IE #3] for "nameTextBox" : should allow collection names with 1 characters or more ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mfor "nameTextBox" : should allow collection names with punctuation ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mfor "nameTextBox" : should allow collection names with numbers ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mfor "nameTextBox" : should allow collection names with trailing and leading whitespace ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mfor "nameTextBox": 8 of 8 passed.
-[IE #3] when validating good input: 8 of 8 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mfor "nameTextBox" : should allow collection names with punctuation ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mfor "nameTextBox" : should allow collection names with numbers ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mfor "nameTextBox" : should allow collection names with trailing and leading whitespace ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mfor "nameTextBox": 0 of 8 passed.
+[IE #3] when validating good input: 0 of 8 passed.
 [IE #3] for "nameTextBox" : requires collection name ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mfor "nameTextBox" : should not allow collection names with over than 50 characters ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mfor "nameTextBox": 6 of 6 passed.
-[IE #3] when validating bad input: 6 of 6 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mfor "nameTextBox" : should not allow collection names with over than 50 characters ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mfor "nameTextBox": 2 of 6 passed.
+[IE #3] when validating bad input: 2 of 6 passed.
 [IE #3] submit button : should be disabled until changes are made ... 
-[IE #3] Passed.
-[IE #3] [32m.[0msubmit button : should remain disabled after cancelling out of adding a release time ... 
-[IE #3] Passed.
-[IE #3] [32m.[0msubmit button : should become enabled after adding a release time ... 
-[IE #3] Passed.
-[IE #3] [32m.[0msubmit button : should become enabled after removing a release time ... 
-[IE #3] Passed.
-[IE #3] [32m.[0msubmit button : should become enabled after updating a release time ... 
-[IE #3] Passed.
-[IE #3] [32m.[0msubmit button: 10 of 10 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0msubmit button : should remain disabled after cancelling out of adding a release time ... 
+[IE #3] Failed.
+[IE #3] [31mF[0msubmit button : should become enabled after adding a release time ... 
+[IE #3] Failed.
+[IE #3] [31mF[0msubmit button : should become enabled after removing a release time ... 
+[IE #3] Failed.
+[IE #3] [31mF[0msubmit button : should become enabled after updating a release time ... 
+[IE #3] Failed.
+[IE #3] [31mF[0msubmit button: 5 of 15 passed.
 [IE #3] when deleting release times : it should allow release times to be deleted when multiple exist ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mwhen deleting release times : it should not allow release times to be deleted when only one exists ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mwhen deleting release times: 3 of 3 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mwhen deleting release times : it should not allow release times to be deleted when only one exists ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mwhen deleting release times: 2 of 6 passed.
 [IE #3] the modal for deleting a collection : should run once before all ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mthe modal for deleting a collection : should have the title "Delete Collection" ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mthe modal for deleting a collection : should contain the collection's name in the confirmation message ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mthe modal for deleting a collection : should contain an empty confirmation text box ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mclicking the cancel button : should cancel the operation when no input has been entered ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mclicking the cancel button : should cancel the operation after invalid input has been entered ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mclicking the cancel button : should cancel the operation after valid input has been entered ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mclicking the cancel button: 6 of 6 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mthe modal for deleting a collection : should have the title "Delete Collection" ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mthe modal for deleting a collection : should contain the collection's name in the confirmation message ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mthe modal for deleting a collection : should contain an empty confirmation text box ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mclicking the cancel button : should cancel the operation when no input has been entered ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mclicking the cancel button : should cancel the operation after invalid input has been entered ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mclicking the cancel button : should cancel the operation after valid input has been entered ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mclicking the cancel button: 0 of 5 passed.
 [IE #3] clicking the X button : should cancel the operation when no input has been entered ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mclicking the X button : should cancel the operation after invalid input has been entered ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mclicking the X button : should cancel the operation after valid input has been entered ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mclicking the X button: 6 of 6 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mclicking the X button : should cancel the operation after invalid input has been entered ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mclicking the X button : should cancel the operation after valid input has been entered ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mclicking the X button: 0 of 5 passed.
 [IE #3] should be disabled : should be disabled by default ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mshould be disabled : should be disabled after entering non-matching input ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mshould be disabled : should be disabled after entering a subset of the collection's name ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mshould be disabled : should be disabled after entering a superset of the collection's name ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mshould be disabled: 4 of 4 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mshould be disabled : should be disabled after entering non-matching input ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mshould be disabled : should be disabled after entering a subset of the collection's name ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mshould be disabled : should be disabled after entering a superset of the collection's name ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mshould be disabled: 0 of 7 passed.
 [IE #3] the delete button : should become enabled after entering the collection's name ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mthe delete button: 5 of 5 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mthe delete button: 0 of 8 passed.
 [IE #3] the modal for deleting a collection : should not have deleted the item up to this point ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mthe modal for deleting a collection : should delete the collection ... 
-[IE #3] Passed.
-[IE #3] [32m.[0mthe modal for deleting a collection: 30 of 30 passed.
-[IE #3] edit collection form: 106 of 106 passed.
+[IE #3] Failed.
+[IE #3] [31mF[0mthe modal for deleting a collection : should delete the collection ... 
+[IE #3] Failed.
+[IE #3] [31mF[0mthe modal for deleting a collection: 1 of 25 passed.
+[IE #3] edit collection form: 21 of 83 passed.
 [IE #3] edit collection page : should run once before all ... 
 [IE #3] Passed.
 [IE #3] [32m.[0mbreadcrumb : should contain the correct text ... 
@@ -4080,17 +4092,1278 @@ Started connect web server on http://localhost:9001
 [IE #3] [32m.[0mafter resetting password: 2 of 2 passed.
 [IE #3] sign-in - reset password form: 10 of 10 passed.
 [IE #3] Runner Finished.
-[IE #3] 459 specs, 0 failures in 4897.235s.
+[IE #3] 459 specs, 42 failures in 5011.744s.
 [IE #3] 
 [IE #3] 
-[IE #3] Finished in 4897.237 seconds
-[IE #3] [32m459 tests, 828 assertions, 0 failures
+[IE #3] Failures:
+[IE #3] 
+[IE #3]   1) edit collection form the modal for discarding changes should not display if the form is not dirty
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: Session not started or terminated[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: Session not started or terminated
+[IE #3] ==== async task ====
+[IE #3] Protractor.waitForAngular()
+[IE #3]     at Object.create.waitForElementToDisplay.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:271:20)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at Object.create.waitForElementToDisplay.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:271:20)
+[IE #3]     at Object.create.waitForPage.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/creators/collection-list.page.js:39:13)
+[IE #3]     at navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:34:24)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:84:7
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:33:9)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:29:7)
+[IE #3]     at Object.create.describeDiscardingChanges.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:23:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:81:18)
+[IE #3] 
+[IE #3]   2) edit collection form the modal for discarding changes should display if the form is dirty
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 47 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 47 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:68:14
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3053:15
+[IE #3]     at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2058:14)
+[IE #3]     at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3332:16)
+[IE #3]     at Object.create.setFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:65:7)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:88:31
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:37:23)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:36:7)
+[IE #3]     at Object.create.describeDiscardingChanges.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:23:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:81:18)
+[IE #3] 
+[IE #3]   3) edit collection form the modal for discarding changes should have the title "Discard changes?"
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("modal-title")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("modal-title")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:43:27)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:42:7)
+[IE #3]     at Object.create.describeDiscardingChanges.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:23:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:81:18)
+[IE #3] 
+[IE #3]   4) edit collection form the modal for discarding changes clicking the cancel button should cancel the operation
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("modal-cancel-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("modal-cancel-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at Object._.forEach.action (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:50:31)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:62:29)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:61:11)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:60:9
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:46:9)
+[IE #3] 
+[IE #3]   5) edit collection form the modal for discarding changes clicking the X button should cancel the operation
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("modal-cross-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("modal-cross-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at Object._.forEach.action (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:56:30)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:62:29)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:61:11)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:60:9
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:46:9)
+[IE #3] 
+[IE #3]   6) edit collection form the modal for discarding changes the discard button should be enabled
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("discard-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("discard-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:72:37)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:71:9)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:70:7)
+[IE #3]     at Object.create.describeDiscardingChanges.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:23:5)
+[IE #3] 
+[IE #3]   7) edit collection form the modal for discarding changes should not have discarded changes up to this point
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("model-name")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("model-name")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:113:55
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3053:15
+[IE #3]     at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2058:14)
+[IE #3]     at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3332:16)
+[IE #3]     at Object.create.expectFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:111:7)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:95:15
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:78:9)==== async task ====
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:77:7)
+[IE #3]     at Object.create.describeDiscardingChanges.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/discard-changes.page.js:23:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:81:18)
+[IE #3] 
+[IE #3]   8) edit collection form the modal for discarding changes should discard changes when discard button is clicked
+[IE #3]    Message:
+[IE #3]      [31mtimeout: timed out after 300000 msec waiting for spec to complete[0m
+[IE #3]    Stacktrace:
+[IE #3]      undefined
+[IE #3] 
+[IE #3]   9) edit collection form should allow user to cancel when form is invalid
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 51 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 51 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at Object.create.clear.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:222:10)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:36:14
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at Object.create.clearForm.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:33:7)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:105:13)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:104:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   10) edit collection form on successful submission should run once before all
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 51 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 51 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:68:14
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3053:15
+[IE #3]     at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2058:14)
+[IE #3]     at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3332:16)
+[IE #3]     at Object.create.setFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:65:7)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:129:29)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:128:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:114:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   11) edit collection form on successful submission should persist the changes
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("model-name")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("model-name")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:113:55
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3053:15
+[IE #3]     at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2058:14)
+[IE #3]     at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3332:16)
+[IE #3]     at Object.create.expectFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:111:7)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:153:15)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:152:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:114:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   12) edit collection form on successful submission should persist the changes, between sessions
+[IE #3]    Message:
+[IE #3]      [31mError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")[0m
+[IE #3]    Stacktrace:
+[IE #3]      Error: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:36:16)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:160:7)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:157:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:114:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   13) edit collection form when validating good input for "nameTextBox" should allow collection names with 1 characters or more
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 51 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 51 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:68:14
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3053:15
+[IE #3]     at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2058:14)
+[IE #3]     at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3332:16)
+[IE #3]     at Object.create.setFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:65:7)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:187:34
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:19:9)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:18:7)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:181:17)
+[IE #3]     at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:179:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:173:13)
+[IE #3] 
+[IE #3]   14) edit collection form when validating good input for "nameTextBox" should allow collection names with 1 characters or more
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("save-collection-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("save-collection-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:168:23)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:167:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:166:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   15) edit collection form when validating good input for "nameTextBox" should allow collection names with punctuation
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 46 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 46 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:68:14
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3053:15
+[IE #3]     at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2058:14)
+[IE #3]     at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3332:16)
+[IE #3]     at Object.create.setFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:65:7)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:187:34
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:23:9)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:22:7)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:181:17)
+[IE #3]     at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:179:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:173:13)
+[IE #3] 
+[IE #3]   16) edit collection form when validating good input for "nameTextBox" should allow collection names with punctuation
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("save-collection-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("save-collection-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:168:23)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:167:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:166:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   17) edit collection form when validating good input for "nameTextBox" should allow collection names with numbers
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 47 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 47 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:68:14
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3053:15
+[IE #3]     at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2058:14)
+[IE #3]     at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3332:16)
+[IE #3]     at Object.create.setFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:65:7)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:187:34
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:27:9)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:26:7)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:181:17)
+[IE #3]     at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:179:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:173:13)
+[IE #3] 
+[IE #3]   18) edit collection form when validating good input for "nameTextBox" should allow collection names with numbers
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("save-collection-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("save-collection-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:168:23)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:167:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:166:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   19) edit collection form when validating good input for "nameTextBox" should allow collection names with trailing and leading whitespace
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 50 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 50 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:68:14
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3053:15
+[IE #3]     at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2058:14)
+[IE #3]     at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3332:16)
+[IE #3]     at Object.create.setFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:65:7)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:187:34
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:32:9)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:30:7)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:181:17)
+[IE #3]     at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:179:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:173:13)
+[IE #3] 
+[IE #3]   20) edit collection form when validating good input for "nameTextBox" should allow collection names with trailing and leading whitespace
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("save-collection-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("save-collection-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:168:23)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:167:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:166:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   21) edit collection form when validating bad input for "nameTextBox" requires collection name
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 38 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 38 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at Object.create.clear.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:222:10)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:39:19)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at Object.create.includeSadPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:38:9)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:218:17)
+[IE #3]     at Object.create.includeSadPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:203:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:185:13)
+[IE #3] 
+[IE #3]   22) edit collection form when validating bad input for "nameTextBox" requires collection name
+[IE #3]    Message:
+[IE #3]      [31mError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")[0m
+[IE #3]    Stacktrace:
+[IE #3]      Error: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:36:16)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:182:7)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:179:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:178:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   23) edit collection form when validating bad input for "nameTextBox" should not allow collection names with over than 50 characters
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 48 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 48 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:51:17)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at Object.create.includeSadPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:47:7)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:218:17)
+[IE #3]     at Object.create.includeSadPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:203:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:185:13)
+[IE #3] 
+[IE #3]   24) edit collection form when validating bad input for "nameTextBox" should not allow collection names with over than 50 characters
+[IE #3]    Message:
+[IE #3]      [31mError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")[0m
+[IE #3]    Stacktrace:
+[IE #3]      Error: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:36:16)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:182:7)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:179:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:178:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   25) edit collection form submit button should be disabled until changes are made
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("save-collection-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("save-collection-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:153:21)
+[IE #3] Error
+[IE #3]     at Object.create.itShouldHaveSubmitButtonDisabledUntilDirty.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:152:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:195:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:188:3)
+[IE #3] 
+[IE #3]   26) edit collection form submit button should be disabled until changes are made
+[IE #3]    Message:
+[IE #3]      [31mError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")[0m
+[IE #3]    Stacktrace:
+[IE #3]      Error: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:36:16)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:192:7)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:189:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:188:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   27) edit collection form submit button should remain disabled after cancelling out of adding a release time
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:198:37)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:197:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:188:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   28) edit collection form submit button should remain disabled after cancelling out of adding a release time
+[IE #3]    Message:
+[IE #3]      [31mError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")[0m
+[IE #3]    Stacktrace:
+[IE #3]      Error: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:36:16)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:192:7)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:189:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:188:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   29) edit collection form submit button should become enabled after adding a release time
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:205:37)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:204:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:188:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   30) edit collection form submit button should become enabled after adding a release time
+[IE #3]    Message:
+[IE #3]      [31mError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")[0m
+[IE #3]    Stacktrace:
+[IE #3]      Error: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:36:16)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:192:7)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:189:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:188:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   31) edit collection form submit button should become enabled after removing a release time
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:212:37)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:211:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:188:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   32) edit collection form submit button should become enabled after removing a release time
+[IE #3]    Message:
+[IE #3]      [31mError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")[0m
+[IE #3]    Stacktrace:
+[IE #3]      Error: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:36:16)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:192:7)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:189:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:188:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   33) edit collection form submit button should become enabled after updating a release time
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:220:37)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:219:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:188:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   34) edit collection form submit button should become enabled after updating a release time
+[IE #3]    Message:
+[IE #3]      [31mError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")[0m
+[IE #3]    Stacktrace:
+[IE #3]      Error: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:36:16)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:192:7)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:189:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:188:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   35) edit collection form when deleting release times it should allow release times to be deleted when multiple exist
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:236:37)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:235:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:228:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   36) edit collection form when deleting release times it should allow release times to be deleted when multiple exist
+[IE #3]    Message:
+[IE #3]      [31mError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")[0m
+[IE #3]    Stacktrace:
+[IE #3]      Error: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:36:16)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:232:7)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:229:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:228:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   37) edit collection form when deleting release times it should not allow release times to be deleted when only one exists
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.cssSelector("#manageReleaseTimes .btn-expand")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:247:37)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:246:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:228:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   38) edit collection form when deleting release times it should not allow release times to be deleted when only one exists
+[IE #3]    Message:
+[IE #3]      [31mError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")[0m
+[IE #3]    Stacktrace:
+[IE #3]      Error: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:36:16)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:232:7)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:229:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:228:3)
+[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:13:1)
+[IE #3] 
+[IE #3]   39) edit collection form the modal for deleting a collection should run once before all
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("delete-collection-link")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("delete-collection-link")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:260:25
+[IE #3]     at displayModalAndWait (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:82:7)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:94:9)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:92:7)
+[IE #3]     at Object.create.describeDeletingWithVerification.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:89:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:254:26)
+[IE #3] 
+[IE #3]   40) edit collection form the modal for deleting a collection should have the title "Delete Collection"
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("modal-title")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("modal-title")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:98:32)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:97:7)
+[IE #3]     at Object.create.describeDeletingWithVerification.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:89:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:254:26)
+[IE #3] 
+[IE #3]   41) edit collection form the modal for deleting a collection should contain the collection's name in the confirmation message
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("delete-hint")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("delete-hint")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:102:36)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:101:7)
+[IE #3]     at Object.create.describeDeletingWithVerification.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:89:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:254:26)
+[IE #3] 
+[IE #3]   42) edit collection form the modal for deleting a collection should contain an empty confirmation text box
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("deletion-confirmation-text")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("deletion-confirmation-text")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at expectEmptyTextBox (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:86:57)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:106:9)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:105:7)
+[IE #3]     at Object.create.describeDeletingWithVerification.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:89:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:254:26)
+[IE #3] 
+[IE #3]   43) edit collection form the modal for deleting a collection clicking the cancel button should cancel the operation when no input has been entered
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("modal-cancel-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("modal-cancel-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at Object._.forEach.action (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:113:36)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:125:29)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:124:11)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:123:9
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:109:9)
+[IE #3] 
+[IE #3]   44) edit collection form the modal for deleting a collection clicking the cancel button should cancel the operation after invalid input has been entered
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 54 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 54 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:137:21)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:136:11)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:123:9
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:109:9)
+[IE #3] 
+[IE #3]   45) edit collection form the modal for deleting a collection clicking the cancel button should cancel the operation after invalid input has been entered
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("modal-cancel-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("modal-cancel-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at Object._.forEach.action (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:113:36)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:125:29)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:124:11)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:123:9
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:109:9)
+[IE #3] 
+[IE #3]   46) edit collection form the modal for deleting a collection clicking the cancel button should cancel the operation after valid input has been entered
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 42 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 42 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:141:21)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:140:11)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:123:9
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:109:9)
+[IE #3] 
+[IE #3]   47) edit collection form the modal for deleting a collection clicking the cancel button should cancel the operation after valid input has been entered
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("modal-cancel-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("modal-cancel-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at Object._.forEach.action (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:113:36)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:125:29)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:124:11)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:123:9
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:109:9)
+[IE #3] 
+[IE #3]   48) edit collection form the modal for deleting a collection clicking the X button should cancel the operation when no input has been entered
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("modal-cross-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("modal-cross-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at Object._.forEach.action (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:119:35)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:125:29)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:124:11)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:123:9
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:109:9)
+[IE #3] 
+[IE #3]   49) edit collection form the modal for deleting a collection clicking the X button should cancel the operation after invalid input has been entered
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 57 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 57 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:137:21)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:136:11)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:123:9
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:109:9)
+[IE #3] 
+[IE #3]   50) edit collection form the modal for deleting a collection clicking the X button should cancel the operation after invalid input has been entered
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("modal-cross-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("modal-cross-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at Object._.forEach.action (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:119:35)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:125:29)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:124:11)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:123:9
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:109:9)
+[IE #3] 
+[IE #3]   51) edit collection form the modal for deleting a collection clicking the X button should cancel the operation after valid input has been entered
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 53 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 53 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:141:21)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:140:11)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:123:9
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:109:9)
+[IE #3] 
+[IE #3]   52) edit collection form the modal for deleting a collection clicking the X button should cancel the operation after valid input has been entered
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("modal-cross-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("modal-cross-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at Object._.forEach.action (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:119:35)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:125:29)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:124:11)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:123:9
+[IE #3]     at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1342:13)
+[IE #3]     at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3299:13)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:109:9)
+[IE #3] 
+[IE #3]   53) edit collection form the modal for deleting a collection the delete button should be disabled should be disabled by default
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("delete-item-verified-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("delete-item-verified-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:149:46)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:148:11)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:147:9)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:146:7)
+[IE #3] 
+[IE #3]   54) edit collection form the modal for deleting a collection the delete button should be disabled should be disabled after entering non-matching input
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 51 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 51 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:158:21)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:157:11)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:147:9)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:146:7)
+[IE #3] 
+[IE #3]   55) edit collection form the modal for deleting a collection the delete button should be disabled should be disabled after entering non-matching input
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("delete-item-verified-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("delete-item-verified-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:149:46)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:148:11)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:147:9)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:146:7)
+[IE #3] 
+[IE #3]   56) edit collection form the modal for deleting a collection the delete button should be disabled should be disabled after entering a subset of the collection's name
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 40 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 40 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:162:21)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:161:11)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:147:9)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:146:7)
+[IE #3] 
+[IE #3]   57) edit collection form the modal for deleting a collection the delete button should be disabled should be disabled after entering a subset of the collection's name
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("delete-item-verified-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("delete-item-verified-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:149:46)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:148:11)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:147:9)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:146:7)
+[IE #3] 
+[IE #3]   58) edit collection form the modal for deleting a collection the delete button should be disabled should be disabled after entering a superset of the collection's name
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 48 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 48 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:166:21)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:165:11)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:147:9)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:146:7)
+[IE #3] 
+[IE #3]   59) edit collection form the modal for deleting a collection the delete button should be disabled should be disabled after entering a superset of the collection's name
+[IE #3]    Message:
+[IE #3]      [31mNoSuchElementError: No element found using locator: By.id("delete-item-verified-button")[0m
+[IE #3]    Stacktrace:
+[IE #3]      NoSuchElementError: No element found using locator: By.id("delete-item-verified-button")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: afterEach()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:149:46)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:148:11)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:147:9)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:146:7)
+[IE #3] 
+[IE #3]   60) edit collection form the modal for deleting a collection the delete button should become enabled after entering the collection's name
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 53 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 53 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:171:19)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:170:9)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:146:7)
+[IE #3]     at Object.create.describeDeletingWithVerification.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:89:5)
+[IE #3] 
+[IE #3]   61) edit collection form the modal for deleting a collection should not have deleted the item up to this point
+[IE #3]    Message:
+[IE #3]      [31mError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")[0m
+[IE #3]    Stacktrace:
+[IE #3]      Error: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By.cssSelector("#collections .item")
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:36:16)
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:265:7
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:178:9)
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:177:7)
+[IE #3]     at Object.create.describeDeletingWithVerification.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:89:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:254:26)
+[IE #3] 
+[IE #3]   62) edit collection form the modal for deleting a collection should delete the collection
+[IE #3]    Message:
+[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 42 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a[0m
+[IE #3]    Stacktrace:
+[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+[IE #3] Command duration or timeout: 42 milliseconds
+[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+[IE #3] System info: host: '208-52-148-112', ip: '208.52.148.112', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
+[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:54006/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+[IE #3] Session ID: c5b8b971-9dc1-4f63-b5ef-d5d8e65c6d1a
+[IE #3] ==== async task ====
+[IE #3] WebDriver.executeScript()
+[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+[IE #3] ==== async task ====
+[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:183:17)
+[IE #3] ==== async task ====
+[IE #3] Asynchronous test function: it()
+[IE #3] Error
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:182:7)
+[IE #3]     at Object.create.describeDeletingWithVerification.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/delete-confirmation.page.js:89:5)
+[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-edit-form.spec.js:254:26)
+[IE #3] 
+[IE #3] Finished in 5011.782 seconds
+[IE #3] [31m459 tests, 805 assertions, 62 failures
 [0m[IE #3] 
 
 [launcher] 2 instance(s) of WebDriver still running
-......................
+............................................................................................................................................................................
 ------------------------------------
-[Chrome #4] PID: 2094
+[Chrome #4] PID: 10786
 [Chrome #4] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Chrome #4] Runner Started.
 [Chrome #4] account settings page : should run once before all ... 
@@ -5175,17 +6448,17 @@ Started connect web server on http://localhost:9001
 [Chrome #4] [32m.[0mafter resetting password: 2 of 2 passed.
 [Chrome #4] sign-in - reset password form: 10 of 10 passed.
 [Chrome #4] Runner Finished.
-[Chrome #4] 459 specs, 0 failures in 3707.388s.
+[Chrome #4] 459 specs, 0 failures in 3691.403s.
 [Chrome #4] 
 [Chrome #4] 
-[Chrome #4] Finished in 3707.389 seconds
+[Chrome #4] Finished in 3691.404 seconds
 [Chrome #4] [32m459 tests, 828 assertions, 0 failures
 [0m[Chrome #4] 
 
 [launcher] 2 instance(s) of WebDriver still running
-.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+.................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
 ------------------------------------
-[Chrome #5] PID: 3603
+[Chrome #5] PID: 11940
 [Chrome #5] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Chrome #5] Runner Started.
 [Chrome #5] account settings page : should run once before all ... 
@@ -6270,17 +7543,17 @@ Started connect web server on http://localhost:9001
 [Chrome #5] [32m.[0mafter resetting password: 2 of 2 passed.
 [Chrome #5] sign-in - reset password form: 10 of 10 passed.
 [Chrome #5] Runner Finished.
-[Chrome #5] 459 specs, 0 failures in 2438.541s.
+[Chrome #5] 459 specs, 0 failures in 2891.148s.
 [Chrome #5] 
 [Chrome #5] 
-[Chrome #5] Finished in 2438.545 seconds
+[Chrome #5] Finished in 2891.149 seconds
 [Chrome #5] [32m459 tests, 828 assertions, 0 failures
 [0m[Chrome #5] 
 
 [launcher] 1 instance(s) of WebDriver still running
-
+........................................................................................................
 ------------------------------------
-[Firefox #6] PID: 3789
+[Firefox #6] PID: 12899
 [Firefox #6] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Firefox #6] Runner Started.
 [Firefox #6] account settings page : should run once before all ... 
@@ -7365,29 +8638,29 @@ Started connect web server on http://localhost:9001
 [Firefox #6] [32m.[0mafter resetting password: 2 of 2 passed.
 [Firefox #6] sign-in - reset password form: 10 of 10 passed.
 [Firefox #6] Runner Finished.
-[Firefox #6] 459 specs, 0 failures in 2378.02s.
+[Firefox #6] 459 specs, 0 failures in 3116.626s.
 [Firefox #6] 
 [Firefox #6] 
-[Firefox #6] Finished in 2378.021 seconds
+[Firefox #6] Finished in 3116.627 seconds
 [Firefox #6] [32m459 tests, 828 assertions, 0 failures
 [0m[Firefox #6] 
 
 [launcher] 0 instance(s) of WebDriver still running
 [launcher] Firefox #2 passed
 [launcher] IE #1 failed 2 test(s)
-[launcher] IE #3 passed
+[launcher] IE #3 failed 62 test(s)
 [launcher] Chrome #4 passed
 [launcher] Chrome #5 passed
 [launcher] Firefox #6 passed
-[launcher] overall: 2 failed spec(s)
+[launcher] overall: 64 failed spec(s)
 [launcher] Process exited with error code 1
 [31m>> [39m
 [31mFatal error: protractor exited with code: 1[39m
 
 
-Execution Time (2015-04-14 00:02:30 UTC)
-protractor:browserstack  3h 24m 4.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 100%
-Total 3h 24m 47.4s
+Execution Time (2015-04-15 00:02:24 UTC)
+protractor:browserstack  3h 28m 5.2s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 100%
+Total 3h 28m 47.4s
 
 
 -- POST TEST --
