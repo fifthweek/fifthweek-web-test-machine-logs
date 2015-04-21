@@ -1,7 +1,7 @@
 
 -- PRE TEST --
 
-Time: Mon Apr 20 00:00:03 UTC 2015
+Time: Tue Apr 21 00:00:02 UTC 2015
 Branch: master
 User: ubuntu
 PATH: /usr/bin:/bin:/home/ubuntu/npm/bin
@@ -16,7 +16,7 @@ npm WARN optional dep failed, continuing fsevents@0.3.5
 Download already available at /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2
 Extracting tar contents (via spawned process)
 Removing /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
-Copying extracted folder /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1429488072009/phantomjs-1.9.8-linux-x86_64 -> /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
+Copying extracted folder /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1429574471597/phantomjs-1.9.8-linux-x86_64 -> /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
 Writing location.js file
 Done. Phantomjs binary available at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/bin/phantomjs
 
@@ -54,20 +54,20 @@ make: Leaving directory `/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/n
   ✔ gifsicle pre-build test passed successfully
 
 
-> pngquant-bin@2.0.3 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin
+> optipng-bin@2.0.4 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin
 > node lib/install.js
 
-  ✔ pngquant pre-build test passed successfully
+  ✔ optipng pre-build test passed successfully
 
 > jpegtran-bin@2.0.2 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin
 > node lib/install.js
 
   ✔ jpegtran pre-build test passed successfully
 
-> optipng-bin@2.0.4 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin
+> pngquant-bin@2.0.3 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin
 > node lib/install.js
 
-  ✔ optipng pre-build test passed successfully
+  ✔ pngquant pre-build test passed successfully
 
 > node-sass@2.1.1 install /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-sass/node_modules/node-sass
 > node scripts/install.js
@@ -106,32 +106,32 @@ grunt-file-creator@0.1.3 node_modules/grunt-file-creator
 
 grunt-cdn@0.6.5 node_modules/grunt-cdn
 
-grunt-text-replace@0.4.0 node_modules/grunt-text-replace
-
 karma-chrome-launcher@0.1.8 node_modules/karma-chrome-launcher
 └── which@1.0.9
 
-jshint-stylish@0.2.0 node_modules/jshint-stylish
-├── text-table@0.2.0
-└── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
-
-grunt-contrib-concat@0.4.0 node_modules/grunt-contrib-concat
-└── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
+grunt-text-replace@0.4.0 node_modules/grunt-text-replace
 
 grunt-filerev@0.2.1 node_modules/grunt-filerev
 ├── each-async@0.1.3
 └── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
 
-grunt-concurrent@0.5.0 node_modules/grunt-concurrent
-├── pad-stdio@0.1.1 (lpad@0.2.1)
-└── async@0.2.10
+grunt-contrib-concat@0.4.0 node_modules/grunt-contrib-concat
+└── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
+
+jshint-stylish@0.2.0 node_modules/jshint-stylish
+├── text-table@0.2.0
+└── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
 
 time-grunt@0.3.2 node_modules/time-grunt
 ├── date-time@0.1.1
 ├── pretty-ms@0.1.0
-├── text-table@0.2.0
 ├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
+├── text-table@0.2.0
 └── hooker@0.2.3
+
+grunt-concurrent@0.5.0 node_modules/grunt-concurrent
+├── pad-stdio@0.1.1 (lpad@0.2.1)
+└── async@0.2.10
 
 grunt-contrib-clean@0.5.0 node_modules/grunt-contrib-clean
 └── rimraf@2.2.8
@@ -246,12 +246,12 @@ grunt-contrib-connect@0.7.1 node_modules/grunt-contrib-connect
 ├── open@0.0.4
 ├── async@0.2.10
 ├── portscanner@0.2.2 (async@0.1.15)
-└── connect@2.13.1 (uid2@0.0.3, methods@0.1.0, debug@0.8.1, cookie-signature@1.0.1, pause@0.0.1, fresh@0.2.0, qs@0.6.6, buffer-crc32@0.2.1, batch@0.5.0, bytes@0.2.1, raw-body@1.1.3, cookie@0.1.0, compressible@1.0.0, negotiator@0.3.0, send@0.1.4, multiparty@2.2.0)
+└── connect@2.13.1 (uid2@0.0.3, methods@0.1.0, pause@0.0.1, debug@0.8.1, cookie-signature@1.0.1, fresh@0.2.0, qs@0.6.6, bytes@0.2.1, raw-body@1.1.3, buffer-crc32@0.2.1, batch@0.5.0, cookie@0.1.0, compressible@1.0.0, negotiator@0.3.0, send@0.1.4, multiparty@2.2.0)
 
 grunt-autoprefixer@2.2.0 node_modules/grunt-autoprefixer
 ├── diff@1.2.2
-├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, strip-ansi@0.3.0, has-ansi@0.1.0)
-└── autoprefixer-core@5.1.10 (num2fraction@1.0.1, browserslist@0.2.0, postcss@4.0.6, caniuse-db@1.0.30000132)
+├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, has-ansi@0.1.0, strip-ansi@0.3.0)
+└── autoprefixer-core@5.1.11 (num2fraction@1.1.0, browserslist@0.2.0, postcss@4.0.6, caniuse-db@1.0.30000132)
 
 grunt-google-cdn@0.4.3 node_modules/grunt-google-cdn
 ├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, strip-ansi@0.3.0, has-ansi@0.1.0)
@@ -273,7 +273,7 @@ karma@0.12.31 node_modules/karma
 ├── log4js@0.6.24 (async@0.2.10, underscore@1.8.2, readable-stream@1.0.33, semver@4.3.3)
 ├── http-proxy@0.10.4 (pkginfo@0.3.0, utile@0.2.1)
 ├── lodash@2.4.1
-├── connect@2.26.6 (fresh@0.2.4, cookie@0.1.2, pause@0.0.1, cookie-signature@1.0.5, response-time@2.0.1, vhost@3.0.0, on-headers@1.0.0, basic-auth-connect@1.0.0, bytes@1.0.0, media-typer@0.3.0, parseurl@1.3.0, depd@0.4.5, connect-timeout@1.3.0, cookie-parser@1.3.4, finalhandler@0.2.0, qs@2.2.4, debug@2.0.0, method-override@2.2.0, morgan@1.3.2, serve-favicon@2.1.7, csurf@1.6.6, express-session@1.8.2, type-is@1.5.7, serve-static@1.6.5, multiparty@3.3.2, errorhandler@1.2.4, compression@1.1.2, body-parser@1.8.4, serve-index@1.2.1)
+├── connect@2.26.6 (cookie@0.1.2, fresh@0.2.4, pause@0.0.1, cookie-signature@1.0.5, response-time@2.0.1, vhost@3.0.0, on-headers@1.0.0, bytes@1.0.0, media-typer@0.3.0, parseurl@1.3.0, basic-auth-connect@1.0.0, depd@0.4.5, connect-timeout@1.3.0, finalhandler@0.2.0, cookie-parser@1.3.4, qs@2.2.4, debug@2.0.0, method-override@2.2.0, morgan@1.3.2, serve-favicon@2.1.7, csurf@1.6.6, express-session@1.8.2, type-is@1.5.7, serve-static@1.6.5, multiparty@3.3.2, errorhandler@1.2.4, compression@1.1.2, body-parser@1.8.4, serve-index@1.2.1)
 ├── useragent@2.0.10 (lru-cache@2.2.4)
 └── socket.io@0.9.16 (base64id@0.1.0, policyfile@0.0.4, redis@0.7.3, socket.io-client@0.9.16)
 
@@ -289,7 +289,7 @@ protractor@1.8.0 node_modules/protractor
 ├── glob@3.2.11 (inherits@2.0.1, minimatch@0.3.0)
 ├── source-map-support@0.2.10 (source-map@0.1.32)
 ├── accessibility-developer-tools@2.6.0
-├── request@2.36.0 (json-stringify-safe@5.0.0, aws-sign2@0.5.0, forever-agent@0.5.2, qs@0.6.6, oauth-sign@0.3.0, tunnel-agent@0.4.0, mime@1.2.11, node-uuid@1.4.3, form-data@0.1.4, http-signature@0.10.1, tough-cookie@0.12.1, hawk@1.0.0)
+├── request@2.36.0 (json-stringify-safe@5.0.0, forever-agent@0.5.2, aws-sign2@0.5.0, qs@0.6.6, oauth-sign@0.3.0, tunnel-agent@0.4.0, mime@1.2.11, node-uuid@1.4.3, form-data@0.1.4, http-signature@0.10.1, tough-cookie@0.12.1, hawk@1.0.0)
 ├── lodash@2.4.1
 ├── jasmine@2.1.1 (jasmine-core@2.1.3)
 └── selenium-webdriver@2.44.0 (tmp@0.0.24, xml2js@0.4.4)
@@ -299,72 +299,74 @@ grunt-contrib-imagemin@0.9.4 node_modules/grunt-contrib-imagemin
 ├── async@0.9.0
 ├── chalk@1.0.0 (escape-string-regexp@1.0.3, ansi-styles@2.0.1, supports-color@1.3.1, strip-ansi@2.0.1, has-ansi@1.0.3)
 ├── pretty-bytes@1.0.4 (get-stdin@4.0.1, meow@3.1.0)
-└── imagemin@3.1.0 (get-stdin@3.0.2, optional@0.1.3, stream-combiner@0.2.1, vinyl@0.4.6, meow@2.1.0, through2@0.6.5, concat-stream@1.4.8, vinyl-fs@0.3.13, imagemin-svgo@4.1.2, imagemin-gifsicle@4.1.0, imagemin-pngquant@4.0.0, imagemin-jpegtran@4.1.0, imagemin-optipng@4.2.0)
+└── imagemin@3.1.0 (get-stdin@3.0.2, optional@0.1.3, vinyl@0.4.6, stream-combiner@0.2.1, meow@2.1.0, through2@0.6.5, concat-stream@1.4.8, vinyl-fs@0.3.13, imagemin-svgo@4.1.2, imagemin-gifsicle@4.1.0, imagemin-optipng@4.2.0, imagemin-jpegtran@4.1.0, imagemin-pngquant@4.0.0)
 
 grunt-sass@0.18.1 node_modules/grunt-sass
 ├── object-assign@2.0.0
 ├── each-async@1.1.1 (set-immediate-shim@1.0.1, onetime@1.0.0)
-└── node-sass@2.1.1 (get-stdin@4.0.1, replace-ext@0.0.1, chalk@0.5.1, cross-spawn@0.2.9, nan@1.7.0, meow@3.1.0, mkdirp@0.5.0, semver@4.3.3, shelljs@0.3.0, npmconf@2.1.1, gaze@0.5.1, request@2.55.0, mocha@2.2.4, sass-graph@1.3.0, pangyp@2.1.0)
+└── node-sass@2.1.1 (get-stdin@4.0.1, replace-ext@0.0.1, chalk@0.5.1, cross-spawn@0.2.9, nan@1.7.0, meow@3.1.0, mkdirp@0.5.0, semver@4.3.3, shelljs@0.3.0, npmconf@2.1.1, gaze@0.5.1, request@2.55.0, sass-graph@1.3.0, mocha@2.2.4, pangyp@2.1.0)
 bower angular#^1.3.0            cached git://github.com/angular/bower-angular.git#1.3.15
 bower angular#^1.3.0          validate 1.3.15 against git://github.com/angular/bower-angular.git#^1.3.0
-bower json3#^3.3.0              cached git://github.com/bestiejs/json3.git#3.3.2
-bower json3#^3.3.0            validate 3.3.2 against git://github.com/bestiejs/json3.git#^3.3.0
 bower angular-resource#^1.3.0   cached git://github.com/angular/bower-angular-resource.git#1.3.15
 bower angular-resource#^1.3.0 validate 1.3.15 against git://github.com/angular/bower-angular-resource.git#^1.3.0
-bower angular-route#^1.3.0      cached git://github.com/angular/bower-angular-route.git#1.3.15
-bower angular-route#^1.3.0    validate 1.3.15 against git://github.com/angular/bower-angular-route.git#^1.3.0
-bower angular-ui-router#~0.2.13 cached git://github.com/angular-ui/ui-router.git#0.2.13
-bower angular-ui-router#~0.2.13         validate 0.2.13 against git://github.com/angular-ui/ui-router.git#~0.2.13
-bower bootstrap-sass-official#~3.3.4      cached git://github.com/twbs/bootstrap-sass.git#3.3.4
-bower bootstrap-sass-official#~3.3.4    validate 3.3.4 against git://github.com/twbs/bootstrap-sass.git#~3.3.4
-bower es5-shim#^4.0.0                     cached git://github.com/es-shims/es5-shim.git#4.1.1
-bower es5-shim#^4.0.0                   validate 4.1.1 against git://github.com/es-shims/es5-shim.git#^4.0.0
-bower angular-bootstrap#~0.12.0           cached git://github.com/angular-ui/bootstrap-bower.git#0.12.1
-bower angular-bootstrap#~0.12.0         validate 0.12.1 against git://github.com/angular-ui/bootstrap-bower.git#~0.12.0
-bower angular-snap#~1.6.0                 cached git://github.com/jtrussell/angular-snap.js-bower.git#1.6.0
-bower angular-snap#~1.6.0               validate 1.6.0 against git://github.com/jtrussell/angular-snap.js-bower.git#~1.6.0
-bower angular-sanitize#^1.3.0             cached git://github.com/angular/bower-angular-sanitize.git#1.3.15
-bower angular-sanitize#^1.3.0           validate 1.3.15 against git://github.com/angular/bower-angular-sanitize.git#^1.3.0
-bower angulartics#~0.17.1                 cached git://github.com/luisfarzati/angulartics.git#0.17.2
-bower angulartics#~0.17.1               validate 0.17.2 against git://github.com/luisfarzati/angulartics.git#~0.17.1
-bower fontawesome#~4.3.0                  cached git://github.com/FortAwesome/Font-Awesome.git#4.3.0
-bower fontawesome#~4.3.0                validate 4.3.0 against git://github.com/FortAwesome/Font-Awesome.git#~4.3.0
-bower angular-local-storage#~0.1.5        cached git://github.com/grevory/angular-local-storage.git#0.1.5
-bower angular-local-storage#~0.1.5      validate 0.1.5 against git://github.com/grevory/angular-local-storage.git#~0.1.5
-bower angular-elastic#~2.4.2              cached git://github.com/monospaced/angular-elastic.git#2.4.2
-bower angular-elastic#~2.4.2            validate 2.4.2 against git://github.com/monospaced/angular-elastic.git#~2.4.2
-bower ng-focus#~0.0.1                     cached git://github.com/tatsuyaoiw/ng-focus.git#0.0.1
-bower ng-focus#~0.0.1                   validate 0.0.1 against git://github.com/tatsuyaoiw/ng-focus.git#~0.0.1
-bower marked#~0.3.3                       cached git://github.com/chjj/marked.git#0.3.3
-bower marked#~0.3.3                     validate 0.3.3 against git://github.com/chjj/marked.git#~0.3.3
-bower lodash#~3.4.0                       cached git://github.com/lodash/lodash.git#3.4.0
-bower lodash#~3.4.0                     validate 3.4.0 against git://github.com/lodash/lodash.git#~3.4.0
-bower angular-mocks#~1.3.0                cached git://github.com/angular/bower-angular-mocks.git#1.3.15
-bower angular-mocks#~1.3.0              validate 1.3.15 against git://github.com/angular/bower-angular-mocks.git#~1.3.0
-bower moment#~2.9.0                       cached git://github.com/moment/moment.git#2.9.0
-bower moment#~2.9.0                     validate 2.9.0 against git://github.com/moment/moment.git#~2.9.0
-bower ng-videosharing-embed#~0.3.2        cached git://github.com/erost/ng-videosharing-embed.git#0.3.2
-bower ng-videosharing-embed#~0.3.2      validate 0.3.2 against git://github.com/erost/ng-videosharing-embed.git#~0.3.2
-bower froogaloop#~0.1.0                   cached git://github.com/austinpray/bower-vimeo-froogaloop.git#0.1.0
-bower froogaloop#~0.1.0                 validate 0.1.0 against git://github.com/austinpray/bower-vimeo-froogaloop.git#~0.1.0
-bower jquery#~2.1.3                       cached git://github.com/jquery/jquery.git#2.1.3
-bower jquery#~2.1.3                     validate 2.1.3 against git://github.com/jquery/jquery.git#~2.1.3
-bower angular-scenario#~1.3.0             cached git://github.com/angular/bower-angular-scenario.git#1.3.15
-bower angular-scenario#~1.3.0           validate 1.3.15 against git://github.com/angular/bower-angular-scenario.git#~1.3.0
-bower jquery#>= 1.9.0                     cached git://github.com/jquery/jquery.git#2.1.3
-bower jquery#>= 1.9.0                   validate 2.1.3 against git://github.com/jquery/jquery.git#>= 1.9.0
-bower angular#~1.2                        cached git://github.com/angular/bower-angular.git#1.2.28
-bower angular#~1.2                      validate 1.2.28 against git://github.com/angular/bower-angular.git#~1.2
-bower SHA-1#*                             cached git://github.com/linkgod/SHA-1.git#0.1.1
-bower SHA-1#*                           validate 0.1.1 against git://github.com/linkgod/SHA-1.git#*
-bower snapjs#~1.9                         cached git://github.com/jakiestfu/Snap.js.git#1.9.3
-bower snapjs#~1.9                       validate 1.9.3 against git://github.com/jakiestfu/Snap.js.git#~1.9
-bower waypoints#~2.0.3                    cached git://github.com/imakewebthings/waypoints.git#2.0.5
-bower waypoints#~2.0.3                  validate 2.0.5 against git://github.com/imakewebthings/waypoints.git#~2.0.3
+bower json3#^3.3.0              cached git://github.com/bestiejs/json3.git#3.3.2
+bower json3#^3.3.0            validate 3.3.2 against git://github.com/bestiejs/json3.git#^3.3.0
+bower es5-shim#^4.0.0           cached git://github.com/es-shims/es5-shim.git#4.1.1
+bower es5-shim#^4.0.0         validate 4.1.1 against git://github.com/es-shims/es5-shim.git#^4.0.0
+bower bootstrap-sass-official#~3.3.4           cached git://github.com/twbs/bootstrap-sass.git#3.3.4
+bower bootstrap-sass-official#~3.3.4         validate 3.3.4 against git://github.com/twbs/bootstrap-sass.git#~3.3.4
+bower angular-route#^1.3.0                     cached git://github.com/angular/bower-angular-route.git#1.3.15
+bower angular-route#^1.3.0                   validate 1.3.15 against git://github.com/angular/bower-angular-route.git#^1.3.0
+bower angular-ui-router#~0.2.13                cached git://github.com/angular-ui/ui-router.git#0.2.13
+bower angular-ui-router#~0.2.13              validate 0.2.13 against git://github.com/angular-ui/ui-router.git#~0.2.13
+bower angular-sanitize#^1.3.0                  cached git://github.com/angular/bower-angular-sanitize.git#1.3.15
+bower angular-sanitize#^1.3.0                validate 1.3.15 against git://github.com/angular/bower-angular-sanitize.git#^1.3.0
+bower angular-local-storage#~0.1.5             cached git://github.com/grevory/angular-local-storage.git#0.1.5
+bower angular-local-storage#~0.1.5           validate 0.1.5 against git://github.com/grevory/angular-local-storage.git#~0.1.5
+bower angular-snap#~1.6.0                      cached git://github.com/jtrussell/angular-snap.js-bower.git#1.6.0
+bower angular-snap#~1.6.0                    validate 1.6.0 against git://github.com/jtrussell/angular-snap.js-bower.git#~1.6.0
+bower angular-bootstrap#~0.12.0                cached git://github.com/angular-ui/bootstrap-bower.git#0.12.1
+bower angular-bootstrap#~0.12.0              validate 0.12.1 against git://github.com/angular-ui/bootstrap-bower.git#~0.12.0
+bower angulartics#~0.17.1                      cached git://github.com/luisfarzati/angulartics.git#0.17.2
+bower angulartics#~0.17.1                    validate 0.17.2 against git://github.com/luisfarzati/angulartics.git#~0.17.1
+bower froogaloop#~0.1.0                        cached git://github.com/austinpray/bower-vimeo-froogaloop.git#0.1.0
+bower froogaloop#~0.1.0                      validate 0.1.0 against git://github.com/austinpray/bower-vimeo-froogaloop.git#~0.1.0
+bower fontawesome#~4.3.0                       cached git://github.com/FortAwesome/Font-Awesome.git#4.3.0
+bower fontawesome#~4.3.0                     validate 4.3.0 against git://github.com/FortAwesome/Font-Awesome.git#~4.3.0
+bower ng-focus#~0.0.1                          cached git://github.com/tatsuyaoiw/ng-focus.git#0.0.1
+bower ng-focus#~0.0.1                        validate 0.0.1 against git://github.com/tatsuyaoiw/ng-focus.git#~0.0.1
+bower moment#~2.9.0                            cached git://github.com/moment/moment.git#2.9.0
+bower moment#~2.9.0                          validate 2.9.0 against git://github.com/moment/moment.git#~2.9.0
+bower angular-elastic#~2.4.2                   cached git://github.com/monospaced/angular-elastic.git#2.4.2
+bower angular-elastic#~2.4.2                 validate 2.4.2 against git://github.com/monospaced/angular-elastic.git#~2.4.2
+bower lodash#~3.4.0                            cached git://github.com/lodash/lodash.git#3.4.0
+bower lodash#~3.4.0                          validate 3.4.0 against git://github.com/lodash/lodash.git#~3.4.0
+bower marked#~0.3.3                            cached git://github.com/chjj/marked.git#0.3.3
+bower marked#~0.3.3                          validate 0.3.3 against git://github.com/chjj/marked.git#~0.3.3
+bower ng-videosharing-embed#~0.3.2             cached git://github.com/erost/ng-videosharing-embed.git#0.3.2
+bower ng-videosharing-embed#~0.3.2           validate 0.3.2 against git://github.com/erost/ng-videosharing-embed.git#~0.3.2
+bower angular-mocks#~1.3.0                     cached git://github.com/angular/bower-angular-mocks.git#1.3.15
+bower angular-mocks#~1.3.0                   validate 1.3.15 against git://github.com/angular/bower-angular-mocks.git#~1.3.0
+bower angular-scenario#~1.3.0                  cached git://github.com/angular/bower-angular-scenario.git#1.3.15
+bower angular-scenario#~1.3.0                validate 1.3.15 against git://github.com/angular/bower-angular-scenario.git#~1.3.0
+bower jquery#~2.1.3                            cached git://github.com/jquery/jquery.git#2.1.3
+bower jquery#~2.1.3                          validate 2.1.3 against git://github.com/jquery/jquery.git#~2.1.3
+bower jquery#>= 1.9.0                          cached git://github.com/jquery/jquery.git#2.1.3
+bower jquery#>= 1.9.0                        validate 2.1.3 against git://github.com/jquery/jquery.git#>= 1.9.0
+bower angular#>=1 <1.3.0                       cached git://github.com/angular/bower-angular.git#1.2.28
+bower angular#>=1 <1.3.0                     validate 1.2.28 against git://github.com/angular/bower-angular.git#>=1 <1.3.0
+bower SHA-1#*                                  cached git://github.com/linkgod/SHA-1.git#0.1.1
+bower SHA-1#*                                validate 0.1.1 against git://github.com/linkgod/SHA-1.git#*
+bower waypoints#~2.0.3                         cached git://github.com/imakewebthings/waypoints.git#2.0.5
+bower waypoints#~2.0.3                       validate 2.0.5 against git://github.com/imakewebthings/waypoints.git#~2.0.3
+bower snapjs#~1.9                              cached git://github.com/jakiestfu/Snap.js.git#1.9.3
+bower snapjs#~1.9                            validate 1.9.3 against git://github.com/jakiestfu/Snap.js.git#~1.9
+bower jquery#>=1.8                             cached git://github.com/jquery/jquery.git#2.1.3
+bower jquery#>=1.8                           validate 2.1.3 against git://github.com/jquery/jquery.git#>=1.8
 
 Please note that,
-    angular-snap#1.6.0 depends on angular#~1.2 which resolved to angular#1.2.28
     angular-bootstrap#0.12.1 depends on angular#>=1 <1.3.0 which resolved to angular#1.2.28
+    angular-snap#1.6.0 depends on angular#~1.2 which resolved to angular#1.2.28
     angular-mocks#1.3.15, angular-resource#1.3.15, angular-route#1.3.15, angular-sanitize#1.3.15, angular-scenario#1.3.15 depends on angular#1.3.15 which resolved to angular#1.3.15
     web depends on angular#^1.3.0 which resolved to angular#1.3.15
     angular-ui-router#0.2.13 depends on angular#>= 1.0.8 which resolved to angular#1.3.15
@@ -374,102 +376,102 @@ Please note that,
 Resort to using angular#^1.3.0 which resolved to angular#1.3.15
 Code incompatibilities may occur.
 
-bower marked                    extra-resolution Unnecessary resolution: marked#~0.3.3
-bower angular-mocks             extra-resolution Unnecessary resolution: angular-mocks#~1.3.0
-bower json3#^3.3.0                       install json3#3.3.2
-bower angular-route#^1.3.0               install angular-route#1.3.15
-bower angular#1.3.15                     install angular#1.3.15
-bower angular-resource#^1.3.0            install angular-resource#1.3.15
-bower angular-ui-router#~0.2.13          install angular-ui-router#0.2.13
-bower angular-snap#~1.6.0                install angular-snap#1.6.0
-bower angular-bootstrap#~0.12.0          install angular-bootstrap#0.12.1
-bower es5-shim#^4.0.0                    install es5-shim#4.1.1
-bower bootstrap-sass-official#~3.3.4     install bootstrap-sass-official#3.3.4
-bower angulartics#~0.17.1                install angulartics#0.17.2
-bower angular-sanitize#^1.3.0            install angular-sanitize#1.3.15
-bower marked#~0.3.3                      install marked#0.3.3
-bower ng-focus#~0.0.1                    install ng-focus#0.0.1
-bower angular-elastic#~2.4.2             install angular-elastic#2.4.2
-bower fontawesome#~4.3.0                 install fontawesome#4.3.0
-bower angular-local-storage#~0.1.5       install angular-local-storage#0.1.5
-bower froogaloop#~0.1.0                  install froogaloop#0.1.0
-bower moment#~2.9.0                      install moment#2.9.0
-bower ng-videosharing-embed#~0.3.2       install ng-videosharing-embed#0.3.2
-bower lodash#~3.4.0                      install lodash#3.4.0
-bower angular-mocks#~1.3.0               install angular-mocks#1.3.15
-bower angular-scenario#~1.3.0            install angular-scenario#1.3.15
-bower jquery#>= 1.9.0                    install jquery#2.1.3
-bower SHA-1#*                            install SHA-1#0.1.1
-bower snapjs#~1.9                        install snapjs#1.9.3
-bower waypoints#~2.0.3                   install waypoints#2.0.5
+bower marked                         extra-resolution Unnecessary resolution: marked#~0.3.3
+bower angular-mocks                  extra-resolution Unnecessary resolution: angular-mocks#~1.3.0
+bower json3#^3.3.0                            install json3#3.3.2
+bower es5-shim#^4.0.0                         install es5-shim#4.1.1
+bower angular#1.3.15                          install angular#1.3.15
+bower angular-resource#^1.3.0                 install angular-resource#1.3.15
+bower bootstrap-sass-official#~3.3.4          install bootstrap-sass-official#3.3.4
+bower angular-local-storage#~0.1.5            install angular-local-storage#0.1.5
+bower angular-sanitize#^1.3.0                 install angular-sanitize#1.3.15
+bower angular-ui-router#~0.2.13               install angular-ui-router#0.2.13
+bower angular-route#^1.3.0                    install angular-route#1.3.15
+bower fontawesome#~4.3.0                      install fontawesome#4.3.0
+bower froogaloop#~0.1.0                       install froogaloop#0.1.0
+bower angulartics#~0.17.1                     install angulartics#0.17.2
+bower angular-bootstrap#~0.12.0               install angular-bootstrap#0.12.1
+bower angular-snap#~1.6.0                     install angular-snap#1.6.0
+bower ng-focus#~0.0.1                         install ng-focus#0.0.1
+bower moment#~2.9.0                           install moment#2.9.0
+bower angular-elastic#~2.4.2                  install angular-elastic#2.4.2
+bower ng-videosharing-embed#~0.3.2            install ng-videosharing-embed#0.3.2
+bower marked#~0.3.3                           install marked#0.3.3
+bower lodash#~3.4.0                           install lodash#3.4.0
+bower angular-mocks#~1.3.0                    install angular-mocks#1.3.15
+bower snapjs#~1.9                             install snapjs#1.9.3
+bower waypoints#~2.0.3                        install waypoints#2.0.5
+bower SHA-1#*                                 install SHA-1#0.1.1
+bower jquery#>= 1.9.0                         install jquery#2.1.3
+bower angular-scenario#~1.3.0                 install angular-scenario#1.3.15
 
 json3#3.3.2 bower_components/json3
 
-angular-route#1.3.15 bower_components/angular-route
-└── angular#1.3.15
+es5-shim#4.1.1 bower_components/es5-shim
 
 angular#1.3.15 bower_components/angular
 
 angular-resource#1.3.15 bower_components/angular-resource
 └── angular#1.3.15
 
+bootstrap-sass-official#3.3.4 bower_components/bootstrap-sass-official
+└── jquery#2.1.3
+
+angular-local-storage#0.1.5 bower_components/angular-local-storage
+
+angular-sanitize#1.3.15 bower_components/angular-sanitize
+└── angular#1.3.15
+
 angular-ui-router#0.2.13 bower_components/angular-ui-router
 └── angular#1.3.15
 
-angular-snap#1.6.0 bower_components/angular-snap
-├── angular#1.3.15
-└── snapjs#1.9.3
-
-angular-bootstrap#0.12.1 bower_components/angular-bootstrap
+angular-route#1.3.15 bower_components/angular-route
 └── angular#1.3.15
 
-es5-shim#4.1.1 bower_components/es5-shim
+fontawesome#4.3.0 bower_components/fontawesome
 
-bootstrap-sass-official#3.3.4 bower_components/bootstrap-sass-official
-└── jquery#2.1.3
+froogaloop#0.1.0 bower_components/froogaloop
 
 angulartics#0.17.2 bower_components/angulartics
 ├── SHA-1#0.1.1
 ├── angular#1.3.15
 └── waypoints#2.0.5
 
-angular-sanitize#1.3.15 bower_components/angular-sanitize
+angular-bootstrap#0.12.1 bower_components/angular-bootstrap
 └── angular#1.3.15
 
-marked#0.3.3 bower_components/marked
+angular-snap#1.6.0 bower_components/angular-snap
+├── angular#1.3.15
+└── snapjs#1.9.3
 
 ng-focus#0.0.1 bower_components/ng-focus
+
+moment#2.9.0 bower_components/moment
 
 angular-elastic#2.4.2 bower_components/angular-elastic
 └── angular#1.3.15
 
-fontawesome#4.3.0 bower_components/fontawesome
-
-angular-local-storage#0.1.5 bower_components/angular-local-storage
-
-froogaloop#0.1.0 bower_components/froogaloop
-
-moment#2.9.0 bower_components/moment
-
 ng-videosharing-embed#0.3.2 bower_components/ng-videosharing-embed
 └── angular#1.3.15
+
+marked#0.3.3 bower_components/marked
 
 lodash#3.4.0 bower_components/lodash
 
 angular-mocks#1.3.15 bower_components/angular-mocks
 └── angular#1.3.15
 
-angular-scenario#1.3.15 bower_components/angular-scenario
-└── angular#1.3.15
-
-jquery#2.1.3 bower_components/jquery
-
-SHA-1#0.1.1 bower_components/SHA-1
-
 snapjs#1.9.3 bower_components/snapjs
 
 waypoints#2.0.5 bower_components/waypoints
 └── jquery#2.1.3
+
+SHA-1#0.1.1 bower_components/SHA-1
+
+jquery#2.1.3 bower_components/jquery
+
+angular-scenario#1.3.15 bower_components/angular-scenario
+└── angular#1.3.15
 [4mRunning "ptest:live:dist:browserstack" (ptest) task[24m
 
 [4mRunning "shell:getDeveloperName" (shell) task[24m
@@ -511,10 +513,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-20 00:02:34 UTC)
-    loading tasks       19ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 35%
-    copy:plainCssToTmp  34ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 63%
-    Total 54ms
+    Execution Time (2015-04-21 00:02:32 UTC)
+    loading tasks       19ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 36%
+    copy:plainCssToTmp  34ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 64%
+    Total 53ms
         
     [4mRunning "copy:viewsToTmp" (copy) task[24m
     Copied [36m86[39m files
@@ -522,20 +524,20 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-20 00:02:34 UTC)
-    loading tasks     18ms  ▇▇▇▇ 8%
-    copy:viewsToTmp  205ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 92%
-    Total 224ms
+    Execution Time (2015-04-21 00:02:32 UTC)
+    loading tasks     19ms  ▇▇▇▇ 9%
+    copy:viewsToTmp  202ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 91%
+    Total 223ms
         
     [4mRunning "sass:dist" (sass) task[24m
     
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-20 00:02:40 UTC)
-    loading tasks   20ms  ▇▇ 3%
-    sass:dist      645ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 97%
-    Total 666ms
+    Execution Time (2015-04-21 00:02:39 UTC)
+    loading tasks   19ms  ▇▇ 3%
+    sass:dist      638ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 97%
+    Total 657ms
         
     [4mRunning "imagemin:dist" (imagemin) task[24m
     Minified 11 images (saved 18.25 kB)
@@ -543,10 +545,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-20 00:02:40 UTC)
-    loading tasks  21ms  ▇ 2%
-    imagemin:dist  1.1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
-    Total 1.2s
+    Execution Time (2015-04-21 00:02:39 UTC)
+    loading tasks  24ms  ▇ 2%
+    imagemin:dist  1.1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
+    Total 1.1s
         
     [4mRunning "svgmin:dist" (svgmin) task[24m
     Total saved: 0 B
@@ -554,10 +556,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-20 00:02:44 UTC)
-    loading tasks  10ms  ▇▇▇▇▇▇▇ 14%
-    svgmin:dist    60ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 86%
-    Total 70ms
+    Execution Time (2015-04-21 00:02:43 UTC)
+    loading tasks  10ms  ▇▇▇▇▇▇▇▇ 16%
+    svgmin:dist    53ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 84%
+    Total 63ms
     
 [4mRunning "concurrent:buildPhase2" (concurrent) task[24m
     
@@ -567,10 +569,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-20 00:02:51 UTC)
-    loading tasks                    17ms  ▇▇▇ 8%
-    copy:nonConcat...edFilesToDist  190ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 91%
-    Total 208ms
+    Execution Time (2015-04-21 00:02:49 UTC)
+    loading tasks                    18ms  ▇▇▇ 9%
+    copy:nonConcat...edFilesToDist  185ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 90%
+    Total 205ms
         
     [4mRunning "autoprefixer:dist" (autoprefixer) task[24m
     File .tmp/static/styles/main.css created.
@@ -578,10 +580,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-20 00:02:51 UTC)
-    loading tasks       19ms  ▇▇▇ 7%
-    autoprefixer:dist  270ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
-    Total 290ms
+    Execution Time (2015-04-21 00:02:49 UTC)
+    loading tasks       19ms  ▇▇▇ 6%
+    autoprefixer:dist  277ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+    Total 297ms
     
 [4mRunning "cdnify:dist" (cdnify) task[24m
 Going through [36mdist/index.html[39m to update script refs
@@ -645,12 +647,12 @@ Minified .tmp/views/modules/channels/directives/form-input-channel-name.html 752
 Minified .tmp/views/modules/channels/directives/form-input-channel-price.html 1.2 kB → 895 B
 Minified .tmp/views/modules/channels/directives/form-input-channel-visibility.html 460 B → 327 B
 Minified .tmp/views/modules/channels/edit-channel.html 2.16 kB → 1.64 kB
-Minified .tmp/views/modules/channels/list-channels.html 611 B → 553 B
+Minified .tmp/views/modules/channels/list-channels.html 609 B → 551 B
 Minified .tmp/views/modules/channels/new-channel.html 1.23 kB → 1.04 kB
 Minified .tmp/views/modules/collections/directives/form-input-collection-name.html 840 B → 621 B
 Minified .tmp/views/modules/collections/directives/form-input-select-collection.html 563 B → 474 B
 Minified .tmp/views/modules/collections/edit-collection.html 5.38 kB → 3.95 kB
-Minified .tmp/views/modules/collections/list-collections.html 619 B → 577 B
+Minified .tmp/views/modules/collections/list-collections.html 617 B → 575 B
 Minified .tmp/views/modules/collections/new-collection.html 1.07 kB → 893 B
 Minified .tmp/views/modules/common/fw-date-time-picker.html 807 B → 598 B
 Minified .tmp/views/modules/common/fw-form-cancel-button.html 90 B → 79 B
@@ -663,7 +665,7 @@ Minified .tmp/views/modules/creator-backlog/backlog-post-list.html 97 B → 94 B
 Minified .tmp/views/modules/creator-backlog/backlog-queue-list.html 1.53 kB → 1.32 kB
 Minified .tmp/views/modules/creator-backlog/backlog-queue-reorder.html 2.01 kB → 1.35 kB
 Minified .tmp/views/modules/creator-blog/create-blog.html 1.04 kB → 855 B
-Minified .tmp/views/modules/creator-blog/customize-landing-page-basics.html 1.83 kB → 1.41 kB
+Minified .tmp/views/modules/creator-blog/customize-landing-page-basics.html 1.82 kB → 1.41 kB
 Minified .tmp/views/modules/creator-blog/customize-landing-page-full-description.html 2.22 kB → 1.69 kB
 Minified .tmp/views/modules/creator-blog/customize-landing-page-header-image.html 1.03 kB → 869 B
 Minified .tmp/views/modules/creator-blog/customize-landing-page-loading-area.html 65 B → 62 B
@@ -684,7 +686,7 @@ Minified .tmp/views/modules/notifications/notifications.html 119 B → 112 B
 Minified .tmp/views/modules/posts/full-size-image-modal.html 362 B → 307 B
 Minified .tmp/views/modules/posts/fw-post-list.html 1.26 kB → 1.19 kB
 Minified .tmp/views/modules/posts/post-edit-dialog.html 4.86 kB → 3.75 kB
-Minified .tmp/views/modules/posts/post.html 3.78 kB → 2.87 kB
+Minified .tmp/views/modules/posts/post.html 3.79 kB → 2.88 kB
 Minified .tmp/views/views/coming-soon.html 112 B → 107 B
 Minified .tmp/views/views/help/about.html 1.89 kB → 1.57 kB
 Minified .tmp/views/views/help/contact-us.html 689 B → 572 B
@@ -735,15 +737,15 @@ File .tmp/concat/static/scripts/scripts.js created.
 [4mRunning "concurrent:buildPhase3" (concurrent) task[24m
     
     [4mRunning "cssmin:dist" (cssmin) task[24m
-    File dist/static/styles/main.css created: 263.93 kB → 197.54 kB
+    File dist/static/styles/main.css created: 263.94 kB → 197.55 kB
     
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-20 00:03:01 UTC)
+    Execution Time (2015-04-21 00:02:59 UTC)
     loading tasks   22ms  ▇▇▇▇ 8%
-    cssmin:dist    241ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 91%
-    Total 265ms
+    cssmin:dist    255ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 92%
+    Total 278ms
         
     [4mRunning "ngAnnotate:dist" (ngAnnotate) task[24m
     [32m>> [39m2 files successfully generated.
@@ -751,22 +753,22 @@ File .tmp/concat/static/scripts/scripts.js created.
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-04-20 00:03:01 UTC)
-    loading tasks     22ms  ▇ 2%
-    ngAnnotate:dist  990ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
-    Total 1s
+    Execution Time (2015-04-21 00:02:59 UTC)
+    loading tasks    21ms  ▇ 1%
+    ngAnnotate:dist  1.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 99%
+    Total 1.7s
     
 [4mRunning "uglify:generated" (uglify) task[24m
 File dist/static/scripts/oldieshim.js created: 96.38 kB → 21.69 kB
 File dist/static/scripts/vendor.js created: 985.06 kB → 268.99 kB
-File dist/static/scripts/scripts.js created: 331.6 kB → 200.33 kB
+File dist/static/scripts/scripts.js created: 331.48 kB → 200.21 kB
 
 [4mRunning "filerev:css" (filerev) task[24m
-✔ dist/static/styles/main.css changed to main.b991296.css
+✔ dist/static/styles/main.css changed to main.0935931.css
 
 [4mRunning "filerev:scripts" (filerev) task[24m
 ✔ dist/static/scripts/oldieshim.js changed to oldieshim.8c3bbfd.js
-✔ dist/static/scripts/scripts.js changed to scripts.deee112.js
+✔ dist/static/scripts/scripts.js changed to scripts.886b751.js
 ✔ dist/static/scripts/vendor.js changed to vendor.cdbc396.js
 
 [4mRunning "usemin:html" (usemin) task[24m
@@ -789,9 +791,9 @@ Started connect web server on http://localhost:9001
 
 [4mRunning "protractor:browserstack" (protractor) task[24m
 [launcher] Running 2 instances of WebDriver
-................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
 ------------------------------------
-[Firefox #2] PID: 22609
+[Firefox #2] PID: 32246
 [Firefox #2] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Firefox #2] Runner Started.
 [Firefox #2] account settings page : should run once before all ... 
@@ -1876,17 +1878,17 @@ Started connect web server on http://localhost:9001
 [Firefox #2] [32m.[0mafter resetting password: 2 of 2 passed.
 [Firefox #2] sign-in - reset password form: 10 of 10 passed.
 [Firefox #2] Runner Finished.
-[Firefox #2] 459 specs, 0 failures in 1341.469s.
+[Firefox #2] 459 specs, 0 failures in 1844.116s.
 [Firefox #2] 
 [Firefox #2] 
-[Firefox #2] Finished in 1341.47 seconds
+[Firefox #2] Finished in 1844.116 seconds
 [Firefox #2] [32m459 tests, 828 assertions, 0 failures
 [0m[Firefox #2] 
 
 [launcher] 2 instance(s) of WebDriver still running
-............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+........................................................................................................................................................................................................................................................................................................................................................................................................
 ------------------------------------
-[IE #1] PID: 22608
+[IE #1] PID: 32245
 [IE #1] Using the selenium server at http://hub.browserstack.com/wd/hub
 [IE #1] Runner Started.
 [IE #1] account settings page : should run once before all ... 
@@ -2101,9 +2103,9 @@ Started connect web server on http://localhost:9001
 [IE #1] [32m.[0mfor "priceTextBox" : should not allow a price of 0 ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mfor "priceTextBox" : should not allow non-monetary values ... 
-[IE #1] Passed.
-[IE #1] [32m.[0mfor "priceTextBox": 11 of 11 passed.
-[IE #1] when validating bad input: 19 of 19 passed.
+[IE #1] Failed.
+[IE #1] [31mF[0mfor "priceTextBox": 10 of 11 passed.
+[IE #1] when validating bad input: 18 of 19 passed.
 [IE #1] submit button : should be disabled until changes are made ... 
 [IE #1] Passed.
 [IE #1] [32m.[0msubmit button : should become enabled after changing "nameTextBox" ... 
@@ -2113,7 +2115,7 @@ Started connect web server on http://localhost:9001
 [IE #1] [32m.[0msubmit button : should become enabled after changing "priceTextBox" ... 
 [IE #1] Passed.
 [IE #1] [32m.[0msubmit button: 4 of 4 passed.
-[IE #1] when editing a default channel: 103 of 103 passed.
+[IE #1] when editing a default channel: 102 of 103 passed.
 [IE #1] when editing a non-default channel : should run once before all ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mwhen editing a non-default channel : should initialise with the correct properties ... 
@@ -2248,7 +2250,7 @@ Started connect web server on http://localhost:9001
 [IE #1] Passed.
 [IE #1] [32m.[0mthe modal for deleting a channel: 40 of 40 passed.
 [IE #1] when editing a non-default channel: 163 of 163 passed.
-[IE #1] edit channel form: 266 of 266 passed.
+[IE #1] edit channel form: 265 of 266 passed.
 [IE #1] edit channel page : should run once before all ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mbreadcrumb : should contain the correct text ... 
@@ -2694,10 +2696,10 @@ Started connect web server on http://localhost:9001
 [IE #1] [32m.[0mfor "basePriceTextBox" : should not allow a price of 0 ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mfor "basePriceTextBox" : should not allow non-monetary values ... 
-[IE #1] Failed.
-[IE #1] [31mF[0mfor "basePriceTextBox": 10 of 11 passed.
-[IE #1] sad path: 20 of 21 passed.
-[IE #1] create blog form: 31 of 32 passed.
+[IE #1] Passed.
+[IE #1] [32m.[0mfor "basePriceTextBox": 11 of 11 passed.
+[IE #1] sad path: 21 of 21 passed.
+[IE #1] create blog form: 32 of 32 passed.
 [IE #1] create blog page : should run once before all ... 
 [IE #1] Passed.
 [IE #1] [32m.[0mheader : should contain title ... 
@@ -2971,26 +2973,26 @@ Started connect web server on http://localhost:9001
 [IE #1] [32m.[0mafter resetting password: 2 of 2 passed.
 [IE #1] sign-in - reset password form: 10 of 10 passed.
 [IE #1] Runner Finished.
-[IE #1] 459 specs, 1 failure in 2761.821s.
+[IE #1] 459 specs, 1 failure in 3002.458s.
 [IE #1] 
 [IE #1] 
 [IE #1] Failures:
 [IE #1] 
-[IE #1]   1) create blog form sad path for "basePriceTextBox" should not allow non-monetary values
+[IE #1]   1) edit channel form when editing a default channel when validating bad input for "priceTextBox" should not allow non-monetary values
 [IE #1]    Message:
 [IE #1]      [31mExpected '23' to contain '123'.[0m
 [IE #1]    Stacktrace:
 [IE #1]      Error: Failed expectation
 [IE #1]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/channel-price-input.page.js:59:43)
 [IE #1] 
-[IE #1] Finished in 2761.826 seconds
+[IE #1] Finished in 3002.463 seconds
 [IE #1] [31m459 tests, 828 assertions, 1 failure
 [0m[IE #1] 
 
 [launcher] 2 instance(s) of WebDriver still running
-.........................................................................................................................................................................................................................................................................................................................F......................................................................
+.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................
 ------------------------------------
-[IE #3] PID: 24034
+[IE #3] PID: 1393
 [IE #3] Using the selenium server at http://hub.browserstack.com/wd/hub
 [IE #3] Runner Started.
 [IE #3] account settings page : should run once before all ... 
@@ -3996,12 +3998,12 @@ Started connect web server on http://localhost:9001
 [IE #3] [32m.[0mthe "reset password" email : should be delivered when email is provided ... 
 [IE #3] Passed.
 [IE #3] [32m.[0mthe "reset password" email : should remind user of username ... 
-[IE #3] Failed.
-[IE #3] [31mF[0mthe "reset password" email : should link to "reset password" page ... 
-[IE #3] Failed.
-[IE #3] [31mF[0mthe "reset password" email: 3 of 5 passed.
-[IE #3] when a user is registered: 7 of 9 passed.
-[IE #3] sign-in - forgot details form: 11 of 13 passed.
+[IE #3] Passed.
+[IE #3] [32m.[0mthe "reset password" email : should link to "reset password" page ... 
+[IE #3] Passed.
+[IE #3] [32m.[0mthe "reset password" email: 4 of 4 passed.
+[IE #3] when a user is registered: 8 of 8 passed.
+[IE #3] sign-in - forgot details form: 12 of 12 passed.
 [IE #3] sign-in - forgot details page : should run once before all ... 
 [IE #3] Passed.
 [IE #3] [32m.[0mheader : should contain title ... 
@@ -4075,79 +4077,17 @@ Started connect web server on http://localhost:9001
 [IE #3] [32m.[0mafter resetting password: 2 of 2 passed.
 [IE #3] sign-in - reset password form: 10 of 10 passed.
 [IE #3] Runner Finished.
-[IE #3] 459 specs, 2 failures in 2175.372s.
+[IE #3] 459 specs, 0 failures in 2728.142s.
 [IE #3] 
 [IE #3] 
-[IE #3] Failures:
-[IE #3] 
-[IE #3]   1) sign-in - forgot details form when a user is registered the "reset password" email should remind user of username
-[IE #3]    Message:
-[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
-[IE #3] Command duration or timeout: 72 milliseconds
-[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
-[IE #3] System info: host: '208-52-157-31', ip: '208.52.157.31', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
-[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:57998/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-[IE #3] Session ID: 0d87ab98-2a6d-480b-9cb5-659759020de8[0m
-[IE #3]    Stacktrace:
-[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
-[IE #3] Command duration or timeout: 72 milliseconds
-[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
-[IE #3] System info: host: '208-52-157-31', ip: '208.52.157.31', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
-[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:57998/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-[IE #3] Session ID: 0d87ab98-2a6d-480b-9cb5-659759020de8
-[IE #3] ==== async task ====
-[IE #3] WebDriver.executeScript()
-[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/sign-out.page.js:14:15
-[IE #3] ==== async task ====
-[IE #3]     at Object.create.signOutAndGoHome.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/sign-out.page.js:8:27)
-[IE #3]     at [object Object].navigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/sign-in-forgot-form.spec.js:29:17)
-[IE #3] ==== async task ====
-[IE #3] Asynchronous test function: afterEach()
-[IE #3] Error
-[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/sign-in-forgot-form.spec.js:75:5)
-[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/sign-in-forgot-form.spec.js:59:3)
-[IE #3]     at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/sign-in-forgot-form.spec.js:13:1)
-[IE #3] 
-[IE #3]   2) sign-in - forgot details form when a user is registered the "reset password" email should link to "reset password" page
-[IE #3]    Message:
-[IE #3]      [31mUnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
-[IE #3] Command duration or timeout: 59 milliseconds
-[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
-[IE #3] System info: host: '208-52-157-31', ip: '208.52.157.31', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
-[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:57998/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-[IE #3] Session ID: 0d87ab98-2a6d-480b-9cb5-659759020de8[0m
-[IE #3]    Stacktrace:
-[IE #3]      UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
-[IE #3] Command duration or timeout: 59 milliseconds
-[IE #3] Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
-[IE #3] System info: host: '208-52-157-31', ip: '208.52.157.31', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_40'
-[IE #3] Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-[IE #3] Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:57998/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
-[IE #3] Session ID: 0d87ab98-2a6d-480b-9cb5-659759020de8
-[IE #3] ==== async task ====
-[IE #3] WebDriver.executeScript()
-[IE #3]     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
-[IE #3] ==== async task ====
-[IE #3]     at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
-[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/sign-in-forgot-form.spec.js:114:17)
-[IE #3] ==== async task ====
-[IE #3] Asynchronous test function: it()
-[IE #3] Error
-[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/sign-in-forgot-form.spec.js:113:7)
-[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/sign-in-forgot-form.spec.js:89:5)
-[IE #3]     at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/sign-in-forgot-form.spec.js:59:3)
-[IE #3] 
-[IE #3] Finished in 2175.379 seconds
-[IE #3] [31m459 tests, 829 assertions, 2 failures
+[IE #3] Finished in 2728.142 seconds
+[IE #3] [32m459 tests, 828 assertions, 0 failures
 [0m[IE #3] 
 
 [launcher] 2 instance(s) of WebDriver still running
-.....................................................................................................................................................................................................................................................................................................................................................................................................................
+...................................................................................................................................................................................................................................................................................................................
 ------------------------------------
-[Chrome #4] PID: 24357
+[Chrome #4] PID: 1652
 [Chrome #4] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Chrome #4] Runner Started.
 [Chrome #4] account settings page : should run once before all ... 
@@ -5232,17 +5172,17 @@ Started connect web server on http://localhost:9001
 [Chrome #4] [32m.[0mafter resetting password: 2 of 2 passed.
 [Chrome #4] sign-in - reset password form: 10 of 10 passed.
 [Chrome #4] Runner Finished.
-[Chrome #4] 459 specs, 0 failures in 1575.654s.
+[Chrome #4] 459 specs, 0 failures in 2610.401s.
 [Chrome #4] 
 [Chrome #4] 
-[Chrome #4] Finished in 1575.654 seconds
+[Chrome #4] Finished in 2610.402 seconds
 [Chrome #4] [32m459 tests, 828 assertions, 0 failures
 [0m[Chrome #4] 
 
 [launcher] 2 instance(s) of WebDriver still running
-..............................................................................................................................................................................................................................................................................................................................................................................................................
+...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
 ------------------------------------
-[Chrome #5] PID: 25241
+[Chrome #5] PID: 2606
 [Chrome #5] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Chrome #5] Runner Started.
 [Chrome #5] account settings page : should run once before all ... 
@@ -6327,17 +6267,17 @@ Started connect web server on http://localhost:9001
 [Chrome #5] [32m.[0mafter resetting password: 2 of 2 passed.
 [Chrome #5] sign-in - reset password form: 10 of 10 passed.
 [Chrome #5] Runner Finished.
-[Chrome #5] 459 specs, 0 failures in 1784.197s.
+[Chrome #5] 459 specs, 0 failures in 2710.441s.
 [Chrome #5] 
 [Chrome #5] 
-[Chrome #5] Finished in 1784.197 seconds
+[Chrome #5] Finished in 2710.441 seconds
 [Chrome #5] [32m459 tests, 828 assertions, 0 failures
 [0m[Chrome #5] 
 
 [launcher] 1 instance(s) of WebDriver still running
-...........................................................................................................................................................................................................
+............................................................................................................................................
 ------------------------------------
-[Firefox #6] PID: 27185
+[Firefox #6] PID: 4023
 [Firefox #6] Using the selenium server at http://hub.browserstack.com/wd/hub
 [Firefox #6] Runner Started.
 [Firefox #6] account settings page : should run once before all ... 
@@ -7422,29 +7362,29 @@ Started connect web server on http://localhost:9001
 [Firefox #6] [32m.[0mafter resetting password: 2 of 2 passed.
 [Firefox #6] sign-in - reset password form: 10 of 10 passed.
 [Firefox #6] Runner Finished.
-[Firefox #6] 459 specs, 0 failures in 1871.667s.
+[Firefox #6] 459 specs, 0 failures in 2268.981s.
 [Firefox #6] 
 [Firefox #6] 
-[Firefox #6] Finished in 1871.667 seconds
+[Firefox #6] Finished in 2268.981 seconds
 [Firefox #6] [32m459 tests, 828 assertions, 0 failures
 [0m[Firefox #6] 
 
 [launcher] 0 instance(s) of WebDriver still running
 [launcher] Firefox #2 passed
 [launcher] IE #1 failed 1 test(s)
-[launcher] IE #3 failed 2 test(s)
+[launcher] IE #3 passed
 [launcher] Chrome #4 passed
 [launcher] Chrome #5 passed
 [launcher] Firefox #6 passed
-[launcher] overall: 3 failed spec(s)
+[launcher] overall: 1 failed spec(s)
 [launcher] Process exited with error code 1
 [31m>> [39m
 [31mFatal error: protractor exited with code: 1[39m
 
 
-Execution Time (2015-04-20 00:02:27 UTC)
-protractor:browserstack  1h 44m 31s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 99%
-Total 1h 45m 13.4s
+Execution Time (2015-04-21 00:02:25 UTC)
+protractor:browserstack  2h 12m 22.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 99%
+Total 2h 13m 4.9s
 
 
 -- POST TEST --
