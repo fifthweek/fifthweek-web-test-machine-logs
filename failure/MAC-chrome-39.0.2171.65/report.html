@@ -1,0 +1,710 @@
+<html><head><meta charset='utf-8'/><title>Generated test report</title><style>body{font-family:Arial};ul,li{margin-left:0;padding-left:0;width:100%;font-weight:bold;}table{width:95%;text-align:left;border-spacing:0;border-collapse: separate;margin-bottom:5px;}li{font-weight:bold;padding-left:5px;list-style:none;}ul table li{font-weight: normal}th,td{padding: 10px;border: 1px solid #000;}td.desc-col{width:400px;}th.desc-col{width: 390px;}td.status-col{width:75px;}th.status-col{width: 75px;}td.browser-col{width:345px;}th.browser-col{width: 345px;}td.os-col{width:100px;}th.os-col{width: 100px;}td.msg-col{width:135px;}th.msg-col{width: 135px;}table.header{background-color: gray; color: #fff;margin-left:20px;}.traceinfo{position: fixed;top: 0; bottom: 0;left: 0;right:0;background: rgba(0,0,0,0.8);z-index: 99999;opacity:0;-webkit-transition: opacity 400ms ease-in;transition: opacity 400ms ease-in;pointer-events: none;}.traceinfo.visible{opacity:1;pointer-events: auto;}.traceinfo > div{width: 400px;position: relative;margin: 10% auto;padding: 5px 20px 13px 20px;background: #fff;}.traceinfo .close{background: #606061;color: #FFFFFF;line-height: 25px;position: absolute;right: -12px;text-align: center;top: -10px;width: 24px;text-decoration: none;font-weight: bold;}.traceinfo .close:hover{background: #00d9ff;}</style><script type='text/javascript'>function showTrace(e){window.event.srcElement.parentElement.getElementsByClassName('traceinfo')[0].className = 'traceinfo visible';}function closeTraceModal(e){window.event.srcElement.parentElement.parentElement.className = 'traceinfo';}function openModal(imageSource){var myWindow = window.open('','screenshotWindow');myWindow.document.write('<img src="' +imageSource + '" alt="screenshot" />');}</script> </head><body><h1>Test Results</h1><table class='header'><tr><th class='desc-col'>Description</th><th class='status-col'>Passed</th><th class='browser-col'>Browser</th><th class='os-col'>OS</th><th class='msg-col'>Message</th><th class='img-col'>Screenshot</th></tr></table><ul><li>add collection form<ul><li><table><tr><td class="desc-col">should run once before all</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">UnknownError: Session not started or terminated<br/><a onclick="showTrace()" href="#trace-modal17656">View Stack Trace Info</a><br/> <div id="#trace-modal17656" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>UnknownError: Session not started or terminated
+    at new bot.Error (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
+    at Object.bot.response.checkResponse (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at notify (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
+    at notifyAll (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
+    at resolve (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
+    at [object Object].fulfill (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1520:10
+==== async task ====
+Protractor.waitForAngular()
+    at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
+    at [object Object].Protractor.executeAsyncScript_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:251:26)
+    at [object Object].Protractor.waitForAngular (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:274:15)
+    at [object Object].getWebElements (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:136:19)
+    at [object Object].getWebElements (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:671:31)
+    at [object Object].ElementArrayFinder.applyAction_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:391:28)
+    at [object Object].self.(anonymous function) [as click] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:77:19)
+    at [object Object].self.(anonymous function) [as click] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:700:11)
+    at Object.create.createChannel.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/common-workflows.js:90:40)
+==== async task ====
+Asynchronous test function: it()
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:93:33)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/async-callback.js:45:37)
+    at [object Object].jasmine.Block.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1174:17)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Spec.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2503:14)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Suite.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2649:14)
+Error
+    at [object Object].ElementArrayFinder.applyAction_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:390:21)
+    at [object Object].self.(anonymous function) [as click] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:77:19)
+    at [object Object].self.(anonymous function) [as click] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:700:11)
+    at Object.create.createChannel.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/common-workflows.js:90:40)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:44:39)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)==== async task ====
+Error
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:37:3)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)
+    at describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:658:27)
+    at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:11:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)</div></div></td><td class="img-col"><a href="#" onclick="openModal('should run once before all, add collection form.png')">View </a></td></tr></table></li><li><table><tr><td class="desc-col">should initialise with an empty form</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">NoSuchElementError: No element found using locator: By.id("model-collection-name")<br/><a onclick="showTrace()" href="#trace-modal17657">View Stack Trace Info</a><br/> <div id="#trace-modal17657" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>NoSuchElementError: No element found using locator: By.id("model-collection-name")
+    at new bot.Error (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:673:15
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at notify (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
+    at notifyAll (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
+    at resolve (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
+    at fulfill (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+==== async task ====
+Asynchronous test function: it()
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:93:33)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/async-callback.js:45:37)
+    at [object Object].jasmine.Block.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1174:17)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Spec.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2503:14)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at onComplete (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2205:18)
+    at [object Object].jasmine.Spec.finish (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2477:5)
+Error
+    at [object Object].ElementArrayFinder.applyAction_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:390:21)
+    at [object Object].self.(anonymous function) [as getAttribute] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:77:19)
+    at [object Object].self.(anonymous function) [as getAttribute] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/element.js:700:11)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:113:55
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3167:15
+    at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2095:14)
+    at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3446:16)
+    at Object.create.expectFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:111:7)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:54:13)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14==== async task ====
+Error
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:53:3)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)
+    at describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:658:27)
+    at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:11:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)</div></div></td><td class="img-col"><a href="#" onclick="openModal('should initialise with an empty form, add collection form.png')">View </a></td></tr></table></li><li><table><tr><td class="desc-col">should discard changes when user cancels</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac<br/><a onclick="showTrace()" href="#trace-modal17658">View Stack Trace Info</a><br/> <div id="#trace-modal17658" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac
+    at new bot.Error (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
+    at Object.bot.response.checkResponse (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at notify (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
+    at notifyAll (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
+    at resolve (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
+    at [object Object].fulfill (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1520:10
+==== async task ====
+WebDriver.executeScript()
+    at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
+    at [object Object].webdriver.WebDriver.executeScript (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:490:15)
+    at [object Object].to.(anonymous function) [as executeScript] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:62:25)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+==== async task ====
+    at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:68:14
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3167:15
+    at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2095:14)
+    at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3446:16)
+    at Object.create.setFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:65:7)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:58:13)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+==== async task ====
+Asynchronous test function: it()
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:93:33)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/async-callback.js:45:37)
+    at [object Object].jasmine.Block.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1174:17)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Spec.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2503:14)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at onComplete (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2205:18)
+    at [object Object].jasmine.Spec.finish (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2477:5)==== async task ====
+Error
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:57:3)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)
+    at describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:658:27)
+    at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:11:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)</div></div></td><td class="img-col"><a href="#" onclick="openModal('should discard changes when user cancels, add collection form.png')">View </a></td></tr></table></li><li><table><tr><td class="desc-col">should allow user to cancel when form is invalid</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac<br/><a onclick="showTrace()" href="#trace-modal17659">View Stack Trace Info</a><br/> <div id="#trace-modal17659" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac
+    at new bot.Error (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
+    at Object.bot.response.checkResponse (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at notify (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
+    at notifyAll (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
+    at resolve (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
+    at [object Object].fulfill (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1520:10
+==== async task ====
+WebDriver.executeScript()
+    at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
+    at [object Object].webdriver.WebDriver.executeScript (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:490:15)
+    at [object Object].to.(anonymous function) [as executeScript] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:62:25)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+==== async task ====
+    at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+    at Object.create.clear.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:222:10)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:36:14
+    at arrayEach (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:1367:13)
+    at Function.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3413:13)
+    at Object.create.clearForm.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:33:7)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:67:13)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+==== async task ====
+Asynchronous test function: it()
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:93:33)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/async-callback.js:45:37)
+    at [object Object].jasmine.Block.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1174:17)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Spec.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2503:14)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at onComplete (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2205:18)
+    at [object Object].jasmine.Spec.finish (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2477:5)==== async task ====
+Error
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:66:3)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)
+    at describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:658:27)
+    at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:11:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)</div></div></td><td class="img-col"><a href="#" onclick="openModal('should allow user to cancel when form is invalid, add collection form.png')">View </a></td></tr></table></li><li>on successful submission<ul><li><table><tr><td class="desc-col">should run once before all</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac<br/><a onclick="showTrace()" href="#trace-modal17660">View Stack Trace Info</a><br/> <div id="#trace-modal17660" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac
+    at new bot.Error (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
+    at Object.bot.response.checkResponse (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at notify (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
+    at notifyAll (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
+    at resolve (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
+    at [object Object].fulfill (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1520:10
+==== async task ====
+WebDriver.executeScript()
+    at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
+    at [object Object].webdriver.WebDriver.executeScript (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:490:15)
+    at [object Object].to.(anonymous function) [as executeScript] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:62:25)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+==== async task ====
+    at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:68:14
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3167:15
+    at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2095:14)
+    at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3446:16)
+    at Object.create.setFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:65:7)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:79:31)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+==== async task ====
+Asynchronous test function: it()
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:93:33)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/async-callback.js:45:37)
+    at [object Object].jasmine.Block.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1174:17)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Spec.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2503:14)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Suite.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2649:14)==== async task ====
+Error
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:78:5)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)
+    at describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:658:27)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:75:3)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)
+    at describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:658:27)
+    at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:11:1)</div></div></td><td class="img-col"><a href="#" onclick="openModal('should run once before all, on successful submission, add collection form.png')">View </a></td></tr></table></li><li><table><tr><td class="desc-col">should persist the changes</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">Expected 0 to be 1.<br/><a onclick="showTrace()" href="#trace-modal17661">View Stack Trace Info</a><br/> <div id="#trace-modal17661" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>Error: Failed expectation
+    at expectChangesAppliedAndNavigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:120:52)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:85:7)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)</div></div></td><td class="img-col"><a href="#" onclick="openModal('should persist the changes, on successful submission, add collection form.png')">View </a></td></tr></table></li><li><table><tr><td class="desc-col">should persist the changes, between sessions</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">Expected 0 to be 1.<br/><a onclick="showTrace()" href="#trace-modal17662">View Stack Trace Info</a><br/> <div id="#trace-modal17662" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>Error: Failed expectation
+    at expectChangesAppliedAndNavigateToPage (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:120:52)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:92:7)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)</div></div></td><td class="img-col"><a href="#" onclick="openModal('should persist the changes, between sessions, on successful submission, add collection form.png')">View </a></td></tr></table></li></ul></li><li>when validating good input<ul><li>for "nameTextBox"<ul><li><table><tr><td class="desc-col">should allow collection names with 1 characters or more</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac<br/><a onclick="showTrace()" href="#trace-modal17663">View Stack Trace Info</a><br/> <div id="#trace-modal17663" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac
+    at new bot.Error (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
+    at Object.bot.response.checkResponse (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at notify (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
+    at notifyAll (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
+    at resolve (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
+    at [object Object].fulfill (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1520:10
+==== async task ====
+WebDriver.executeScript()
+    at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
+    at [object Object].webdriver.WebDriver.executeScript (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:490:15)
+    at [object Object].to.(anonymous function) [as executeScript] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:62:25)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+==== async task ====
+    at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:68:14
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3167:15
+    at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2095:14)
+    at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3446:16)
+    at Object.create.setFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:65:7)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:187:34
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:19:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14
+==== async task ====
+Asynchronous test function: it()
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:93:33)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/async-callback.js:45:37)
+    at [object Object].jasmine.Block.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1174:17)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Spec.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2503:14)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Suite.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2649:14)==== async task ====
+Error
+    at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:18:7)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:181:17)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)
+    at describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:658:27)
+    at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:179:5)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:105:13)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)</div></div></td><td class="img-col"><a href="#" onclick="openModal('should allow collection names with 1 characters or more, for "nameTextBox", when validating good input, add collection form.png')">View </a></td></tr></table></li><li><table><tr><td class="desc-col">should allow collection names with punctuation</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac<br/><a onclick="showTrace()" href="#trace-modal17664">View Stack Trace Info</a><br/> <div id="#trace-modal17664" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac
+    at new bot.Error (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
+    at Object.bot.response.checkResponse (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at notify (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
+    at notifyAll (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
+    at resolve (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
+    at [object Object].fulfill (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1520:10
+==== async task ====
+WebDriver.executeScript()
+    at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
+    at [object Object].webdriver.WebDriver.executeScript (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:490:15)
+    at [object Object].to.(anonymous function) [as executeScript] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:62:25)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+==== async task ====
+    at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:68:14
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3167:15
+    at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2095:14)
+    at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3446:16)
+    at Object.create.setFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:65:7)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:187:34
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:23:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14
+==== async task ====
+Asynchronous test function: it()
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:93:33)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/async-callback.js:45:37)
+    at [object Object].jasmine.Block.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1174:17)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Spec.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2503:14)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at onComplete (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2205:18)
+    at [object Object].jasmine.Spec.finish (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2477:5)==== async task ====
+Error
+    at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:22:7)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:181:17)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)
+    at describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:658:27)
+    at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:179:5)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:105:13)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)</div></div></td><td class="img-col"><a href="#" onclick="openModal('should allow collection names with punctuation, for "nameTextBox", when validating good input, add collection form.png')">View </a></td></tr></table></li><li><table><tr><td class="desc-col">should allow collection names with numbers</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac<br/><a onclick="showTrace()" href="#trace-modal17665">View Stack Trace Info</a><br/> <div id="#trace-modal17665" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac
+    at new bot.Error (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
+    at Object.bot.response.checkResponse (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at notify (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
+    at notifyAll (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
+    at resolve (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
+    at [object Object].fulfill (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1520:10
+==== async task ====
+WebDriver.executeScript()
+    at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
+    at [object Object].webdriver.WebDriver.executeScript (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:490:15)
+    at [object Object].to.(anonymous function) [as executeScript] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:62:25)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+==== async task ====
+    at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:68:14
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3167:15
+    at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2095:14)
+    at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3446:16)
+    at Object.create.setFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:65:7)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:187:34
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:27:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14
+==== async task ====
+Asynchronous test function: it()
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:93:33)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/async-callback.js:45:37)
+    at [object Object].jasmine.Block.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1174:17)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Spec.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2503:14)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at onComplete (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2205:18)
+    at [object Object].jasmine.Spec.finish (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2477:5)==== async task ====
+Error
+    at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:26:7)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:181:17)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)
+    at describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:658:27)
+    at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:179:5)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:105:13)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)</div></div></td><td class="img-col"><a href="#" onclick="openModal('should allow collection names with numbers, for "nameTextBox", when validating good input, add collection form.png')">View </a></td></tr></table></li><li><table><tr><td class="desc-col">should allow collection names with trailing and leading whitespace</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac<br/><a onclick="showTrace()" href="#trace-modal17666">View Stack Trace Info</a><br/> <div id="#trace-modal17666" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac
+    at new bot.Error (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
+    at Object.bot.response.checkResponse (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at notify (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
+    at notifyAll (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
+    at resolve (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
+    at [object Object].fulfill (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1520:10
+==== async task ====
+WebDriver.executeScript()
+    at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
+    at [object Object].webdriver.WebDriver.executeScript (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:490:15)
+    at [object Object].to.(anonymous function) [as executeScript] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:62:25)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+==== async task ====
+    at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:68:14
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3167:15
+    at baseForOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:2095:14)
+    at Function.forOwn (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/lodash/index.js:3446:16)
+    at Object.create.setFormValues.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:65:7)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:187:34
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:32:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14
+==== async task ====
+Asynchronous test function: it()
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:93:33)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/async-callback.js:45:37)
+    at [object Object].jasmine.Block.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1174:17)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Spec.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2503:14)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at onComplete (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2205:18)
+    at [object Object].jasmine.Spec.finish (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2477:5)==== async task ====
+Error
+    at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:30:7)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:181:17)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)
+    at describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:658:27)
+    at Object.create.includeHappyPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:179:5)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:105:13)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)</div></div></td><td class="img-col"><a href="#" onclick="openModal('should allow collection names with trailing and leading whitespace, for "nameTextBox", when validating good input, add collection form.png')">View </a></td></tr></table></li></ul></li><li>when validating bad input<ul><li>for "nameTextBox"<ul><li><table><tr><td class="desc-col">requires collection name</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac<br/><a onclick="showTrace()" href="#trace-modal17667">View Stack Trace Info</a><br/> <div id="#trace-modal17667" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac
+    at new bot.Error (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
+    at Object.bot.response.checkResponse (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at notify (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
+    at notifyAll (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
+    at resolve (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
+    at [object Object].fulfill (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1520:10
+==== async task ====
+WebDriver.executeScript()
+    at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
+    at [object Object].webdriver.WebDriver.executeScript (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:490:15)
+    at [object Object].to.(anonymous function) [as executeScript] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:62:25)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+==== async task ====
+    at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+    at Object.create.clear.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:222:10)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:39:19)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+==== async task ====
+Asynchronous test function: it()
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:93:33)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/async-callback.js:45:37)
+    at [object Object].jasmine.Block.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1174:17)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Spec.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2503:14)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Suite.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2649:14)==== async task ====
+Error
+    at Object.create.includeSadPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:38:9)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:218:17)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)
+    at describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:658:27)
+    at Object.create.includeSadPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:203:5)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:115:13)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)</div></div></td><td class="img-col"><a href="#" onclick="openModal('requires collection name, for "nameTextBox", when validating bad input, add collection form.png')">View </a></td></tr></table></li><li><table><tr><td class="desc-col">should not allow collection names with over than 50 characters</td><td class="status-col" style="color:#fff;background-color: red">false</td><td class="browser-col">chrome:39.0.2171.65</td><td class="os-col">MAC</td><td class="msg-col">UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac<br/><a onclick="showTrace()" href="#trace-modal17668">View Stack Trace Info</a><br/> <div id="#trace-modal17668" class="traceinfo"><div><a href="#close" onclick="closeTraceModal()" title="Close" class="close">X</a>UnknownError: unknown error: Cannot read property '$digest' of undefined
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.10.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+System info: host: 'mac-216-126-44-75.browserstack.com', ip: '216.126.44.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/wm/79wldjf14m1gmvl9nc73270c0000jf/T/.org.chromium.Chromium.olWs0b}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f66e6bc4fe52b986f8a8edd638cd8ac
+    at new bot.Error (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
+    at Object.bot.response.checkResponse (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/base.js:1582:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at notify (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:465:12)
+    at notifyAll (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:442:7)
+    at resolve (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:420:7)
+    at [object Object].fulfill (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:535:5)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1520:10
+==== async task ====
+WebDriver.executeScript()
+    at [object Object].webdriver.WebDriver.schedule (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:345:15)
+    at [object Object].webdriver.WebDriver.executeScript (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:490:15)
+    at [object Object].to.(anonymous function) [as executeScript] (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/lib/protractor.js:62:25)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:238:15
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+==== async task ====
+    at Object.create.setValue.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:235:27)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:51:17)
+    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:94:14
+    at [object Object].webdriver.promise.ControlFlow.runInNewFrame_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1654:20)
+    at [object Object].webdriver.promise.ControlFlow.runEventLoop_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js:1518:8)
+    at [object Object].wrapper [as _onTimeout] (timers.js:261:14)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+==== async task ====
+Asynchronous test function: it()
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/jasminewd/index.js:93:33)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/async-callback.js:45:37)
+    at [object Object].jasmine.Block.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:1174:17)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at [object Object].jasmine.Queue.start (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2162:8)
+    at [object Object].jasmine.Spec.execute (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2503:14)
+    at [object Object].jasmine.Queue.next_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2209:31)
+    at onComplete (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2205:18)
+    at [object Object].jasmine.Spec.finish (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:2477:5)==== async task ====
+Error
+    at Object.create.includeSadPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/pages/collection-name-input.page.js:47:7)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:218:17)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)
+    at describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:658:27)
+    at Object.create.includeSadPaths.value (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/test-kit.js:203:5)
+    at [object Object].<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/test/e2e/spec/creators/collection-add-form.spec.js:115:13)
+    at [object Object].jasmine.Env.describe_ (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/protractor/node_modules/minijasminenode/lib/jasmine-1.3.1.js:898:15)</div></div></td><td class="img-col"><a href="#" onclick="openModal('should not allow collection names with over than 50 characters, for "nameTextBox", when validating bad input, add collection form.png')">View </a></td></tr></table></li></ul></li></ul><div><h2><u>Results summary</u></h2><b>Total tests passed</b>: 0 <br/> <b>Total tests failed</b>: 13 <br/> This report generated on Wed Apr 22 2015 02:00:16 GMT+0000 (UTC) </div></body></html>
