@@ -1,7 +1,7 @@
 
 -- PRE TEST --
 
-Time: Mon May 25 00:00:02 UTC 2015
+Time: Tue May 26 00:00:02 UTC 2015
 Branch: master
 User: ubuntu
 PATH: /usr/bin:/bin:/home/ubuntu/npm/bin
@@ -13,12 +13,12 @@ npm WARN package.json web@0.0.0 No repository field.
 > node postinstall
 
 
-> spawn-sync@1.0.11 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/bin-check/node_modules/spawn-sync
+> spawn-sync@1.0.11 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/bin-check/node_modules/spawn-sync
 > node postinstall
 
 npm WARN optional dep failed, continuing fsevents@0.3.6
 
-> spawn-sync@1.0.11 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/bin-check/node_modules/spawn-sync
+> spawn-sync@1.0.11 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/bin-check/node_modules/spawn-sync
 > node postinstall
 
 
@@ -28,7 +28,7 @@ npm WARN optional dep failed, continuing fsevents@0.3.6
 Download already available at /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2
 Extracting tar contents (via spawned process)
 Removing /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
-Copying extracted folder /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1432512074085/phantomjs-1.9.8-linux-x86_64 -> /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
+Copying extracted folder /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1432598474813/phantomjs-1.9.8-linux-x86_64 -> /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
 Writing location.js file
 Done. Phantomjs binary available at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/bin/phantomjs
 
@@ -45,6 +45,25 @@ make: Entering directory `/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/
   SOLINK_MODULE(target) Release/obj.target/validation.node: Finished
   COPY Release/validation.node
 make: Leaving directory `/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma/node_modules/socket.io/node_modules/engine.io/node_modules/ws/build'
+
+> gifsicle@2.0.1 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle
+> node lib/install.js
+
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module '../../object/valid-value'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/unique-stream/node_modules/es6-set/node_modules/es5-ext/array/#/clear.js:7:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
 
 > jpegtran-bin@2.0.2 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin
 > node lib/install.js
@@ -64,6 +83,7 @@ Error: Cannot find module '../../object/valid-value'
     at Module.load (module.js:356:32)
     at Function.Module._load (module.js:312:12)
     at Module.require (module.js:364:17)
+npm WARN optional dep failed, continuing imagemin-gifsicle@4.1.0
 
 > optipng-bin@2.0.4 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin
 > node lib/install.js
@@ -84,27 +104,7 @@ Error: Cannot find module '../../object/valid-value'
     at Function.Module._load (module.js:312:12)
     at Module.require (module.js:364:17)
 npm WARN optional dep failed, continuing imagemin-jpegtran@4.1.0
-
-> gifsicle@2.0.1 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle
-> node lib/install.js
-
-
-module.js:340
-    throw err;
-          ^
-Error: Cannot find module '../../object/valid-value'
-    at Function.Module._resolveFilename (module.js:338:15)
-    at Function.Module._load (module.js:280:25)
-    at Module.require (module.js:364:17)
-    at require (module.js:380:17)
-    at Object.<anonymous> (/home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/unique-stream/node_modules/es6-set/node_modules/es5-ext/array/#/clear.js:7:13)
-    at Module._compile (module.js:456:26)
-    at Object.Module._extensions..js (module.js:474:10)
-    at Module.load (module.js:356:32)
-    at Function.Module._load (module.js:312:12)
-    at Module.require (module.js:364:17)
 npm WARN optional dep failed, continuing imagemin-optipng@4.2.0
-npm WARN optional dep failed, continuing imagemin-gifsicle@4.1.0
 
 > ws@0.4.31 install /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws
 > (node-gyp rebuild 2> builderror.log) || (exit 0)
@@ -177,12 +177,16 @@ grunt-filerev@0.2.1 node_modules/grunt-filerev
 ├── each-async@0.1.3
 └── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
 
+jshint-stylish@0.2.0 node_modules/jshint-stylish
+├── text-table@0.2.0
+└── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
+
 grunt-contrib-concat@0.4.0 node_modules/grunt-contrib-concat
 └── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
 
-jshint-stylish@0.2.0 node_modules/jshint-stylish
-├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
-└── text-table@0.2.0
+grunt-concurrent@0.5.0 node_modules/grunt-concurrent
+├── pad-stdio@0.1.1 (lpad@0.2.1)
+└── async@0.2.10
 
 time-grunt@0.3.2 node_modules/time-grunt
 ├── date-time@0.1.1
@@ -191,15 +195,11 @@ time-grunt@0.3.2 node_modules/time-grunt
 ├── text-table@0.2.0
 └── hooker@0.2.3
 
-grunt-concurrent@0.5.0 node_modules/grunt-concurrent
-├── pad-stdio@0.1.1 (lpad@0.2.1)
-└── async@0.2.10
-
 grunt-contrib-clean@0.5.0 node_modules/grunt-contrib-clean
 └── rimraf@2.2.8
 
 grunt-shell@1.1.2 node_modules/grunt-shell
-└── chalk@1.0.0 (escape-string-regexp@1.0.3, ansi-styles@2.0.1, supports-color@1.3.1, has-ansi@1.0.3, strip-ansi@2.0.1)
+└── chalk@1.0.0 (escape-string-regexp@1.0.3, ansi-styles@2.0.1, supports-color@1.3.1, strip-ansi@2.0.1, has-ansi@1.0.3)
 
 connect-modrewrite@0.7.12 node_modules/connect-modrewrite
 └── qs@1.2.2
@@ -226,13 +226,13 @@ grunt-contrib-cssmin@0.9.0 node_modules/grunt-contrib-cssmin
 ├── clean-css@2.1.8 (commander@2.1.0)
 └── maxmin@0.1.0 (pretty-bytes@0.1.2, gzip-size@0.1.1)
 
-grunt-karma@0.9.0 node_modules/grunt-karma
-└── lodash@2.4.2
-
 grunt-contrib-uglify@0.4.1 node_modules/grunt-contrib-uglify
 ├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)
 ├── maxmin@0.1.0 (pretty-bytes@0.1.2, gzip-size@0.1.1)
 └── uglify-js@2.4.23 (uglify-to-browserify@1.0.2, async@0.2.10, yargs@3.5.4, source-map@0.1.34)
+
+grunt-karma@0.9.0 node_modules/grunt-karma
+└── lodash@2.4.2
 
 grunt-contrib-watch@0.6.1 node_modules/grunt-contrib-watch
 ├── async@0.2.10
@@ -255,7 +255,7 @@ grunt-contrib-htmlmin@0.3.0 node_modules/grunt-contrib-htmlmin
 └── html-minifier@0.6.9 (relateurl@0.2.6, change-case@2.1.6, clean-css@2.2.23, cli@0.6.6, uglify-js@2.4.23)
 
 karma-phantomjs-launcher@0.1.4 node_modules/karma-phantomjs-launcher
-└── phantomjs@1.9.17 (which@1.0.9, progress@1.1.8, kew@0.4.0, request-progress@0.3.1, adm-zip@0.4.4, npmconf@2.1.1, fs-extra@0.18.4, request@2.42.0)
+└── phantomjs@1.9.17 (which@1.0.9, progress@1.1.8, request-progress@0.3.1, kew@0.4.0, adm-zip@0.4.4, npmconf@2.1.1, fs-extra@0.18.4, request@2.42.0)
 
 grunt@0.4.5 node_modules/grunt
 ├── which@1.0.9
@@ -304,7 +304,7 @@ grunt-contrib-jshint@0.10.0 node_modules/grunt-contrib-jshint
 └── jshint@2.5.11 (strip-json-comments@1.0.2, underscore@1.6.0, console-browserify@1.1.0, exit@0.1.2, minimatch@1.0.0, shelljs@0.3.0, cli@0.6.6, htmlparser2@3.8.2)
 
 grunt-ng-annotate@0.4.0 node_modules/grunt-ng-annotate
-└── ng-annotate@0.10.3 (tryor@0.1.2, simple-fmt@0.1.0, alter@0.2.0, simple-is@0.2.0, stringset@0.2.1, stringmap@0.2.2, stable@0.1.5, ordered-ast-traverse@0.1.1, convert-source-map@0.4.1, optimist@0.6.1, source-map@0.1.43, esprima@1.2.5, acorn@0.9.0)
+└── ng-annotate@0.10.3 (tryor@0.1.2, alter@0.2.0, simple-fmt@0.1.0, simple-is@0.2.0, stringset@0.2.1, stringmap@0.2.2, stable@0.1.5, convert-source-map@0.4.1, ordered-ast-traverse@0.1.1, optimist@0.6.1, source-map@0.1.43, esprima@1.2.5, acorn@0.9.0)
 
 grunt-contrib-imagemin@0.9.4 node_modules/grunt-contrib-imagemin
 ├── gulp-rename@1.2.2
@@ -325,31 +325,31 @@ karma@0.12.32 node_modules/karma
 ├── glob@3.2.11 (inherits@2.0.1, minimatch@0.3.0)
 ├── source-map@0.1.43 (amdefine@0.1.0)
 ├── expand-braces@0.1.1 (array-uniq@1.0.2, array-slice@0.2.3, braces@0.1.5)
-├── chokidar@1.0.1 (arrify@1.0.0, is-glob@1.1.3, glob-parent@1.2.0, async-each@0.1.6, is-binary-path@1.0.0, readdirp@1.3.0, anymatch@1.3.0)
+├── chokidar@1.0.1 (arrify@1.0.0, is-glob@1.1.3, glob-parent@1.2.0, async-each@0.1.6, is-binary-path@1.0.1, readdirp@1.3.0, anymatch@1.3.0)
 ├── log4js@0.6.25 (async@0.2.10, underscore@1.8.2, readable-stream@1.0.33, semver@4.3.4)
 ├── http-proxy@0.10.4 (pkginfo@0.3.0, utile@0.2.1)
 ├── lodash@2.4.2
-├── connect@2.26.6 (fresh@0.2.4, cookie@0.1.2, pause@0.0.1, cookie-signature@1.0.5, response-time@2.0.1, vhost@3.0.0, on-headers@1.0.0, basic-auth-connect@1.0.0, media-typer@0.3.0, bytes@1.0.0, parseurl@1.3.0, depd@0.4.5, connect-timeout@1.3.0, cookie-parser@1.3.5, finalhandler@0.2.0, method-override@2.2.0, qs@2.2.4, debug@2.0.0, morgan@1.3.2, serve-favicon@2.1.7, csurf@1.6.6, type-is@1.5.7, serve-static@1.6.5, express-session@1.8.2, multiparty@3.3.2, compression@1.1.2, errorhandler@1.2.4, body-parser@1.8.4, serve-index@1.2.1)
+├── connect@2.26.6 (fresh@0.2.4, cookie@0.1.2, pause@0.0.1, cookie-signature@1.0.5, response-time@2.0.1, vhost@3.0.0, on-headers@1.0.0, basic-auth-connect@1.0.0, bytes@1.0.0, media-typer@0.3.0, parseurl@1.3.0, depd@0.4.5, connect-timeout@1.3.0, cookie-parser@1.3.5, finalhandler@0.2.0, method-override@2.2.0, qs@2.2.4, debug@2.0.0, morgan@1.3.2, serve-favicon@2.1.7, csurf@1.6.6, express-session@1.8.2, type-is@1.5.7, serve-static@1.6.5, multiparty@3.3.2, errorhandler@1.2.4, compression@1.1.2, body-parser@1.8.4, serve-index@1.2.1)
 ├── socket.io@1.3.5 (debug@2.1.0, has-binary-data@0.1.3, socket.io-adapter@0.3.1, engine.io@1.5.1, socket.io-client@1.3.5, socket.io-parser@2.2.4)
 ├── useragent@2.0.10 (lru-cache@2.2.4)
-└── memoizee@0.3.8 (lru-queue@0.1.0, next-tick@0.2.2, timers-ext@0.1.0, d@0.1.1, event-emitter@0.3.3, es6-weak-map@0.1.4, es5-ext@0.10.7)
+└── memoizee@0.3.8 (next-tick@0.2.2, lru-queue@0.1.0, timers-ext@0.1.0, d@0.1.1, event-emitter@0.3.3, es6-weak-map@0.1.4, es5-ext@0.10.7)
 
 grunt-contrib-connect@0.7.1 node_modules/grunt-contrib-connect
 ├── connect-livereload@0.3.2
 ├── open@0.0.4
 ├── async@0.2.10
 ├── portscanner@0.2.2 (async@0.1.15)
-└── connect@2.13.1 (uid2@0.0.3, methods@0.1.0, debug@0.8.1, pause@0.0.1, cookie-signature@1.0.1, fresh@0.2.0, qs@0.6.6, bytes@0.2.1, raw-body@1.1.3, buffer-crc32@0.2.1, batch@0.5.0, cookie@0.1.0, compressible@1.0.0, negotiator@0.3.0, send@0.1.4, multiparty@2.2.0)
+└── connect@2.13.1 (uid2@0.0.3, methods@0.1.0, debug@0.8.1, cookie-signature@1.0.1, pause@0.0.1, fresh@0.2.0, qs@0.6.6, bytes@0.2.1, raw-body@1.1.3, buffer-crc32@0.2.1, batch@0.5.0, cookie@0.1.0, compressible@1.0.0, negotiator@0.3.0, send@0.1.4, multiparty@2.2.0)
 
 grunt-autoprefixer@2.2.0 node_modules/grunt-autoprefixer
 ├── diff@1.2.2
-├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, has-ansi@0.1.0, strip-ansi@0.3.0)
-└── autoprefixer-core@5.1.11 (num2fraction@1.1.0, browserslist@0.2.0, postcss@4.0.6, caniuse-db@1.0.30000177)
+├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, strip-ansi@0.3.0, has-ansi@0.1.0)
+└── autoprefixer-core@5.1.11 (num2fraction@1.1.0, browserslist@0.2.0, postcss@4.0.6, caniuse-db@1.0.30000178)
 
 grunt-google-cdn@0.4.3 node_modules/grunt-google-cdn
 ├── chalk@0.5.1 (escape-string-regexp@1.0.3, ansi-styles@1.1.0, supports-color@0.2.0, strip-ansi@0.3.0, has-ansi@0.1.0)
 ├── google-cdn@0.7.0 (regexp-quote@0.0.0, google-cdn-data@0.1.17, debug@1.0.4, async@0.9.2, semver@2.3.2, cdnjs-cdn-data@0.1.1, bower@1.3.12)
-└── bower@1.4.1 (is-root@1.0.0, junk@1.0.1, stringify-object@1.0.1, user-home@1.1.1, abbrev@1.0.6, chmodr@0.1.0, rimraf@2.3.4, archy@1.0.0, opn@1.0.2, bower-logger@0.2.2, bower-endpoint-parser@0.2.2, graceful-fs@3.0.7, lru-cache@2.6.4, lockfile@1.0.1, nopt@3.0.2, retry@0.6.1, tmp@0.0.24, request-progress@0.3.1, chalk@1.0.0, q@1.4.1, which@1.1.1, shell-quote@1.4.3, bower-json@0.4.0, promptly@0.2.0, semver@2.3.2, p-throttler@0.1.1, fstream@1.0.6, mkdirp@0.5.0, glob@4.5.3, fstream-ignore@1.0.2, tar-fs@1.5.1, insight@0.5.3, update-notifier@0.3.2, decompress-zip@0.1.0, configstore@0.3.2, request@2.53.0, bower-registry-client@0.3.0, github@0.2.4, cardinal@0.4.4, mout@0.11.0, bower-config@0.6.1, handlebars@2.0.0, inquirer@0.8.0)
+└── bower@1.4.1 (is-root@1.0.0, junk@1.0.1, stringify-object@1.0.1, user-home@1.1.1, abbrev@1.0.6, chmodr@0.1.0, rimraf@2.3.4, archy@1.0.0, opn@1.0.2, bower-logger@0.2.2, bower-endpoint-parser@0.2.2, graceful-fs@3.0.7, lru-cache@2.6.4, lockfile@1.0.1, nopt@3.0.2, retry@0.6.1, tmp@0.0.24, request-progress@0.3.1, chalk@1.0.0, q@1.4.1, shell-quote@1.4.3, which@1.1.1, bower-json@0.4.0, promptly@0.2.0, semver@2.3.2, fstream@1.0.6, p-throttler@0.1.1, mkdirp@0.5.0, fstream-ignore@1.0.2, glob@4.5.3, tar-fs@1.5.1, insight@0.5.3, update-notifier@0.3.2, decompress-zip@0.1.0, configstore@0.3.2, request@2.53.0, bower-registry-client@0.3.0, github@0.2.4, cardinal@0.4.4, mout@0.11.0, bower-config@0.6.1, handlebars@2.0.0, inquirer@0.8.0)
 
 protractor@1.8.0 node_modules/protractor
 ├── jasminewd@1.1.0
@@ -363,7 +363,7 @@ protractor@1.8.0 node_modules/protractor
 ├── glob@3.2.11 (inherits@2.0.1, minimatch@0.3.0)
 ├── source-map-support@0.2.10 (source-map@0.1.32)
 ├── accessibility-developer-tools@2.6.0
-├── request@2.36.0 (forever-agent@0.5.2, aws-sign2@0.5.0, qs@0.6.6, oauth-sign@0.3.0, tunnel-agent@0.4.0, json-stringify-safe@5.0.1, mime@1.2.11, node-uuid@1.4.3, form-data@0.1.4, http-signature@0.10.1, hawk@1.0.0, tough-cookie@1.1.0)
+├── request@2.36.0 (forever-agent@0.5.2, aws-sign2@0.5.0, qs@0.6.6, oauth-sign@0.3.0, tunnel-agent@0.4.0, json-stringify-safe@5.0.1, mime@1.2.11, node-uuid@1.4.3, form-data@0.1.4, http-signature@0.10.1, hawk@1.0.0, tough-cookie@1.2.0)
 ├── lodash@2.4.2
 ├── jasmine@2.1.1 (jasmine-core@2.1.3)
 └── selenium-webdriver@2.44.0 (tmp@0.0.24, xml2js@0.4.4)
@@ -371,125 +371,119 @@ protractor@1.8.0 node_modules/protractor
 grunt-sass@0.18.1 node_modules/grunt-sass
 ├── object-assign@2.0.0
 ├── each-async@1.1.1 (set-immediate-shim@1.0.1, onetime@1.0.0)
-└── node-sass@2.1.1 (get-stdin@4.0.1, replace-ext@0.0.1, cross-spawn@0.2.9, chalk@0.5.1, mkdirp@0.5.1, nan@1.8.4, semver@4.3.4, shelljs@0.3.0, npmconf@2.1.2, meow@3.1.0, gaze@0.5.1, request@2.55.0, mocha@2.2.5, sass-graph@1.3.0, pangyp@2.2.0)
-bower es5-shim#^4.0.0           cached git://github.com/es-shims/es5-shim.git#4.1.3
-bower es5-shim#^4.0.0         validate 4.1.3 against git://github.com/es-shims/es5-shim.git#^4.0.0
-bower json3#^3.3.0              cached git://github.com/bestiejs/json3.git#3.3.2
-bower json3#^3.3.0            validate 3.3.2 against git://github.com/bestiejs/json3.git#^3.3.0
-bower bootstrap-sass-official#~3.3.4           cached git://github.com/twbs/bootstrap-sass.git#3.3.4
-bower bootstrap-sass-official#~3.3.4         validate 3.3.4 against git://github.com/twbs/bootstrap-sass.git#~3.3.4
-bower angular-resource#^1.3.0                  cached git://github.com/angular/bower-angular-resource.git#1.3.15
-bower angular-resource#^1.3.0                validate 1.3.15 against git://github.com/angular/bower-angular-resource.git#^1.3.0
-bower angular-route#^1.3.0                     cached git://github.com/angular/bower-angular-route.git#1.3.15
-bower angular-route#^1.3.0                   validate 1.3.15 against git://github.com/angular/bower-angular-route.git#^1.3.0
-bower angular-sanitize#^1.3.0                  cached git://github.com/angular/bower-angular-sanitize.git#1.3.15
-bower angular-sanitize#^1.3.0                validate 1.3.15 against git://github.com/angular/bower-angular-sanitize.git#^1.3.0
-bower angular-local-storage#~0.1.5             cached git://github.com/grevory/angular-local-storage.git#0.1.5
-bower angular-local-storage#~0.1.5           validate 0.1.5 against git://github.com/grevory/angular-local-storage.git#~0.1.5
-bower angular-bootstrap#~0.12.0                cached git://github.com/angular-ui/bootstrap-bower.git#0.12.1
-bower angular-bootstrap#~0.12.0              validate 0.12.1 against git://github.com/angular-ui/bootstrap-bower.git#~0.12.0
-bower angular-snap#~1.6.0                      cached git://github.com/jtrussell/angular-snap.js-bower.git#1.6.0
-bower angular-snap#~1.6.0                    validate 1.6.0 against git://github.com/jtrussell/angular-snap.js-bower.git#~1.6.0
-bower angular-ui-router#~0.2.13                cached git://github.com/angular-ui/ui-router.git#0.2.15
-bower angular-ui-router#~0.2.13              validate 0.2.15 against git://github.com/angular-ui/ui-router.git#~0.2.13
-bower froogaloop#~0.1.0                        cached git://github.com/austinpray/bower-vimeo-froogaloop.git#0.1.0
-bower froogaloop#~0.1.0                      validate 0.1.0 against git://github.com/austinpray/bower-vimeo-froogaloop.git#~0.1.0
-bower angulartics#~0.17.1                      cached git://github.com/luisfarzati/angulartics.git#0.17.2
-bower angulartics#~0.17.1                    validate 0.17.2 against git://github.com/luisfarzati/angulartics.git#~0.17.1
-bower ng-focus#~0.0.1                          cached git://github.com/tatsuyaoiw/ng-focus.git#0.0.1
-bower ng-focus#~0.0.1                        validate 0.0.1 against git://github.com/tatsuyaoiw/ng-focus.git#~0.0.1
-bower marked#~0.3.3                            cached git://github.com/chjj/marked.git#0.3.3
-bower marked#~0.3.3                          validate 0.3.3 against git://github.com/chjj/marked.git#~0.3.3
-bower angular-elastic#~2.4.2                   cached git://github.com/monospaced/angular-elastic.git#2.4.2
-bower angular-elastic#~2.4.2                 validate 2.4.2 against git://github.com/monospaced/angular-elastic.git#~2.4.2
-bower lodash#~3.4.0                            cached git://github.com/lodash/lodash.git#3.4.0
-bower lodash#~3.4.0                          validate 3.4.0 against git://github.com/lodash/lodash.git#~3.4.0
-bower moment#~2.9.0                            cached git://github.com/moment/moment.git#2.9.0
-bower moment#~2.9.0                          validate 2.9.0 against git://github.com/moment/moment.git#~2.9.0
-bower fontawesome#~4.3.0                       cached git://github.com/FortAwesome/Font-Awesome.git#4.3.0
-bower fontawesome#~4.3.0                     validate 4.3.0 against git://github.com/FortAwesome/Font-Awesome.git#~4.3.0
-bower angular#^1.3.0                           cached git://github.com/angular/bower-angular.git#1.3.15
-bower angular#^1.3.0                         validate 1.3.15 against git://github.com/angular/bower-angular.git#^1.3.0
-bower ng-videosharing-embed#~0.3.2             cached git://github.com/erost/ng-videosharing-embed.git#0.3.2
-bower ng-videosharing-embed#~0.3.2           validate 0.3.2 against git://github.com/erost/ng-videosharing-embed.git#~0.3.2
-bower angular-mocks#~1.3.0                     cached git://github.com/angular/bower-angular-mocks.git#1.3.15
-bower angular-mocks#~1.3.0                   validate 1.3.15 against git://github.com/angular/bower-angular-mocks.git#~1.3.0
-bower angular-scenario#~1.3.0                  cached git://github.com/angular/bower-angular-scenario.git#1.3.15
-bower angular-scenario#~1.3.0                validate 1.3.15 against git://github.com/angular/bower-angular-scenario.git#~1.3.0
-bower jquery#~2.1.3                            cached git://github.com/jquery/jquery.git#2.1.4
-bower jquery#~2.1.3                          validate 2.1.4 against git://github.com/jquery/jquery.git#~2.1.3
-bower jquery#>= 1.9.0                          cached git://github.com/jquery/jquery.git#2.1.4
-bower jquery#>= 1.9.0                        validate 2.1.4 against git://github.com/jquery/jquery.git#>= 1.9.0
-bower angular#~1.2                             cached git://github.com/angular/bower-angular.git#1.2.28
-bower angular#~1.2                           validate 1.2.28 against git://github.com/angular/bower-angular.git#~1.2
-bower angular#>= 1.1.5                         cached git://github.com/angular/bower-angular.git#1.3.15
-bower angular#>= 1.1.5                       validate 1.3.15 against git://github.com/angular/bower-angular.git#>= 1.1.5
-bower angular#>= 1.0.8                         cached git://github.com/angular/bower-angular.git#1.3.15
-bower angular#>= 1.0.8                       validate 1.3.15 against git://github.com/angular/bower-angular.git#>= 1.0.8
-bower angular#>=1.0.6                          cached git://github.com/angular/bower-angular.git#1.3.15
-bower angular#>=1.0.6                        validate 1.3.15 against git://github.com/angular/bower-angular.git#>=1.0.6
-bower snapjs#~1.9                              cached git://github.com/jakiestfu/Snap.js.git#1.9.3
-bower snapjs#~1.9                            validate 1.9.3 against git://github.com/jakiestfu/Snap.js.git#~1.9
-bower angular#>= 1.2.0                         cached git://github.com/angular/bower-angular.git#1.3.15
-bower angular#>= 1.2.0                       validate 1.3.15 against git://github.com/angular/bower-angular.git#>= 1.2.0
-bower waypoints#~2.0.3                         cached git://github.com/imakewebthings/waypoints.git#2.0.5
-bower waypoints#~2.0.3                       validate 2.0.5 against git://github.com/imakewebthings/waypoints.git#~2.0.3
-bower SHA-1#*                                  cached git://github.com/linkgod/SHA-1.git#0.1.1
-bower SHA-1#*                                validate 0.1.1 against git://github.com/linkgod/SHA-1.git#*
+└── node-sass@2.1.1 (get-stdin@4.0.1, replace-ext@0.0.1, chalk@0.5.1, cross-spawn@0.2.9, mkdirp@0.5.1, nan@1.8.4, semver@4.3.4, shelljs@0.3.0, meow@3.1.0, npmconf@2.1.2, gaze@0.5.1, request@2.55.0, mocha@2.2.5, sass-graph@1.3.0, pangyp@2.2.0)
+bower angular-ui-router#~0.2.13 cached git://github.com/angular-ui/ui-router.git#0.2.15
+bower angular-ui-router#~0.2.13         validate 0.2.15 against git://github.com/angular-ui/ui-router.git#~0.2.13
+bower angular-snap#~1.6.0                 cached git://github.com/jtrussell/angular-snap.js-bower.git#1.6.0
+bower angular-snap#~1.6.0               validate 1.6.0 against git://github.com/jtrussell/angular-snap.js-bower.git#~1.6.0
+bower angular-local-storage#~0.1.5        cached git://github.com/grevory/angular-local-storage.git#0.1.5
+bower angular-local-storage#~0.1.5      validate 0.1.5 against git://github.com/grevory/angular-local-storage.git#~0.1.5
+bower angular-bootstrap#~0.12.0           cached git://github.com/angular-ui/bootstrap-bower.git#0.12.1
+bower angular-bootstrap#~0.12.0         validate 0.12.1 against git://github.com/angular-ui/bootstrap-bower.git#~0.12.0
+bower ng-focus#~0.0.1                     cached git://github.com/tatsuyaoiw/ng-focus.git#0.0.1
+bower ng-focus#~0.0.1                   validate 0.0.1 against git://github.com/tatsuyaoiw/ng-focus.git#~0.0.1
+bower froogaloop#~0.1.0                   cached git://github.com/austinpray/bower-vimeo-froogaloop.git#0.1.0
+bower froogaloop#~0.1.0                 validate 0.1.0 against git://github.com/austinpray/bower-vimeo-froogaloop.git#~0.1.0
+bower angulartics#~0.17.1                 cached git://github.com/luisfarzati/angulartics.git#0.17.2
+bower angulartics#~0.17.1               validate 0.17.2 against git://github.com/luisfarzati/angulartics.git#~0.17.1
+bower marked#~0.3.3                       cached git://github.com/chjj/marked.git#0.3.3
+bower marked#~0.3.3                     validate 0.3.3 against git://github.com/chjj/marked.git#~0.3.3
+bower angular-elastic#~2.4.2              cached git://github.com/monospaced/angular-elastic.git#2.4.2
+bower angular-elastic#~2.4.2            validate 2.4.2 against git://github.com/monospaced/angular-elastic.git#~2.4.2
+bower lodash#~3.4.0                       cached git://github.com/lodash/lodash.git#3.4.0
+bower lodash#~3.4.0                     validate 3.4.0 against git://github.com/lodash/lodash.git#~3.4.0
+bower moment#~2.9.0                       cached git://github.com/moment/moment.git#2.9.0
+bower moment#~2.9.0                     validate 2.9.0 against git://github.com/moment/moment.git#~2.9.0
+bower fontawesome#~4.3.0                  cached git://github.com/FortAwesome/Font-Awesome.git#4.3.0
+bower fontawesome#~4.3.0                validate 4.3.0 against git://github.com/FortAwesome/Font-Awesome.git#~4.3.0
+bower ng-videosharing-embed#~0.3.2        cached git://github.com/erost/ng-videosharing-embed.git#0.3.2
+bower ng-videosharing-embed#~0.3.2      validate 0.3.2 against git://github.com/erost/ng-videosharing-embed.git#~0.3.2
+bower angular-mocks#~1.3.0                cached git://github.com/angular/bower-angular-mocks.git#1.3.15
+bower angular-mocks#~1.3.0              validate 1.3.15 against git://github.com/angular/bower-angular-mocks.git#~1.3.0
+bower angular-scenario#~1.3.0             cached git://github.com/angular/bower-angular-scenario.git#1.3.15
+bower angular-scenario#~1.3.0           validate 1.3.15 against git://github.com/angular/bower-angular-scenario.git#~1.3.0
+bower json3#^3.3.0                        cached git://github.com/bestiejs/json3.git#3.3.2
+bower json3#^3.3.0                      validate 3.3.2 against git://github.com/bestiejs/json3.git#^3.3.0
+bower es5-shim#^4.0.0                     cached git://github.com/es-shims/es5-shim.git#4.1.3
+bower es5-shim#^4.0.0                   validate 4.1.3 against git://github.com/es-shims/es5-shim.git#^4.0.0
+bower bootstrap-sass-official#~3.3.4      cached git://github.com/twbs/bootstrap-sass.git#3.3.4
+bower bootstrap-sass-official#~3.3.4    validate 3.3.4 against git://github.com/twbs/bootstrap-sass.git#~3.3.4
+bower angular#^1.3.0                      cached git://github.com/angular/bower-angular.git#1.3.15
+bower angular#^1.3.0                    validate 1.3.15 against git://github.com/angular/bower-angular.git#^1.3.0
+bower angular-route#^1.3.0                cached git://github.com/angular/bower-angular-route.git#1.3.15
+bower angular-route#^1.3.0              validate 1.3.15 against git://github.com/angular/bower-angular-route.git#^1.3.0
+bower angular#>= 1.0.8                    cached git://github.com/angular/bower-angular.git#1.3.15
+bower angular#>= 1.0.8                  validate 1.3.15 against git://github.com/angular/bower-angular.git#>= 1.0.8
+bower angular-resource#^1.3.0             cached git://github.com/angular/bower-angular-resource.git#1.3.15
+bower angular-resource#^1.3.0           validate 1.3.15 against git://github.com/angular/bower-angular-resource.git#^1.3.0
+bower angular#~1.2                        cached git://github.com/angular/bower-angular.git#1.2.28
+bower angular#~1.2                      validate 1.2.28 against git://github.com/angular/bower-angular.git#~1.2
+bower angular#>= 1.1.5                    cached git://github.com/angular/bower-angular.git#1.3.15
+bower angular#>= 1.1.5                  validate 1.3.15 against git://github.com/angular/bower-angular.git#>= 1.1.5
+bower angular#>=1.0.6                     cached git://github.com/angular/bower-angular.git#1.3.15
+bower angular#>=1.0.6                   validate 1.3.15 against git://github.com/angular/bower-angular.git#>=1.0.6
+bower angular-sanitize#^1.3.0             cached git://github.com/angular/bower-angular-sanitize.git#1.3.15
+bower angular-sanitize#^1.3.0           validate 1.3.15 against git://github.com/angular/bower-angular-sanitize.git#^1.3.0
+bower snapjs#~1.9                         cached git://github.com/jakiestfu/Snap.js.git#1.9.3
+bower snapjs#~1.9                       validate 1.9.3 against git://github.com/jakiestfu/Snap.js.git#~1.9
+bower jquery#~2.1.3                       cached git://github.com/jquery/jquery.git#2.1.4
+bower jquery#~2.1.3                     validate 2.1.4 against git://github.com/jquery/jquery.git#~2.1.3
+bower angular#>= 1.2.0                    cached git://github.com/angular/bower-angular.git#1.3.15
+bower angular#>= 1.2.0                  validate 1.3.15 against git://github.com/angular/bower-angular.git#>= 1.2.0
+bower waypoints#~2.0.3                    cached git://github.com/imakewebthings/waypoints.git#2.0.5
+bower waypoints#~2.0.3                  validate 2.0.5 against git://github.com/imakewebthings/waypoints.git#~2.0.3
+bower SHA-1#*                             cached git://github.com/linkgod/SHA-1.git#0.1.1
+bower SHA-1#*                           validate 0.1.1 against git://github.com/linkgod/SHA-1.git#*
+bower jquery#>= 1.9.0                     cached git://github.com/jquery/jquery.git#2.1.4
+bower jquery#>= 1.9.0                   validate 2.1.4 against git://github.com/jquery/jquery.git#>= 1.9.0
 
 Please note that,
     angular-snap#1.6.0 depends on angular#~1.2 which resolved to angular#1.2.28
     angular-bootstrap#0.12.1 depends on angular#>=1 <1.3.0 which resolved to angular#1.2.28
     angular-mocks#1.3.15, angular-resource#1.3.15, angular-route#1.3.15, angular-sanitize#1.3.15, angular-scenario#1.3.15 depends on angular#1.3.15 which resolved to angular#1.3.15
-    angulartics#0.17.2 depends on angular#>= 1.1.5 which resolved to angular#1.3.15
     angular-ui-router#0.2.15 depends on angular#>= 1.0.8 which resolved to angular#1.3.15
-    web depends on angular#^1.3.0 which resolved to angular#1.3.15
+    angulartics#0.17.2 depends on angular#>= 1.1.5 which resolved to angular#1.3.15
     angular-elastic#2.4.2 depends on angular#>=1.0.6 which resolved to angular#1.3.15
+    web depends on angular#^1.3.0 which resolved to angular#1.3.15
     ng-videosharing-embed#0.3.2 depends on angular#>= 1.2.0 which resolved to angular#1.3.15
 Resort to using angular#^1.3.0 which resolved to angular#1.3.15
 Code incompatibilities may occur.
 
-bower marked                         extra-resolution Unnecessary resolution: marked#~0.3.3
-bower angular-mocks                  extra-resolution Unnecessary resolution: angular-mocks#~1.3.0
-bower es5-shim#^4.0.0                         install es5-shim#4.1.3
-bower json3#^3.3.0                            install json3#3.3.2
-bower angular-route#^1.3.0                    install angular-route#1.3.15
-bower angular-resource#^1.3.0                 install angular-resource#1.3.15
-bower bootstrap-sass-official#~3.3.4          install bootstrap-sass-official#3.3.4
-bower angular-snap#~1.6.0                     install angular-snap#1.6.0
-bower angular-bootstrap#~0.12.0               install angular-bootstrap#0.12.1
-bower angular-local-storage#~0.1.5            install angular-local-storage#0.1.5
-bower angular-sanitize#^1.3.0                 install angular-sanitize#1.3.15
-bower marked#~0.3.3                           install marked#0.3.3
-bower ng-focus#~0.0.1                         install ng-focus#0.0.1
-bower angulartics#~0.17.1                     install angulartics#0.17.2
-bower froogaloop#~0.1.0                       install froogaloop#0.1.0
-bower angular-ui-router#~0.2.13               install angular-ui-router#0.2.15
-bower angular-elastic#~2.4.2                  install angular-elastic#2.4.2
-bower lodash#~3.4.0                           install lodash#3.4.0
-bower ng-videosharing-embed#~0.3.2            install ng-videosharing-embed#0.3.2
-bower angular#1.3.15                          install angular#1.3.15
-bower fontawesome#~4.3.0                      install fontawesome#4.3.0
-bower jquery#>= 1.9.0                         install jquery#2.1.4
-bower angular-scenario#~1.3.0                 install angular-scenario#1.3.15
-bower moment#~2.9.0                           install moment#2.9.0
-bower angular-mocks#~1.3.0                    install angular-mocks#1.3.15
-bower snapjs#~1.9                             install snapjs#1.9.3
-bower waypoints#~2.0.3                        install waypoints#2.0.5
-bower SHA-1#*                                 install SHA-1#0.1.1
+bower marked                    extra-resolution Unnecessary resolution: marked#~0.3.3
+bower angular-mocks             extra-resolution Unnecessary resolution: angular-mocks#~1.3.0
+bower ng-focus#~0.0.1                    install ng-focus#0.0.1
+bower angular-ui-router#~0.2.13          install angular-ui-router#0.2.15
+bower angular-local-storage#~0.1.5       install angular-local-storage#0.1.5
+bower angular-snap#~1.6.0                install angular-snap#1.6.0
+bower angular-bootstrap#~0.12.0          install angular-bootstrap#0.12.1
+bower marked#~0.3.3                      install marked#0.3.3
+bower angulartics#~0.17.1                install angulartics#0.17.2
+bower froogaloop#~0.1.0                  install froogaloop#0.1.0
+bower angular-elastic#~2.4.2             install angular-elastic#2.4.2
+bower lodash#~3.4.0                      install lodash#3.4.0
+bower fontawesome#~4.3.0                 install fontawesome#4.3.0
+bower moment#~2.9.0                      install moment#2.9.0
+bower angular-scenario#~1.3.0            install angular-scenario#1.3.15
+bower angular-mocks#~1.3.0               install angular-mocks#1.3.15
+bower ng-videosharing-embed#~0.3.2       install ng-videosharing-embed#0.3.2
+bower angular#1.3.15                     install angular#1.3.15
+bower bootstrap-sass-official#~3.3.4     install bootstrap-sass-official#3.3.4
+bower es5-shim#^4.0.0                    install es5-shim#4.1.3
+bower json3#^3.3.0                       install json3#3.3.2
+bower angular-resource#^1.3.0            install angular-resource#1.3.15
+bower angular-route#^1.3.0               install angular-route#1.3.15
+bower jquery#~2.1.3                      install jquery#2.1.4
+bower snapjs#~1.9                        install snapjs#1.9.3
+bower angular-sanitize#^1.3.0            install angular-sanitize#1.3.15
+bower waypoints#~2.0.3                   install waypoints#2.0.5
+bower SHA-1#*                            install SHA-1#0.1.1
 
-es5-shim#4.1.3 bower_components/es5-shim
+ng-focus#0.0.1 bower_components/ng-focus
 
-json3#3.3.2 bower_components/json3
-
-angular-route#1.3.15 bower_components/angular-route
+angular-ui-router#0.2.15 bower_components/angular-ui-router
 └── angular#1.3.15
 
-angular-resource#1.3.15 bower_components/angular-resource
-└── angular#1.3.15
-
-bootstrap-sass-official#3.3.4 bower_components/bootstrap-sass-official
-└── jquery#2.1.4
+angular-local-storage#0.1.5 bower_components/angular-local-storage
 
 angular-snap#1.6.0 bower_components/angular-snap
 ├── angular#1.3.15
@@ -498,14 +492,7 @@ angular-snap#1.6.0 bower_components/angular-snap
 angular-bootstrap#0.12.1 bower_components/angular-bootstrap
 └── angular#1.3.15
 
-angular-local-storage#0.1.5 bower_components/angular-local-storage
-
-angular-sanitize#1.3.15 bower_components/angular-sanitize
-└── angular#1.3.15
-
 marked#0.3.3 bower_components/marked
-
-ng-focus#0.0.1 bower_components/ng-focus
 
 angulartics#0.17.2 bower_components/angulartics
 ├── SHA-1#0.1.1
@@ -514,32 +501,45 @@ angulartics#0.17.2 bower_components/angulartics
 
 froogaloop#0.1.0 bower_components/froogaloop
 
-angular-ui-router#0.2.15 bower_components/angular-ui-router
-└── angular#1.3.15
-
 angular-elastic#2.4.2 bower_components/angular-elastic
 └── angular#1.3.15
 
 lodash#3.4.0 bower_components/lodash
+
+fontawesome#4.3.0 bower_components/fontawesome
+
+moment#2.9.0 bower_components/moment
+
+angular-scenario#1.3.15 bower_components/angular-scenario
+└── angular#1.3.15
+
+angular-mocks#1.3.15 bower_components/angular-mocks
+└── angular#1.3.15
 
 ng-videosharing-embed#0.3.2 bower_components/ng-videosharing-embed
 └── angular#1.3.15
 
 angular#1.3.15 bower_components/angular
 
-fontawesome#4.3.0 bower_components/fontawesome
+bootstrap-sass-official#3.3.4 bower_components/bootstrap-sass-official
+└── jquery#2.1.4
+
+es5-shim#4.1.3 bower_components/es5-shim
+
+json3#3.3.2 bower_components/json3
+
+angular-resource#1.3.15 bower_components/angular-resource
+└── angular#1.3.15
+
+angular-route#1.3.15 bower_components/angular-route
+└── angular#1.3.15
 
 jquery#2.1.4 bower_components/jquery
 
-angular-scenario#1.3.15 bower_components/angular-scenario
-└── angular#1.3.15
-
-moment#2.9.0 bower_components/moment
-
-angular-mocks#1.3.15 bower_components/angular-mocks
-└── angular#1.3.15
-
 snapjs#1.9.3 bower_components/snapjs
+
+angular-sanitize#1.3.15 bower_components/angular-sanitize
+└── angular#1.3.15
 
 waypoints#2.0.5 bower_components/waypoints
 └── jquery#2.1.4
@@ -586,10 +586,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-05-25 00:02:34 UTC)
-    loading tasks       18ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 41%
-    copy:plainCssToTmp  25ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 57%
-    Total 44ms
+    Execution Time (2015-05-26 00:02:33 UTC)
+    loading tasks       18ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 38%
+    copy:plainCssToTmp  28ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 60%
+    Total 47ms
         
     [4mRunning "copy:viewsToTmp" (copy) task[24m
     Copied [36m98[39m files
@@ -597,10 +597,10 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-05-25 00:02:34 UTC)
-    loading tasks     18ms  ▇▇▇ 7%
-    copy:viewsToTmp  256ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
-    Total 274ms
+    Execution Time (2015-05-26 00:02:33 UTC)
+    loading tasks     16ms  ▇▇▇ 6%
+    copy:viewsToTmp  243ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+    Total 259ms
         
     [4mRunning "imagemin:dist" (imagemin) task[24m
     Minified 43 images (saved 0 B)
@@ -608,20 +608,20 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-05-25 00:02:39 UTC)
-    loading tasks   20ms  ▇▇ 4%
-    imagemin:dist  499ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 96%
-    Total 519ms
+    Execution Time (2015-05-26 00:02:39 UTC)
+    loading tasks   19ms  ▇▇ 4%
+    imagemin:dist  460ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 96%
+    Total 481ms
         
     [4mRunning "sass:dist" (sass) task[24m
     
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-05-25 00:02:39 UTC)
-    loading tasks   18ms  ▇▇ 2%
-    sass:dist      707ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 97%
-    Total 726ms
+    Execution Time (2015-05-26 00:02:39 UTC)
+    loading tasks   16ms  ▇ 2%
+    sass:dist      765ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
+    Total 782ms
         
     [4mRunning "svgmin:dist" (svgmin) task[24m
     Total saved: 0 B
@@ -629,34 +629,34 @@ Configuration changed for [36mconcat[39m, [36muglify[39m, [36mcssmin[39m
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-05-25 00:02:42 UTC)
-    loading tasks   8ms  ▇▇▇▇▇▇ 11%
-    svgmin:dist    66ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 88%
-    Total 75ms
+    Execution Time (2015-05-26 00:02:42 UTC)
+    loading tasks   9ms  ▇▇▇▇▇ 11%
+    svgmin:dist    75ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 88%
+    Total 85ms
     
 [4mRunning "concurrent:buildPhase2" (concurrent) task[24m
     
-    [4mRunning "copy:nonConcatenatedFilesToDist" (copy) task[24m
-    Created [36m6[39m directories, copied [36m79[39m files
-    
-    [32mDone, without errors.[39m
-    
-    
-    Execution Time (2015-05-25 00:02:47 UTC)
-    loading tasks                    16ms  ▇▇ 5%
-    copy:nonConcat...edFilesToDist  316ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 95%
-    Total 333ms
-        
     [4mRunning "autoprefixer:dist" (autoprefixer) task[24m
     File .tmp/static/styles/main.css created.
     
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-05-25 00:02:47 UTC)
+    Execution Time (2015-05-26 00:02:47 UTC)
     loading tasks       17ms  ▇▇▇ 5%
-    autoprefixer:dist  318ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 95%
-    Total 336ms
+    autoprefixer:dist  328ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 95%
+    Total 346ms
+        
+    [4mRunning "copy:nonConcatenatedFilesToDist" (copy) task[24m
+    Created [36m6[39m directories, copied [36m79[39m files
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-05-26 00:02:47 UTC)
+    loading tasks                    16ms  ▇▇ 4%
+    copy:nonConcat...edFilesToDist  343ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 95%
+    Total 360ms
     
 [4mRunning "cdnify:dist" (cdnify) task[24m
 Going through [36mdist/index.html[39m to update script refs
@@ -859,10 +859,10 @@ File .tmp/concat/static/scripts/scripts.js created.
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-05-25 00:02:57 UTC)
-    loading tasks   18ms  ▇▇▇▇ 7%
-    cssmin:dist    238ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
-    Total 257ms
+    Execution Time (2015-05-26 00:02:57 UTC)
+    loading tasks   16ms  ▇▇▇ 6%
+    cssmin:dist    249ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+    Total 266ms
         
     [4mRunning "ngAnnotate:dist" (ngAnnotate) task[24m
     [32m>> [39m2 files successfully generated.
@@ -870,10 +870,10 @@ File .tmp/concat/static/scripts/scripts.js created.
     [32mDone, without errors.[39m
     
     
-    Execution Time (2015-05-25 00:02:57 UTC)
-    loading tasks     17ms  ▇ 2%
-    ngAnnotate:dist  972ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
-    Total 990ms
+    Execution Time (2015-05-26 00:02:57 UTC)
+    loading tasks    17ms  ▇ 2%
+    ngAnnotate:dist    1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
+    Total 1s
     
 [4mRunning "uglify:generated" (uglify) task[24m
 File dist/static/scripts/oldieshim.js created: 96.48 kB → 21.66 kB
@@ -904,14 +904,14 @@ Minified dist/index.html 5.66 kB → 5.11 kB
 [31mFatal error: Port 9001 is already in use by another process.[39m
 
 
-Execution Time (2015-05-25 00:02:28 UTC)
-concurrent:buildPhase1    14s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 40%
-concurrent:buildPhase2   5.5s  ▇▇▇▇▇▇ 16%
-cdnify:dist              2.8s  ▇▇▇▇ 8%
-filerev:assets          417ms  ▇ 1%
-concurrent:buildPhase3   7.2s  ▇▇▇▇▇▇▇▇ 20%
-uglify:generated         4.2s  ▇▇▇▇▇ 12%
-Total 35s
+Execution Time (2015-05-26 00:02:27 UTC)
+concurrent:buildPhase1  14.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 40%
+concurrent:buildPhase2   5.6s  ▇▇▇▇▇▇▇ 16%
+cdnify:dist              2.7s  ▇▇▇ 8%
+filerev:assets          400ms  ▇ 1%
+concurrent:buildPhase3     7s  ▇▇▇▇▇▇▇▇ 20%
+uglify:generated         4.3s  ▇▇▇▇▇ 12%
+Total 35.3s
 
 
 -- POST TEST --
