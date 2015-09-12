@@ -1,15 +1,21 @@
 
 -- PRE TEST --
 
-Time: Thu Sep 10 00:00:07 UTC 2015
+Time: Sat Sep 12 00:00:02 UTC 2015
 Branch: master
 User: ubuntu
 PATH: /usr/bin:/bin:/home/ubuntu/npm/bin
 
 Cloning into '/home/ubuntu/fifthweek-web-tests-master/fifthweek-web'...
 npm WARN package.json web@0.0.0 No repository field.
+npm WARN optional dep failed, continuing fsevents@0.3.8
+
+> gifsicle@3.0.1 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle
+> node lib/install.js
+
+
 FATAL ERROR: Evacuation Allocation failed - process out of memory
-./test-branch: line 45: 15379 Aborted                 (core dumped) npm install
+./test-branch: line 45: 19658 Aborted                 (core dumped) npm install
 
 -- POST TEST --
 
