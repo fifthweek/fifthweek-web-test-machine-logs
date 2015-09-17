@@ -1,7 +1,7 @@
 
 -- PRE TEST --
 
-Time: Wed Sep 16 00:00:02 UTC 2015
+Time: Thu Sep 17 00:00:02 UTC 2015
 Branch: master
 User: ubuntu
 PATH: /usr/bin:/bin:/home/ubuntu/npm/bin
@@ -15,15 +15,15 @@ npm WARN optional dep failed, continuing fsevents@0.3.8
 
   ✔ gifsicle pre-build test passed successfully
 
-> jpegtran-bin@3.0.4 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin
-> node lib/install.js
-
-  ✔ jpegtran pre-build test passed successfully
-
 > optipng-bin@3.0.2 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin
 > node lib/install.js
 
   ✔ optipng pre-build test passed successfully
+
+> jpegtran-bin@3.0.4 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin
+> node lib/install.js
+
+  ✔ jpegtran pre-build test passed successfully
 
 > phantomjs@1.9.18 install /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
 > node install.js
@@ -31,14 +31,16 @@ npm WARN optional dep failed, continuing fsevents@0.3.8
 Download already available at /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2
 Extracting tar contents (via spawned process)
 Removing /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
-Copying extracted folder /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1442361668625/phantomjs-1.9.8-linux-x86_64 -> /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
+Copying extracted folder /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1442448070087/phantomjs-1.9.8-linux-x86_64 -> /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
 Writing location.js file
 Done. Phantomjs binary available at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/bin/phantomjs
 npm WARN engine cryptiles@2.0.5: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.38","npm":"2.7.5"})
-npm WARN engine hoek@2.16.0: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.38","npm":"2.7.5"})
+npm WARN engine hoek@2.16.2: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.38","npm":"2.7.5"})
 npm WARN deprecated pangyp@2.3.2: use node-gyp@3+, it does all the things
+npm WARN engine hoek@2.16.2: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.38","npm":"2.7.5"})
 npm WARN engine cryptiles@2.0.5: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.38","npm":"2.7.5"})
-npm WARN engine hoek@2.16.0: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.38","npm":"2.7.5"})
+npm WARN engine cryptiles@2.0.5: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.38","npm":"2.7.5"})
+npm WARN engine hoek@2.16.2: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.38","npm":"2.7.5"})
 
 > pty.js@0.2.13 install /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-browserstack-tunnel/node_modules/browserstacktunnel-wrapper/node_modules/child-daemon/node_modules/pty.js
 > node-gyp rebuild
