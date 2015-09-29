@@ -1,7 +1,7 @@
 
 -- PRE TEST --
 
-Time: Mon Sep 28 00:00:02 UTC 2015
+Time: Tue Sep 29 00:00:01 UTC 2015
 Branch: master
 User: ubuntu
 PATH: /usr/bin:/bin:/home/ubuntu/npm/bin
@@ -9,21 +9,6 @@ PATH: /usr/bin:/bin:/home/ubuntu/npm/bin
 Cloning into '/home/ubuntu/fifthweek-web-tests-master/fifthweek-web'...
 npm WARN package.json web@0.0.0 No repository field.
 npm WARN optional dep failed, continuing fsevents@1.0.0
-
-> optipng-bin@3.0.2 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin
-> node lib/install.js
-
-
-child_process.js:958
-    throw errnoException(process._errno, 'spawn');
-          ^
-Error: spawn ENOMEM
-    at errnoException (child_process.js:1011:11)
-    at ChildProcess.spawn (child_process.js:958:11)
-    at exports.spawn (child_process.js:746:9)
-    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/bin-check/index.js:22:12
-    at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/bin-check/node_modules/executable/index.js:27:4
-    at Object.oncomplete (fs.js:108:15)
 
 > gifsicle@3.0.1 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle
 > node lib/install.js
@@ -39,7 +24,6 @@ Error: spawn ENOMEM
     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/bin-check/index.js:22:12
     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/bin-check/node_modules/executable/index.js:27:4
     at Object.oncomplete (fs.js:108:15)
-npm WARN optional dep failed, continuing imagemin-optipng@4.3.0
 
 > jpegtran-bin@3.0.4 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin
 > node lib/install.js
@@ -56,26 +40,13 @@ Error: spawn ENOMEM
     at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/bin-check/node_modules/executable/index.js:27:4
     at Object.oncomplete (fs.js:108:15)
 npm WARN optional dep failed, continuing imagemin-gifsicle@4.2.0
-npm WARN optional dep failed, continuing imagemin-jpegtran@4.3.0
 
-> phantomjs@1.9.18 install /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
-> node install.js
-
-Download already available at /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2
-Extracting tar contents (via spawned process)
-Removing /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
-Copying extracted folder /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1443398471251/phantomjs-1.9.8-linux-x86_64 -> /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
-Writing location.js file
-Done. Phantomjs binary available at /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/bin/phantomjs
-npm WARN engine hoek@2.16.3: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.38","npm":"2.7.5"})
-npm WARN engine boom@2.9.0: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.38","npm":"2.7.5"})
-npm WARN engine cryptiles@2.0.5: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.38","npm":"2.7.5"})
-
-> spawn-sync@1.0.13 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-sass/node_modules/node-sass/node_modules/cross-spawn/node_modules/spawn-sync
-> node postinstall
+> optipng-bin@3.0.2 postinstall /home/ubuntu/fifthweek-web-tests-master/fifthweek-web/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin
+> node lib/install.js
 
 
-
+FATAL ERROR: Evacuation Allocation failed - process out of memory
+./test-branch: line 45: 31627 Killed                  npm install
 
 -- POST TEST --
 
