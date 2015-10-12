@@ -1,15 +1,16 @@
 
 -- PRE TEST --
 
-Time: Sat Oct 10 00:00:08 UTC 2015
+Time: Mon Oct 12 00:00:07 UTC 2015
 Branch: master
 User: ubuntu
 PATH: /usr/bin:/bin:/home/ubuntu/npm/bin
 
 Cloning into '/home/ubuntu/fifthweek-web-tests-master/fifthweek-web'...
 npm WARN package.json web@0.0.0 No repository field.
+npm WARN optional dep failed, continuing fsevents@1.0.2
 FATAL ERROR: Evacuation Allocation failed - process out of memory
-./test-branch: line 45:  9719 Aborted                 (core dumped) npm install
+./test-branch: line 45: 12876 Aborted                 (core dumped) npm install
 
 -- POST TEST --
 
